@@ -1,282 +1,284 @@
-# Conseille — Document de cadrage
+# Bishop — Document de cadrage
 
-> Version 0.1 — brouillon à valider
-> Statut : **en discussion**. Les points marqués ❓ sont des décisions ouvertes.
+> Version 0.2 — vision validée le 20/11/2026
+> « Bishop » est un **nom de code**. Le nom commercial sera choisi plus tard (voir § 12).
+> Études de référence :
+> - [Paysage concurrentiel du conseiller IA](../reports/Paysage%20concurrentiel%20conseiller%20IA.md)
+> - [IA de pilotage et de décision managériale](../reports/IA%20pilotage%20et%20d%C3%A9cision%20manag%C3%A9riale.md)
 
 ---
 
 ## 1. Vision
 
-**Un conseiller stratégique IA qui joue comme un grand maître d'échecs.**
+**Bishop est un conseiller de direction IA qui joue comme un grand maître d'échecs.**
 
-Il vit dans le navigateur, à côté du document sur lequel le consultant travaille (cahier des charges, note de cadrage, business plan, compte rendu de mission). Il lit la position, voit plusieurs coups à l'avance et propose **le coup que personne n'a vu, ou du moins pas aussi tôt**.
+Il analyse une situation (une mission de conseil, un dashboard de performance, un projet qui part en comité), voit plusieurs coups à l'avance et propose **le coup que personne n'a vu, ou pas aussi tôt**. Il le démontre, anticipe la réponse des autres acteurs, puis suit ce qu'il est advenu de ce coup.
 
-Il ne remplace pas trois mois d'analyse : il apporte en quelques minutes **l'angle que l'analyse classique rate**, avec une démonstration rigoureuse.
+**Positionnement :**
+> « Vos tableaux de bord vous disent ce qui s'est passé. Les IA classiques vous donnent la réponse moyenne. Bishop vous dit quel coup jouer, ce que les autres vont répondre, et quel indicateur vous trompe. »
 
-**Pitch en une phrase :**
-> « Les autres IA vous donnent la réponse moyenne. Conseille vous donne le coup gagnant. »
+### Le constat qui fonde le produit
+- **Lire un document ou une page ne vaut plus rien** : Claude, Gemini et Copilot le font déjà, gratuitement ou presque.
+- **Les IA généralistes donnent toutes la même réponse.** Elles recommandent les mêmes stratégies à la mode, même avec un contexte riche (HBR, mars 2026, le « trendslop »), et elles flattent l'utilisateur (*Science*, 2026).
+- **Personne ne tranche.** Les outils de dashboard *montrent et expliquent*, la planification financière *prévoit*, les coachs IA *écoutent*. Aucun ne conteste les KPI, ne propose de coup non évident ni ne simule les acteurs.
 
-### Ce qui nous différencie
+👉 **On ne vend pas de la lecture, on vend du jugement**, démontré, fiable et mémorisé.
 
-| Les assistants IA généralistes | Conseille |
+---
+
+## 2. Un cerveau, deux portes d'entrée, une séquence
+
+### Le cerveau commun
+Une seule méthode de jugement (§ 5), qui s'applique à toute « position » : un cahier des charges, une note de cadrage, un reporting mensuel, un dashboard régional, un projet présenté en comité.
+
+### Les cibles, dans l'ordre
+| Ordre | Cible | Pourquoi |
+|---|---|---|
+| **1** | **Consultants** : indépendants et petits cabinets, en priorité ceux qui mènent des **missions de pilotage de la performance**, de transformation ou de redressement | Vente rapide, documents et exports disponibles. Ils sont **déjà dans la pièce** avec les managers de leurs clients : c'est notre canal vers eux. |
+| **2** | **Contrôleurs de gestion et directeurs financiers** d'ETI organisées en réseau (distribution, agences bancaires et d'assurance, services multi-sites) | Ils conçoivent les KPI, préparent les revues et disposent d'un budget identifiable. Ils travaillent à partir d'exports, sans projet informatique lourd. |
+| **3** | **Grands comptes** : directeurs régionaux, responsables de business unit, comités de direction, équipes stratégie et transformation | Les plus gros contrats, mais ils exigent SSO, hébergement européen, connecteurs officiels et certification de sécurité. |
+
+### Les personas
+- **A. Le consultant indépendant.** Seul face au client, sans associé pour le challenger. Il veut un sparring-partner de haut niveau, disponible la veille d'un comité.
+- **B. Le contrôleur de gestion ou directeur financier en ETI.** Il croule sous les reportings et doit en tirer des conclusions pour la direction et les régions. Il veut savoir quels KPI suivre, ce qu'ils disent vraiment et quoi recommander.
+- **C. Le directeur régional ou responsable de BU.** Débordé, il prépare sa revue mensuelle. Il veut trois priorités claires, un plan d'action et anticiper les réactions de la direction et des équipes.
+- **D. L'équipe stratégie ou transformation en grand groupe.** Elle veut sortir des réflexes de l'organisation et challenger un projet avant son passage en comité.
+
+---
+
+## 3. Le type de SaaS
+
+**Un espace de travail métier**, du même type que Harvey pour les avocats, organisé autour de **la mission ou de la situation**, et non autour d'une conversation.
+
+- **L'unité de base, c'est la partie** : une mission ou une situation suivie dans le temps, avec ses documents, ses chiffres, ses acteurs, ses hypothèses, ses décisions et leurs résultats.
+- **Ce qui fait rester les clients** : plus on utilise Bishop sur une partie, plus il est pertinent, et plus il est coûteux de partir.
+- **Lecture seule, aucune action autonome.** Bishop conseille, l'humain décide et agit. C'est un argument de vente, pas une limite.
+
+### Ce que Bishop n'est pas
+| Il n'est pas… | Parce que… |
 |---|---|
-| Réponses consensuelles et prévisibles | Idées non évidentes, assumées |
-| Ton neutre et interchangeable | Une personnalité forte et reconnaissable |
-| Il faut copier-coller le contexte | Lit directement le document ouvert |
-| Listes à puces génériques | Structure fixe : l'idée, la preuve, le risque, le test |
-| « Ça dépend » | Prend position, puis montre les variantes |
+| Un outil de dashboard ni un « chat avec vos données » | Les éditeurs de BI offrent déjà ce niveau |
+| Un lecteur d'écran qui serait la source des chiffres | C'est fragile et inexact, et les services sécurité le bloquent |
+| Un générateur de slides | Le marché est saturé (Gamma, Copilot…). Un export propre suffit. |
+| Un outil de prévision ou de planification financière | C'est le terrain de Pigment, Anaplan et Workday. Bishop les lit, il ne les refait pas. |
+| Un agent qui agit à la place de l'utilisateur | Risque de sécurité et de responsabilité |
+| Un outil d'évaluation individuelle des salariés | Usage classé « à haut risque » par l'AI Act, et contraire à l'esprit du produit |
+| Un coach en management des personnes | Le budget RH est déjà occupé par Valence, BetterUp et CoachHub |
+| Un « board d'IA » à personas multiples sans méthode | Ça existe déjà à 0–29 $ par mois et ça se copie en cinq minutes |
 
 ---
 
-## 2. Cibles
+## 4. La personnalité : le joueur d'échecs visionnaire
 
-### Persona A : le consultant indépendant
-- Consultant en stratégie ou en organisation, freelance ou petit cabinet.
-- Seul face au client : pas d'associé avec qui faire un brainstorm contradictoire.
-- **Besoin :** un sparring-partner de haut niveau, disponible à 23 h la veille d'un comité.
-- **Achète :** seul, rapidement, par carte bancaire, s'il voit la valeur dès le premier essai.
-
-### Persona B : l'équipe en grande entreprise
-- Direction de la stratégie, transformation, PMO, innovation, équipes de « consulting interne ».
-- **Besoin :** sortir des réflexes de l'organisation, challenger un projet avant qu'il passe en comité.
-- **Achète :** via un processus long (DSI, sécurité, achats). Exige : SSO, administration, garanties sur les données, hébergement européen, facturation entreprise.
-
-### Recommandation de séquencement
-1. **Lancer auprès des indépendants** : cycle de vente court, retours rapides, premiers revenus.
-2. **Construire dès le départ une architecture compatible entreprise** (cloisonnement des données, journalisation, pas de rétention), pour ne pas tout refaire au moment d'attaquer les grands comptes.
-
----
-
-## 3. La personnalité : le joueur d'échecs visionnaire
+### Principe directeur
+**La personnalité est un style de raisonnement, pas un faux humain.** Dans les décisions à fort enjeu, la confiance vient de la démonstration visible, pas du charisme. Une voix charismatique peut même faire accepter de mauvais conseils : Bishop doit donc **toujours montrer son travail**.
 
 ### Portrait
-Calme, précis, un brin malicieux. Il ne s'agite pas et ne fait pas de numéro. Il observe la position, puis pose **le coup qui change la partie**. Son audace vient de la profondeur de calcul, pas de l'imprudence : un coup qui semble fou au premier regard devient évident quand il montre les trois coups suivants.
+Calme, précis, un brin malicieux. Il observe la position, puis pose **le coup qui change la partie**. Son audace vient de la profondeur de calcul, pas de l'imprudence.
 
 ### Traits
-- **Voit loin** : raisonne en effets de second et troisième ordre (« si vous faites ça, le concurrent fera ça, et alors… »).
-- **Change d'échiquier** : quand la partie est perdue sur un terrain, il propose de jouer ailleurs.
-- **Prophylaxie** : il pense à ce que l'adversaire veut faire avant de penser à son propre plan.
-- **Sacrifices calculés** : il propose parfois de renoncer à quelque chose de précieux pour obtenir une position supérieure.
-- **Direct mais élégant** : il dit clairement quand un plan est mauvais, sans condescendance.
-- **Humble devant les faits** : il distingue toujours ce qu'il sait de ce qu'il suppose.
+- **Voit loin** : effets de second et troisième ordre.
+- **Change d'échiquier** : déplace la compétition là où l'on est le plus fort.
+- **Prophylaxie** : pense à ce que veulent faire les autres acteurs avant son propre plan.
+- **Sacrifices calculés** : renoncer à quelque chose pour obtenir une meilleure position.
+- **Direct mais élégant** : dit clairement quand un plan est mauvais, sans condescendance.
+- **Honnête sur ses limites** : distingue ce qu'il sait, ce qu'il calcule, ce qu'il suppose et ce qu'il parie.
+- **Conseiller, pas décideur** : il l'assume explicitement.
 
 ### Ce qu'il ne fait jamais
-- Des idées spectaculaires sans démonstration.
-- Des métaphores d'échecs à chaque phrase : le vocabulaire est un assaisonnement, pas le plat.
-- Du jargon de consultant creux (« synergies », « leviers de création de valeur »…).
-- Inventer des chiffres ou des faits. Une hypothèse est toujours présentée comme une hypothèse.
-- Des conseils d'investissement financier personnalisés.
+- Une idée spectaculaire sans démonstration.
+- Un chiffre inventé ou « lu à l'œil ».
+- Une métaphore d'échecs à chaque phrase.
+- Du jargon de consultant creux.
+- Flatter l'utilisateur ou approuver par défaut.
+- Un conseil d'investissement sur des placements financiers (activité réglementée).
+
+### Réglages
+- **Registre** : *sobre* par défaut (comités de direction, grands comptes), ou *incarné* (plus de personnalité, pour les indépendants qui le souhaitent).
+- **Audace** :
+
+| Niveau | Nom | Comportement |
+|---|---|---|
+| 1 | **Classique** | Des améliorations solides auxquelles on n'a pas pensé |
+| 2 | **Positionnel** *(par défaut)* | Des repositionnements non évidents, défendables en comité |
+| 3 | **Gambit** | Des coups audacieux avec un sacrifice assumé, toujours argumentés |
 
 ### Exemples de voix
 - « Tout le monde regarde la dame. Regardez plutôt ce pion en c5 : c'est lui qui décide de la partie. »
-- « Votre plan est solide pour les dix prochains coups. Au onzième, il perd. Voici pourquoi. »
-- « Le cahier des charges demande un site. C'est la question qu'on vous pose, pas forcément celle qu'il faut résoudre. »
-- « Je joue ce coup avec une confiance moyenne. Voici ce qu'il faudrait vérifier pour que je le joue les yeux fermés. »
-
-### Le niveau d'audace (réglable par l'utilisateur)
-| Niveau | Nom | Comportement |
-|---|---|---|
-| 1 | **Classique** | Des améliorations solides auxquelles on n'a pas pensé. Risque faible. |
-| 2 | **Positionnel** *(par défaut)* | Des repositionnements non évidents, défendables en comité. |
-| 3 | **Gambit** | Des coups audacieux avec un sacrifice assumé. Toujours argumentés. |
-
-### ❓ Nom du personnage et du produit
-« Conseille » est le nom du dépôt. Pistes pour le personnage ou la marque :
-- **Le Fou** : en français, la pièce d'échecs *et* la petite dose de folie. Jeu de mots fort, à tester auprès de clients grands comptes (connotation).
-- **Zugzwang** : la position où l'adversaire est obligé de jouer un mauvais coup. Mémorable, mais difficile à prononcer.
-- **Gambit** : clair, international. Très utilisé, disponibilité de la marque à vérifier.
-- **Tempo** : l'avance d'un coup sur l'adversaire. Sobre, rassurant pour l'entreprise.
-
-> Un dépôt de marque (INPI / EUIPO) devra être vérifié avant de figer le nom.
+- « Votre plan tient dix coups. Au onzième, il perd. Voici pourquoi. »
+- « Ce KPI monte, et c'est précisément ce qui devrait vous inquiéter. »
+- « Je joue ce coup avec une confiance moyenne. Voici ce qu'il faudrait vérifier pour le jouer les yeux fermés. »
 
 ---
 
-## 4. Le moteur de réflexion : « la méthode du grand maître »
+## 5. Le cerveau : la méthode du grand maître
 
-C'est **le cœur et la vraie valeur du produit**. Un modèle d'IA à qui on demande simplement « sois génial » produit des idées qui *sonnent* originales mais restent banales. Le génie doit venir d'un processus en plusieurs étapes, invisible pour l'utilisateur.
+C'est **le cœur du produit**. La recherche montre que l'IA peut produire une idée originale isolée, mais que ses ensembles d'idées se ressemblent, d'un modèle à l'autre comme d'un utilisateur à l'autre. Le génie doit donc venir d'un **processus**, pas d'un ton.
 
 ```
- Document + question
+ Partie (documents, chiffres, acteurs, historique)
         │
         ▼
  1. LECTURE DE LA POSITION ── Enjeux, acteurs, contraintes, hypothèses implicites,
-        │                     ce que le document ne dit pas.
+        │                     non-dits. Chiffres calculés par du code.
         ▼
- 2. CALCUL DES VARIANTES ──── Génération large de coups avec des techniques imposées.
-        │
+ 2. DIVERGENCE IMPOSÉE ────── Génération large avec des techniques et des angles
+        │                     différents, en demandant explicitement des pistes
+        │                     éloignées les unes des autres.
         ▼
- 3. FILTRE ANTI-BANALITÉ ──── Chaque coup est noté : « un consultant moyen l'aurait-il
-        │                     proposé ? ». Les coups évidents sont écartés.
+ 3. FILTRE ANTI-BANALITÉ ──── « Un consultant moyen l'aurait-il proposé ? »
+        │                     Notation répétée et agrégée (jamais une note unique).
         ▼
- 4. VÉRIFICATION ─────────── Cohérence avec le contexte, faisabilité, réfutation par
-        │                     un « avocat du diable ». Les coups fragiles sont écartés.
+ 4. VÉRIFICATION ─────────── Cohérence, faisabilité, chiffres, réfutation par
+        │                     un avocat du diable. Les coups fragiles sont écartés.
         ▼
- 5. LE COUP JOUÉ ──────────── Formulation dans la voix du personnage, structure fixe.
+ 5. LE COUP JOUÉ ──────────── Les coups restent distincts (pas de synthèse « moyenne »
+                              qui les dilue), formulés dans la voix de Bishop.
 ```
 
-### Techniques de génération (étape 2)
-- **Inversion** : et si on faisait exactement l'inverse de ce que tout le monde fait ?
-- **Changement d'échiquier** : déplacer la compétition sur un terrain où l'on est le plus fort.
-- **Analogie lointaine** : comment une autre industrie a-t-elle résolu un problème de même structure ?
-- **Suppression d'une contrainte sacrée** : que se passe-t-il si la contrainte « intouchable » disparaît ?
-- **Prophylaxie** : que ferait un concurrent qui veut vous éliminer ? Le prendre de vitesse.
-- **Sacrifice** : à quoi renoncer pour gagner une position supérieure ?
-- **Second ordre** : quelles conséquences des conséquences le plan ignore-t-il ?
-- **Pre-mortem** : on est dans deux ans, le projet a échoué. Pourquoi ?
-- **Le pion oublié** : quel actif sous-estimé (données, réseau, emplacement, compétence) change la donne ?
+### Techniques de divergence
+Inversion · Changement d'échiquier · Analogie lointaine (un problème de même structure dans une autre industrie) · Suppression d'une contrainte sacrée · Prophylaxie · Sacrifice · Effets de second ordre · Pre-mortem · Le pion oublié (l'actif sous-estimé).
 
-### Structure fixe d'un « coup »
-1. **Le coup** : l'idée, en une phrase.
+### Structure fixe d'un coup
+1. **Le coup** : l'idée en une phrase.
 2. **Pourquoi personne ne le joue** : le biais ou le réflexe qui le rend invisible.
-3. **Pourquoi il gagne** : le raisonnement, les trois coups suivants.
-4. **Le risque** : ce qui peut mal tourner, honnêtement.
-5. **Le test** : comment le valider en deux semaines avec un petit budget.
+3. **Pourquoi il gagne** : le raisonnement et les trois coups suivants.
+4. **Le risque** : ce qui peut mal tourner.
+5. **Le test** : comment le valider en deux semaines avec peu de moyens.
 6. **Confiance** : faible, moyenne ou forte, et ce qui la ferait monter.
+7. **Sur quoi il s'appuie** : les passages du document et les chiffres sourcés.
 
-### Exemple illustratif (non contractuel)
-> *Contexte : cahier des charges d'une enseigne régionale de bricolage (35 magasins) qui veut lancer un site e-commerce national.*
->
-> **Le coup :** Ne jouez pas sur l'échiquier d'Amazon. Votre pièce maîtresse n'est pas votre catalogue, ce sont 35 stocks situés près de vos clients. Lancez la livraison en deux heures sur chantier pour les artisans.
->
-> **Pourquoi personne ne le joue :** le cahier des charges demande un site, donc toutes les réponses proposent un site.
->
-> **Pourquoi il gagne :** pour un artisan, un aller-retour en magasin coûte une demi-journée de chantier *(hypothèse à vérifier)*. Sur ce segment, la vitesse vaut plus que le prix, ce qui neutralise l'avantage tarifaire des géants. Le panier est élevé et récurrent, et le service crée une fidélité que le prix seul ne crée pas.
->
-> **Le risque :** le coût logistique du dernier kilomètre, et la cannibalisation du passage en magasin.
->
-> **Le test :** un magasin, une camionnette, trente artisans recrutés au comptoir, commandes par messagerie. Mesurer la fréquence de réachat après quatre semaines.
->
-> **Confiance :** moyenne. Elle monte si plus de 40 % des artisans testeurs recommandent dans le mois.
+### Règle d'or des chiffres
+**Le modèle d'IA orchestre, il ne calcule jamais et n'est jamais la source d'un chiffre.**
+- Les chiffres viennent des **fichiers importés**, puis des **connecteurs officiels**.
+- Tous les calculs (écarts, ratios, projections) sont faits **par du code**.
+- Chaque chiffre porte un badge : **exact** (source + requête + date), **transcrit** (repris d'un document) ou **estimé** (lu sur une image, signalé comme approximatif).
+- La réponse sépare toujours **ce que disent les données**, **ma lecture** et **mon pari**.
 
 ---
 
-## 5. Fonctionnalités de la première version (MVP)
+## 6. Les fonctionnalités signature
 
-### Le panneau latéral
-Extension Chrome avec un panneau latéral (side panel) qui s'ouvre à côté de la page en cours.
+| Fonctionnalité | Ce qu'elle fait | Cibles |
+|---|---|---|
+| **Analyse de la position** | Enjeux réels, angles morts, contradictions, hypothèses fragiles, questions à poser. Disponible aussi en **relecture en un clic** du document ouvert, comme la relecture d'un associé. | Toutes |
+| **Le coup inattendu** | Deux ou trois coups non évidents, avec la structure complète et le curseur d'audace | Toutes |
+| **Les KPI qui vous mentent** | Audit d'un tableau de bord : indicateurs qui finissent par remplacer l'objectif qu'ils devaient mesurer (*surrogation*), indicateurs retardés sans indicateurs avancés, indicateur sans contrepartie qualité, effets de mix et paradoxe de Simpson, dénominateurs trompeurs. Propose un arbre de KPI et « les trois indicateurs que vous ne suivez pas ». | Pilotage, managers |
+| **Revue en trois coups** | Prépare la revue mensuelle ou régionale : trois priorités et un plan d'action prêt à assigner | Pilotage, managers |
+| **Le conseil de guerre** | Carte des acteurs tirée des documents, puis simulation des réactions du DG, du directeur financier, du CSE, des équipes, d'un concurrent. Propose des contre-coups. **Présenté comme un scénario raisonné, jamais comme une prédiction.** | Toutes |
+| **Le carnet de parties** | Journal des coups proposés, retenus ou rejetés, avec leurs résultats, et des relances à 30, 60 et 90 jours : « Votre hypothèse sur les prix s'est-elle vérifiée ? » | Toutes |
+| **Provenance visible** | Badges exact / transcrit / estimé, calculs affichés, sources consultables, refus explicite quand une question sort du périmètre couvert | Toutes |
 
-### Les modes
-| Mode | Ce qu'il fait |
+---
+
+## 7. Architecture
+
+### Les surfaces
+| Surface | Rôle | Quand |
+|---|---|---|
+| **Application web, l'espace de travail** | **Cœur du produit** : parties (missions ou situations), imports (PDF, DOCX, PPTX, Excel, CSV), arbre de KPI, carte des acteurs, carnet de parties, calcul en environnement isolé | MVP |
+| **Extension Chrome (panneau latéral)** | **Satellite de capture** : sélection de texte, PDF ouvert, contexte de la page, rapport BI ouvert (lequel, quels filtres), relecture en un clic. Envoie tout vers la partie. **Ne sert jamais de source pour les chiffres.** | MVP, version légère |
+| **Export PowerPoint et Excel** | « Revue prête pour le comité » | Étape 2 |
+| **Connecteurs BI officiels** | Chiffres exacts, avec l'identité de l'utilisateur pour respecter ses droits d'accès : Power BI d'abord, puis Tableau, Looker, Excel et Google Sheets | Étape 3 |
+| **Module Office (Word, Excel, PowerPoint)** | Bishop directement dans les outils des grands comptes | Étape 4 |
+
+### Les couches côté serveur
+1. **Contexte** : quel document, quel rapport, quels filtres.
+2. **Données** : fichiers importés, puis connecteurs.
+3. **Calcul** : du code exécuté dans un environnement isolé, jamais le modèle d'IA.
+4. **Jugement** : la méthode du grand maître (§ 5).
+5. **Réponse** : la voix de Bishop, la provenance des chiffres, et une vérification que les chiffres de l'écran correspondent à ceux de la source.
+
+### Choix techniques (proposition)
+| Brique | Choix |
 |---|---|
-| **Analyse de la position** | Lit le document : enjeux réels, angles morts, contradictions, hypothèses fragiles, questions à poser au client. |
-| **Le coup inattendu** | Le mode génie : deux ou trois coups non évidents, avec la structure complète. Respecte le niveau d'audace. |
-| **Prophylaxie** | Ce qui peut faire échouer le projet : réactions des concurrents, résistances internes, scénarios défavorables. |
-| **Conversation libre** | Discuter avec le personnage sur le document, creuser un coup, demander les variantes. |
-
-### Lecture économique (volet finance allégé)
-Pas de module financier dédié dans la première version. Le personnage raisonne en **ordres de grandeur** et en économie unitaire (coût, marge, volume) quand le document s'y prête. Règles :
-- tout calcul est fait par du code, jamais « de tête » par le modèle ;
-- les hypothèses sont toujours affichées ;
-- aucun conseil d'investissement (activité réglementée en France).
-
-### Sources de contexte supportées
-1. **Pages web** et outils en ligne lisibles directement (Notion, Confluence, intranets…).
-2. **PDF** ouverts dans le navigateur.
-3. **Sélection de texte** : l'utilisateur surligne un passage et l'envoie au conseiller. Ça fonctionne partout, y compris dans Google Docs et Word en ligne.
-4. **Dépôt de fichier** (PDF, DOCX) dans le panneau.
-
-> ⚠️ Google Docs et Word en ligne affichent leur contenu d'une façon difficile à lire automatiquement. Première version : sélection de texte et export. Plus tard : intégration par l'API Google Drive et Microsoft Graph.
-
-### Hors périmètre de la première version
-- Module financier avancé (modélisation, scénarios chiffrés complets).
-- Collaboration en équipe, espaces partagés, administration.
-- SSO et fonctionnalités entreprise.
-- Extensions Firefox, Edge, Safari (Edge sera facile : même base que Chrome).
-- Génération de livrables (slides, notes) : à étudier ensuite, très demandé par les consultants.
+| Langage | TypeScript partout |
+| Application web | React (Next.js ou Vite) |
+| Extension | Manifest V3 et API `sidePanel`, permissions minimales (`activeTab`, `sidePanel`) |
+| Serveur | Node.js, framework léger (Hono ou Fastify), réponses en streaming |
+| Calcul | Exécution de code en environnement isolé (Python ou JS) |
+| Modèle IA | Claude de dernière génération, avec un modèle puissant pour le jugement et un plus rapide pour les étapes simples, traité en Europe sans conservation des données |
+| Base de données | PostgreSQL, hébergée en Europe |
+| Paiement | Stripe |
+| Langues | **Multilingue dès le départ** : conception en français, version finale en anglais. Tous les textes de l'interface et les prompts sont externalisés et traduits, pas codés en dur. |
 
 ---
 
-## 6. Architecture technique (proposition)
+## 8. Confiance, sécurité et conformité
 
-```
-┌──────────────────────────┐        ┌───────────────────────────┐        ┌──────────────┐
-│  Extension Chrome (MV3)  │ HTTPS  │       Serveur Conseille   │  API   │  Modèle IA   │
-│  - Panneau latéral       │ ─────▶ │  - Comptes, abonnements   │ ─────▶ │  (Claude)    │
-│  - Lecture de la page    │ ◀───── │  - Méthode du grand maître│ ◀───── │              │
-│  - Sélection, fichiers   │ stream │  - Calculs (code)         │        └──────────────┘
-└──────────────────────────┘        │  - Aucune clé côté client │
-                                    └─────────────┬─────────────┘
-                                                  │
-                                         ┌────────▼────────┐
-                                         │ Base de données │
-                                         │ (hébergée en UE)│
-                                         └─────────────────┘
-```
+- **Lecture seule**, aucune action autonome.
+- **Aucun entraînement** de modèle sur les données clients, **conservation minimale** des données, historique supprimable.
+- **Traitement en Europe**, avec un contrat de sous-traitance des données (DPA) conforme au RGPD.
+- **AI Act** : a priori pas « à haut risque », tant que Bishop n'évalue jamais les salariés individuellement. Bishop indique clairement que l'utilisateur échange avec une IA (article 50, applicable depuis le 2 août 2026).
+- **Finance** : le conseil aux entreprises sur leur stratégie, leur structure financière ou une acquisition ne demande pas d'agrément. Bishop ne fait **aucune recommandation sur des placements financiers précis** (domaine réservé aux conseillers en investissements financiers, CIF).
+- **Grands comptes, à partir de l'étape 3** : SSO, journal d'audit, certification de sécurité SOC 2 ou ISO 27001, connecteurs qui respectent les droits d'accès de chaque utilisateur.
 
-| Brique | Choix proposé | Pourquoi |
+---
+
+## 9. Modèle économique (hypothèses à valider en entretiens)
+
+| Offre | Cible | Prix indicatif |
 |---|---|---|
-| Extension | TypeScript, React, Vite, Manifest V3, API `sidePanel` | Standard actuel de Chrome, écosystème mature |
-| Serveur | TypeScript (Node.js), framework léger (Hono ou Fastify) | Même langage partout, réponses en streaming faciles |
-| Modèle IA | Claude, dernière génération (un modèle puissant pour la réflexion, un plus rapide pour les étapes simples) | Qualité de raisonnement, longs documents, bonne maîtrise du français |
-| Base de données | PostgreSQL | Fiable, standard, disponible chez tous les hébergeurs européens |
-| Paiement | Stripe | Abonnements, factures, TVA européenne |
-| Hébergement | Fournisseur européen (Scaleway, OVHcloud, Clever Cloud…) ❓ | Argument RGPD pour les grands comptes |
+| **Solo** | Consultant indépendant | 39–59 € par mois |
+| **Pro** | Consultant senior, petit cabinet | 99–129 € par mois |
+| **Mission** | Consultant en mission : il invite 3 à 5 personnes du client dans la partie | Supplément de 150–250 € par mois et par mission |
+| **Manager** | Contrôleur de gestion, directeur régional, responsable de BU | 49–79 € par siège et par mois |
+| **Comité / réseau** | Comité de direction, équipe de direction d'un réseau | Licence annuelle forfaitaire (10 à 30 sièges) |
+| **Entreprise** | Grands comptes | Sur devis |
 
-### Principes d'architecture
-- **La clé d'API n'est jamais dans l'extension** : tout passe par notre serveur.
-- **La méthode reste côté serveur** : les prompts et le pipeline sont la propriété intellectuelle du produit.
-- **Le streaming** : la réponse s'affiche au fur et à mesure, ce qui compense la durée d'un raisonnement en plusieurs étapes.
-- **Les prompts sont versionnés et testés** : un jeu de cas de référence (cahiers des charges réels anonymisés) permet de mesurer si une modification rend le personnage plus ou moins brillant.
-
----
-
-## 7. Confidentialité et conformité
-
-Les clients vont confier des documents sensibles. La confiance est **un argument de vente**, pas une contrainte.
-
-- **Aucun entraînement** de modèle sur les données clients.
-- **Rétention minimale** : les documents ne sont pas stockés par défaut, et l'historique est supprimable à tout moment.
-- **Conformité RGPD** : registre des traitements, contrat de sous-traitance (DPA), mentions claires.
-- **Lecture de page à la demande uniquement** : l'extension ne lit rien sans action explicite de l'utilisateur.
-- **Avertissement** : outil d'aide à la réflexion. Les décisions restent celles de l'utilisateur.
-- **Plus tard, pour les grands comptes** : hébergement dédié, SSO, journal d'audit, options de non-rétention côté fournisseur d'IA.
-
----
-
-## 8. Modèle économique (pistes)
-
-| Offre | Cible | Pistes |
-|---|---|---|
-| **Essai** | Tous | Quelques analyses gratuites pour vivre l'effet « wahou » |
-| **Solo** | Indépendants | Abonnement mensuel, carte bancaire, sans engagement |
-| **Équipe / Entreprise** | Grands comptes | Licences par utilisateur, SSO, administration, facturation annuelle |
-
-❓ Les prix seront calés après des entretiens avec dix à quinze consultants cibles.
-
----
-
-## 9. Risques principaux
-
-| Risque | Impact | Parade |
-|---|---|---|
-| Idées perçues comme banales | Fatal : c'est la promesse | Méthode multi-étapes, filtre anti-banalité, jeu de tests de référence |
-| Idées perçues comme farfelues | Perte de crédibilité | Structure fixe avec démonstration, test et confiance ; niveau d'audace |
-| Erreurs factuelles ou de calcul | Perte de confiance | Calculs par code, hypothèses explicites, pas de faits inventés |
-| Réticence sur la confidentialité | Bloque les ventes | Garanties claires dès le départ, hébergement européen |
-| Coût de l'IA par analyse | Marge | Modèle rapide pour les étapes simples, mise en cache, quotas par offre |
-| Copie par les grands acteurs | Moyen terme | La différenciation est dans la méthode, la personnalité et l'intégration au métier du conseil |
+- **Garde-fou** : un quota d'analyses approfondies par offre, pour couvrir le coût d'un raisonnement en plusieurs étapes.
+- **Mécanique de croissance** : l'offre Mission fait découvrir Bishop aux managers des clients.
+- **Canaux** : les plateformes de freelances (Malt Strategy, Catalant, Eden McCallum), l'association des directeurs financiers et contrôleurs de gestion (DFCG) en France, et des licences du cerveau pour des cabinets de conseil de taille moyenne.
 
 ---
 
 ## 10. Feuille de route
 
-| Étape | Contenu | Résultat |
-|---|---|---|
-| **0. Cadrage** | Ce document, choix du nom, validation | Vision partagée |
-| **1. Le cerveau** | Prompts du personnage et méthode en plusieurs étapes, testés hors navigateur sur de vrais documents | Preuve que les coups sont réellement brillants |
-| **2. L'extension** | Panneau latéral, lecture de page, sélection, PDF, connexion au serveur | Prototype utilisable |
-| **3. Le produit** | Comptes, paiement, historique, page d'accueil, publication sur le Chrome Web Store | Version bêta |
-| **4. Les retours** | Bêta fermée avec 10 à 20 consultants, ajustements | Version 1.0 |
-| **5. L'entreprise** | SSO, équipes, administration, intégrations Google et Microsoft | Offre grands comptes |
+| Étape | Horizon indicatif | Contenu | Critère de passage |
+|---|---|---|---|
+| **0. Le cerveau** | 0–3 mois | Méthode du grand maître et modules KPI et conseil de guerre, testés hors interface. Banc d'essai d'environ 20 cas « consultants » et 10 cas « managers » (cahiers des charges, revues mensuelles, exports de dashboard), fictifs mais réalistes au départ. | Jugés **à l'aveugle** par des consultants et des contrôleurs de gestion, les coups de Bishop **battent nettement** Claude ou Copilot équipés du meilleur prompt. **Aucun chiffre faux.** |
+| **1. L'espace de travail** | 3–6 mois | Application web, imports, calcul isolé, badges de provenance, carnet de parties, extension légère. Bêta fermée avec 10 à 20 consultants, dont 5 en mission de pilotage. | Usage chaque semaine, au moins un coup retenu par mission, aucun incident sur un chiffre |
+| **2. Lancement** | 6–12 mois | Offres Solo, Pro et Mission, places invitées pour les clients, Revue en trois coups, exports PowerPoint et Excel. 3 à 5 ETI pilotes, introduites par des consultants. | Des places invitées transformées en sièges payants ; un directeur financier ou un directeur de réseau prêt à payer |
+| **3. Socle entreprise** | 12–18 mois | SSO, traitement en Europe sans conservation, DPA, journal d'audit, préparation de la certification, connecteur Power BI, Excel et Google Sheets | Premier contrat Comité ou réseau ; validation par un responsable sécurité (RSSI) |
+| **4. Expansion** | 18–30 mois | Connecteurs Tableau et Looker, module Office, tableau de bord de la valeur tiré du carnet de parties, partenariats | Les comptes réseau augmentent leurs dépenses d'une année sur l'autre (rétention nette > 100 %) |
 
-> **Pourquoi commencer par le cerveau ?** Une belle extension avec un conseiller banal ne vaut rien. Un conseiller brillant dans une interface simple a déjà de la valeur. On prouve d'abord que la méthode produit des coups de grand maître.
+> **Si l'étape 0 échoue face aux assistants généralistes, aucune architecture ne sauvera le produit.** On ne passe pas à l'étape 1 sans cette preuve.
+
+### Signaux à surveiller
+- **Pigment (Planner Agent)** et **Looker (Agentic Workflows)** : s'ils sortent des recommandations convaincantes, il faudra accélérer sur ce qu'ils ne voient pas (documents, acteurs, KPI trompeurs).
+- **Aily Labs**, **WorkBoard**, **Xavier AI**, **Cigno** : les concurrents les plus proches.
+- **Claude in Chrome, Gemini in Chrome, Copilot** : le risque du « je me fais mon propre prompt de stratège ».
 
 ---
 
-## 11. Décisions ouvertes ❓
+## 11. Risques principaux
 
-1. **Nom** du personnage et du produit.
-2. **Langue** : français d'abord, ou bilingue français-anglais dès la première version ?
-3. **Documents de test** : disposes-tu de cahiers des charges ou de cas réels (anonymisés) pour entraîner et évaluer la méthode ?
-4. **Hébergement** : européen dès le départ, ou plus tard ?
-5. **Compte développeur** : clé d'API Anthropic, compte Chrome Web Store (frais uniques), compte Stripe. À créer le moment venu.
+| Risque | Parade |
+|---|---|
+| Des coups perçus comme banals | Divergence imposée, filtre anti-banalité, banc d'essai à l'aveugle |
+| Des coups perçus comme farfelus | Structure fixe avec démonstration, test et confiance ; curseur d'audace ; registre sobre |
+| Un chiffre faux | Règle d'or des chiffres, badges de provenance, vérification croisée |
+| Une voix charismatique qui fait accepter un mauvais conseil | Démonstration visible, séparation données / lecture / pari, « conseiller, pas décideur » |
+| Les utilisateurs préfèrent être flattés | Rendre la contradiction utile et respectueuse ; mesurer la valeur dans le carnet de parties |
+| La copie par un simple prompt | Méthode multi-étapes, mémoire de partie, bibliothèque de coups et de pathologies de KPI, données d'usage |
+| La dépendance au fournisseur d'IA | Architecture compatible avec plusieurs fournisseurs, propriété des prompts et des données d'évaluation |
+| Le refus des services sécurité | Lecture seule, permissions minimales, connecteurs officiels, hébergement européen |
+| La dispersion entre deux cibles | Un seul cerveau, une porte d'entrée commerciale à la fois |
+
+---
+
+## 12. Décisions
+
+### Prises
+- ✅ Personnalité de **joueur d'échecs visionnaire**, pas de kamikaze.
+- ✅ **Finance légère** : stratégie et finance d'entreprise, pas de conseil en placements.
+- ✅ **Langues** : conception en français, traduction parfaite en anglais, version finale en anglais.
+- ✅ **Bishop, conseiller de direction** : un cerveau commun, les consultants d'abord, puis les managers.
+- ✅ **Espace de travail web au centre**, extension Chrome en satellite.
+- ✅ Le nom est **reporté** : « Bishop » sert de nom de code. Tempo est écarté (risque de marque élevé).
+
+### Ouvertes
+1. **Le nom commercial** : séparer la marque déposée de la voix du personnage ; vérification par un conseil en propriété industrielle.
+2. **Les cas de test** : créer des cas fictifs réalistes, et récupérer si possible le dashboard de l'autre discussion.
+3. **Les entretiens** : 10 à 15 consultants et contrôleurs de gestion, pour valider les prix et les fonctions prioritaires.
+4. **Les comptes à créer le moment venu** : clé d'API Anthropic, Chrome Web Store, Stripe, hébergeur européen.
