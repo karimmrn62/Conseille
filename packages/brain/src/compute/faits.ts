@@ -72,11 +72,15 @@ export function calculerFaits(jeu: JeuDeDonnees, langue: Locale = "fr", prefixe 
           })
           .sort((x, y) => Math.abs(y.delta) - Math.abs(x.delta))
           .slice(0, 3);
-        const morceaux = contributions.map((c) => {
-          const part = arrondir((c.delta / deltaTotal) * 100, 1);
+        // Les parts n'ont de sens que si tous les segments vont dans le sens du total.
+        const parts = contributions.map((c) => arrondir((c.delta / deltaTotal) * 100, 1));
+        const partsLisibles = parts.every((x) => x >= 0 && x <= 100);
+        const morceaux = contributions.map((c, i) => {
+          const part = parts[i]!;
+          const suffixe = partsLisibles ? ` (${fmt.nombre(part)} % ${t.duTotal})` : "";
           return {
-            texte: `« ${c.segment} » ${signe(fmt.nombre(c.delta))} (${fmt.nombre(part)} % ${t.duTotal})`,
-            valeurs: [arrondir(c.delta, 2), part],
+            texte: `« ${c.segment} » ${signe(fmt.nombre(arrondir(c.delta, 2)))}${suffixe}`,
+            valeurs: partsLisibles ? [arrondir(c.delta, 2), part] : [arrondir(c.delta, 2)],
           };
         });
         ajouter(
@@ -87,13 +91,14 @@ export function calculerFaits(jeu: JeuDeDonnees, langue: Locale = "fr", prefixe 
         // 2c. Effet taux / effet de mix et paradoxe de Simpson
         const mix = decomposerMix(ind, lignesSegment);
         if (mix === null) continue;
-        const pts = (x: number) => arrondir(x * 100, 2);
+        const { echelle, unite } = uniteRatio(ind);
+        const pts = (x: number) => arrondir(x * echelle, 2);
         ajouter(
           `${jeu.nom} — ${ind.nom} — ${t.decomposition(dim)} : ${t.variationGlobale} ${signe(
             fmt.nombre(pts(mix.delta)),
-          )} pt = ${t.effetTaux} ${signe(fmt.nombre(pts(mix.effetTaux)))} pt + ${t.effetMix} ${signe(
+          )} ${unite} = ${t.effetTaux} ${signe(fmt.nombre(pts(mix.effetTaux)))} ${unite} + ${t.effetMix} ${signe(
             fmt.nombre(pts(mix.effetMix)),
-          )} pt`,
+          )} ${unite}`,
           [pts(mix.delta), pts(mix.effetTaux), pts(mix.effetMix)],
         );
         const sensGlobal = Math.sign(mix.delta);
@@ -112,9 +117,11 @@ export function calculerFaits(jeu: JeuDeDonnees, langue: Locale = "fr", prefixe 
           const haut = tri[tri.length - 1]!;
           const ecart = pts(haut.r1 - bas.r1);
           ajouter(
-            `${jeu.nom} — ${ind.nom} (${p1}) — ${t.dispersion(dim)} : ${t.min} « ${bas.segment} » ${fmt.ratio(
+            `${jeu.nom} — ${ind.nom} (${p1}) — ${t.dispersion(dim)} : ${t.min} « ${bas.segment} » ${afficherRatio(
+              ind,
               bas.r1,
-            )}, ${t.max} « ${haut.segment} » ${fmt.ratio(haut.r1)}, ${t.ecart} ${fmt.nombre(ecart)} pt`,
+              fmt,
+            )}, ${t.max} « ${haut.segment} » ${afficherRatio(ind, haut.r1, fmt)}, ${t.ecart} ${fmt.nombre(ecart)} ${unite}`,
             [pts(bas.r1), pts(haut.r1), ecart],
           );
         }
@@ -200,7 +207,7 @@ function decrireVariation(
   fmt: Formateur,
   t: Textes,
 ): { texte: string; valeurs: number[] } {
-  if (ind.type === "ratio") {
+  if (ind.type === "ratio" && estPourcentage(ind)) {
     const pts = arrondir((v1 - v0) * 100, 2);
     return {
       texte: `${fmt.ratio(v0)} → ${fmt.ratio(v1)} (${signe(fmt.nombre(pts))} pt)`,
@@ -221,12 +228,26 @@ function decrireVariation(
 
 // ——— Mise en forme ———
 
+/** Un ratio sans unité, ou d'unité « % », s'affiche en pourcentage et varie en points. */
+function estPourcentage(ind: DefinitionIndicateur): boolean {
+  return ind.type === "ratio" && (ind.unite ?? "%") === "%";
+}
+
+function uniteRatio(ind: DefinitionIndicateur): { echelle: number; unite: string } {
+  return estPourcentage(ind) ? { echelle: 100, unite: "pt" } : { echelle: 1, unite: ind.unite ?? "" };
+}
+
+function afficherRatio(ind: DefinitionIndicateur, x: number, fmt: Formateur): string {
+  return estPourcentage(ind) ? fmt.ratio(x) : `${fmt.nombre(arrondir(x, 2))} ${ind.unite ?? ""}`.trim();
+}
+
 export function arrondir(x: number, decimales: number): number {
   const f = 10 ** decimales;
   return Math.round(x * f) / f;
 }
 
 function signe(texte: string): string {
+  if (/^[−-]?0([.,]0+)?$/.test(texte)) return "0";
   return texte.startsWith("-") || texte.startsWith("−") ? texte.replace("-", "−") : `+${texte}`;
 }
 

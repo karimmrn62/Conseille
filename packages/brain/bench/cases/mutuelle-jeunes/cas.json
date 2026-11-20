@@ -1,0 +1,9 @@
+{
+  "id": "mutuelle-jeunes",
+  "titre": "Mutuelle santé régionale : reconquérir les jeunes actifs",
+  "type": "mission",
+  "question": "La direction nous demande de valider et d'affiner son plan. Que devons-nous lui recommander lors du comité de lancement ?",
+  "audace": 2,
+  "registre": "sobre",
+  "documents": ["note-de-cadrage.md"]
+}

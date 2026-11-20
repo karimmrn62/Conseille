@@ -1,0 +1,9 @@
+{
+  "id": "forges-diversification",
+  "titre": "PME de forge dépendante de l'automobile : se diversifier",
+  "type": "mission",
+  "question": "Le président veut que nous validions son entrée dans l'aéronautique et préparions le plan d'investissement. Quelle stratégie lui recommander, et comment le convaincre ?",
+  "audace": 2,
+  "registre": "sobre",
+  "documents": ["compte-rendu-entretien.md"]
+}

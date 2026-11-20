@@ -1,0 +1,9 @@
+{
+  "id": "saas-prix",
+  "titre": "Éditeur de logiciel vétérinaire : une hausse de prix de 25 %",
+  "type": "mission",
+  "question": "Je suis administrateur indépendant de cette société. Faut-il voter la hausse de 25 % ? Que dois-je proposer au conseil ?",
+  "audace": 2,
+  "registre": "sobre",
+  "documents": ["note-conseil.md"]
+}

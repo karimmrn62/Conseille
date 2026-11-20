@@ -1,0 +1,26 @@
+{
+  "id": "banque-credit-conso",
+  "titre": "Banque régionale : la production de crédit à la consommation s'envole",
+  "type": "pilotage",
+  "question": "La direction commerciale propose de reconduire et de renforcer en 2027 le challenge commercial sur le crédit à la consommation, qui a fait exploser la production. Faut-il le faire ? Que doit-on présenter au comité de direction ?",
+  "audace": 2,
+  "registre": "sobre",
+  "documents": ["note-direction-commerciale.md"],
+  "donnees": [
+    {
+      "nom": "Reporting commercial",
+      "fichier": "reporting-commercial.csv",
+      "colonnePeriode": "periode",
+      "dimensions": ["direction_regionale"],
+      "indicateurs": [
+        { "nom": "clients_debut", "type": "somme" },
+        { "nom": "clotures", "type": "somme" },
+        { "nom": "ventes_credit_conso", "type": "somme" },
+        { "nom": "production_credit_keur", "type": "somme", "unite": "k€" },
+        { "nom": "reclamations", "type": "somme" },
+        { "nom": "taux d'attrition", "type": "ratio", "numerateur": "clotures", "denominateur": "clients_debut" },
+        { "nom": "taux de réclamation", "type": "ratio", "numerateur": "reclamations", "denominateur": "clients_debut" }
+      ]
+    }
+  ]
+}

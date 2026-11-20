@@ -1,0 +1,26 @@
+{
+  "id": "boulangeries-panier",
+  "titre": "Réseau de boulangeries-cafés en franchise : le panier moyen à l'honneur",
+  "type": "pilotage",
+  "question": "La direction du réseau veut faire du panier moyen l'indicateur central du nouveau plan d'animation des franchisés et généraliser les actions de montée en gamme. Est-ce le bon pilotage, et que faut-il présenter au séminaire des franchisés ?",
+  "audace": 2,
+  "registre": "sobre",
+  "documents": ["compte-rendu-codir.md"],
+  "donnees": [
+    {
+      "nom": "Tableau de bord T3",
+      "fichier": "tableau-de-bord-T3.csv",
+      "colonnePeriode": "periode",
+      "dimensions": ["region", "format"],
+      "indicateurs": [
+        { "nom": "tickets", "type": "somme" },
+        { "nom": "ca_eur", "type": "somme", "unite": "€" },
+        { "nom": "heures_travaillees", "type": "somme", "unite": "h" },
+        { "nom": "invendus_eur", "type": "somme", "unite": "€" },
+        { "nom": "panier moyen", "type": "ratio", "numerateur": "ca_eur", "denominateur": "tickets", "unite": "€/ticket" },
+        { "nom": "taux d'invendus", "type": "ratio", "numerateur": "invendus_eur", "denominateur": "ca_eur" },
+        { "nom": "CA par heure travaillée", "type": "ratio", "numerateur": "ca_eur", "denominateur": "heures_travaillees", "unite": "€/h" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "interim-marge",
+  "titre": "Réseau d'agences d'intérim : un taux de marge qui progresse",
+  "type": "pilotage",
+  "question": "Le comité de direction se félicite de la hausse du taux de marge et propose d'étendre à tout le réseau le plan de primes de la région la plus performante. Que faut-il en penser, et quelles priorités fixer pour la revue de performance de janvier ?",
+  "audace": 2,
+  "registre": "sobre",
+  "documents": ["note-direction.md"],
+  "donnees": [
+    {
+      "nom": "Reporting régional",
+      "fichier": "reporting-regional.csv",
+      "colonnePeriode": "periode",
+      "dimensions": ["region", "secteur"],
+      "indicateurs": [
+        { "nom": "ca_keur", "type": "somme", "unite": "k€" },
+        { "nom": "marge_keur", "type": "somme", "unite": "k€" },
+        { "nom": "missions", "type": "somme" },
+        { "nom": "heures_milliers", "type": "somme", "unite": "milliers d'heures" },
+        { "nom": "taux de marge brute", "type": "ratio", "numerateur": "marge_keur", "denominateur": "ca_keur" }
+      ]
+    }
+  ]
+}

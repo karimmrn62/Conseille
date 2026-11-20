@@ -1,0 +1,26 @@
+{
+  "id": "cliniques-occupation",
+  "titre": "Groupe de cliniques : un taux d'occupation record",
+  "type": "pilotage",
+  "question": "Le président du groupe veut présenter au conseil d'administration la hausse du taux d'occupation comme la preuve du redressement, et lancer l'ouverture de 40 lits supplémentaires. Qu'en penser, et que faut-il présenter au conseil ?",
+  "audace": 2,
+  "registre": "sobre",
+  "documents": ["note-president.md"],
+  "donnees": [
+    {
+      "nom": "Indicateurs groupe",
+      "fichier": "indicateurs-groupe.csv",
+      "colonnePeriode": "periode",
+      "dimensions": ["clinique", "activite"],
+      "indicateurs": [
+        { "nom": "sejours", "type": "somme" },
+        { "nom": "journees", "type": "somme" },
+        { "nom": "lits_jours_disponibles", "type": "somme" },
+        { "nom": "recettes_keur", "type": "somme", "unite": "k€" },
+        { "nom": "taux d'occupation", "type": "ratio", "numerateur": "journees", "denominateur": "lits_jours_disponibles" },
+        { "nom": "durée moyenne de séjour", "type": "ratio", "numerateur": "journees", "denominateur": "sejours", "unite": "jours" },
+        { "nom": "recette par journée", "type": "ratio", "numerateur": "recettes_keur", "denominateur": "journees", "unite": "k€/journée" }
+      ]
+    }
+  ]
+}

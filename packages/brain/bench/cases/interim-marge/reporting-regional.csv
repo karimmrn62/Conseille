@@ -1,0 +1,49 @@
+periode,region,secteur,ca_keur,marge_keur,missions,heures_milliers
+2025,Hauts-de-France,BTP,3309,860,1575,91.9
+2025,Hauts-de-France,Logistique,4500,578,2813,125.0
+2025,Hauts-de-France,Industrie,3786,663,2366,105.2
+2025,Hauts-de-France,Tertiaire,2093,429,1308,58.1
+2025,Normandie,BTP,1965,514,936,54.6
+2025,Normandie,Logistique,2580,332,1612,71.7
+2025,Normandie,Industrie,2299,409,1437,63.9
+2025,Normandie,Tertiaire,1299,264,812,36.1
+2025,Grand Est,BTP,2904,769,1383,80.7
+2025,Grand Est,Logistique,3775,492,2359,104.9
+2025,Grand Est,Industrie,3372,584,2108,93.7
+2025,Grand Est,Tertiaire,1950,397,1219,54.2
+2025,Île-de-France,BTP,3982,1034,1896,110.6
+2025,Île-de-France,Logistique,5315,706,3322,147.6
+2025,Île-de-France,Industrie,4462,788,2789,124.0
+2025,Île-de-France,Tertiaire,2765,565,1728,76.8
+2025,Bourgogne-Franche-Comté,BTP,1830,475,872,50.8
+2025,Bourgogne-Franche-Comté,Logistique,2254,291,1409,62.6
+2025,Bourgogne-Franche-Comté,Industrie,2074,364,1296,57.6
+2025,Bourgogne-Franche-Comté,Tertiaire,1163,239,727,32.3
+2025,Centre-Val de Loire,BTP,1551,405,739,43.1
+2025,Centre-Val de Loire,Logistique,2112,279,1320,58.7
+2025,Centre-Val de Loire,Industrie,1687,298,1054,46.8
+2025,Centre-Val de Loire,Tertiaire,1023,212,639,28.4
+2026,Hauts-de-France,BTP,4752,1223,2263,132.0
+2026,Hauts-de-France,Logistique,2943,373,1839,81.7
+2026,Hauts-de-France,Industrie,3430,578,2144,95.3
+2026,Hauts-de-France,Tertiaire,2278,452,1424,63.3
+2026,Normandie,BTP,5210,1337,2481,144.7
+2026,Normandie,Logistique,1932,243,1207,53.7
+2026,Normandie,Industrie,2335,397,1459,64.9
+2026,Normandie,Tertiaire,1362,271,852,37.8
+2026,Grand Est,BTP,4096,1052,1950,113.8
+2026,Grand Est,Logistique,2539,321,1587,70.5
+2026,Grand Est,Industrie,2852,482,1783,79.2
+2026,Grand Est,Tertiaire,1753,348,1095,48.7
+2026,Île-de-France,BTP,5430,1388,2586,150.8
+2026,Île-de-France,Logistique,3911,492,2444,108.6
+2026,Île-de-France,Industrie,4502,770,2814,125.1
+2026,Île-de-France,Tertiaire,2814,556,1759,78.2
+2026,Bourgogne-Franche-Comté,BTP,2507,645,1194,69.6
+2026,Bourgogne-Franche-Comté,Logistique,1576,197,985,43.8
+2026,Bourgogne-Franche-Comté,Industrie,1866,318,1166,51.8
+2026,Bourgogne-Franche-Comté,Tertiaire,1133,224,708,31.5
+2026,Centre-Val de Loire,BTP,2125,547,1012,59.0
+2026,Centre-Val de Loire,Logistique,1462,185,913,40.6
+2026,Centre-Val de Loire,Industrie,1658,284,1036,46.1
+2026,Centre-Val de Loire,Tertiaire,1070,213,669,29.7
