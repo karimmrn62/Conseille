@@ -276,6 +276,8 @@ Inversion · Changement d'échiquier · Analogie lointaine (un problème de mêm
 - ✅ **Bishop, conseiller de direction** : un cerveau commun, les consultants d'abord, puis les managers.
 - ✅ **Espace de travail web au centre**, extension Chrome en satellite.
 - ✅ Le nom est **reporté** : « Bishop » sert de nom de code. Tempo est écarté (risque de marque élevé).
+- ✅ **Le cerveau est un enchaînement piloté par notre code** (API Claude), et non un agent hébergé (Managed Agents) : la méthode est appliquée à chaque fois sans raccourci, le coût reste prévisible, et c'est compatible avec la non-conservation des données. Un agent hébergé pourra servir plus tard à des modules annexes (exploration de fichiers, veille web, relances planifiées) qui alimentent le cerveau, sans le remplacer.
+- ✅ **Coût** : premier test au réglage maximum de qualité, puis recherche de la configuration la moins chère qui garde la même qualité, mesurée à l'aveugle.
 
 ### Ouvertes
 1. **Le nom commercial** : séparer la marque déposée de la voix du personnage ; vérification par un conseil en propriété industrielle.
