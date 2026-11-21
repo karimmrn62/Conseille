@@ -6,7 +6,7 @@ import type { ModeleIA } from "./llm/types.js";
 import { tenirConseil } from "./modules/conseil.js";
 import { analyserKpi } from "./modules/kpi.js";
 import { jouer, lire, type ParametresMethode, type ResultatMethode } from "./pipeline/methode.js";
-import { rendreAnalyse } from "./render/markdown.js";
+import { rendreAnalyse, rendreSynthese } from "./render/markdown.js";
 import type { AnalyseKpi, ConseilDeGuerre, Lecture } from "./schemas.js";
 import type { Fait, Position } from "./types.js";
 
@@ -17,9 +17,12 @@ export interface ResultatAnalyse {
   methode: ResultatMethode;
   kpi: AnalyseKpi | null;
   conseil: ConseilDeGuerre | null;
-  /** Chiffres du rendu final introuvables dans les documents et les faits calculés. */
+  /** Chiffres de la synthèse introuvables dans les documents et les faits calculés. */
   chiffresNonSources: string[];
+  /** Synthèse destinée au lecteur (quelques minutes de lecture). */
   markdown: string;
+  /** Version complète avec les détails de travail et les sources (annexe). */
+  markdownComplet: string;
 }
 
 /**
@@ -53,21 +56,14 @@ export async function analyser(position: Position, modele: ModeleIA, config: Con
   const coupPrincipal = methode.formulation.coups[0];
   const conseil = coupPrincipal ? await tenirConseil(p, lecture, coupPrincipal) : null;
 
-  const corps = rendreAnalyse({ langue, lecture, formulation: methode.formulation, kpi, conseil, faits });
+  const elements = { langue, lecture, formulation: methode.formulation, kpi, conseil, faits };
   const suspects = chiffresNonSources(
-    corps,
+    rendreSynthese(elements),
     faits,
     position.documents.map((d) => d.contenu),
   );
-  const markdown = rendreAnalyse({
-    langue,
-    lecture,
-    formulation: methode.formulation,
-    kpi,
-    conseil,
-    chiffresNonSources: suspects,
-    faits,
-  });
+  const markdown = rendreSynthese({ ...elements, chiffresNonSources: suspects });
+  const markdownComplet = rendreAnalyse({ ...elements, chiffresNonSources: suspects });
 
   return {
     position: { id: position.id, titre: position.titre, type: position.type, question: position.question },
@@ -78,5 +74,6 @@ export async function analyser(position: Position, modele: ModeleIA, config: Con
     conseil,
     chiffresNonSources: suspects,
     markdown,
+    markdownComplet,
   };
 }

@@ -21,6 +21,15 @@ export function construireContexte(position: Position, faits: Fait[]): ContexteP
     .map((d) => `<document nom="${echapper(d.nom)}">\n${d.contenu.trim()}\n</document>`)
     .join("\n\n");
 
+  const donneesBrutes = (position.donnees ?? [])
+    .map((jeu) => {
+      const lignes = jeu.csv.trim().split(/\r?\n/);
+      const extrait = lignes.slice(0, LIGNES_BRUTES_MAX + 1).join("\n");
+      const suite = lignes.length > LIGNES_BRUTES_MAX + 1 ? `\n${t.contexte.tronque(lignes.length - 1)}` : "";
+      return `<donnees nom="${echapper(jeu.nom)}" lignes="${lignes.length - 1}">\n${extrait}${suite}\n</donnees>`;
+    })
+    .join("\n\n");
+
   const blocFaits =
     faits.length > 0
       ? `${t.contexte.faitsIntro}\n\n${faits.map((f) => `- ${f.id} : ${f.texte}`).join("\n")}`
@@ -32,11 +41,15 @@ export function construireContexte(position: Position, faits: Fait[]): ContexteP
     `## ${t.contexte.question}\n\n${position.question}`,
     `## ${t.contexte.reglages}\n\n- ${t.audace[audace]}\n- ${t.registre[registre]}`,
     `## ${t.contexte.documents}\n\n${documents}`,
+    ...(donneesBrutes ? [`## ${t.contexte.donneesBrutes}\n\n${t.contexte.donneesBrutesIntro}\n\n${donneesBrutes}`] : []),
     `## ${t.contexte.faits}\n\n${blocFaits}`,
   ].join("\n\n");
 
   return { doctrine, position: texte };
 }
+
+/** Au-delà, on n'envoie qu'un extrait : les calculs, eux, portent toujours sur toutes les lignes. */
+const LIGNES_BRUTES_MAX = 200;
 
 function echapper(texte: string): string {
   return texte.replace(/"/g, "'");

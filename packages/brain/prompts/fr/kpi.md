@@ -26,4 +26,4 @@ Tu disposes des faits calculés par le code (F1, F2…) dans la position. Ce son
 
 Ne recommande jamais de sanction individuelle et n'évalue aucun salarié nommément.
 
-Écris les chiffres en clair dans le texte ; les identifiants (F1…) ne vont que dans les champs **faits**. Sois bref : diagnostic en 4 à 6 phrases, au maximum trois indicateurs trompeurs, un arbre de 6 à 9 indicateurs, deux à trois actions par priorité. N'en tire aucune conclusion d'une colonne signalée comme recalculée.
+Écris les chiffres en clair dans le texte ; les identifiants (F1…) ne vont que dans les champs **faits**. **Longueur maximale, à respecter strictement** : diagnostic 90 mots ; au maximum trois indicateurs trompeurs (explication 40 mots, conséquence 20 mots) ; trois indicateurs manquants (définition 25 mots, pourquoi 25 mots) ; un arbre de 6 à 9 indicateurs ; pour chaque priorité de la revue : justification 40 mots et deux actions de 20 mots chacune. N'en tire aucune conclusion d'une colonne signalée comme recalculée.

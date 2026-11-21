@@ -201,7 +201,9 @@ describe("analyse complète avec un modèle simulé", () => {
     expect(r.markdown).toContain("Contrôle automatique");
     expect(r.markdown).toContain("Le conseil de guerre");
     expect(r.markdown.indexOf("L'essentiel")).toBe(3);
-    expect(r.markdown).toContain("Sources des chiffres");
+    expect(r.markdown).not.toContain("Sources des chiffres");
+    expect(r.markdownComplet).toContain("Sources des chiffres");
+    expect(r.markdown).not.toMatch(/\bF\d+\b/); // pas de références internes dans la synthèse
     expect(r.faits.some((f) => f.texte.includes("PARADOXE DE SIMPSON"))).toBe(true);
   });
 });

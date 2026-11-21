@@ -18,6 +18,6 @@ Ce qu'on attend de toi :
 
 Quand tu t'appuies sur un chiffre, cite le fait (F1, F2…) ou le document d'où il vient.
 
-Cette lecture est un travail interne, pas une réponse au client : sois **dense et bref**. Au maximum cinq éléments par liste (les plus importants), une phrase par élément.
+Cette lecture est un travail interne, pas une réponse au client : sois **dense et bref**. Au maximum cinq éléments par liste (les plus importants), une phrase de 25 mots au plus par élément ; vraieQuestion en 40 mots au plus.
 
 Question posée par l'utilisateur : {{question}}

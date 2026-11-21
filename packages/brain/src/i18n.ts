@@ -18,6 +18,9 @@ export interface Libelles {
     faits: string;
     faitsIntro: string;
     aucunFait: string;
+    donneesBrutes: string;
+    donneesBrutesIntro: string;
+    tronque(total: number): string;
   };
   rendu: {
     essentiel: string;
@@ -85,6 +88,10 @@ const FR: Libelles = {
     faitsIntro:
       "Les faits suivants ont été calculés par du code à partir des données fournies. Ce sont, avec les documents, les seules sources de chiffres autorisées. Cite-les par leur identifiant.",
     aucunFait: "Aucune donnée chiffrée n'a été fournie : ne cite que les chiffres des documents.",
+    donneesBrutes: "Données brutes",
+    donneesBrutesIntro:
+      "Voici les tableaux tels qu'ils ont été fournis. Sers-t'en pour comprendre leur structure (colonnes, niveau de détail, croisements disponibles) et repérer ce qu'ils contiennent ou non. Ne fais aucun calcul toi-même à partir de ces lignes : les chiffres que tu cites viennent des faits calculés. Avant d'affirmer qu'une donnée manque, vérifie qu'elle n'est pas dans ces tableaux.",
+    tronque: (total) => `… (extrait : les ${total} lignes ont toutes été prises en compte dans les faits calculés)`,
   },
   rendu: {
     essentiel: "L'essentiel",

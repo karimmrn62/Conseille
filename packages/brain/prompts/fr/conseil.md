@@ -24,4 +24,4 @@ Termine par :
 - **hypotheses** : les hypothèses sur lesquelles repose ta simulation (ce que tu as supposé sur chaque acteur faute d'information).
 - **ordreDeJeu** : dans quel ordre rallier ou traiter les acteurs, en une ou deux phrases.
 
-Sois bref : une à deux phrases par champ.
+**Longueur maximale** : 25 mots par champ ; ordreDeJeu 40 mots ; trois hypothèses au plus.

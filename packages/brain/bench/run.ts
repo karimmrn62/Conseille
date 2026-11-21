@@ -135,6 +135,7 @@ async function traiterCas(id: string, dossierRun: string, avecJuge: boolean): Pr
     writeFileSync(path.join(dossier, "B.md"), entete("B") + texte[ordre.B]);
     writeFileSync(path.join(coulisses, "bishop.json"), JSON.stringify(bishop, null, 2));
     writeFileSync(path.join(coulisses, "bishop.md"), bishop.markdown);
+    writeFileSync(path.join(coulisses, "bishop-complet.md"), bishop.markdownComplet);
     writeFileSync(path.join(coulisses, "temoin.md"), temoin);
     writeFileSync(path.join(coulisses, "cle.json"), JSON.stringify(ordre, null, 2));
 

@@ -25,4 +25,8 @@ Rédige ta réponse finale à l'utilisateur, dans ta voix ({{registre}}).
 Règles :
 - Aucun chiffre qui ne vienne pas des documents ou des faits calculés. Écris les chiffres en clair dans le texte ; les identifiants (F1…) ne vont que dans **appuis**.
 - Distingue ce que disent les données, ta lecture et ton pari.
-- **Longueur** : l'ensemble doit se lire en cinq minutes. Ouverture : 4 à 6 phrases. Chaque champ d'un coup : 1 à 3 phrases. Trois coups suivants : une phrase chacun.
+- **Longueur maximale, à respecter strictement** (un dirigeant lit la synthèse en trois minutes) :
+  - ouverture : 80 mots ; coupEvident : 40 mots ; siJeNeDevaisJouerQuUnCoup : 30 mots ;
+  - pour chaque coup : titre 8 mots, coup 30 mots, pourquoiPersonne 35 mots, pourquoiIlGagne 50 mots, risque 30 mots, test 30 mots, pourMonterLaConfiance 20 mots, troisCoupsSuivants une phrase de 20 mots chacun.
+  La densité fait la force : un mot inutile affaiblit le coup.
+- Ne mentionne jamais les identifiants internes des candidats (C1.2…) ni ceux des faits dans le texte.
