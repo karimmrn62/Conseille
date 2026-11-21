@@ -17,4 +17,6 @@ Note **chaque** coup de 0 à 10 sur quatre critères, indépendamment les uns de
 - **coherence** : est-il compatible avec les contraintes dures, les faits et les acteurs ? Une idée qui ignore une contrainte dure ou contredit un chiffre a une cohérence faible.
 - **faisabilite** : peut-il être engagé par cette organisation, avec ses moyens, dans un délai raisonnable ?
 
-Ajoute un commentaire court et franc pour chaque coup. Note tous les coups, sans en oublier, en reprenant exactement leurs identifiants.
+**Départage vraiment les coups.** Dans un lot comme celui-ci, certains sont forcément nettement plus banals, moins pertinents ou moins cohérents que d'autres : utilise toute l'échelle de 0 à 10 au lieu de tout noter entre 6 et 8.
+
+Ajoute un commentaire court (une phrase) et franc pour chaque coup. Note tous les coups, sans en oublier, en reprenant exactement leurs identifiants.

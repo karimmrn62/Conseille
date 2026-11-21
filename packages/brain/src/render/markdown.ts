@@ -1,6 +1,6 @@
 import { libelles } from "../i18n.js";
 import type { AnalyseKpi, ConseilDeGuerre, Formulation, Lecture } from "../schemas.js";
-import type { Locale } from "../types.js";
+import type { Fait, Locale } from "../types.js";
 
 export interface ElementsRendu {
   langue: Locale;
@@ -9,6 +9,8 @@ export interface ElementsRendu {
   kpi: AnalyseKpi | null;
   conseil: ConseilDeGuerre | null;
   chiffresNonSources?: string[];
+  /** Faits calculés, pour expliciter les sources citées. */
+  faits?: Fait[];
 }
 
 /** Met en forme l'analyse de Bishop en Markdown lisible par un consultant ou un comité. */
@@ -17,9 +19,17 @@ export function rendreAnalyse(e: ElementsRendu): string {
   const f = e.formulation;
   const lignes: string[] = [];
 
-  lignes.push(`## ${t.lecture}`, "", f.ouverture, "");
-  lignes.push(`**${t.vraieQuestion} :** ${e.lecture.vraieQuestion}`, "");
+  // L'essentiel, lisible en une minute
+  lignes.push(`## ${t.essentiel}`, "", `**${t.vraieQuestion} :** ${e.lecture.vraieQuestion}`, "");
+  if (f.coups.length > 0) {
+    f.coups.forEach((c, i) => lignes.push(`${i + 1}. **${c.titre}** — ${c.coup}`));
+    lignes.push("");
+    lignes.push(`**${t.unSeulCoup} :** ${f.siJeNeDevaisJouerQuUnCoup}`, "");
+  }
+  const alerte = e.kpi?.kpiQuiMentent[0];
+  if (alerte) lignes.push(`**${t.alerteKpi} :** ${alerte.kpi} — ${alerte.consequence}`, "");
 
+  lignes.push(`## ${t.lecture}`, "", f.ouverture, "");
   lignes.push(`## ${t.coups}`, "");
   if (f.coups.length === 0) {
     lignes.push(f.siJeNeDevaisJouerQuUnCoup, "");
@@ -40,7 +50,6 @@ export function rendreAnalyse(e: ElementsRendu): string {
   });
 
   if (f.coupEvident) lignes.push(`**${t.coupEvident} :** ${f.coupEvident}`, "");
-  if (f.coups.length > 0) lignes.push(`**${t.unSeulCoup} :** ${f.siJeNeDevaisJouerQuUnCoup}`, "");
 
   if (e.kpi) {
     const k = e.kpi;
@@ -100,6 +109,15 @@ export function rendreAnalyse(e: ElementsRendu): string {
 
   if (e.lecture.questionsAPoser.length > 0) {
     lignes.push(`## ${t.questions}`, "", ...e.lecture.questionsAPoser.map((q) => `- ${q}`), "");
+  }
+
+  // Sources des chiffres : on explicite chaque identifiant de fait cité
+  if (e.faits && e.faits.length > 0) {
+    const texteComplet = lignes.join("\n");
+    const cites = e.faits.filter((fait) => new RegExp(`(?<![\\w.])${fait.id.replace(".", "\\.")}(?![\\w.])`).test(texteComplet));
+    if (cites.length > 0) {
+      lignes.push(`## ${t.sources}`, "", ...cites.map((fait) => `- **${fait.id}** : ${fait.texte}`), "");
+    }
   }
 
   if (e.chiffresNonSources && e.chiffresNonSources.length > 0) {

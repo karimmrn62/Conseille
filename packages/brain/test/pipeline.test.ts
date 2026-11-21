@@ -183,6 +183,10 @@ describe("analyse complète avec un modèle simulé", () => {
     expect(etapes).toContain("kpi");
     expect(etapes.at(-1)).toBe("conseil");
 
+    // Les notations utilisent le modèle dédié, les autres étapes le modèle principal.
+    expect(modele.appels.filter((a) => a.etape.startsWith("notation")).every((a) => a.modele === "claude-sonnet-5-5")).toBe(true);
+    expect(modele.appels.find((a) => a.etape === "formulation")?.modele).toBeUndefined();
+
     // Les coups évidents sont transmis à la divergence comme repoussoir.
     expect(modele.appels.find((a) => a.etape === "divergence-1")?.consigne).toContain("Digitaliser");
 
@@ -196,6 +200,8 @@ describe("analyse complète avec un modèle simulé", () => {
     expect(r.chiffresNonSources).toEqual(["47,3"]);
     expect(r.markdown).toContain("Contrôle automatique");
     expect(r.markdown).toContain("Le conseil de guerre");
+    expect(r.markdown.indexOf("L'essentiel")).toBe(3);
+    expect(r.markdown).toContain("Sources des chiffres");
     expect(r.faits.some((f) => f.texte.includes("PARADOXE DE SIMPSON"))).toBe(true);
   });
 });

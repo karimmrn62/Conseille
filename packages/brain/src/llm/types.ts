@@ -20,6 +20,8 @@ export interface RequeteJson<S extends z.ZodType> {
   consigne: string;
   schema: S;
   effort: Effort;
+  /** Modèle à utiliser pour cette étape (par défaut : le modèle principal). */
+  modele?: string;
 }
 
 export interface RequeteTexte {
@@ -31,6 +33,7 @@ export interface RequeteTexte {
 
 export interface Consommation {
   etape: string;
+  modele: string;
   entree: number;
   sortie: number;
   cacheLu: number;

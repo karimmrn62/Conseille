@@ -1,6 +1,6 @@
 import { consigne } from "../prompts.js";
 import { type ConseilDeGuerre, type Formulation, type Lecture, SchemaConseil } from "../schemas.js";
-import type { ParametresMethode } from "../pipeline/methode.js";
+import { type ParametresMethode, resumerLecture } from "../pipeline/methode.js";
 
 type Coup = Formulation["coups"][number];
 
@@ -10,7 +10,7 @@ export async function tenirConseil(p: ParametresMethode, lecture: Lecture, coup:
     etape: "conseil",
     contexte: p.contexte,
     consigne: consigne("conseil", p.langue, {
-      lecture: JSON.stringify(lecture, null, 2),
+      lecture: resumerLecture(lecture),
       coup: `${coup.titre} — ${coup.coup}\n${coup.pourquoiIlGagne}`,
     }),
     schema: SchemaConseil,

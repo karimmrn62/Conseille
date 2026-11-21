@@ -7,6 +7,8 @@ export type Effort = "low" | "medium" | "high" | "xhigh" | "max";
 
 export interface ConfigCerveau {
   modele: string;
+  /** Modèle des notations répétées (étape la plus simple, appelée plusieurs fois). */
+  modeleNotation: string;
   /** Effort pour les étapes de génération et de jugement final. */
   effortReflexion: Effort;
   /** Effort pour les étapes de notation (répétées plusieurs fois). */
@@ -33,6 +35,7 @@ function effort(valeur: string | undefined, defaut: Effort): Effort {
 export function chargerConfig(env: NodeJS.ProcessEnv = process.env): ConfigCerveau {
   return {
     modele: env.BISHOP_MODELE ?? "claude-opus-5-5",
+    modeleNotation: env.BISHOP_MODELE_NOTATION ?? "claude-sonnet-5-5",
     effortReflexion: effort(env.BISHOP_EFFORT_REFLEXION, "high"),
     effortNotation: effort(env.BISHOP_EFFORT_NOTATION, "medium"),
     passesNotation: entier(env.BISHOP_PASSES_NOTATION, 3),

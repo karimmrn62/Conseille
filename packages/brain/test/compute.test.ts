@@ -114,3 +114,25 @@ describe("contrôle des chiffres et dates", () => {
     expect(chiffresNonSources("Échéance : 31 janvier 2027, puis 28 février.", [], [])).toEqual([]);
   });
 });
+
+describe("contrôle de la qualité des données", () => {
+  it("signale une colonne recalculée à partir d'une autre", () => {
+    const jeu: JeuDeDonnees = {
+      nom: "Activité",
+      colonnePeriode: "periode",
+      dimensions: ["region"],
+      indicateurs: [
+        { nom: "ca", type: "somme" },
+        { nom: "heures", type: "somme" },
+      ],
+      csv: "periode,region,ca,heures\n2025,A,360,10\n2025,B,720,20\n2026,A,396,11\n2026,B,684,19",
+    };
+    const faits = calculerFaits(jeu, "fr");
+    expect(faits[0]?.texte).toContain("QUALITÉ DES DONNÉES");
+    expect(faits[0]?.texte).toContain("« heures » est proportionnelle à « ca »");
+  });
+
+  it("ne signale rien sur des colonnes indépendantes", () => {
+    expect(calculerFaits(SIMPSON, "fr").some((f) => f.texte.includes("QUALITÉ"))).toBe(false);
+  });
+});

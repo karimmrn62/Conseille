@@ -4,10 +4,10 @@ La méthode du grand maître (étape 0 de la feuille de route) et son banc d'ess
 
 ## Ce que fait le cerveau
 
-1. **Calcul des faits** (`src/compute/`) : à partir des tableaux de données, le code calcule totaux, variations, contributions, effet taux / effet de mix et paradoxes de Simpson. L'IA ne calcule jamais.
+1. **Calcul des faits** (`src/compute/`) : à partir des tableaux de données, le code contrôle d'abord leur qualité (colonnes recalculées), puis calcule totaux, variations, contributions, effet taux / effet de mix et paradoxes de Simpson. L'IA ne calcule jamais.
 2. **Lecture de la position** : vraie question, acteurs, contraintes, hypothèses, angles morts, et les **coups évidents** qui serviront de repoussoir.
 3. **Divergence imposée** : trois générations en parallèle, chacune avec des techniques différentes (inversion, changement d'échiquier, analogie lointaine, pion oublié, prophylaxie…).
-4. **Filtre anti-banalité** : trois notations indépendantes, agrégées par la médiane, pondérées selon le niveau d'audace, avec des seuils éliminatoires.
+4. **Filtre anti-banalité** : trois notations indépendantes, converties en rangs relatifs (pour vraiment départager les idées) puis agrégées par la médiane, pondérées selon le niveau d'audace, avec des seuils éliminatoires sur les notes brutes.
 5. **Vérification** : un avocat du diable tente de réfuter les meilleurs coups.
 6. **Le coup joué** : au plus trois coups distincts, dans la voix de Bishop.
 7. **Modules** : « Les KPI qui vous mentent » et « Revue en trois coups » (s'il y a des données), « Le conseil de guerre » sur le coup principal.
@@ -41,6 +41,7 @@ Le banc d'essai lit la clé dans la variable **`BISHOP_ANTHROPIC_API_KEY`** (et 
 | Variable | Défaut | Rôle |
 |---|---|---|
 | `BISHOP_MODELE` | `claude-opus-5-5` | Modèle utilisé |
+| `BISHOP_MODELE_NOTATION` | `claude-sonnet-5-5` | Modèle des trois notations (étape la plus simple, répétée) |
 | `BISHOP_EFFORT_REFLEXION` | `high` | Effort des étapes de génération et de vérification |
 | `BISHOP_EFFORT_NOTATION` | `medium` | Effort des notations |
 | `BISHOP_PASSES_NOTATION` | `3` | Nombre de notations indépendantes |

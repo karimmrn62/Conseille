@@ -20,6 +20,9 @@ export interface Libelles {
     aucunFait: string;
   };
   rendu: {
+    essentiel: string;
+    alerteKpi: string;
+    sources: string;
     lecture: string;
     vraieQuestion: string;
     coups: string;
@@ -84,6 +87,9 @@ const FR: Libelles = {
     aucunFait: "Aucune donnée chiffrée n'a été fournie : ne cite que les chiffres des documents.",
   },
   rendu: {
+    essentiel: "L'essentiel",
+    alerteKpi: "Attention",
+    sources: "Sources des chiffres",
     lecture: "Lecture de la position",
     vraieQuestion: "La vraie question",
     coups: "Les coups",

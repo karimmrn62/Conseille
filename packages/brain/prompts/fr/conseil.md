@@ -8,7 +8,7 @@ Voici le coup que l'on envisage de jouer :
 
 {{coup}}
 
-Simule la réaction des **trois à cinq acteurs** qui comptent le plus pour la réussite ou l'échec de ce coup. C'est un **scénario raisonné**, pas une prédiction : chaque réaction doit découler de l'intérêt et de la position de l'acteur tels qu'on peut les lire dans les documents.
+Simule la réaction des **trois acteurs** (quatre au plus) qui comptent le plus pour la réussite ou l'échec de ce coup. C'est un **scénario raisonné**, pas une prédiction : chaque réaction doit découler de l'intérêt et de la position de l'acteur tels qu'on peut les lire dans les documents.
 
 Pour chaque acteur :
 
@@ -23,3 +23,5 @@ Termine par :
 
 - **hypotheses** : les hypothèses sur lesquelles repose ta simulation (ce que tu as supposé sur chaque acteur faute d'information).
 - **ordreDeJeu** : dans quel ordre rallier ou traiter les acteurs, en une ou deux phrases.
+
+Sois bref : une à deux phrases par champ.

@@ -62,8 +62,9 @@ export class ModeleAnthropic implements ModeleIA {
 
   async json<S extends z.ZodType>(requete: RequeteJson<S>): Promise<z.infer<S>> {
     const debut = Date.now();
+    const modele = requete.modele ?? this.config.modele;
     const reponse = await this.client.beta.messages.parse({
-      model: this.config.modele,
+      model: modele,
       max_tokens: this.config.maxTokens,
       betas: [BETA_FALLBACK],
       fallbacks: "default",
@@ -82,7 +83,7 @@ export class ModeleAnthropic implements ModeleIA {
       },
     });
 
-    this.noter(requete.etape, reponse.usage, debut);
+    this.noter(requete.etape, modele, reponse.usage, debut);
     this.verifierArret(requete.etape, reponse.stop_reason);
 
     if (reponse.parsed_output == null) {
@@ -103,7 +104,7 @@ export class ModeleAnthropic implements ModeleIA {
       output_config: { effort: requete.effort },
     });
 
-    this.noter(requete.etape, reponse.usage, debut);
+    this.noter(requete.etape, this.config.modele, reponse.usage, debut);
     this.verifierArret(requete.etape, reponse.stop_reason);
 
     return reponse.content
@@ -125,9 +126,10 @@ export class ModeleAnthropic implements ModeleIA {
     }
   }
 
-  private noter(etape: string, usage: Anthropic.Beta.BetaUsage, debut: number): void {
+  private noter(etape: string, modele: string, usage: Anthropic.Beta.BetaUsage, debut: number): void {
     this.journal.push({
       etape,
+      modele,
       entree: usage.input_tokens,
       sortie: usage.output_tokens,
       cacheLu: usage.cache_read_input_tokens ?? 0,

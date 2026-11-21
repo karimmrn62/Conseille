@@ -19,5 +19,6 @@ Exigences :
 - Vise des coups auxquels personne ne pense, ou pas aussi tôt, mais qui restent **cohérents** avec les contraintes dures.
 - Pour chaque coup, explique le **mécanisme** (pourquoi il marcherait) et **pourquoi il est invisible** (le biais, le réflexe ou l'habitude qui empêche de le voir).
 - Pas de chiffre inventé : seulement ceux des documents ou des faits calculés.
+- Sois bref : deux à trois phrases par champ, pas davantage. C'est l'idée qui compte, pas la prose.
 
 Niveau d'audace demandé : {{audace}}

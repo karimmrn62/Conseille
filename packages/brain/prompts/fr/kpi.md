@@ -25,3 +25,5 @@ Tu disposes des faits calculés par le code (F1, F2…) dans la position. Ce son
 5. **revue** : la revue en trois coups, c'est-à-dire **trois priorités** pour la prochaine revue de performance, chacune avec sa justification (faits à l'appui) et un plan d'action prêt à assigner (action, responsable sous forme de fonction et non de nom de personne, échéance).
 
 Ne recommande jamais de sanction individuelle et n'évalue aucun salarié nommément.
+
+Écris les chiffres en clair dans le texte ; les identifiants (F1…) ne vont que dans les champs **faits**. Sois bref : diagnostic en 4 à 6 phrases, au maximum trois indicateurs trompeurs, un arbre de 6 à 9 indicateurs, deux à trois actions par priorité. N'en tire aucune conclusion d'une colonne signalée comme recalculée.

@@ -20,7 +20,7 @@ import { calculerFaits } from "../src/compute/faits.js";
 import { construireContexte } from "../src/contexte.js";
 import { juger, type VerdictJuge } from "../src/juge.js";
 import { ModeleAnthropic } from "../src/llm/anthropic.js";
-import { bilan, type BilanCout } from "../src/llm/cout.js";
+import { bilan, type BilanCout, detailParEtape } from "../src/llm/cout.js";
 import { repondreTemoin } from "../src/temoin.js";
 import type { DefinitionIndicateur, Position } from "../src/types.js";
 
@@ -106,6 +106,7 @@ interface ResultatCas {
   coutTemoin?: BilanCout;
   coutJuge?: BilanCout;
   verdict?: VerdictJuge;
+  detail?: ReturnType<typeof detailParEtape>;
 }
 
 async function traiterCas(id: string, dossierRun: string, avecJuge: boolean): Promise<ResultatCas> {
@@ -143,14 +144,18 @@ async function traiterCas(id: string, dossierRun: string, avecJuge: boolean): Pr
       bishop,
       temoin,
       ordre,
-      coutBishop: bilan(config.modele, modeleBishop.consommation()),
-      coutTemoin: bilan(config.modele, modeleTemoin.consommation()),
+      coutBishop: bilan(modeleBishop.consommation()),
+      coutTemoin: bilan(modeleTemoin.consommation()),
     };
+
+    const detail = detailParEtape(modeleBishop.consommation());
+    writeFileSync(path.join(coulisses, "consommation.json"), JSON.stringify(detail, null, 2));
+    resultat.detail = detail;
 
     if (avecJuge) {
       const modeleJuge = new ModeleAnthropic(config);
       resultat.verdict = await juger(position, bishop.markdown, temoin, modeleJuge, config);
-      resultat.coutJuge = bilan(config.modele, modeleJuge.consommation());
+      resultat.coutJuge = bilan(modeleJuge.consommation());
       writeFileSync(path.join(coulisses, "juge.json"), JSON.stringify(resultat.verdict, null, 2));
     }
 
@@ -220,6 +225,21 @@ function ecrireResume(dossierRun: string, resultats: ResultatCas[]): void {
         r.coutTemoin!,
       )} | ${r.bishop!.chiffresNonSources.length === 0 ? "aucun" : r.bishop!.chiffresNonSources.join(", ")} | ${juge} |`,
     );
+  }
+  // Où part l'argent : coût de Bishop par étape (étapes répétées regroupées)
+  lignes.push("", "## Coût de Bishop par étape", "");
+  for (const r of resultats.filter((x) => x.detail)) {
+    const parEtape = new Map<string, { dollars: number; sortie: number; modele: string }>();
+    for (const d of r.detail!) {
+      const cle = d.etape.replace(/-\d+$/, "");
+      const cumul = parEtape.get(cle) ?? { dollars: 0, sortie: 0, modele: d.modele };
+      cumul.dollars += d.dollars ?? 0;
+      cumul.sortie += d.sortie;
+      parEtape.set(cle, cumul);
+    }
+    lignes.push(`**${r.id}**`, "", "| Étape | Modèle | Jetons produits | Coût |", "|---|---|---|---|");
+    for (const [etape, c] of parEtape) lignes.push(`| ${etape} | ${c.modele} | ${c.sortie} | ${c.dollars.toFixed(2)} $ |`);
+    lignes.push("");
   }
   writeFileSync(path.join(dossierRun, "resume.md"), lignes.join("\n") + "\n");
 

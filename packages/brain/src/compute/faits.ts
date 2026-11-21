@@ -24,6 +24,9 @@ export function calculerFaits(jeu: JeuDeDonnees, langue: Locale = "fr", prefixe 
     faits.push({ id: `${prefixe}${faits.length + 1}`, texte, valeurs });
   };
 
+  // 0. Qualité des données : colonnes recalculées à partir d'autres colonnes
+  for (const alerte of controlerQualite(jeu, lignes, t)) ajouter(alerte.texte, alerte.valeurs);
+
   const lignesP0 = lignes.filter((l) => l[jeu.colonnePeriode] === p0);
   const lignesP1 = lignes.filter((l) => l[jeu.colonnePeriode] === p1);
 
@@ -129,6 +132,57 @@ export function calculerFaits(jeu: JeuDeDonnees, langue: Locale = "fr", prefixe 
     }
   }
   return faits;
+}
+
+// ——— Qualité des données ———
+
+/**
+ * Repère les colonnes numériques qui ne sont qu'un multiple d'une autre colonne
+ * (rapport constant sur toutes les lignes, ou à l'intérieur de chaque valeur d'une dimension).
+ * Une telle colonne a été recalculée : on ne peut en tirer aucune conclusion indépendante.
+ */
+function controlerQualite(jeu: JeuDeDonnees, lignes: Ligne[], t: Textes): { texte: string; valeurs: number[] }[] {
+  const colonnes = [...new Set(jeu.indicateurs.flatMap((i) => (i.type === "somme" ? [i.nom] : [i.numerateur, i.denominateur])))];
+  const alertes: { texte: string; valeurs: number[] }[] = [];
+  const signalees = new Set<string>();
+
+  const rapportConstant = (sous: Ligne[], a: string, b: string): boolean => {
+    const rapports = sous
+      .map((l) => {
+        const x = lireNombre(l[a]);
+        const y = lireNombre(l[b]);
+        return x !== null && y !== null && y !== 0 ? x / y : null;
+      })
+      .filter((r): r is number => r !== null);
+    if (rapports.length < 4) return false;
+    const moyenne = rapports.reduce((s, r) => s + r, 0) / rapports.length;
+    if (moyenne === 0) return false;
+    const ecartType = Math.sqrt(rapports.reduce((s, r) => s + (r - moyenne) ** 2, 0) / rapports.length);
+    return ecartType / Math.abs(moyenne) < 0.01;
+  };
+
+  for (let i = 0; i < colonnes.length; i++) {
+    for (let j = i + 1; j < colonnes.length; j++) {
+      const a = colonnes[j]!;
+      const b = colonnes[i]!;
+      const cle = `${a}|${b}`;
+      if (rapportConstant(lignes, a, b)) {
+        alertes.push({ texte: `⚠ ${jeu.nom} — ${t.qualiteGlobale(a, b)}`, valeurs: [] });
+        signalees.add(cle);
+        continue;
+      }
+      for (const dim of jeu.dimensions) {
+        const segments = [...new Set(lignes.map((l) => l[dim] ?? ""))].filter((x) => x !== "");
+        if (segments.length < 2) continue;
+        const parSegment = segments.every((seg) => rapportConstant(lignes.filter((l) => l[dim] === seg), a, b));
+        if (parSegment && !signalees.has(cle)) {
+          alertes.push({ texte: `⚠ ${jeu.nom} — ${t.qualiteSegment(a, b, dim)}`, valeurs: [] });
+          signalees.add(cle);
+        }
+      }
+    }
+  }
+  return alertes;
 }
 
 // ——— Calculs ———
@@ -280,6 +334,8 @@ interface Textes {
   decomposition(dim: string): string;
   dispersion(dim: string): string;
   simpson(dim: string, contraires: number, total: number, hausse: boolean): string;
+  qualiteGlobale(a: string, b: string): string;
+  qualiteSegment(a: string, b: string, dim: string): string;
 }
 
 const TEXTES: Record<Locale, Textes> = {
@@ -300,6 +356,10 @@ const TEXTES: Record<Locale, Textes> = {
       `PARADOXE DE SIMPSON (effet de mix) : le total ${hausse ? "monte" : "baisse"} alors que ${c} ${dim}(s) sur ${n} ${
         hausse ? "baissent" : "montent"
       }`,
+    qualiteGlobale: (a, b) =>
+      `QUALITÉ DES DONNÉES : la colonne « ${a} » est proportionnelle à « ${b} » sur toutes les lignes (rapport constant). Elle semble recalculée et n'apporte aucune information indépendante : n'en tirer aucune conclusion (productivité, prix unitaire…) sans vérifier la source.`,
+    qualiteSegment: (a, b, dim) =>
+      `QUALITÉ DES DONNÉES : la colonne « ${a} » est proportionnelle à « ${b} » à l'intérieur de chaque ${dim} (rapport constant par ${dim}). Elle semble recalculée : n'en tirer aucune conclusion indépendante sans vérifier la source.`,
   },
   en: {
     global: "total",
@@ -318,5 +378,9 @@ const TEXTES: Record<Locale, Textes> = {
       `SIMPSON'S PARADOX (mix effect): the total ${hausse ? "rises" : "falls"} while ${c} of ${n} ${dim} values ${
         hausse ? "fall" : "rise"
       }`,
+    qualiteGlobale: (a, b) =>
+      `DATA QUALITY: column "${a}" is proportional to "${b}" on every row (constant ratio). It looks derived and carries no independent information: draw no conclusion from it without checking the source.`,
+    qualiteSegment: (a, b, dim) =>
+      `DATA QUALITY: column "${a}" is proportional to "${b}" within each ${dim} (constant ratio per ${dim}). It looks derived: draw no independent conclusion from it without checking the source.`,
   },
 };

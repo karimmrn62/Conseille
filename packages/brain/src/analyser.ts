@@ -53,7 +53,7 @@ export async function analyser(position: Position, modele: ModeleIA, config: Con
   const coupPrincipal = methode.formulation.coups[0];
   const conseil = coupPrincipal ? await tenirConseil(p, lecture, coupPrincipal) : null;
 
-  const corps = rendreAnalyse({ langue, lecture, formulation: methode.formulation, kpi, conseil });
+  const corps = rendreAnalyse({ langue, lecture, formulation: methode.formulation, kpi, conseil, faits });
   const suspects = chiffresNonSources(
     corps,
     faits,
@@ -66,6 +66,7 @@ export async function analyser(position: Position, modele: ModeleIA, config: Con
     kpi,
     conseil,
     chiffresNonSources: suspects,
+    faits,
   });
 
   return {

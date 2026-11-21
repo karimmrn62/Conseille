@@ -21,7 +21,7 @@ export interface BilanCout {
   dollars: number | null;
 }
 
-export function bilan(modele: string, journal: Consommation[]): BilanCout {
+export function bilan(journal: Consommation[]): BilanCout {
   const somme = journal.reduce(
     (acc, c) => ({
       entree: acc.entree + c.entree,
@@ -32,13 +32,21 @@ export function bilan(modele: string, journal: Consommation[]): BilanCout {
     }),
     { entree: 0, sortie: 0, cacheLu: 0, cacheEcrit: 0, dureeMs: 0 },
   );
-  const tarif = TARIFS[modele];
-  const dollars = tarif
-    ? (somme.entree * tarif.entree +
-        somme.sortie * tarif.sortie +
-        somme.cacheLu * tarif.cacheLu +
-        somme.cacheEcrit * tarif.cacheEcrit) /
-      1_000_000
-    : null;
+  let dollars: number | null = 0;
+  for (const c of journal) {
+    const tarif = TARIFS[c.modele];
+    if (!tarif || dollars === null) {
+      dollars = null;
+      continue;
+    }
+    dollars +=
+      (c.entree * tarif.entree + c.sortie * tarif.sortie + c.cacheLu * tarif.cacheLu + c.cacheEcrit * tarif.cacheEcrit) /
+      1_000_000;
+  }
   return { appels: journal.length, ...somme, dollars };
+}
+
+/** Détail par étape, pour savoir où part l'argent. */
+export function detailParEtape(journal: Consommation[]): { etape: string; modele: string; sortie: number; dollars: number | null }[] {
+  return journal.map((c) => ({ etape: c.etape, modele: c.modele, sortie: c.sortie, dollars: bilan([c]).dollars }));
 }

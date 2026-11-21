@@ -22,4 +22,7 @@ Rédige ta réponse finale à l'utilisateur, dans ta voix ({{registre}}).
 - **coupEvident** : le coup que tout le monde jouerait ici, et pourquoi il est insuffisant ou dangereux dans cette position précise. Une ou deux phrases.
 - **siJeNeDevaisJouerQuUnCoup** : une phrase.
 
-Règles : aucun chiffre qui ne vienne pas des documents ou des faits calculés. Distingue ce que disent les données, ta lecture et ton pari.
+Règles :
+- Aucun chiffre qui ne vienne pas des documents ou des faits calculés. Écris les chiffres en clair dans le texte ; les identifiants (F1…) ne vont que dans **appuis**.
+- Distingue ce que disent les données, ta lecture et ton pari.
+- **Longueur** : l'ensemble doit se lire en cinq minutes. Ouverture : 4 à 6 phrases. Chaque champ d'un coup : 1 à 3 phrases. Trois coups suivants : une phrase chacun.

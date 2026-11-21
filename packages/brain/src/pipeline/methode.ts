@@ -50,7 +50,7 @@ export async function lire(p: ParametresMethode, question: string): Promise<Lect
 /** Étape 2 : plusieurs générations en parallèle, chacune avec des techniques imposées différentes. */
 export async function diverger(p: ParametresMethode, lecture: Lecture): Promise<Candidat[]> {
   const t = libelles(p.langue);
-  const lectureTexte = JSON.stringify(lecture, null, 2);
+  const lectureTexte = resumerLecture(lecture);
   const evidents = lecture.coupsEvidents.map((c) => `- ${c}`).join("\n") || "-";
 
   const lots = await Promise.all(
@@ -82,7 +82,7 @@ export async function noter(
   lecture: Lecture,
   candidats: Candidat[],
 ): Promise<NoteAgregee[]> {
-  const lectureTexte = JSON.stringify(lecture, null, 2);
+  const lectureTexte = resumerLecture(lecture);
   const passes = await Promise.all(
     Array.from({ length: p.config.passesNotation }, (_, i) =>
       p.modele
@@ -95,6 +95,7 @@ export async function noter(
           }),
           schema: SchemaNotation,
           effort: p.config.effortNotation,
+          modele: p.config.modeleNotation,
         })
         .then((r) => r.notes),
     ),
@@ -117,7 +118,7 @@ export async function verifier(
     etape: "verification",
     contexte: p.contexte,
     consigne: consigne("verification", p.langue, {
-      lecture: JSON.stringify(lecture, null, 2),
+      lecture: resumerLecture(lecture),
       candidats: decrireCandidats(retenus),
     }),
     schema: SchemaVerification,
@@ -138,8 +139,8 @@ export async function formuler(
     etape: "formulation",
     contexte: p.contexte,
     consigne: consigne("formulation", p.langue, {
-      lecture: JSON.stringify(lecture, null, 2),
-      retenus: JSON.stringify(survivants, null, 2),
+      lecture: resumerLecture(lecture),
+      retenus: JSON.stringify(survivants),
       registre: t.registre[p.registre],
       maximum: String(p.config.coupsFinaux),
     }),
@@ -183,4 +184,9 @@ function decrireCandidats(candidats: Candidat[]): string {
         `[${c.id}] ${c.titre}\nCoup : ${c.coup}\nTechnique : ${c.technique}\nMécanisme : ${c.mecanisme}\nPourquoi invisible : ${c.pourquoiInvisible}`,
     )
     .join("\n\n");
+}
+
+/** Version compacte de la lecture, transmise aux étapes suivantes (moins de jetons, même contenu). */
+export function resumerLecture(lecture: Lecture): string {
+  return JSON.stringify(lecture);
 }
