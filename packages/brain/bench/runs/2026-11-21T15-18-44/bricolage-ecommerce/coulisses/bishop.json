@@ -1,0 +1,583 @@
+{
+  "position": {
+    "id": "bricolage-ecommerce",
+    "titre": "Enseigne régionale de bricolage : lancer un site e-commerce national",
+    "type": "mission",
+    "question": "Nous répondons à cet appel d'offres. Quelle recommandation stratégique porter dans notre réponse pour nous démarquer des autres cabinets, et que faut-il dire au client ?"
+  },
+  "faits": [],
+  "lecture": {
+    "vraieQuestion": "Où Brico Lys peut-elle gagner avec le numérique (artisans, proximité de 35 magasins) plutôt que sur un e-commerce national où elle part battue, et comment reformuler la commande sans perdre l'appel d'offres ?",
+    "enjeux": [
+      "Enrayer l'érosion : chiffre d'affaires en recul de 3 % sur deux ans, marge des magasins en baisse de 0,5 point par an (cahier des charges).",
+      "Conserver les artisans (38 % du chiffre d'affaires), fidèles mais irrités par 35 minutes d'attente au comptoir et par les ruptures en gros œuvre.",
+      "Ne pas brûler 2,4 M€ et 18 mois sur un pari national, ce qui priverait l'enseigne de sa capacité d'investir ailleurs.",
+      "Crédibilité de la direction générale face à une famille qui veut « ne pas rater le virage du numérique ».",
+      "Pour nous : gagner l'appel d'offres en nous distinguant, sans paraître ignorer ni mépriser la commande écrite."
+    ],
+    "acteurs": [
+      {
+        "nom": "Famille fondatrice (conseil d'administration)",
+        "role": "Actionnaire, arbitre final du choix du cabinet et du projet",
+        "interets": "Pérennité, culture préservée, ne pas paraître dépassée par le numérique",
+        "pouvoir": "fort",
+        "positionProbable": "Attachée au symbole « site national », mais sensible à un récit de pérennité et de culture préservée."
+      },
+      {
+        "nom": "Direction générale",
+        "role": "Émettrice du cahier des charges, sponsor de la mission",
+        "interets": "Montrer au conseil un plan ambitieux, livré dans les délais et le budget",
+        "pouvoir": "fort",
+        "positionProbable": "A écrit la solution dans la commande ; ouverte à un recadrage seulement s'il la protège face au conseil."
+      },
+      {
+        "nom": "Artisans et petites entreprises du bâtiment",
+        "role": "Clients carte pro, 38 % du chiffre d'affaires",
+        "interets": "Gagner du temps le matin, disponibilité du gros œuvre, livraison sur chantier",
+        "pouvoir": "moyen",
+        "positionProbable": "Indifférents à un site national ; partiront vers les négoces ou les nationaux si l'attente et les ruptures persistent."
+      },
+      {
+        "nom": "Directeurs de magasin et équipes, dont la DSI",
+        "role": "Exécutants du projet et garants de la rentabilité locale",
+        "interets": "Protéger le chiffre d'affaires local, éviter une surcharge et la cannibalisation",
+        "pouvoir": "moyen",
+        "positionProbable": "Méfiants envers un canal national concurrent ; favorables à des outils qui allègent le comptoir."
+      },
+      {
+        "nom": "Enseignes nationales et plateformes en ligne",
+        "role": "Concurrents en progression sur le territoire",
+        "interets": "Capter particuliers et artisans par le prix et la livraison",
+        "pouvoir": "fort",
+        "positionProbable": "Prix inférieurs de 5 à 12 % ; une nouvelle venue nationale serait écrasée sur leur propre terrain."
+      }
+    ],
+    "contraintesDures": [
+      "Budget global de 2,4 M€ sur 18 mois, campagnes publicitaires non comprises.",
+      "Capacité informatique interne : un directeur des systèmes d'information et deux techniciens.",
+      "Réponse attendue sous trois semaines, avec un format imposé : besoin, approche, planning, équipe, budget.",
+      "Marge des magasins en baisse de 0,5 point par an : tout projet doit la protéger, pas l'entamer."
+    ],
+    "contraintesSupposees": [
+      "Le site doit être national et livrer partout en France.",
+      "« 10 % du chiffre d'affaires en ligne » serait le bon indicateur de réussite du virage numérique.",
+      "Le numérique viserait d'abord les particuliers ; les artisans en sont absents.",
+      "La logistique passerait forcément par un entrepôt national ou un prestataire.",
+      "Un cabinet ne pourrait pas reformuler le périmètre sans être éliminé."
+    ],
+    "hypothesesImplicites": [
+      {
+        "hypothese": "Le virage numérique se résume à un site marchand national.",
+        "fragilite": "forte",
+        "pourquoi": "Rien ne démontre une demande nationale pour une marque régionale ; les vrais irritants cités sont locaux et concernent les artisans."
+      },
+      {
+        "hypothese": "La marque Brico Lys a une valeur hors des Hauts-de-France et de la Normandie.",
+        "fragilite": "forte",
+        "pourquoi": "Notoriété probablement nulle ailleurs, face à des concurrents moins chers de 5 à 12 %."
+      },
+      {
+        "hypothese": "Le catalogue de 60 000 références en livraison directe apporte du chiffre rentable.",
+        "fragilite": "moyenne",
+        "pourquoi": "Livraison directe : marge faible, contrôle de service faible, produits déjà vendus partout à meilleur prix."
+      },
+      {
+        "hypothese": "Les jeunes particuliers viendront par un site national.",
+        "fragilite": "moyenne",
+        "pourquoi": "Le bricolage reste un achat de proximité ; le rajeunissement peut passer par le service local."
+      },
+      {
+        "hypothese": "2,4 M€ suffisent à lancer et faire tourner un site national.",
+        "fragilite": "forte",
+        "pourquoi": "Hors publicité, sans recrutement et avec trois informaticiens, l'exploitation après lancement n'est pas financée."
+      }
+    ],
+    "anglesMorts": [
+      "Le parcours numérique des artisans : commande la veille, retrait express, livraison sur chantier.",
+      "La rentabilité unitaire d'une commande nationale de produits lourds ou volumineux, retours compris.",
+      "La cannibalisation des magasins et l'effet sur leur marge déjà déclinante.",
+      "Le coût d'exploitation après le lancement : service client, catalogue, informatique.",
+      "Les causes des ruptures en gros œuvre : approvisionnement, prévision, place dans les cours."
+    ],
+    "contradictions": [
+      "Objectif de 10 % en ligne contre 1,2 % aujourd'hui, avec 2,4 M€ hors publicité et trois informaticiens.",
+      "Ambition nationale, alors que les concurrents nationaux gagnent précisément sur le prix et la livraison.",
+      "« Préserver la culture » sans recruter, alors qu'un site national exige des métiers nouveaux.",
+      "Marge en baisse, mais stratégie fondée sur la livraison directe à faible marge et une logistique nationale coûteuse.",
+      "Les artisans pèsent 38 % du chiffre d'affaires et expriment des besoins précis, mais n'apparaissent dans aucun objectif."
+    ],
+    "nonDits": [
+      "La commande décrit une solution, pas un problème : le vrai sujet est l'érosion du chiffre d'affaires et de la marge.",
+      "La direction générale a besoin d'un geste visible pour rassurer la famille.",
+      "Le site actuel, à 1,2 %, est peut-être déjà un demi-échec, jamais analysé.",
+      "Pari à vérifier : la famille pourrait penser transmission ou cession, et vouloir valoriser l'entreprise.",
+      "Les autres cabinets répondront à la lettre ; le client le sait et s'attend à des réponses interchangeables."
+    ],
+    "actifsSousEstimes": [
+      "Une clientèle pro fidèle, identifiée par carte et comptes : historique d'achats exploitable.",
+      "Deux à quatre véhicules de livraison par magasin, utilisés à moins de 40 % de leur capacité.",
+      "Trente-cinq magasins à moins de 25 minutes d'une grande agglomération : réseau de stocks avancés et de points de retrait.",
+      "Des cours à matériaux et 28 000 références en stock local, disponibles immédiatement, là où les plateformes livrent en jours.",
+      "Une relation de proximité et de conseil que les plateformes ne savent pas reproduire."
+    ],
+    "coupsEvidents": [
+      "Répondre à la lettre : benchmark, comparaison de plateformes, choix d'un intégrateur, planning sur 18 mois.",
+      "Élargir le catalogue à 60 000 références en livraison directe, voire lancer une place de marché.",
+      "Confier la logistique nationale à un prestataire plutôt que construire un entrepôt.",
+      "Plan d'acquisition payante et réseaux sociaux pour « rajeunir la marque ».",
+      "Ajouter un volet « omnicanal et données clients » générique, sans hiérarchie ni chiffrage."
+    ],
+    "questionsAPoser": [
+      "Que recouvre « ne pas rater le virage du numérique » pour la famille : croissance, marge, image, valorisation ?",
+      "Quelle latitude accordez-vous à un cabinet pour reformuler le périmètre, et sur quels critères jugerez-vous les réponses ?",
+      "Quelles sont la marge par catégorie et la part des artisans dans les ventes du site actuel ?",
+      "Que révèlent les données carte pro : fréquence, panier, part du besoin des artisans captée par Brico Lys ?",
+      "Quels sont le coût actuel de la flotte de livraison et les causes documentées des ruptures en gros œuvre ?"
+    ]
+  },
+  "methode": {
+    "candidats": [
+      {
+        "titre": "Le comptoir pro de la veille",
+        "coup": "Faire du premier chantier numérique non pas un site national, mais un parcours artisan : commande la veille sur compte carte pro, préparation de nuit, retrait sans attente entre 7 h et 9 h ou livraison sur chantier. Ce service s'appuie sur les deux à quatre véhicules par magasin aujourd'hui utilisés à moins de 40 % de leur capacité.",
+        "technique": "changement d'échiquier",
+        "mecanisme": "On quitte le terrain du prix, où les nationaux sont moins chers de 5 à 12 %, pour celui du temps de l'artisan, où 35 magasins proches des agglomérations battent toute plateforme. Les commandes de la veille donnent aussi une visibilité sur la demande en gros œuvre, ce qui permet d'attaquer les ruptures à la source. On protège ainsi les 38 % du chiffre d'affaires les plus exposés.",
+        "pourquoiInvisible": "Dans les esprits, « e-commerce » signifie particulier et panier en ligne. Les artisans n'apparaissent dans aucun objectif du cahier des charges, et leurs plaintes sont classées en « exploitation magasin », pas en « numérique ».",
+        "id": "C1.1"
+      },
+      {
+        "titre": "Vendre le fini en heures plutôt que l'infini en jours",
+        "coup": "À rebours de l'élargissement à 60 000 références, mettre en ligne uniquement ce qui est physiquement en stock ce matin dans chacun des 35 magasins, avec une promesse de retrait ou de livraison le jour même dans la zone des 25 minutes. Cette offre vise le particulier pressé : la fuite, le chantier du week-end, le matériau lourd.",
+        "technique": "inversion",
+        "mecanisme": "Les plateformes gagnent sur l'étendue du catalogue et le prix. Elles perdent sur l'immédiateté et sur le volumineux. Publier les 28 000 références réellement disponibles localement transforme le stock existant et les cours à matériaux en argument numérique, sans livraison directe à faible marge ni logistique nationale. L'urgence est aussi une porte d'entrée naturelle pour une clientèle plus jeune.",
+        "pourquoiInvisible": "Le réflexe du secteur assimile la réussite en ligne à la taille du catalogue. Réduire l'offre en ligne paraît contre-intuitif, voire timoré, alors que c'est précisément là que la concurrence ne peut pas suivre.",
+        "id": "C1.2"
+      },
+      {
+        "titre": "Changer la mesure du virage numérique",
+        "coup": "Proposer au conseil de remplacer « 10 % du chiffre d'affaires en ligne » par un double indicateur : la part du chiffre d'affaires commandée ou préparée numériquement, comptes pro inclus, et une marge magasin stabilisée. C'est la mesure du numérique que la famille peut suivre trimestre après trimestre.",
+        "technique": "suppression d'une contrainte supposée intouchable",
+        "mecanisme": "L'indicateur actuel ne peut monter qu'en cannibalisant les magasins ou en achetant du chiffre national à faible marge. Le nouvel indicateur compte ce qui transforme réellement l'entreprise, à commencer par les artisans déjà identifiés par carte. Il donne aussi à la direction générale un récit de succès défendable face à la famille, sans renier l'ambition.",
+        "pourquoiInvisible": "Un objectif écrit par le client semble non négociable dans un appel d'offres, et aucun cabinet n'ose toucher au chiffre-totem. Pourtant, c'est cet indicateur qui oriente le projet vers le terrain perdant.",
+        "id": "C1.3"
+      },
+      {
+        "titre": "La porte nationale, ouverte sous condition",
+        "coup": "Ne pas refuser le national : le placer derrière une porte de décision. On teste d'abord la demande hors région, à faible coût, sur quelques catégories via le site actuel, avec des critères d'arrêt ou de poursuite fixés avant le test. Le gros du budget de 2,4 M€ reste réservé aux chantiers régionaux tant que la preuve n'est pas faite.",
+        "technique": "prophylaxie et sacrifice calculé",
+        "mecanisme": "On désamorce l'objection décisive, « ce cabinet n'a pas répondu à la commande », tout en évitant d'engager 18 mois et le budget sur une marque probablement inconnue ailleurs. La famille garde l'option nationale vivante, et la direction générale ne prend pas le risque d'un échec visible. Pour juger le test, il faudra obtenir la marge par catégorie et le coût réel d'une commande lourde, y compris les retours.",
+        "pourquoiInvisible": "Les cabinets pensent en binaire : répondre à la lettre ou recadrer frontalement. L'idée de sacrifier volontairement le calendrier national pour protéger à la fois le client et sa propre candidature n'entre pas dans le format habituel d'une réponse à un appel d'offres.",
+        "id": "C1.4"
+      },
+      {
+        "titre": "Le comptoir pro de la veille",
+        "coup": "Faire des données carte pro le premier chantier numérique : la veille au soir, chaque artisan reçoit une commande pré-remplie à partir de son historique d'achats. Il la valide en un geste. Elle est prête avant 7 h, sur un quai réservé, sans passage au comptoir.",
+        "technique": "le pion oublié",
+        "mecanisme": "Ce coup s'attaque directement aux 35 minutes d'attente entre 7 h et 9 h, sur une clientèle qui pèse 38 % du chiffre d'affaires et qui est déjà identifiée. Il demande peu d'informatique, ce qui reste compatible avec un directeur des systèmes d'information et deux techniciens. Il fidélise là où les plateformes et les nationaux sont les plus faibles.",
+        "pourquoiInvisible": "La carte pro est vue comme un outil de facturation, pas comme une base d'historique exploitable. Le réflexe « e-commerce égale particulier » efface les artisans du sujet numérique, alors qu'ils sont absents de tous les objectifs du cahier des charges.",
+        "id": "C2.1"
+      },
+      {
+        "titre": "Renoncer au national pour gagner la vitesse",
+        "coup": "Abandonner, dans notre réponse, la livraison partout en France et le catalogue de 60 000 références. À la place, un site limité aux zones des 35 magasins, qui affiche le stock réel de chaque magasin et promet un retrait en une heure ou une livraison le jour même. L'objectif de 10 % est remplacé par la part du chiffre d'affaires commandée ou préparée en ligne dans ces zones.",
+        "technique": "sacrifice calculé",
+        "mecanisme": "On cède un terrain où l'enseigne part battue : prix inférieurs de 5 à 12 % chez les concurrents, marque sans notoriété hors de son territoire. On prend en échange un terrain où elle est imbattable : 28 000 références disponibles à moins de 25 minutes, quand les plateformes livrent en plusieurs jours. Le budget de 2,4 M€ sert un canal qui soutient la marge des magasins au lieu de la concurrencer.",
+        "pourquoiInvisible": "La commande écrit la solution (« national »), et aucun cabinet n'ose amputer un objectif fixé par le conseil d'administration. Le prestige du mot « national » fait oublier qu'une enseigne régionale y affronte les nationaux sur leur propre force.",
+        "id": "C2.2"
+      },
+      {
+        "titre": "Le modèle du répartiteur pharmaceutique",
+        "coup": "S'inspirer des grossistes répartiteurs qui réapprovisionnent les pharmacies plusieurs fois par jour depuis quelques dépôts. Quelques magasins dotés des plus grandes cours deviennent des dépôts de gros œuvre. Ils réassortent les autres magasins par navette, avec les véhicules utilisés aujourd'hui à moins de 40 % de leur capacité.",
+        "technique": "analogie lointaine",
+        "mecanisme": "La structure du problème est la même : des points de vente proches, des ruptures coûteuses et une place de stockage limitée. Dans la pharmacie, elle a été résolue par la mutualisation du stock et la fréquence de livraison, sans entrepôt central. Ce coup traite les ruptures de gros œuvre et rentabilise une flotte déjà payée, sans prestataire national ni recrutement massif.",
+        "pourquoiInvisible": "Le cahier des charges oppose deux options seulement, entrepôt national ou prestataire, et cadre la logistique comme un problème de livraison au client final. Personne ne regarde le réassort entre magasins comme un sujet numérique, alors qu'il dépend d'abord de la prévision et de la visibilité des stocks.",
+        "id": "C2.3"
+      },
+      {
+        "titre": "Faire du national un jalon, pas un dogme",
+        "coup": "Proposer à la direction générale une première phase courte qui teste l'hypothèse nationale sur ses propres données : visites et commandes venues de hors région sur le site actuel, coût réel d'une livraison de produit lourd, retours compris. Le « go » national devient une décision du conseil, prise sur des faits, à une date fixée dans le planning.",
+        "technique": "prophylaxie",
+        "mecanisme": "Ce coup anticipe l'objection de la famille, « vous voulez nous faire rater le virage », et protège la direction générale, qui peut présenter une démarche ambitieuse et prudente à la fois. Il nous distingue des réponses à la lettre sans rejeter la commande, ce qui préserve nos chances dans l'appel d'offres.",
+        "pourquoiInvisible": "Les cabinets pensent qu'il faut choisir entre obéir au cahier des charges et le contredire. Ils oublient que le site actuel, à 1,2 % du chiffre d'affaires, contient déjà des données qui permettent de trancher, et que personne ne les a analysées.",
+        "id": "C2.4"
+      },
+      {
+        "titre": "Numériser le comptoir pro avant que les nationaux ne le fassent",
+        "coup": "Faire du premier livrable un parcours artisan : commande la veille via la carte pro, préparation de nuit, retrait express le matin ou livraison sur chantier avec les véhicules existants. Le site national devient une phase ultérieure, conditionnée à ce socle.",
+        "technique": "prophylaxie",
+        "mecanisme": "Les nationaux qui progressent sur le territoire viseront ensuite les artisans, qui pèsent 38 % du chiffre d'affaires et se plaignent de 35 minutes d'attente entre 7 h et 9 h. Fermer cette porte d'abord protège le socle le plus fidèle et remplit des véhicules utilisés à moins de 40 % de leur capacité, sans entrepôt ni recrutement massif.",
+        "pourquoiInvisible": "Le cahier des charges associe le numérique aux particuliers et au rajeunissement. Les artisans n'apparaissent dans aucun objectif, donc aucun cabinet ne les mettra en tête de sa réponse.",
+        "id": "C3.1"
+      },
+      {
+        "titre": "Publier le stock du magasin plutôt qu'un prix national",
+        "coup": "Construire le site autour de la disponibilité en temps réel des 28 000 références de chaque magasin et du « disponible aujourd'hui à moins de 25 minutes », pas autour d'un catalogue national livré en jours. Les recherches sans résultat sont exploitées comme signal d'approvisionnement pour le gros œuvre.",
+        "technique": "effets de second ordre",
+        "mecanisme": "Premier ordre d'un site national : il met chaque prix en comparaison directe avec des concurrents moins chers de 5 à 12 %. Second ordre : il force un alignement des prix en magasin et accélère la baisse de marge de 0,5 point par an. Afficher le stock déplace la comparaison vers l'immédiateté, où Brico Lys gagne, et transforme les recherches infructueuses en données sur les ruptures dont se plaignent les artisans.",
+        "pourquoiInvisible": "On juge un site marchand à son trafic et à ses ventes en ligne, rarement à ce qu'il fait aux prix et aux stocks des magasins. L'effet sur la marge physique n'est visible que deux exercices plus tard.",
+        "id": "C3.2"
+      },
+      {
+        "titre": "Ouvrir la réponse par l'autopsie du projet national",
+        "coup": "Commencer la proposition par un pre-mortem écrit : « septembre 2028, le site national a coûté 2,4 M€ et n'atteint pas 10 % ». Puis proposer un financement par tranches, où la tranche nationale n'est débloquée que si des points de passage sont franchis : marge des magasins, temps d'attente au comptoir, chiffre d'affaires influencé par le numérique.",
+        "technique": "pre-mortem",
+        "mecanisme": "Les causes d'échec sont déjà lisibles dans le dossier : exploitation non financée après le lancement, un directeur des systèmes d'information et deux techniciens, publicité hors budget, notoriété nulle hors des deux régions. La direction générale peut ainsi présenter à la famille un plan ambitieux mais gouverné, qui la protège si l'option nationale ne tient pas ses promesses.",
+        "pourquoiInvisible": "Un cabinet qui répond à un appel d'offres évite de décrire l'échec du projet qu'il veut vendre, par peur d'être éliminé. Pourtant, c'est la seule manière de recadrer la commande sans contredire frontalement le client.",
+        "id": "C3.3"
+      },
+      {
+        "titre": "Relier les particuliers aux artisans de la carte pro",
+        "coup": "Faire du site un lieu où le particulier achète ses matériaux et réserve la pose auprès d'un artisan client de Brico Lys, livré par la flotte locale. L'enseigne passe de vendeur de produits à organisateur du chantier dans sa zone.",
+        "technique": "changement d'échiquier",
+        "mecanisme": "La clientèle jeune achète de plus en plus un résultat plutôt qu'un outil, et les artisans cherchent des chantiers. Brico Lys possède les deux bases, réparties à 62 % et 38 % de son chiffre d'affaires, et la proximité que les plateformes nationales ne savent pas reproduire. Ce service fidélise les artisans, rajeunit la clientèle et sort de la guerre des prix. Le pari reste à valider par des entretiens avec les artisans.",
+        "pourquoiInvisible": "Le cahier des charges traite particuliers et artisans comme deux segments séparés, et le numérique comme un canal de vente. Personne ne pense à faire de l'un le service de l'autre.",
+        "id": "C3.4"
+      }
+    ],
+    "notes": [
+      {
+        "id": "C1.1",
+        "banalite": 3,
+        "pertinence": 9,
+        "coherence": 9,
+        "faisabilite": 8,
+        "score": 7.41,
+        "passes": 3,
+        "commentaires": [
+          "Très solide : change de terrain, cible les artisans, utilise la flotte sous-employée et la visibilité sur la demande ; proche de C3.1 et C2.1, donc à fusionner.",
+          "Excellent changement de terrain avec chiffres du dossier, mais le parcours complet avec livraison sur chantier est plus lourd que C2.1 pour la DSI.",
+          "Parcours artisan de la veille : cible l'irritant le plus clair, protège 38 % du chiffre d'affaires et reste réalisable avec la DSI actuelle."
+        ],
+        "ecarte": null
+      },
+      {
+        "id": "C1.2",
+        "banalite": 3,
+        "pertinence": 7,
+        "coherence": 7,
+        "faisabilite": 6,
+        "score": 3.95,
+        "passes": 3,
+        "commentaires": [
+          "Inversion intelligente du catalogue vers le stock local, mais ciblée sur les particuliers, donc moins prioritaire que les artisans, et le stock en temps réel dépend de l'état des systèmes magasin.",
+          "Inversion juste, mais proche de C2.2 et C3.2, qu'elle double, et centrée sur le particulier pressé, ce qui est faible sur la clientèle jeune.",
+          "Inversion intéressante (stock réel, retrait immédiat), mais le lien avec le rajeunissement est supposé et la synchronisation des stocks pèse sur la petite DSI."
+        ],
+        "ecarte": null
+      },
+      {
+        "id": "C1.3",
+        "banalite": 5,
+        "pertinence": 7,
+        "coherence": 8,
+        "faisabilite": 7,
+        "score": 3.45,
+        "passes": 3,
+        "commentaires": [
+          "Changer l'indicateur est pertinent mais il faut l'oser face au conseil ; seul, il ne donne pas de plan et reste une manœuvre de cadrage.",
+          "Changer le chiffre-totem est juste, mais c'est un habillage de mesure sans action propre, et le toucher de front est risqué dans un appel d'offres.",
+          "Changer l'indicateur totem est lucide et utile, mais c'est un cadrage plus qu'un coup : il ne dit pas quoi construire."
+        ],
+        "ecarte": null
+      },
+      {
+        "id": "C1.4",
+        "banalite": 5,
+        "pertinence": 8,
+        "coherence": 8,
+        "faisabilite": 8,
+        "score": 4.68,
+        "passes": 3,
+        "commentaires": [
+          "Garde l'option nationale vivante et protège la candidature, mais reste un compromis prudent qui ne dit pas où investir le budget.",
+          "Porte de décision astucieuse qui protège la candidature et le budget, mais elle teste le national plutôt que de traiter le vrai problème artisan.",
+          "Porte de décision avec critères d'arrêt fixés d'avance : défendable et sûre, mais proche de C2.4 et assez convenue."
+        ],
+        "ecarte": null
+      },
+      {
+        "id": "C2.1",
+        "banalite": 2,
+        "pertinence": 9,
+        "coherence": 9,
+        "faisabilite": 9,
+        "score": 8.82,
+        "passes": 3,
+        "commentaires": [
+          "Le plus concret et le moins coûteux : commande pré-remplie depuis l'historique carte pro, compatible avec la DSI ; il manque la vérification de la qualité des données d'historique.",
+          "Commande pré-remplie à partir de l'historique carte pro : précis, léger en informatique et directement sur les 35 minutes d'attente.",
+          "Commande pré-remplie à partir de l'historique carte pro : simple, concret, légère en informatique et directement sur l'attente de 35 minutes."
+        ],
+        "ecarte": null
+      },
+      {
+        "id": "C2.2",
+        "banalite": 4,
+        "pertinence": 8,
+        "coherence": 7,
+        "faisabilite": 6,
+        "score": 3.95,
+        "passes": 3,
+        "commentaires": [
+          "Le sacrifice du national est net et défendable, mais il risque l'élimination en contredisant frontalement la commande, et la promesse de retrait en une heure est ambitieuse pour trois informaticiens.",
+          "Recentrage local net et défendable, mais le stock en temps réel sur 35 magasins et le retrait en une heure sont plus lourds qu'annoncé pour trois informaticiens, et le choix de cibler les particuliers laisse les artisans de côté.",
+          "Courageux, mais amputer la commande écrite risque l'élimination ; ce n'est défendable qu'avec un cadre de décision comme C1.4 ou C2.4."
+        ],
+        "ecarte": null
+      },
+      {
+        "id": "C2.3",
+        "banalite": 2,
+        "pertinence": 6,
+        "coherence": 6,
+        "faisabilite": 5,
+        "score": 4.05,
+        "passes": 3,
+        "commentaires": [
+          "Analogie originale qui traite les ruptures en gros œuvre, mais elle sort du périmètre numérique et demande une refonte logistique interne lourde, que les documents ne permettent pas de chiffrer.",
+          "Analogie originale traitant les ruptures, mais loin de la question du virage numérique, et la navette entre magasins demande des flux et de la prévision que le dossier ne documente pas.",
+          "Analogie inattendue qui vise les ruptures et la flotte sous-utilisée, mais éloignée de la commande et de la question numérique ; la logistique inter-magasins reste à chiffrer."
+        ],
+        "ecarte": null
+      },
+      {
+        "id": "C2.4",
+        "banalite": 5,
+        "pertinence": 7,
+        "coherence": 9,
+        "faisabilite": 9,
+        "score": 4.14,
+        "passes": 3,
+        "commentaires": [
+          "Sage et faisable, avec l'idée utile d'exploiter les données du site actuel, mais c'est une phase de test assez attendue chez un cabinet prudent.",
+          "Prudent et sûr pour l'appel d'offres, mais très proche de C1.4 et de C3.3 ; l'analyse des données du site actuel est utile mais peu audacieuse.",
+          "Phase de test sur les données du site actuel : prudent, bien calibré pour l'appel d'offres, mais proche de la porte de décision classique."
+        ],
+        "ecarte": null
+      },
+      {
+        "id": "C3.1",
+        "banalite": 3,
+        "pertinence": 9,
+        "coherence": 9,
+        "faisabilite": 8,
+        "score": 7.55,
+        "passes": 3,
+        "commentaires": [
+          "Vise le bon segment (38 % du chiffre d'affaires, 35 minutes d'attente) avec les actifs existants et garde le national en phase ultérieure, ce qui préserve la candidature.",
+          "Cible le vrai irritant et le socle de 38 %, avec les véhicules existants, et garde le national comme phase ultérieure.",
+          "Cible les artisans avec les véhicules existants et garde le national comme phase ultérieure : bon compromis entre recadrage et respect de la commande."
+        ],
+        "ecarte": null
+      },
+      {
+        "id": "C3.2",
+        "banalite": 3,
+        "pertinence": 7,
+        "coherence": 7,
+        "faisabilite": 6,
+        "score": 4.23,
+        "passes": 3,
+        "commentaires": [
+          "L'effet de second ordre sur les prix et la marge est bien vu, et les recherches sans résultat sont un signal utile ; le gain reste à démontrer et le coup recoupe C1.2.",
+          "Bonne lecture de l'effet sur les prix en magasin et usage malin des recherches sans résultat, mais recoupe C2.2 et C1.2.",
+          "Bon raisonnement de second ordre sur l'effet prix et marge, mais la disponibilité temps réel suppose des stocks fiables, non démontrés."
+        ],
+        "ecarte": null
+      },
+      {
+        "id": "C3.3",
+        "banalite": 4,
+        "pertinence": 7,
+        "coherence": 8,
+        "faisabilite": 8,
+        "score": 4.45,
+        "passes": 3,
+        "commentaires": [
+          "Le pre-mortem et les tranches conditionnelles sont une bonne manière de recadrer sans contredire, mais c'est un dispositif de gouvernance, pas une réponse sur où gagner.",
+          "Le pre-mortem est un bon dispositif de présentation mais, seul, il ne dit pas où gagner, et il peut sembler provocateur dès l'ouverture.",
+          "Le pre-mortem est un bon dispositif de présentation et le financement par tranches protège la direction, mais c'est une forme de réponse plus qu'un coup de fond."
+        ],
+        "ecarte": null
+      },
+      {
+        "id": "C3.4",
+        "banalite": 1,
+        "pertinence": 6,
+        "coherence": 5,
+        "faisabilite": 3,
+        "score": 3.95,
+        "passes": 3,
+        "commentaires": [
+          "Idée originale de plateforme de mise en relation, mais elle crée un métier nouveau, avec responsabilité sur la pose, et elle expose la relation aux artisans avant d'avoir réglé leurs irritants de base.",
+          "Idée la plus originale, mais elle suppose responsabilité sur la pose, assurance et plateforme à double face, ce qui est hors de portée avec ces moyens et reste un pari non étayé.",
+          "Très original, mais risque de responsabilité et de conflit avec les artisans, pose d'un tiers hors métier, et aucune validation ; trop spéculatif pour un dossier de réponse."
+        ],
+        "ecarte": null
+      }
+    ],
+    "verifications": [
+      {
+        "id": "C2.1",
+        "refutation": "Un artisan achète surtout pour un chantier précis, pas selon une routine : l'historique prédit mal le besoin en gros œuvre, et une commande pré-remplie sur un produit en rupture détruit la confiance plus vite qu'elle ne la crée. Une fois ce gadget retiré, le coup ne contient rien de plus que C1.1.",
+        "tient": false,
+        "risque": "Proposer une fonction séduisante en atelier mais ignorée sur le terrain, adossée à des données carte pro dont la qualité n'a jamais été vérifiée.",
+        "conditionsDeSucces": [],
+        "test": "Dans C1.1, extraire l'historique carte pro de deux magasins et mesurer la part des achats qui se répètent d'une semaine à l'autre. La pré-saisie n'a de sens que si cette part est élevée.",
+        "confiance": "faible",
+        "pourMonterLaConfiance": "Il faudrait démontrer, données carte pro à l'appui, que les achats récurrents (consommables, fixations) pèsent lourd dans le panier artisan. La pré-saisie deviendrait alors une option de C1.1, pas un coup à part."
+      },
+      {
+        "id": "C3.1",
+        "refutation": "La menace la plus proche sur les artisans vient peut-être des négoces spécialisés plutôt que des nationaux, et le dossier n'en dit rien. Faire du site national une simple phase ultérieure revient aussi à ne pas livrer ce que la direction générale a promis au conseil.",
+        "tient": true,
+        "risque": "Ce coup est un doublon de C1.1. Son vrai apport est l'argument de prophylaxie, qui doit servir de récit à C1.1 plutôt que de vivre comme une recommandation séparée.",
+        "conditionsDeSucces": [
+          "Identifier nommément les concurrents qui attirent déjà des artisans du territoire.",
+          "Présenter le séquencement comme une condition de réussite du projet national, pas comme son report."
+        ],
+        "test": "Interroger par téléphone une dizaine d'artisans carte pro sur leurs autres fournisseurs et sur ce qui les ferait partir. Relever le nom des concurrents cités et le motif de départ.",
+        "confiance": "moyenne",
+        "pourMonterLaConfiance": "Obtenir les données carte pro sur l'évolution de la fréquence et du panier des artisans, afin de vérifier si l'érosion a déjà commencé chez eux."
+      },
+      {
+        "id": "C1.1",
+        "refutation": "Si les ruptures en gros œuvre persistent, une commande promise prête à 7 h et incomplète aggrave l'irritation. Par ailleurs, la préparation de nuit et la livraison sur chantier exigent du personnel : des véhicules utilisés à moins de 40 % de leur capacité manquent peut-être de chauffeurs plutôt que de commandes.",
+        "tient": true,
+        "risque": "Promettre un service sans avoir fiabilisé le stock gros œuvre ni le temps de préparation, et décevoir précisément les 38 % de clientèle les plus fidèles.",
+        "conditionsDeSucces": [
+          "Ne garantir au démarrage que les références dont la disponibilité est fiable.",
+          "Préparer les commandes sur les creux de l'après-midi, avec les équipes existantes, plutôt que la nuit.",
+          "Vérifier la cause réelle de la sous-utilisation des véhicules (chauffeurs, plannings, demande)."
+        ],
+        "test": "Pendant deux semaines, dans deux magasins volontaires, prendre les commandes de la veille d'artisans par téléphone ou par courriel, sans aucun développement informatique. Mesurer l'adoption, le taux de commandes complètes et le temps d'attente au comptoir avant et après.",
+        "confiance": "moyenne",
+        "pourMonterLaConfiance": "Obtenir les causes documentées des ruptures et le coût actuel de la flotte. Un pilote où l'attente baisse sans rupture ferait passer la confiance à forte."
+      },
+      {
+        "id": "C1.4",
+        "refutation": "Le site actuel est une vitrine avec retrait en magasin : il ne livre pas. Un « test à faible coût » de la demande nationale exige donc paiement, transport et retours, ce qui n'est pas bon marché. De son côté, la famille peut y voir une manœuvre dilatoire.",
+        "tient": true,
+        "risque": "Un test mal conçu, trop timide pour être probant, qui donne raison aux sceptiques comme aux enthousiastes. Les critères d'arrêt doivent être acceptés par le conseil avant le lancement, pas après.",
+        "conditionsDeSucces": [
+          "Tester par un canal qui livre déjà, par exemple une place de marché tierce, sur quelques catégories légères.",
+          "Faire valider par le conseil, avant le test, les critères de poursuite et d'arrêt.",
+          "Obtenir la marge par catégorie et le coût complet d'une commande livrée, retours compris."
+        ],
+        "test": "Extraire de l'outil d'analyse du site actuel la part des visites et des réservations venant hors des deux régions. Utiliser aussi la séance de questions de l'appel d'offres pour sonder la latitude laissée au cabinet.",
+        "confiance": "moyenne",
+        "pourMonterLaConfiance": "Il faut une réponse claire de la direction générale sur ce que la famille entend par « virage du numérique » et sur les critères de notation. Si l'image ou la valorisation priment, le coup se renforce."
+      },
+      {
+        "id": "C3.3",
+        "refutation": "Ouvrir la proposition sur l'échec du projet qu'a écrit la direction générale revient à l'humilier devant la famille qui la juge : c'est le sponsor qui élimine le cabinet. Le financement par tranches, seule partie solide, est déjà porté par C1.4.",
+        "tient": false,
+        "risque": "Paraître arrogant et perdre l'appel d'offres sur la forme, alors que le fond est juste.",
+        "conditionsDeSucces": [],
+        "test": "Faire relire l'ouverture de la proposition par un ancien dirigeant d'enseigne familiale. S'il la lit comme un procès de la direction générale, la déplacer en section « risques » ou en atelier de lancement.",
+        "confiance": "faible",
+        "pourMonterLaConfiance": "Reprendre les causes d'échec (exploitation non financée, trois informaticiens, publicité hors budget) dans la section risques de C1.4. Le pre-mortem peut aussi devenir un atelier co-animé avec la direction générale après attribution."
+      }
+    ],
+    "formulation": {
+      "ouverture": "Tous les cabinets regarderont le site national : plateforme, intégrateur, entrepôt. Il faut regarder les artisans. Ils pèsent 38 % du chiffre d'affaires, attendent jusqu'à 35 minutes au comptoir et subissent des ruptures en gros œuvre. La commande décrit une solution. Le problème est l'érosion : chiffre d'affaires en recul de 3 % sur deux ans, marge en baisse de 0,5 point par an. La vraie question : où le numérique fait-il gagner Brico Lys, et comment le dire sans perdre l'appel d'offres ?",
+      "coups": [
+        {
+          "titre": "Le comptoir pro de la veille",
+          "coup": "Premier livrable numérique : un parcours artisan. Commande la veille sur compte carte pro, retrait sans attente entre 7 h et 9 h ou livraison sur chantier avec les véhicules existants.",
+          "pourquoiPersonne": "Le cahier des charges associe numérique, particuliers et rajeunissement. Les artisans ne figurent dans aucun objectif. Leurs plaintes sont rangées en exploitation magasin. Aucun cabinet ne les mettra en tête.",
+          "pourquoiIlGagne": "Données : les nationaux sont moins chers de 5 à 12 % et les véhicules tournent à moins de 40 %. Lecture : on quitte le terrain du prix pour celui du temps de l'artisan, où 35 magasins proches battent toute plateforme. Pari : les nationaux viseront ensuite les artisans, d'où l'intérêt de verrouiller ce socle d'abord.",
+          "troisCoupsSuivants": [
+            "Lancer un pilote sans informatique dans deux magasins volontaires, avec commandes de la veille par téléphone ou courriel.",
+            "Les directeurs de magasin adhèrent, le comptoir s'allège, et la direction générale demande où est le national.",
+            "Présenter le parcours artisan comme socle logistique du futur site, puis l'étendre aux 35 magasins."
+          ],
+          "risque": "Une commande promise pour 7 h sans stock gros œuvre fiable décevrait les clients les plus fidèles. Les véhicules manquent peut-être de chauffeurs plutôt que de commandes.",
+          "test": "Pendant deux semaines, dans deux magasins, mesurer l'adoption, le taux de commandes complètes et l'attente au comptoir. Interroger aussi dix artisans sur leurs autres fournisseurs.",
+          "confiance": "moyenne",
+          "pourMonterLaConfiance": "Obtenir les causes documentées des ruptures, le coût de la flotte et l'évolution de la fréquence et du panier carte pro.",
+          "appuis": [
+            "Cahier des charges §1 : 38 % du chiffre d'affaires réalisé avec des artisans et petites entreprises du bâtiment (carte pro, comptes clients).",
+            "Cahier des charges §1 : deux à quatre véhicules de livraison par magasin, utilisés à moins de 40 % de leur capacité ; cour à matériaux ; 28 000 références en stock.",
+            "Cahier des charges §2 : attente au comptoir pro jusqu'à 35 minutes entre 7 h et 9 h, ruptures sur le gros œuvre.",
+            "Cahier des charges §2 : concurrents nationaux et plateformes moins chers de 5 à 12 %.",
+            "Cahier des charges §3 : aucun objectif ne concerne les artisans."
+          ]
+        },
+        {
+          "titre": "La porte nationale, ouverte sous condition",
+          "coup": "Ne pas refuser le national, mais le placer derrière une porte de décision. On teste la demande hors région, avec des critères d'arrêt validés par le conseil avant le lancement.",
+          "pourquoiPersonne": "Les cabinets pensent en binaire : répondre à la lettre ou recadrer frontalement. Différer volontairement le calendrier national pour protéger à la fois le client et sa candidature sort du format habituel.",
+          "pourquoiIlGagne": "Le coup désamorce l'objection décisive : « ce cabinet n'a pas répondu ». La famille garde l'option nationale et la direction générale évite un échec visible. Lecture : 2,4 M€ hors publicité, sans recrutement et avec trois informaticiens, ne financent probablement pas l'exploitation d'un site national.",
+          "troisCoupsSuivants": [
+            "Tester quelques catégories légères via une place de marché tierce qui livre déjà partout en France.",
+            "Si la famille soupçonne une manœuvre dilatoire, lui faire valider elle-même des critères de poursuite précis.",
+            "Si la preuve est faite, ouvrir le national sur le socle régional ; sinon, le budget reste disponible."
+          ],
+          "risque": "Un test trop timide ne tranche rien. Le site actuel ne livre pas : tester suppose paiement, transport et retours, donc un coût réel.",
+          "test": "Extraire du site actuel la part des visites et des réservations venant de l'extérieur des deux régions. Sonder, en séance de questions, la latitude laissée pour reformuler le périmètre.",
+          "confiance": "moyenne",
+          "pourMonterLaConfiance": "Savoir ce que la famille entend par « virage du numérique » et connaître les critères de notation des réponses.",
+          "appuis": [
+            "Cahier des charges §1 : le site actuel est une vitrine avec réservation et retrait en magasin, et représente 1,2 % du chiffre d'affaires.",
+            "Cahier des charges §2 : le conseil d'administration familial souhaite « ne pas rater le virage du numérique ».",
+            "Cahier des charges §3 : site national sous 18 mois, objectif de 10 % du chiffre d'affaires en ligne en trois ans.",
+            "Cahier des charges §5 : budget de 2,4 M€ hors campagnes publicitaires, pas de recrutement massif, un directeur des systèmes d'information seul avec deux techniciens."
+          ]
+        }
+      ],
+      "coupEvident": "Répondre à la lettre : plateforme, intégrateur, 60 000 références en livraison directe, logistique nationale. C'est jouer avec une marque probablement inconnue ailleurs, sur le terrain où les concurrents sont moins chers de 5 à 12 %.",
+      "siJeNeDevaisJouerQuUnCoup": "Proposer le comptoir pro de la veille comme premier livrable, en le présentant non comme un report du national, mais comme son socle."
+    }
+  },
+  "kpi": null,
+  "conseil": {
+    "acteurs": [
+      {
+        "acteur": "Direction générale",
+        "reaction": "« Intéressant, mais j'ai demandé un site national. Comment présenter cela au conseil sans donner l'impression de reculer ? »",
+        "objection": "« Un parcours artisan ne tient ni l'objectif de 10 % du chiffre d'affaires en ligne ni le rajeunissement des particuliers. »",
+        "interetCache": "Montrer au conseil un geste visible, livrable en 18 mois, sans porter seule le risque d'un échec national.",
+        "contreCoup": "Présenter le parcours artisan comme première étape d'une feuille de route, avec une option nationale soumise à des critères de déclenchement explicites.",
+        "signal": "Avant la soutenance, elle demande une variante chiffrée ou un entretien, au lieu d'écarter la réponse comme hors périmètre.",
+        "plausibilite": "forte"
+      },
+      {
+        "acteur": "Famille fondatrice (conseil d'administration)",
+        "reaction": "« Les artisans, nous les connaissons déjà. Où est le virage du numérique là-dedans ? »",
+        "objection": "« Un comptoir en ligne pour nos clients actuels ne nous rend pas visibles, alors que les concurrents sont partout. »",
+        "interetCache": "Pérenniser l'entreprise, préserver sa culture et ne pas paraître dépassée. Valoriser l'entreprise reste un pari à vérifier.",
+        "contreCoup": "Présenter le coup comme la défense des 38 % du chiffre d'affaires par les équipes actuelles, sans recrutement massif : numérique et culture réconciliés.",
+        "signal": "Le conseil suit l'avancement du parcours artisan dans les comptes rendus, ou au contraire exige une date de mise en ligne nationale.",
+        "plausibilite": "moyenne"
+      },
+      {
+        "acteur": "Directeurs de magasin et DSI",
+        "reaction": "« Enfin un outil qui désengorge le comptoir. Mais qui prépare les commandes avant 7 h, et sur quel système ? »",
+        "objection": "Préparer les commandes la veille et organiser les tournées alourdit la charge sans renfort, avec un DSI seul et deux techniciens.",
+        "interetCache": "Garder le chiffre d'affaires dans leur magasin, éviter la cannibalisation par un canal national et ne pas subir un projet imposé.",
+        "contreCoup": "Lancer un pilote dans quelques magasins volontaires. Créditer les ventes au magasin. S'appuyer sur la réservation en ligne existante plutôt que reconstruire.",
+        "signal": "Des directeurs se portent volontaires pour le pilote, ou signalent d'emblée un manque de personnel le matin.",
+        "plausibilite": "forte"
+      },
+      {
+        "acteur": "Artisans et petites entreprises du bâtiment",
+        "reaction": "« Si ma commande est prête à 7 h et le gros œuvre disponible, je commande la veille. Sinon, je retourne au comptoir. »",
+        "objection": "Une commande prête mais incomplète, faute de gros œuvre en stock, ruine la promesse dès les premières semaines.",
+        "interetCache": "Gagner du temps de chantier et sécuriser l'approvisionnement. Le prix compte moins s'ils évitent l'attente ou un déplacement.",
+        "contreCoup": "Traiter les ruptures en gros œuvre avant le lancement. Concevoir le parcours avec des artisans réguliers, identifiés grâce aux données carte pro.",
+        "signal": "Part des commandes pro passées la veille et taux de réachat après les premières semaines du pilote.",
+        "plausibilite": "moyenne"
+      }
+    ],
+    "hypotheses": [
+      "La direction générale accepte un recadrage s'il la protège devant le conseil. Aucun document ne précise sa latitude ni les critères de notation.",
+      "Les artisans privilégient le temps au prix et adopteraient la commande la veille. Les données carte pro permettraient de le vérifier.",
+      "Les ruptures en gros œuvre ont des causes corrigeables localement, et les véhicules sous-utilisés sont disponibles aux heures utiles."
+    ],
+    "ordreDeJeu": "D'abord la direction générale, avant la remise, pour tester sa latitude de reformulation. Puis les directeurs de magasin, par un pilote volontaire. Les artisans valident sur le terrain ; la famille arbitre sur preuves."
+  },
+  "chiffresNonSources": [],
+  "markdown": "## L'essentiel\n\n**La vraie question :** Où Brico Lys peut-elle gagner avec le numérique (artisans, proximité de 35 magasins) plutôt que sur un e-commerce national où elle part battue, et comment reformuler la commande sans perdre l'appel d'offres ?\n\n1. **Le comptoir pro de la veille** — Premier livrable numérique : un parcours artisan. Commande la veille sur compte carte pro, retrait sans attente entre 7 h et 9 h ou livraison sur chantier avec les véhicules existants.\n2. **La porte nationale, ouverte sous condition** — Ne pas refuser le national, mais le placer derrière une porte de décision. On teste la demande hors région, avec des critères d'arrêt validés par le conseil avant le lancement.\n\n**Si je ne devais jouer qu'un coup :** Proposer le comptoir pro de la veille comme premier livrable, en le présentant non comme un report du national, mais comme son socle.\n\n## Lecture de la position\n\nTous les cabinets regarderont le site national : plateforme, intégrateur, entrepôt. Il faut regarder les artisans. Ils pèsent 38 % du chiffre d'affaires, attendent jusqu'à 35 minutes au comptoir et subissent des ruptures en gros œuvre. La commande décrit une solution. Le problème est l'érosion : chiffre d'affaires en recul de 3 % sur deux ans, marge en baisse de 0,5 point par an. La vraie question : où le numérique fait-il gagner Brico Lys, et comment le dire sans perdre l'appel d'offres ?\n\n**Le coup évident, et pourquoi je ne le jouerais pas :** Répondre à la lettre : plateforme, intégrateur, 60 000 références en livraison directe, logistique nationale. C'est jouer avec une marque probablement inconnue ailleurs, sur le terrain où les concurrents sont moins chers de 5 à 12 %.\n\n## Les coups\n\n### 1. Le comptoir pro de la veille\n\n**Premier livrable numérique : un parcours artisan. Commande la veille sur compte carte pro, retrait sans attente entre 7 h et 9 h ou livraison sur chantier avec les véhicules existants.**\n\n- **Pourquoi personne ne le joue :** Le cahier des charges associe numérique, particuliers et rajeunissement. Les artisans ne figurent dans aucun objectif. Leurs plaintes sont rangées en exploitation magasin. Aucun cabinet ne les mettra en tête.\n- **Pourquoi il gagne :** Données : les nationaux sont moins chers de 5 à 12 % et les véhicules tournent à moins de 40 %. Lecture : on quitte le terrain du prix pour celui du temps de l'artisan, où 35 magasins proches battent toute plateforme. Pari : les nationaux viseront ensuite les artisans, d'où l'intérêt de verrouiller ce socle d'abord.\n- **Le risque :** Une commande promise pour 7 h sans stock gros œuvre fiable décevrait les clients les plus fidèles. Les véhicules manquent peut-être de chauffeurs plutôt que de commandes.\n- **Le test :** Pendant deux semaines, dans deux magasins, mesurer l'adoption, le taux de commandes complètes et l'attente au comptoir. Interroger aussi dix artisans sur leurs autres fournisseurs.\n- **Confiance :** moyenne. Ce qui la ferait monter : Obtenir les causes documentées des ruptures, le coût de la flotte et l'évolution de la fréquence et du panier carte pro.\n\n### 2. La porte nationale, ouverte sous condition\n\n**Ne pas refuser le national, mais le placer derrière une porte de décision. On teste la demande hors région, avec des critères d'arrêt validés par le conseil avant le lancement.**\n\n- **Pourquoi personne ne le joue :** Les cabinets pensent en binaire : répondre à la lettre ou recadrer frontalement. Différer volontairement le calendrier national pour protéger à la fois le client et sa candidature sort du format habituel.\n- **Pourquoi il gagne :** Le coup désamorce l'objection décisive : « ce cabinet n'a pas répondu ». La famille garde l'option nationale et la direction générale évite un échec visible. Lecture : 2,4 M€ hors publicité, sans recrutement et avec trois informaticiens, ne financent probablement pas l'exploitation d'un site national.\n- **Le risque :** Un test trop timide ne tranche rien. Le site actuel ne livre pas : tester suppose paiement, transport et retours, donc un coût réel.\n- **Le test :** Extraire du site actuel la part des visites et des réservations venant de l'extérieur des deux régions. Sonder, en séance de questions, la latitude laissée pour reformuler le périmètre.\n- **Confiance :** moyenne. Ce qui la ferait monter : Savoir ce que la famille entend par « virage du numérique » et connaître les critères de notation des réponses.\n\n## Le conseil de guerre\n\n_Scénario raisonné à partir des documents, pas une prédiction. Les hypothèses sont listées en fin de section._\n\n- **Direction générale** : « Intéressant, mais j'ai demandé un site national. Comment présenter cela au conseil sans donner l'impression de reculer ? » **Contre-coup :** Présenter le parcours artisan comme première étape d'une feuille de route, avec une option nationale soumise à des critères de déclenchement explicites.\n- **Famille fondatrice (conseil d'administration)** : « Les artisans, nous les connaissons déjà. Où est le virage du numérique là-dedans ? » **Contre-coup :** Présenter le coup comme la défense des 38 % du chiffre d'affaires par les équipes actuelles, sans recrutement massif : numérique et culture réconciliés.\n- **Directeurs de magasin et DSI** : « Enfin un outil qui désengorge le comptoir. Mais qui prépare les commandes avant 7 h, et sur quel système ? » **Contre-coup :** Lancer un pilote dans quelques magasins volontaires. Créditer les ventes au magasin. S'appuyer sur la réservation en ligne existante plutôt que reconstruire.\n- **Artisans et petites entreprises du bâtiment** : « Si ma commande est prête à 7 h et le gros œuvre disponible, je commande la veille. Sinon, je retourne au comptoir. » **Contre-coup :** Traiter les ruptures en gros œuvre avant le lancement. Concevoir le parcours avec des artisans réguliers, identifiés grâce aux données carte pro.\n\n**Ordre de jeu :** D'abord la direction générale, avant la remise, pour tester sa latitude de reformulation. Puis les directeurs de magasin, par un pilote volontaire. Les artisans valident sur le terrain ; la famille arbitre sur preuves.\n\n## Questions à poser\n\n- Que recouvre « ne pas rater le virage du numérique » pour la famille : croissance, marge, image, valorisation ?\n- Quelle latitude accordez-vous à un cabinet pour reformuler le périmètre, et sur quels critères jugerez-vous les réponses ?\n- Quelles sont la marge par catégorie et la part des artisans dans les ventes du site actuel ?\n- Que révèlent les données carte pro : fréquence, panier, part du besoin des artisans captée par Brico Lys ?\n- Quels sont le coût actuel de la flotte de livraison et les causes documentées des ruptures en gros œuvre ?\n",
+  "markdownComplet": "## L'essentiel\n\n**La vraie question :** Où Brico Lys peut-elle gagner avec le numérique (artisans, proximité de 35 magasins) plutôt que sur un e-commerce national où elle part battue, et comment reformuler la commande sans perdre l'appel d'offres ?\n\n1. **Le comptoir pro de la veille** — Premier livrable numérique : un parcours artisan. Commande la veille sur compte carte pro, retrait sans attente entre 7 h et 9 h ou livraison sur chantier avec les véhicules existants.\n2. **La porte nationale, ouverte sous condition** — Ne pas refuser le national, mais le placer derrière une porte de décision. On teste la demande hors région, avec des critères d'arrêt validés par le conseil avant le lancement.\n\n**Si je ne devais jouer qu'un coup :** Proposer le comptoir pro de la veille comme premier livrable, en le présentant non comme un report du national, mais comme son socle.\n\n## Lecture de la position\n\nTous les cabinets regarderont le site national : plateforme, intégrateur, entrepôt. Il faut regarder les artisans. Ils pèsent 38 % du chiffre d'affaires, attendent jusqu'à 35 minutes au comptoir et subissent des ruptures en gros œuvre. La commande décrit une solution. Le problème est l'érosion : chiffre d'affaires en recul de 3 % sur deux ans, marge en baisse de 0,5 point par an. La vraie question : où le numérique fait-il gagner Brico Lys, et comment le dire sans perdre l'appel d'offres ?\n\n## Les coups\n\n### 1. Le comptoir pro de la veille\n\n**Premier livrable numérique : un parcours artisan. Commande la veille sur compte carte pro, retrait sans attente entre 7 h et 9 h ou livraison sur chantier avec les véhicules existants.**\n\n- **Pourquoi personne ne le joue :** Le cahier des charges associe numérique, particuliers et rajeunissement. Les artisans ne figurent dans aucun objectif. Leurs plaintes sont rangées en exploitation magasin. Aucun cabinet ne les mettra en tête.\n- **Pourquoi il gagne :** Données : les nationaux sont moins chers de 5 à 12 % et les véhicules tournent à moins de 40 %. Lecture : on quitte le terrain du prix pour celui du temps de l'artisan, où 35 magasins proches battent toute plateforme. Pari : les nationaux viseront ensuite les artisans, d'où l'intérêt de verrouiller ce socle d'abord.\n- **Les trois coups suivants :**\n  1. Lancer un pilote sans informatique dans deux magasins volontaires, avec commandes de la veille par téléphone ou courriel.\n  2. Les directeurs de magasin adhèrent, le comptoir s'allège, et la direction générale demande où est le national.\n  3. Présenter le parcours artisan comme socle logistique du futur site, puis l'étendre aux 35 magasins.\n- **Le risque :** Une commande promise pour 7 h sans stock gros œuvre fiable décevrait les clients les plus fidèles. Les véhicules manquent peut-être de chauffeurs plutôt que de commandes.\n- **Le test :** Pendant deux semaines, dans deux magasins, mesurer l'adoption, le taux de commandes complètes et l'attente au comptoir. Interroger aussi dix artisans sur leurs autres fournisseurs.\n- **Confiance :** moyenne. Ce qui la ferait monter : Obtenir les causes documentées des ruptures, le coût de la flotte et l'évolution de la fréquence et du panier carte pro.\n- **Appuis :** Cahier des charges §1 : 38 % du chiffre d'affaires réalisé avec des artisans et petites entreprises du bâtiment (carte pro, comptes clients). ; Cahier des charges §1 : deux à quatre véhicules de livraison par magasin, utilisés à moins de 40 % de leur capacité ; cour à matériaux ; 28 000 références en stock. ; Cahier des charges §2 : attente au comptoir pro jusqu'à 35 minutes entre 7 h et 9 h, ruptures sur le gros œuvre. ; Cahier des charges §2 : concurrents nationaux et plateformes moins chers de 5 à 12 %. ; Cahier des charges §3 : aucun objectif ne concerne les artisans.\n\n### 2. La porte nationale, ouverte sous condition\n\n**Ne pas refuser le national, mais le placer derrière une porte de décision. On teste la demande hors région, avec des critères d'arrêt validés par le conseil avant le lancement.**\n\n- **Pourquoi personne ne le joue :** Les cabinets pensent en binaire : répondre à la lettre ou recadrer frontalement. Différer volontairement le calendrier national pour protéger à la fois le client et sa candidature sort du format habituel.\n- **Pourquoi il gagne :** Le coup désamorce l'objection décisive : « ce cabinet n'a pas répondu ». La famille garde l'option nationale et la direction générale évite un échec visible. Lecture : 2,4 M€ hors publicité, sans recrutement et avec trois informaticiens, ne financent probablement pas l'exploitation d'un site national.\n- **Les trois coups suivants :**\n  1. Tester quelques catégories légères via une place de marché tierce qui livre déjà partout en France.\n  2. Si la famille soupçonne une manœuvre dilatoire, lui faire valider elle-même des critères de poursuite précis.\n  3. Si la preuve est faite, ouvrir le national sur le socle régional ; sinon, le budget reste disponible.\n- **Le risque :** Un test trop timide ne tranche rien. Le site actuel ne livre pas : tester suppose paiement, transport et retours, donc un coût réel.\n- **Le test :** Extraire du site actuel la part des visites et des réservations venant de l'extérieur des deux régions. Sonder, en séance de questions, la latitude laissée pour reformuler le périmètre.\n- **Confiance :** moyenne. Ce qui la ferait monter : Savoir ce que la famille entend par « virage du numérique » et connaître les critères de notation des réponses.\n- **Appuis :** Cahier des charges §1 : le site actuel est une vitrine avec réservation et retrait en magasin, et représente 1,2 % du chiffre d'affaires. ; Cahier des charges §2 : le conseil d'administration familial souhaite « ne pas rater le virage du numérique ». ; Cahier des charges §3 : site national sous 18 mois, objectif de 10 % du chiffre d'affaires en ligne en trois ans. ; Cahier des charges §5 : budget de 2,4 M€ hors campagnes publicitaires, pas de recrutement massif, un directeur des systèmes d'information seul avec deux techniciens.\n\n**Le coup évident, et pourquoi je ne le jouerais pas :** Répondre à la lettre : plateforme, intégrateur, 60 000 références en livraison directe, logistique nationale. C'est jouer avec une marque probablement inconnue ailleurs, sur le terrain où les concurrents sont moins chers de 5 à 12 %.\n\n## Le conseil de guerre\n\n_Scénario raisonné à partir des documents, pas une prédiction. Les hypothèses sont listées en fin de section._\n\n### Direction générale\n\n- **Réaction probable :** « Intéressant, mais j'ai demandé un site national. Comment présenter cela au conseil sans donner l'impression de reculer ? »\n- **Objection :** « Un parcours artisan ne tient ni l'objectif de 10 % du chiffre d'affaires en ligne ni le rajeunissement des particuliers. »\n- **Intérêt caché :** Montrer au conseil un geste visible, livrable en 18 mois, sans porter seule le risque d'un échec national.\n- **Contre-coup :** Présenter le parcours artisan comme première étape d'une feuille de route, avec une option nationale soumise à des critères de déclenchement explicites.\n- **Signal à observer :** Avant la soutenance, elle demande une variante chiffrée ou un entretien, au lieu d'écarter la réponse comme hors périmètre.\n- **Plausibilité :** forte\n\n### Famille fondatrice (conseil d'administration)\n\n- **Réaction probable :** « Les artisans, nous les connaissons déjà. Où est le virage du numérique là-dedans ? »\n- **Objection :** « Un comptoir en ligne pour nos clients actuels ne nous rend pas visibles, alors que les concurrents sont partout. »\n- **Intérêt caché :** Pérenniser l'entreprise, préserver sa culture et ne pas paraître dépassée. Valoriser l'entreprise reste un pari à vérifier.\n- **Contre-coup :** Présenter le coup comme la défense des 38 % du chiffre d'affaires par les équipes actuelles, sans recrutement massif : numérique et culture réconciliés.\n- **Signal à observer :** Le conseil suit l'avancement du parcours artisan dans les comptes rendus, ou au contraire exige une date de mise en ligne nationale.\n- **Plausibilité :** moyenne\n\n### Directeurs de magasin et DSI\n\n- **Réaction probable :** « Enfin un outil qui désengorge le comptoir. Mais qui prépare les commandes avant 7 h, et sur quel système ? »\n- **Objection :** Préparer les commandes la veille et organiser les tournées alourdit la charge sans renfort, avec un DSI seul et deux techniciens.\n- **Intérêt caché :** Garder le chiffre d'affaires dans leur magasin, éviter la cannibalisation par un canal national et ne pas subir un projet imposé.\n- **Contre-coup :** Lancer un pilote dans quelques magasins volontaires. Créditer les ventes au magasin. S'appuyer sur la réservation en ligne existante plutôt que reconstruire.\n- **Signal à observer :** Des directeurs se portent volontaires pour le pilote, ou signalent d'emblée un manque de personnel le matin.\n- **Plausibilité :** forte\n\n### Artisans et petites entreprises du bâtiment\n\n- **Réaction probable :** « Si ma commande est prête à 7 h et le gros œuvre disponible, je commande la veille. Sinon, je retourne au comptoir. »\n- **Objection :** Une commande prête mais incomplète, faute de gros œuvre en stock, ruine la promesse dès les premières semaines.\n- **Intérêt caché :** Gagner du temps de chantier et sécuriser l'approvisionnement. Le prix compte moins s'ils évitent l'attente ou un déplacement.\n- **Contre-coup :** Traiter les ruptures en gros œuvre avant le lancement. Concevoir le parcours avec des artisans réguliers, identifiés grâce aux données carte pro.\n- **Signal à observer :** Part des commandes pro passées la veille et taux de réachat après les premières semaines du pilote.\n- **Plausibilité :** moyenne\n\n**Ordre de jeu :** D'abord la direction générale, avant la remise, pour tester sa latitude de reformulation. Puis les directeurs de magasin, par un pilote volontaire. Les artisans valident sur le terrain ; la famille arbitre sur preuves.\n\n**Hypothèses de la simulation :**\n\n- La direction générale accepte un recadrage s'il la protège devant le conseil. Aucun document ne précise sa latitude ni les critères de notation.\n- Les artisans privilégient le temps au prix et adopteraient la commande la veille. Les données carte pro permettraient de le vérifier.\n- Les ruptures en gros œuvre ont des causes corrigeables localement, et les véhicules sous-utilisés sont disponibles aux heures utiles.\n\n## Questions à poser\n\n- Que recouvre « ne pas rater le virage du numérique » pour la famille : croissance, marge, image, valorisation ?\n- Quelle latitude accordez-vous à un cabinet pour reformuler le périmètre, et sur quels critères jugerez-vous les réponses ?\n- Quelles sont la marge par catégorie et la part des artisans dans les ventes du site actuel ?\n- Que révèlent les données carte pro : fréquence, panier, part du besoin des artisans captée par Brico Lys ?\n- Quels sont le coût actuel de la flotte de livraison et les causes documentées des ruptures en gros œuvre ?\n"
+}

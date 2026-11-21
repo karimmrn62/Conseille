@@ -1,0 +1,47 @@
+{
+  "scoreBishop": -2,
+  "passes": [
+    {
+      "ordre": "bishop-en-A",
+      "jugement": {
+        "A": {
+          "originalite": 6,
+          "pertinence": 8,
+          "rigueur": 7,
+          "actionnabilite": 6,
+          "credibilite": 7
+        },
+        "B": {
+          "originalite": 8,
+          "pertinence": 9,
+          "rigueur": 8,
+          "actionnabilite": 9,
+          "credibilite": 8
+        },
+        "preference": "B",
+        "justification": "Les deux réponses font le même recadrage pertinent : les artisans d'abord et le national sous conditions. B le chiffre de façon vérifiable : 10 % ≈ 39 M€ en 2029, 25 % des flux pros suffisent pour l'atteindre, un point de marge vaut 4,1 M€, et la flotte compte de 40 à 85 véhicules inoccupés. B ajoute des leviers concrets : test sur places de marché, mise en relation particuliers-artisans pour rajeunir la clientèle, ventilation des 2,4 M€ et structure de la réponse à l'appel d'offres. A est rigoureuse et honnête sur ses incertitudes, mais reste plus mince et moins directement exploitable pour rédiger une offre gagnante dans les trois semaines."
+      }
+    },
+    {
+      "ordre": "bishop-en-B",
+      "jugement": {
+        "A": {
+          "originalite": 8,
+          "pertinence": 9,
+          "rigueur": 8,
+          "actionnabilite": 9,
+          "credibilite": 8
+        },
+        "B": {
+          "originalite": 6,
+          "pertinence": 8,
+          "rigueur": 6,
+          "actionnabilite": 6,
+          "credibilite": 7
+        },
+        "preference": "A",
+        "justification": "A pose le même recadrage que B, porté par les artisans et un national conditionnel, mais l'étaye par des calculs justes et vérifiables : environ 39 M€ visés, ×8 du CA en ligne, 1 point de marge ≈ 4,1 M€, 25 % des flux pros suffisent, ventilation des 2,4 M€ qui boucle. Elle y ajoute des idées différenciantes (mise en relation particuliers-artisans, test sur places de marché, honoraires variables) et une liste d'indicateurs trompeurs utile au client. B est pertinente et lucide sur les parties prenantes et les questions à poser, mais reste plus mince, peu chiffrée et moins directement exploitable pour construire la réponse à l'appel d'offres."
+      }
+    }
+  ]
+}

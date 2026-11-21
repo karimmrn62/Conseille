@@ -1,0 +1,47 @@
+{
+  "scoreBishop": -2,
+  "passes": [
+    {
+      "ordre": "bishop-en-A",
+      "jugement": {
+        "A": {
+          "originalite": 6,
+          "pertinence": 8,
+          "rigueur": 7,
+          "actionnabilite": 8,
+          "credibilite": 7
+        },
+        "B": {
+          "originalite": 8,
+          "pertinence": 9,
+          "rigueur": 9,
+          "actionnabilite": 8,
+          "credibilite": 9
+        },
+        "preference": "B",
+        "justification": "Les deux réponses identifient correctement l'effet de mix (+1,5 pt contre −0,5 pt d'effet taux), mais B fait elle-même l'analyse sectorielle normande que A se contente de réclamer en test. B montre ainsi que l'effet taux normand est identique à celui du réseau, que le BTP normand bondit de 165 % et que le réseau perdrait environ 2,2 M€ de marge brute au reflux du BTP. B apporte en outre des leviers plus riches (formule de primes alternative, CDII BTP, coefficient contre engagement, contrainte CSE, ratio marge par permanent à vérifier), alors que A, bien structurée en responsables et échéances, reste plus formulaire et moins démonstrative."
+      }
+    },
+    {
+      "ordre": "bishop-en-B",
+      "jugement": {
+        "A": {
+          "originalite": 8,
+          "pertinence": 9,
+          "rigueur": 9,
+          "actionnabilite": 8,
+          "credibilite": 9
+        },
+        "B": {
+          "originalite": 7,
+          "pertinence": 9,
+          "rigueur": 8,
+          "actionnabilite": 8,
+          "credibilite": 8
+        },
+        "preference": "A",
+        "justification": "Les deux réponses posent le bon diagnostic, chiffres exacts à l'appui : effet mix de +1,5 pt, effet taux de −0,5 pt, Normandie à 77 % de la hausse. A va toutefois au bout de l'analyse en calculant les taux normands secteur par secteur, ce qui prouve déjà que le plan de primes n'a rien produit, quand B se contente de demander ce test. A ajoute aussi un stress test chiffré (2,2 M€ de marge à risque), le contrôle de cohérence marge/effectifs et la contrainte CSE sur le calendrier du 1er janvier. B se distingue par des responsables et des échéances nominatifs et par sa prudence sur les colonnes missions et heures, mais il reste en deçà de A sur la valeur de preuve à apporter au comité."
+      }
+    }
+  ]
+}

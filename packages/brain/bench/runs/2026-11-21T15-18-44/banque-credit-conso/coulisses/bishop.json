@@ -1,0 +1,1310 @@
+{
+  "position": {
+    "id": "banque-credit-conso",
+    "titre": "Banque régionale : la production de crédit à la consommation s'envole",
+    "type": "pilotage",
+    "question": "La direction commerciale propose de reconduire et de renforcer en 2027 le challenge commercial sur le crédit à la consommation, qui a fait exploser la production. Faut-il le faire ? Que doit-on présenter au comité de direction ?"
+  },
+  "faits": [
+    {
+      "id": "F1",
+      "texte": "Reporting commercial — total — clients_debut : 742 000 → 730 870 (−1,5 %) (2025 → 2026)",
+      "valeurs": [
+        742000,
+        730870,
+        -11130,
+        -1.5
+      ]
+    },
+    {
+      "id": "F2",
+      "texte": "Reporting commercial — total — clotures : 45 841 → 65 727 (+43,4 %) (2025 → 2026)",
+      "valeurs": [
+        45841,
+        65727,
+        19886,
+        43.4
+      ]
+    },
+    {
+      "id": "F3",
+      "texte": "Reporting commercial — total — ventes_credit_conso : 15 582 → 18 415 (+18,2 %) (2025 → 2026)",
+      "valeurs": [
+        15582,
+        18415,
+        2833,
+        18.2
+      ]
+    },
+    {
+      "id": "F4",
+      "texte": "Reporting commercial — total — production_credit_keur : 183 868 k€ → 206 250 k€ (+12,2 %) (2025 → 2026)",
+      "valeurs": [
+        183868,
+        206250,
+        22382,
+        12.2
+      ]
+    },
+    {
+      "id": "F5",
+      "texte": "Reporting commercial — total — reclamations : 7 717 → 10 302 (+33,5 %) (2025 → 2026)",
+      "valeurs": [
+        7717,
+        10302,
+        2585,
+        33.5
+      ]
+    },
+    {
+      "id": "F6",
+      "texte": "Reporting commercial — total — taux d'attrition : 6,18 % → 8,99 % (+2,81 pt) (2025 → 2026)",
+      "valeurs": [
+        6.18,
+        8.99,
+        2.81
+      ]
+    },
+    {
+      "id": "F7",
+      "texte": "Reporting commercial — total — taux de réclamation : 1,04 % → 1,41 % (+0,37 pt) (2025 → 2026)",
+      "valeurs": [
+        1.04,
+        1.41,
+        0.37
+      ]
+    },
+    {
+      "id": "F8",
+      "texte": "Reporting commercial — direction_regionale « Artois » — clients_debut : 121 000 → 119 185 (−1,5 %)",
+      "valeurs": [
+        121000,
+        119185,
+        -1815,
+        -1.5
+      ]
+    },
+    {
+      "id": "F9",
+      "texte": "Reporting commercial — direction_regionale « Flandre intérieure » — clients_debut : 87 000 → 85 695 (−1,5 %)",
+      "valeurs": [
+        87000,
+        85695,
+        -1305,
+        -1.5
+      ]
+    },
+    {
+      "id": "F10",
+      "texte": "Reporting commercial — direction_regionale « Hainaut » — clients_debut : 98 000 → 96 530 (−1,5 %)",
+      "valeurs": [
+        98000,
+        96530,
+        -1470,
+        -1.5
+      ]
+    },
+    {
+      "id": "F11",
+      "texte": "Reporting commercial — direction_regionale « Métropole » — clients_debut : 254 000 → 250 190 (−1,5 %)",
+      "valeurs": [
+        254000,
+        250190,
+        -3810,
+        -1.5
+      ]
+    },
+    {
+      "id": "F12",
+      "texte": "Reporting commercial — direction_regionale « Nord-Littoral » — clients_debut : 182 000 → 179 270 (−1,5 %)",
+      "valeurs": [
+        182000,
+        179270,
+        -2730,
+        -1.5
+      ]
+    },
+    {
+      "id": "F13",
+      "texte": "Reporting commercial — clients_debut — principales contributions à la variation (par direction_regionale) : « Métropole » −3 810 (34,2 % de la variation totale) ; « Nord-Littoral » −2 730 (24,5 % de la variation totale) ; « Artois » −1 815 (16,3 % de la variation totale)",
+      "valeurs": [
+        -3810,
+        34.2,
+        -2730,
+        24.5,
+        -1815,
+        16.3
+      ]
+    },
+    {
+      "id": "F14",
+      "texte": "Reporting commercial — direction_regionale « Artois » — clotures : 7 339 → 10 447 (+42,3 %)",
+      "valeurs": [
+        7339,
+        10447,
+        3108,
+        42.3
+      ]
+    },
+    {
+      "id": "F15",
+      "texte": "Reporting commercial — direction_regionale « Flandre intérieure » — clotures : 5 334 → 6 959 (+30,5 %)",
+      "valeurs": [
+        5334,
+        6959,
+        1625,
+        30.5
+      ]
+    },
+    {
+      "id": "F16",
+      "texte": "Reporting commercial — direction_regionale « Hainaut » — clotures : 6 194 → 8 134 (+31,3 %)",
+      "valeurs": [
+        6194,
+        8134,
+        1940,
+        31.3
+      ]
+    },
+    {
+      "id": "F17",
+      "texte": "Reporting commercial — direction_regionale « Métropole » — clotures : 16 150 → 24 455 (+51,4 %)",
+      "valeurs": [
+        16150,
+        24455,
+        8305,
+        51.4
+      ]
+    },
+    {
+      "id": "F18",
+      "texte": "Reporting commercial — direction_regionale « Nord-Littoral » — clotures : 10 824 → 15 732 (+45,3 %)",
+      "valeurs": [
+        10824,
+        15732,
+        4908,
+        45.3
+      ]
+    },
+    {
+      "id": "F19",
+      "texte": "Reporting commercial — clotures — principales contributions à la variation (par direction_regionale) : « Métropole » +8 305 (41,8 % de la variation totale) ; « Nord-Littoral » +4 908 (24,7 % de la variation totale) ; « Artois » +3 108 (15,6 % de la variation totale)",
+      "valeurs": [
+        8305,
+        41.8,
+        4908,
+        24.7,
+        3108,
+        15.6
+      ]
+    },
+    {
+      "id": "F20",
+      "texte": "Reporting commercial — direction_regionale « Artois » — ventes_credit_conso : 2 541 → 2 908 (+14,4 %)",
+      "valeurs": [
+        2541,
+        2908,
+        367,
+        14.4
+      ]
+    },
+    {
+      "id": "F21",
+      "texte": "Reporting commercial — direction_regionale « Flandre intérieure » — ventes_credit_conso : 1 827 → 1 929 (+5,6 %)",
+      "valeurs": [
+        1827,
+        1929,
+        102,
+        5.6
+      ]
+    },
+    {
+      "id": "F22",
+      "texte": "Reporting commercial — direction_regionale « Hainaut » — ventes_credit_conso : 2 058 → 2 246 (+9,1 %)",
+      "valeurs": [
+        2058,
+        2246,
+        188,
+        9.1
+      ]
+    },
+    {
+      "id": "F23",
+      "texte": "Reporting commercial — direction_regionale « Métropole » — ventes_credit_conso : 5 334 → 6 720 (+26 %)",
+      "valeurs": [
+        5334,
+        6720,
+        1386,
+        26
+      ]
+    },
+    {
+      "id": "F24",
+      "texte": "Reporting commercial — direction_regionale « Nord-Littoral » — ventes_credit_conso : 3 822 → 4 612 (+20,7 %)",
+      "valeurs": [
+        3822,
+        4612,
+        790,
+        20.7
+      ]
+    },
+    {
+      "id": "F25",
+      "texte": "Reporting commercial — ventes_credit_conso — principales contributions à la variation (par direction_regionale) : « Métropole » +1 386 (48,9 % de la variation totale) ; « Nord-Littoral » +790 (27,9 % de la variation totale) ; « Artois » +367 (13 % de la variation totale)",
+      "valeurs": [
+        1386,
+        48.9,
+        790,
+        27.9,
+        367,
+        13
+      ]
+    },
+    {
+      "id": "F26",
+      "texte": "Reporting commercial — direction_regionale « Artois » — production_credit_keur : 29 984 k€ → 32 574 k€ (+8,6 %)",
+      "valeurs": [
+        29984,
+        32574,
+        2590,
+        8.6
+      ]
+    },
+    {
+      "id": "F27",
+      "texte": "Reporting commercial — direction_regionale « Flandre intérieure » — production_credit_keur : 21 559 k€ → 21 607 k€ (+0,2 %)",
+      "valeurs": [
+        21559,
+        21607,
+        48,
+        0.2
+      ]
+    },
+    {
+      "id": "F28",
+      "texte": "Reporting commercial — direction_regionale « Hainaut » — production_credit_keur : 24 284 k€ → 25 156 k€ (+3,6 %)",
+      "valeurs": [
+        24284,
+        25156,
+        872,
+        3.6
+      ]
+    },
+    {
+      "id": "F29",
+      "texte": "Reporting commercial — direction_regionale « Métropole » — production_credit_keur : 62 941 k€ → 75 262 k€ (+19,6 %)",
+      "valeurs": [
+        62941,
+        75262,
+        12321,
+        19.6
+      ]
+    },
+    {
+      "id": "F30",
+      "texte": "Reporting commercial — direction_regionale « Nord-Littoral » — production_credit_keur : 45 100 k€ → 51 651 k€ (+14,5 %)",
+      "valeurs": [
+        45100,
+        51651,
+        6551,
+        14.5
+      ]
+    },
+    {
+      "id": "F31",
+      "texte": "Reporting commercial — production_credit_keur — principales contributions à la variation (par direction_regionale) : « Métropole » +12 321 (55 % de la variation totale) ; « Nord-Littoral » +6 551 (29,3 % de la variation totale) ; « Artois » +2 590 (11,6 % de la variation totale)",
+      "valeurs": [
+        12321,
+        55,
+        6551,
+        29.3,
+        2590,
+        11.6
+      ]
+    },
+    {
+      "id": "F32",
+      "texte": "Reporting commercial — direction_regionale « Artois » — reclamations : 1 258 → 1 597 (+26,9 %)",
+      "valeurs": [
+        1258,
+        1597,
+        339,
+        26.9
+      ]
+    },
+    {
+      "id": "F33",
+      "texte": "Reporting commercial — direction_regionale « Flandre intérieure » — reclamations : 905 → 1 005 (+11 %)",
+      "valeurs": [
+        905,
+        1005,
+        100,
+        11
+      ]
+    },
+    {
+      "id": "F34",
+      "texte": "Reporting commercial — direction_regionale « Hainaut » — reclamations : 1 019 → 1 197 (+17,5 %)",
+      "valeurs": [
+        1019,
+        1197,
+        178,
+        17.5
+      ]
+    },
+    {
+      "id": "F35",
+      "texte": "Reporting commercial — direction_regionale « Métropole » — reclamations : 2 642 → 3 893 (+47,4 %)",
+      "valeurs": [
+        2642,
+        3893,
+        1251,
+        47.4
+      ]
+    },
+    {
+      "id": "F36",
+      "texte": "Reporting commercial — direction_regionale « Nord-Littoral » — reclamations : 1 893 → 2 610 (+37,9 %)",
+      "valeurs": [
+        1893,
+        2610,
+        717,
+        37.9
+      ]
+    },
+    {
+      "id": "F37",
+      "texte": "Reporting commercial — reclamations — principales contributions à la variation (par direction_regionale) : « Métropole » +1 251 (48,4 % de la variation totale) ; « Nord-Littoral » +717 (27,7 % de la variation totale) ; « Artois » +339 (13,1 % de la variation totale)",
+      "valeurs": [
+        1251,
+        48.4,
+        717,
+        27.7,
+        339,
+        13.1
+      ]
+    },
+    {
+      "id": "F38",
+      "texte": "Reporting commercial — direction_regionale « Artois » — taux d'attrition : 6,07 % → 8,77 % (+2,7 pt)",
+      "valeurs": [
+        6.07,
+        8.77,
+        2.7
+      ]
+    },
+    {
+      "id": "F39",
+      "texte": "Reporting commercial — direction_regionale « Flandre intérieure » — taux d'attrition : 6,13 % → 8,12 % (+1,99 pt)",
+      "valeurs": [
+        6.13,
+        8.12,
+        1.99
+      ]
+    },
+    {
+      "id": "F40",
+      "texte": "Reporting commercial — direction_regionale « Hainaut » — taux d'attrition : 6,32 % → 8,43 % (+2,11 pt)",
+      "valeurs": [
+        6.32,
+        8.43,
+        2.11
+      ]
+    },
+    {
+      "id": "F41",
+      "texte": "Reporting commercial — direction_regionale « Métropole » — taux d'attrition : 6,36 % → 9,77 % (+3,42 pt)",
+      "valeurs": [
+        6.36,
+        9.77,
+        3.42
+      ]
+    },
+    {
+      "id": "F42",
+      "texte": "Reporting commercial — direction_regionale « Nord-Littoral » — taux d'attrition : 5,95 % → 8,78 % (+2,83 pt)",
+      "valeurs": [
+        5.95,
+        8.78,
+        2.83
+      ]
+    },
+    {
+      "id": "F43",
+      "texte": "Reporting commercial — taux d'attrition — décomposition par direction_regionale : variation globale +2,81 pt = effet taux +2,81 pt + effet de mix 0 pt",
+      "valeurs": [
+        2.81,
+        2.81,
+        0
+      ]
+    },
+    {
+      "id": "F44",
+      "texte": "Reporting commercial — taux d'attrition (2026) — dispersion par direction_regionale : minimum « Flandre intérieure » 8,12 %, maximum « Métropole » 9,77 %, écart 1,65 pt",
+      "valeurs": [
+        8.12,
+        9.77,
+        1.65
+      ]
+    },
+    {
+      "id": "F45",
+      "texte": "Reporting commercial — direction_regionale « Artois » — taux de réclamation : 1,04 % → 1,34 % (+0,3 pt)",
+      "valeurs": [
+        1.04,
+        1.34,
+        0.3
+      ]
+    },
+    {
+      "id": "F46",
+      "texte": "Reporting commercial — direction_regionale « Flandre intérieure » — taux de réclamation : 1,04 % → 1,17 % (+0,13 pt)",
+      "valeurs": [
+        1.04,
+        1.17,
+        0.13
+      ]
+    },
+    {
+      "id": "F47",
+      "texte": "Reporting commercial — direction_regionale « Hainaut » — taux de réclamation : 1,04 % → 1,24 % (+0,2 pt)",
+      "valeurs": [
+        1.04,
+        1.24,
+        0.2
+      ]
+    },
+    {
+      "id": "F48",
+      "texte": "Reporting commercial — direction_regionale « Métropole » — taux de réclamation : 1,04 % → 1,56 % (+0,52 pt)",
+      "valeurs": [
+        1.04,
+        1.56,
+        0.52
+      ]
+    },
+    {
+      "id": "F49",
+      "texte": "Reporting commercial — direction_regionale « Nord-Littoral » — taux de réclamation : 1,04 % → 1,46 % (+0,42 pt)",
+      "valeurs": [
+        1.04,
+        1.46,
+        0.42
+      ]
+    },
+    {
+      "id": "F50",
+      "texte": "Reporting commercial — taux de réclamation — décomposition par direction_regionale : variation globale +0,37 pt = effet taux +0,37 pt + effet de mix 0 pt",
+      "valeurs": [
+        0.37,
+        0.37,
+        0
+      ]
+    },
+    {
+      "id": "F51",
+      "texte": "Reporting commercial — taux de réclamation (2026) — dispersion par direction_regionale : minimum « Flandre intérieure » 1,17 %, maximum « Métropole » 1,56 %, écart 0,38 pt",
+      "valeurs": [
+        1.17,
+        1.56,
+        0.38
+      ]
+    }
+  ],
+  "lecture": {
+    "vraieQuestion": "Le challenge crée-t-il de la valeur nette, ou achète-t-il de la production de crédit au prix de la relation client (plus de 60 % du PNB), des conseillers et d'un risque de conformité ACPR ?",
+    "enjeux": [
+      "Le PNB relationnel : 65 727 clôtures en 2026 contre 45 841 (F2), sur une base clients en recul de 1,5 % (F1).",
+      "La conformité : une campagne de renouvelable systématique, étendue aux 18-25 ans, face à la recommandation ACPR 2026 sur le devoir de conseil.",
+      "Le capital humain : le turnover des conseillers passe de 11 % à 16 % (note RH), avec perte de savoir-faire relationnel.",
+      "La qualité du crédit produit : ventes +18,2 % mais montants +12,2 % (F3, F4), donc des tickets plus petits, probablement du renouvelable.",
+      "La crédibilité du pilotage : un comité qui célèbre un indicateur de volume pendant que les indicateurs de stock se dégradent."
+    ],
+    "acteurs": [
+      {
+        "nom": "Direction commerciale",
+        "role": "Auteur du challenge et de la proposition 2027",
+        "interets": "Faire valider son succès, conserver la dynamique de volume et ses propres objectifs",
+        "pouvoir": "fort",
+        "positionProbable": "Pour la reconduction renforcée ; minimise réclamations et clôtures"
+      },
+      {
+        "nom": "Direction générale et comité de direction",
+        "role": "Décideur final",
+        "interets": "PNB durable, réputation, absence de sanction réglementaire",
+        "pouvoir": "fort",
+        "positionProbable": "Séduit par la production, mais réceptif si l'attrition est chiffrée en PNB"
+      },
+      {
+        "nom": "Conformité, risques et direction financière",
+        "role": "Contre-pouvoirs : devoir de conseil, coût du risque, rentabilité",
+        "interets": "Éviter un grief ACPR, des impayés et des contentieux sur le renouvelable",
+        "pouvoir": "moyen",
+        "positionProbable": "Réservés, probablement pas consultés sur la note"
+      },
+      {
+        "nom": "Conseillers en agence",
+        "role": "Exécutants soumis au classement hebdomadaire",
+        "interets": "Prime pour le top 10 ; pression, conflits de conscience et départs pour les autres",
+        "pouvoir": "moyen",
+        "positionProbable": "Divisés : les gagnants pour, la majorité silencieuse contre"
+      },
+      {
+        "nom": "Clients particuliers, notamment les 18-25 ans",
+        "role": "Cibles de la proposition systématique",
+        "interets": "Conseil adapté, absence de sollicitation abusive, coût du crédit",
+        "pouvoir": "moyen",
+        "positionProbable": "Votent avec leurs pieds : clôtures +43,4 %, réclamations +33,5 % (F2, F5)"
+      }
+    ],
+    "contraintesDures": [
+      "La recommandation ACPR 2026 sur la commercialisation du crédit renouvelable et le devoir de conseil.",
+      "Les obligations légales du crédit à la consommation : vérification de solvabilité et offre alternative amortissable au renouvelable.",
+      "Plus de 60 % du PNB vient de la relation globale (note DC) : chaque clôture détruit davantage que le seul crédit.",
+      "Le turnover des conseillers à 16 % limite la capacité à absorber des objectifs relevés de 20 %."
+    ],
+    "contraintesSupposees": [
+      "La production ne pourrait croître sans un challenge à classement public.",
+      "Les objectifs doivent progresser chaque année.",
+      "La part variable doit reposer sur le volume de ventes.",
+      "La proposition doit être systématique plutôt que ciblée sur un besoin.",
+      "La concurrence des banques en ligne serait une fatalité externe sans lien avec nos pratiques."
+    ],
+    "hypothesesImplicites": [
+      {
+        "hypothese": "Plus de production égale plus de valeur.",
+        "fragilite": "forte",
+        "pourquoi": "Aucune donnée sur la marge, l'utilisation des réserves, les impayés, ni sur le PNB perdu avec les clôtures."
+      },
+      {
+        "hypothese": "Les clôtures viennent des banques en ligne.",
+        "fragilite": "forte",
+        "pourquoi": "Elles montent le plus là où le challenge a le plus vendu : Métropole +51,4 %, Flandre intérieure +30,5 % (F17, F15)."
+      },
+      {
+        "hypothese": "Les réclamations viennent du nouvel outil.",
+        "fragilite": "moyenne",
+        "pourquoi": "Un outil commun devrait toucher toutes les régions pareil ; or l'écart va de +0,13 à +0,52 point (F46, F48)."
+      },
+      {
+        "hypothese": "La Métropole est un modèle à suivre.",
+        "fragilite": "forte",
+        "pourquoi": "Elle cumule la plus forte attrition (9,77 %, F41) et le plus fort taux de réclamation (1,56 %, F48)."
+      },
+      {
+        "hypothese": "Les données du reporting sont fiables.",
+        "fragilite": "moyenne",
+        "pourquoi": "Le taux de réclamation 2025 est de 1,04 % dans toutes les régions et la base clients baisse de 1,5 % partout : uniformité suspecte."
+      }
+    ],
+    "anglesMorts": [
+      "Le coût du risque et le taux d'utilisation réel des réserves d'argent ouvertes.",
+      "Le profil des clients partis : détenaient-ils un crédit conso souscrit en 2026 ? Quel PNB emportent-ils ?",
+      "Les ouvertures de comptes, absentes du reporting, alors que la campagne s'y adosse.",
+      "Le coût complet du challenge : primes, remplacement des conseillers partis, traitement des réclamations.",
+      "Les motifs codés des réclamations et des clôtures, jamais exploités dans la note."
+    ],
+    "contradictions": [
+      "La production a « explosé » selon la note, mais progresse de 12,2 % (F4) pendant que les clôtures bondissent de 43,4 % (F2).",
+      "Les ventes progressent plus vite que les montants (+18,2 % contre +12,2 %, F3, F4) : on vend plus de petits crédits.",
+      "Flandre intérieure : production +0,2 % (F27) mais attrition +1,99 point (F39), donc une dégradation commune existe aussi hors effet challenge.",
+      "La note cite la recommandation ACPR puis propose d'étendre la sollicitation systématique aux 18-25 ans."
+    ],
+    "nonDits": [
+      "La direction commerciale est juge et partie : elle évalue un dispositif dont dépendent probablement ses propres objectifs.",
+      "Le classement hebdomadaire et la prime alimentent sans doute la hausse du turnover, que la note ne relie pas au challenge.",
+      "Le gradient régional (Métropole en tête sur tout, Flandre intérieure en queue) désigne le challenge, au risque d'un biais urbain.",
+      "Une partie des « ventes » pourrait être des réserves ouvertes non utilisées, gonflant le compteur sans encours."
+    ],
+    "actifsSousEstimes": [
+      "Flandre intérieure, région la moins exposée au challenge, sert de groupe témoin naturel pour isoler son effet.",
+      "Une base de 730 870 clients (F1) dont la relation globale porte l'essentiel du PNB.",
+      "Les données agence et conseiller, sans doute disponibles, permettraient de croiser ventes, clôtures et réclamations finement.",
+      "Le service relations clientèle, qui détient les motifs de réclamation que personne n'a encore lus."
+    ],
+    "coupsEvidents": [
+      "Reconduire le challenge en ajoutant un indicateur de satisfaction client dans la grille de prime.",
+      "Suspendre le challenge et commander un audit externe.",
+      "Lancer un plan de fidélisation pour contrer les banques en ligne.",
+      "Digitaliser le parcours de crédit pour gagner en efficacité.",
+      "Rédiger une charte éthique de vente et former les conseillers."
+    ],
+    "questionsAPoser": [
+      "Quelle part des clients ayant clôturé ou réclamé en 2026 avait souscrit un crédit conso ou une réserve dans l'année ?",
+      "Quels sont le taux d'utilisation des réserves ouvertes et le taux d'impayés de la production 2026 ?",
+      "Quel PNB annuel moyen portaient les clients partis, comparé à la marge de la production supplémentaire ?",
+      "L'outil de gestion des comptes a-t-il été déployé partout à la même date ? Pourquoi un taux de réclamation 2025 identique partout ?",
+      "La conformité a-t-elle validé la campagne au regard de la recommandation ACPR 2026, et quel est le turnover par rang au classement ?"
+    ]
+  },
+  "methode": {
+    "candidats": [
+      {
+        "titre": "Désarmer les réserves dormantes avant que l'ACPR ne les compte",
+        "coup": "Au premier trimestre 2027, la banque appelle elle-même les clients qui ont ouvert une réserve d'argent en 2026 sans l'utiliser. Elle leur propose de la fermer ou de la convertir en prêt amortissable, en commençant par la Métropole. Cela remplace l'extension aux 18-25 ans prévue par la note.",
+        "technique": "inversion",
+        "mecanisme": "Une réserve ouverte sans encours ne rapporte rien et porte un risque de conformité au regard de la recommandation ACPR 2026. La fermer volontairement constitue une preuve écrite du devoir de conseil et désamorce des réclamations, qui ont progressé de 47,4 % en Métropole. Le stock de réserves inutiles cesse aussi de gonfler le compteur de ventes.",
+        "pourquoiInvisible": "Aucune direction commerciale ne finance une campagne qui fait baisser sa propre production affichée. L'idée qu'une vente puisse être un passif ne vient pas tant que l'on pilote au flux.",
+        "id": "C1.1"
+      },
+      {
+        "titre": "Faire juger la proposition 2027 sur le terrain de la direction financière",
+        "coup": "La proposition n'est inscrite au comité que sous la forme d'un compte de résultat du challenge, co-signé par la direction financière et la conformité. Il met en regard la marge de la production supplémentaire, le PNB relationnel emporté par les clôtures, les primes et le coût de remplacement des conseillers partis. Le comité ne vote plus sur un volume, il vote sur un solde.",
+        "technique": "changement d'échiquier",
+        "mecanisme": "Sur le terrain du volume, la direction commerciale gagne : la production progresse de 12,2 %. Sur le terrain du PNB, les clôtures passent de 45 841 à 65 727, et plus de 60 % du PNB vient de la relation globale. L'argument du challenge doit donc y être démontré plutôt que présumé. Le gradient régional rend ce débat concret : la Métropole est en tête des ventes (+26 %), mais aussi de l'attrition (9,77 %).",
+        "pourquoiInvisible": "Un challenge commercial est perçu comme un sujet d'animation, pas comme un investissement. Personne ne pense à lui demander un retour sur capital. Par habitude, l'auteur de la note est aussi celui qui l'évalue.",
+        "id": "C1.2"
+      },
+      {
+        "titre": "Une prime reprise si le client part ou réclame",
+        "coup": "En 2027, les objectifs ne sont pas relevés et le classement hebdomadaire public est retiré. Toute prime liée à une vente de crédit conso devient récupérable si le client clôture son compte ou dépose une réclamation liée à cette vente dans les douze mois.",
+        "technique": "suppression d'une contrainte supposée intouchable",
+        "mecanisme": "On supprime l'idée qu'une prime commerciale est acquise à la signature. La prime rémunère alors une vente qui tient, et la pression se déplace de la quantité vers l'adéquation au besoin, ce qu'exige le devoir de conseil. La suppression du classement public retire aussi un facteur plausible du passage du turnover de 11 % à 16 %, à vérifier par le turnover par rang.",
+        "pourquoiInvisible": "Les clauses de reprise sont réservées aux salles de marché et jamais pensées pour un conseiller d'agence. Le réflexe est d'ajouter un critère de satisfaction au barème, pas de conditionner la prime dans le temps.",
+        "id": "C1.3"
+      },
+      {
+        "titre": "Retirer la Métropole du challenge pour mesurer ce qu'il vaut",
+        "coup": "Au premier semestre 2027, le challenge est suspendu dans la seule Métropole, qui a fourni 55 % de la hausse de production. Il est maintenu à l'identique ailleurs. La décision de généralisation, d'arrêt ou de refonte se prend en juillet, sur la base de l'écart observé en ventes, clôtures et réclamations.",
+        "technique": "sacrifice calculé",
+        "mecanisme": "On sacrifie temporairement la vitrine du challenge pour obtenir la seule preuve qui manque : un avant-après dans une même région, ce qui neutralise le biais urbain. Si la production tient et que l'attrition reflue, le challenge est démasqué. Si la production s'effondre sans gain sur les clôtures, la direction commerciale est confortée sur des faits.",
+        "pourquoiInvisible": "On ne touche jamais à la région qui gagne : le réflexe est de la donner en modèle, comme le fait la note. Tester un dispositif en le retirant à son meilleur élève heurte l'intuition, alors que c'est là que le signal est le plus fort.",
+        "id": "C1.4"
+      },
+      {
+        "titre": "La prime à reprise, empruntée au courtage d'assurance",
+        "coup": "Ne pas voter la prime doublée du top 10. La remplacer par une prime versée en deux temps, dont la seconde part est reprise si le client clôture son compte ou laisse sa réserve inutilisée dans les douze mois.",
+        "technique": "analogie lointaine",
+        "mecanisme": "Le courtage d'assurance pratique la reprise de commission pour un problème de même structure : un vendeur payé à la signature, une valeur créée par la durée du contrat. Le conseiller retrouve un intérêt personnel à la durée de la relation, qui porte plus de 60 % du PNB selon la note. Les ventes qui alimentent les clôtures, en hausse de 43,4 %, cessent d'être rentables pour lui.",
+        "pourquoiInvisible": "La banque de détail rémunère le flux de l'année et juge son stock ailleurs, dans un autre service et un autre reporting. Personne ne relie la prime d'un trimestre à une clôture survenue neuf mois plus tard.",
+        "id": "C2.1"
+      },
+      {
+        "titre": "Flandre intérieure, le groupe témoin gratuit",
+        "coup": "Présenter au comité un déploiement 2027 en deux bras : le challenge reconduit dans deux régions, et un modèle sans classement public dans deux autres. Flandre intérieure sert de référence. Le critère de succès est fixé à l'avance : la production nette des clôtures.",
+        "technique": "le pion oublié",
+        "mecanisme": "Flandre intérieure a très peu vendu (production +0,2 %), mais son attrition monte quand même de 1,99 point. Ce mouvement mesure la dérive commune, banques en ligne et outil compris. L'écart avec la Métropole (+3,42 points) donne la part qu'on peut imputer au challenge. Le comité tranche ensuite sur une preuve, et non sur la thèse d'une direction juge et partie.",
+        "pourquoiInvisible": "La région la plus faible est lue comme un retard à combler, jamais comme un instrument de mesure. Le comité, lui, est habitué à voter oui ou non, pas à concevoir une expérience.",
+        "id": "C2.2"
+      },
+      {
+        "titre": "Rendre les réserves dormantes avant qu'on ne les compte",
+        "coup": "Retirer l'extension aux 18-25 ans. Contacter les clients ayant ouvert une réserve d'argent en 2026 sans l'utiliser, pour leur proposer de la fermer ou de la convertir en prêt amortissable. Le tout est documenté comme une démarche de devoir de conseil.",
+        "technique": "sacrifice calculé",
+        "mecanisme": "On sacrifie une partie du compteur de ventes 2026 et un potentiel d'encours renouvelable. En échange, on obtient un dossier présentable face à la recommandation ACPR 2026, un stock assaini et une baisse probable des réclamations, en hausse de 33,5 %. L'effet sur le volume reste à mesurer : le taux d'utilisation des réserves n'est pas dans les données.",
+        "pourquoiInvisible": "Aucune direction commerciale ne détruit volontairement une production qu'elle vient d'afficher. Or la note cite la recommandation ACPR puis propose l'inverse : le risque n'est perçu que lorsqu'un contrôle le révèle.",
+        "id": "C2.3"
+      },
+      {
+        "titre": "Changer de rapporteur : un compte de résultat du challenge",
+        "coup": "Demander que le bilan soit présenté par le contrôle de gestion, avec un compte net. D'un côté, la marge de la production supplémentaire (+22 382 k€ de production selon le reporting). De l'autre, les primes, le remplacement des conseillers partis (turnover de 11 % à 16 %), le traitement des réclamations et le PNB emporté par les clôtures supplémentaires. La direction commerciale contribue au bilan, elle ne le signe plus seule.",
+        "technique": "changement d'échiquier",
+        "mecanisme": "Le débat quitte le terrain du volume, où la direction commerciale gagne toujours, pour celui de la valeur, où chaque coût a un propriétaire. Aucun de ces coûts n'est chiffré aujourd'hui : le contrôle de gestion doit les extraire. Ce simple constat suffit à suspendre le relèvement des objectifs de 20 %.",
+        "pourquoiInvisible": "Par habitude de gouvernance, l'auteur d'un dispositif en présente le bilan. Et un challenge commercial n'est jamais traité comme un investissement doté d'un coût et d'un rendement.",
+        "id": "C2.4"
+      },
+      {
+        "titre": "Prendre l'ACPR de vitesse sur les réserves dormantes",
+        "coup": "Avant le comité, faire passer par la conformité un échantillon des réserves d'argent ouvertes en 2026, puis proposer aux clients concernés de fermer leur réserve inutilisée ou de la convertir en prêt amortissable. L'extension aux 18-25 ans est gelée tant que cette revue n'est pas close.",
+        "technique": "prophylaxie",
+        "mecanisme": "La banque documente elle-même sa conformité à la recommandation ACPR 2026 au lieu de la découvrir lors d'un contrôle. Elle retire au passage l'argument central de la direction commerciale, qui veut élargir la sollicitation à une population plus fragile. Un client qui se voit proposer de fermer un produit dont il n'a pas besoin a moins de raisons de clôturer son compte.",
+        "pourquoiInvisible": "Fermer des contrats qu'on vient de vendre ressemble à un recul commercial, et personne n'est payé pour réduire un compteur. On attend aussi le contrôle du régulateur au lieu de l'anticiper.",
+        "id": "C3.1"
+      },
+      {
+        "titre": "Payer la prime un an plus tard, sur le client resté",
+        "coup": "Garder la prime, mais la verser douze mois après la vente, et seulement si le client est toujours là et n'a déposé aucune réclamation sur ce crédit. Ce mécanisme remplace le doublement de prime prévu pour le top 10.",
+        "technique": "effets de second ordre",
+        "mecanisme": "Premier ordre : la vente forcée perd tout intérêt pour le conseiller. Second ordre : le classement change de sens, car les conseillers dont les clients partent disparaissent du top 10. Troisième ordre : la banque observe enfin si ses meilleurs vendeurs sont aussi ceux qui gardent leurs clients, alors que les clôtures sont passées de 45 841 à 65 727 en un an.",
+        "pourquoiInvisible": "La rémunération variable se pense par trimestre et par flux, et le PNB relationnel (plus de 60 % du total) n'apparaît dans aucune grille commerciale. Le différé est aussi un sujet RH délicat quand le turnover est déjà à 16 %, ce qui décourage de le poser sur la table.",
+        "id": "C3.2"
+      },
+      {
+        "titre": "Transformer 2027 en test contrôlé par agence",
+        "coup": "Pré-mortem : en 2028, le challenge renforcé a échoué et personne ne peut dire s'il était la cause, faute de preuve. Pour l'éviter, on tire au sort la moitié des 142 agences pour appliquer le challenge, l'autre moitié sert de témoin, avec un point de décision en juin 2027. On fiabilise d'abord le reporting : un taux de réclamation 2025 identique de 1,04 % dans les cinq régions est suspect.",
+        "technique": "pre-mortem",
+        "mecanisme": "Le gradient régional actuel ne suffit pas. Métropole est en tête sur tout, avec 9,77 % d'attrition et 1,56 % de réclamations, ce qui peut aussi être un effet urbain. Et Flandre intérieure perd 1,99 point d'attrition avec une production quasi stable (+0,2 %). Le tirage au sort sépare l'effet du challenge de celui de l'outil et des banques en ligne, et le débat passe des opinions aux faits.",
+        "pourquoiInvisible": "Une banque de réseau déploie ses dispositifs partout en même temps et confond pilotage et expérimentation. Accepter un groupe témoin, c'est aussi admettre qu'on ne connaît pas la réponse, ce qu'aucune direction ne présente spontanément en comité.",
+        "id": "C3.3"
+      },
+      {
+        "titre": "Confier les clients nets à la direction commerciale",
+        "coup": "Le comité ne vote pas le challenge : il change l'objectif de la direction commerciale. À partir de 2027, celle-ci est évaluée sur le nombre de clients en fin d'année et sur le PNB relationnel, la production de crédit devenant un indicateur secondaire. Elle reste libre de reconduire ou non son challenge.",
+        "technique": "changer d'échiquier",
+        "mecanisme": "Le débat quitte le terrain du dispositif, où la direction commerciale est forte, pour celui de la responsabilité. La base clients recule de 1,5 % pendant que les ventes montent de 18,2 % et les montants de seulement 12,2 % : avec ce nouvel objectif, la direction commerciale corrigera d'elle-même les excès. Le comité n'a ni à désavouer ni à micro-gérer.",
+        "pourquoiInvisible": "Par habitude, on juge le dispositif plutôt que l'objectif qui l'a produit. L'attrition est rangée par réflexe chez la relation clientèle ou dans la concurrence, jamais chez ceux qui vendent.",
+        "id": "C3.4"
+      }
+    ],
+    "notes": [
+      {
+        "id": "C1.1",
+        "banalite": 4,
+        "pertinence": 7,
+        "coherence": 8,
+        "faisabilite": 7,
+        "score": 3.86,
+        "passes": 3,
+        "commentaires": [
+          "Même idée que C3.1, avec une inversion marquée, mais l'appel client sur la seule Métropole et le pari sur les réserves dormantes restent à prouver, sans donnée d'utilisation.",
+          "Appeler les clients à réserve dormante est une inversion intéressante, mais très proche de C2.3 et C3.1 et d'un effet incertain sur l'attrition.",
+          "Même idée que C2.3 et C3.1, bien argumentée, mais sans nouveauté dans ce lot."
+        ],
+        "ecarte": null
+      },
+      {
+        "id": "C1.2",
+        "banalite": 5,
+        "pertinence": 9,
+        "coherence": 9,
+        "faisabilite": 8,
+        "score": 5.64,
+        "passes": 3,
+        "commentaires": [
+          "Même logique que C2.4 avec la co-signature de la finance et de la conformité, solide et faisable, mais assez attendue pour un comité.",
+          "Déplacer le débat du volume vers le solde de PNB est le bon terrain, sobre et immédiatement présentable, même s'il ressemble à un classique du contrôle de gestion.",
+          "Compte de résultat co-signé finance et conformité : solide, mais proche de C2.4 et assez attendu."
+        ],
+        "ecarte": null
+      },
+      {
+        "id": "C1.3",
+        "banalite": 4,
+        "pertinence": 8,
+        "coherence": 8,
+        "faisabilite": 5,
+        "score": 4.73,
+        "passes": 3,
+        "commentaires": [
+          "Supprimer classement et hausse d'objectif, avec reprise de prime, traite plusieurs causes plausibles, mais le paquet est lourd à rendre opérationnel et la reprise sur réclamation pose un problème social.",
+          "Combine gel des objectifs, fin du classement et reprise de prime : cohérent avec le devoir de conseil, mais plusieurs mesures à la fois, délicates en droit social.",
+          "Prime récupérable et retrait du classement ciblent la vraie cause, mais la clause de reprise est lourde juridiquement et RH avec un turnover à 16 %."
+        ],
+        "ecarte": null
+      },
+      {
+        "id": "C1.4",
+        "banalite": 3,
+        "pertinence": 8,
+        "coherence": 6,
+        "faisabilite": 6,
+        "score": 5.5,
+        "passes": 3,
+        "commentaires": [
+          "Retirer la région qui tire 55 % de la hausse donne un signal fort mais le biais urbain subsiste, un avant-après n'est pas un témoin, et le coût commercial est élevé.",
+          "Retirer le challenge à la vitrine est audacieux et donne un vrai avant-après, mais sacrifier 55 % de la hausse de production sans témoin est risqué et l'effet saisonnier brouille la lecture.",
+          "Retirer la Métropole donne un test intra-région original, mais le sacrifice politique est fort et l'attribution reste exposée à d'autres effets."
+        ],
+        "ecarte": null
+      },
+      {
+        "id": "C2.1",
+        "banalite": 4,
+        "pertinence": 8,
+        "coherence": 7,
+        "faisabilite": 5,
+        "score": 3.68,
+        "passes": 3,
+        "commentaires": [
+          "La reprise de prime aligne le vendeur sur la durée de la relation, ce qui colle aux clôtures et au PNB, avec une difficulté de traçabilité et un risque RH avec un turnover à 16 %.",
+          "L'analogie avec la reprise de commission du courtage est élégante et aligne prime et durée, mais la reprise sur réserve inutilisée est discutable et complexe à administrer.",
+          "Analogie avec le courtage d'assurance, mais la reprise pour réserve inutilisée peut inciter à pousser l'usage de la réserve, ce qui est contre-productif."
+        ],
+        "ecarte": null
+      },
+      {
+        "id": "C2.2",
+        "banalite": 3,
+        "pertinence": 8,
+        "coherence": 5,
+        "faisabilite": 5,
+        "score": 4.68,
+        "passes": 3,
+        "commentaires": [
+          "Idée du témoin naturel élégante, mais Flandre intérieure n'est pas exposée comparable à la Métropole, donc la comparaison reste biaisée, et le déploiement à deux bras tombe dans l'imprécision.",
+          "Bonne idée de groupe témoin, mais Flandre intérieure n'est pas un témoin propre (région moins exposée, attrition en hausse aussi) et le deux contre deux reste biaisé.",
+          "Flandre intérieure comme témoin est séduisant, mais elle est exposée au challenge et l'attribution entre deux bras de régions différentes ne tient pas."
+        ],
+        "ecarte": null
+      },
+      {
+        "id": "C2.3",
+        "banalite": 4,
+        "pertinence": 7,
+        "coherence": 8,
+        "faisabilite": 7,
+        "score": 3.86,
+        "passes": 3,
+        "commentaires": [
+          "Troisième variante des réserves dormantes, utile pour la conformité mais périphérique face à la vraie question et dépendante d'un taux d'utilisation inconnu.",
+          "Réserves dormantes rendues avant contrôle : bon geste prophylactique, mais redondant avec C1.1 et C3.1 et sans lien démontré avec les clôtures.",
+          "Sacrifice calculé et défendable face à l'ACPR, mais le taux de dormance n'est pas connu, donc le gain reste hypothétique."
+        ],
+        "ecarte": null
+      },
+      {
+        "id": "C2.4",
+        "banalite": 5,
+        "pertinence": 9,
+        "coherence": 9,
+        "faisabilite": 8,
+        "score": 5.64,
+        "passes": 3,
+        "commentaires": [
+          "Le compte de résultat du challenge porté par le contrôle de gestion est simple, immédiat et répond directement à la question de la valeur nette, mais l'idée d'un bilan indépendant reste assez classique.",
+          "Faire présenter un compte net par le contrôle de gestion est pertinent et faisable, mais proche de C1.2 et assez attendu, avec un chiffre de production citant bien le reporting.",
+          "Changer de rapporteur est sain et réaliste, mais c'est un compte de résultat que beaucoup de consultants réclameraient d'emblée."
+        ],
+        "ecarte": null
+      },
+      {
+        "id": "C3.1",
+        "banalite": 4,
+        "pertinence": 8,
+        "coherence": 8,
+        "faisabilite": 7,
+        "score": 4.82,
+        "passes": 3,
+        "commentaires": [
+          "Bonne prophylaxie ACPR, mais elle traite un risque de conformité sans répondre à la question centrale sur la valeur du challenge et suppose un lien dormant-clôtures non démontré.",
+          "Anticiper l'ACPR par une revue des réserves dormantes est pertinent et défendable, mais cela traite le risque de conformité, pas la question centrale de l'attrition.",
+          "Prophylaxie réglementaire bien posée, avec un gel de l'extension aux 18-25 ans cohérent avec la recommandation ACPR."
+        ],
+        "ecarte": null
+      },
+      {
+        "id": "C3.2",
+        "banalite": 4,
+        "pertinence": 8,
+        "coherence": 7,
+        "faisabilite": 5,
+        "score": 3.82,
+        "passes": 3,
+        "commentaires": [
+          "Le différé à douze mois change la lecture du classement, mais il alourdit la rémunération et risque d'aggraver le turnover déjà à 16 %, sans suivi défini des réclamations par crédit.",
+          "Prime différée sur client conservé : logique de second ordre solide, avec un risque RH réel à 16 % de turnover et un délai de douze mois avant tout signal.",
+          "Prime différée à douze mois, raisonnement en cascade intéressant, mais difficile à vendre quand le turnover est déjà à 16 %."
+        ],
+        "ecarte": null
+      },
+      {
+        "id": "C3.3",
+        "banalite": 3,
+        "pertinence": 9,
+        "coherence": 7,
+        "faisabilite": 5,
+        "score": 6.77,
+        "passes": 3,
+        "commentaires": [
+          "Le test aléatoire par agence est le meilleur moyen de séparer challenge, outil et banques en ligne, et la fiabilisation du reporting est un vrai plus, mais le tirage sur 142 agences coûte cher en complexité et en équité interne.",
+          "Tirage au sort par agence avec fiabilisation préalable du reporting : le plus rigoureux pour isoler l'effet du challenge, mais lourd à monter avant juin 2027 et la direction commerciale risque de résister.",
+          "Test randomisé par agence et fiabilisation du reporting sont rigoureux, mais la lourdeur et l'inégalité entre agences sont difficiles à tenir en 2027."
+        ],
+        "ecarte": null
+      },
+      {
+        "id": "C3.4",
+        "banalite": 3,
+        "pertinence": 9,
+        "coherence": 8,
+        "faisabilite": 7,
+        "score": 7.82,
+        "passes": 3,
+        "commentaires": [
+          "Déplace la partie de l'outil vers la responsabilité de la direction commerciale, ce qui est pertinent et peu banal, mais ne tranche pas la décision 2027 et laisse un risque de contournement par un autre challenge.",
+          "Changer l'objectif de la direction commerciale s'attaque à la racine du biais juge et partie, mais c'est une décision de gouvernance lourde qui ne tranche pas la question 2027 et la direction pourrait contourner.",
+          "Déplacer l'objectif de la direction commerciale vers clients nets et PNB relationnel attaque la racine du problème, avec peu de friction."
+        ],
+        "ecarte": null
+      }
+    ],
+    "verifications": [
+      {
+        "id": "C3.4",
+        "refutation": "La direction commerciale ne maîtrise pas seule la base clients : outil de gestion, tarifs, banques en ligne. Elle contestera un objectif injuste. Surtout, la laisser « libre » de son challenge revient à lui déléguer l'extension aux 18-25 ans et le doublement de prime du top 10, alors que le risque ACPR relève du comité. Enfin, l'objectif « clients nets » peut se tricher en freinant les clôtures, ce que la mobilité bancaire interdit.",
+        "tient": true,
+        "risque": "Le PNB relationnel réagit avec retard : les dégâts d'une campagne 2027 n'apparaîtraient qu'en 2028, trop tard pour corriger. Une direction notée sur un indicateur qu'elle juge injuste peut aussi le manipuler, par exemple en retardant des clôtures.",
+        "conditionsDeSucces": [
+          "Le comité garde la main sur deux points : il refuse ou suspend l'extension aux 18-25 ans, et il soumet toute campagne de crédit renouvelable à l'avis préalable de la conformité.",
+          "Objectif partagé avec la relation clientèle, mesuré chaque mois par agence et assorti d'un indicateur de qualité des clôtures (motif, délai de traitement).",
+          "La production de crédit reste suivie comme garde-fou, pour éviter que l'objectif ne bascule dans l'immobilisme commercial."
+        ],
+        "test": "Le contrôle de gestion recalcule l'année 2026 de la direction commerciale avec ce nouveau tableau de bord : base clients en recul de 1,5 % et attrition passée de 6,18 % à 8,99 %. Il vérifie aussi que le PNB relationnel peut être produit chaque mois par agence. On présente ce bilan à la direction commerciale avant le comité pour mesurer sa réaction.",
+        "confiance": "moyenne",
+        "pourMonterLaConfiance": "Il faut prouver que le PNB relationnel par agence existe dans les systèmes. Il faut aussi qu'un échantillon de clôtures montre une part significative de clients sollicités par la campagne."
+      },
+      {
+        "id": "C3.3",
+        "refutation": "Le test expose délibérément les clients de la moitié des agences à une pratique peut-être contraire à la recommandation ACPR, ce qui est indéfendable si elle est sanctionnée. Les agences voisines se contaminent : clients multi-agences, conseillers mutés, comparaison des primes, ce qui peut accroître le turnover dans le groupe témoin. Six mois suffisent mal à voir les clôtures, qui suivent la vente avec retard.",
+        "tient": true,
+        "risque": "Le test donne un signal brouillé en juin 2027 et sert de prétexte pour généraliser par défaut. Les conseillers du groupe témoin, privés de prime, peuvent aussi partir.",
+        "conditionsDeSucces": [
+          "On teste le challenge 2026 tel quel, sans relèvement des objectifs, sans extension aux 18-25 ans ni doublement de prime, et après validation de la conformité.",
+          "Le tirage au sort se fait par secteurs d'agences proches, et non agence par agence, pour limiter la contamination. Le groupe témoin reçoit une compensation de rémunération neutre.",
+          "Le reporting est fiabilisé avant le lancement. Les indicateurs sont fixés à l'avance : clôtures et réclamations des clients sollicités, et non les seuls totaux."
+        ],
+        "test": "En deux semaines : un audit de qualité explique pourquoi le taux de réclamation 2025 vaut 1,04 % dans les cinq régions et pourquoi la base recule de 1,5 % partout. Le contrôle de gestion extrait les données 2026 par agence. Un analyste interne vérifie que les écarts entre agences permettent de détecter un effet avant juin.",
+        "confiance": "moyenne",
+        "pourMonterLaConfiance": "Il faut que l'audit confirme que les données par agence sont fiables et que la conformité valide le périmètre testé. Il faut aussi que le calcul de puissance montre qu'un effet sur les clôtures est visible dès juin."
+      },
+      {
+        "id": "C1.2",
+        "refutation": "La plupart des lignes du compte manquent aujourd'hui : marge de la production, PNB par client parti, coût du risque. Ce dernier ne se verra pas avant que les crédits 2026 vieillissent. Imputer toutes les clôtures supplémentaires au challenge est contestable : la Flandre intérieure perd 1,99 point d'attrition avec une production quasi stable (+0,2 %), signe d'une dégradation commune. Le comité risque donc d'arbitrer une bataille d'hypothèses.",
+        "tient": true,
+        "risque": "La direction commerciale fait échouer l'exercice en contestant l'attribution des clôtures. Le compte, présenté comme un chiffre unique, perd alors sa crédibilité.",
+        "conditionsDeSucces": [
+          "Le solde est présenté en fourchette, selon plusieurs scénarios d'attribution. Seule l'attrition supérieure à la dérive observée dans la région la moins exposée est imputée au challenge.",
+          "La production (volume prêté) est distinguée de la marge : un compte de résultat ne peut pas additionner des encours et du PNB.",
+          "Tant que le solde n'est pas démontré positif, le relèvement des objectifs de 20 % est suspendu."
+        ],
+        "test": "Sur un échantillon de quelques centaines de clôtures et de réclamations 2026, on croise trois éléments : souscription d'un crédit conso ou d'une réserve dans l'année, PNB des douze mois précédents, motif codé. On en tire un premier ordre de grandeur du PNB emporté, à comparer à la marge estimée par la direction financière.",
+        "confiance": "forte",
+        "pourMonterLaConfiance": "Le coup tient même avec des chiffres imparfaits, car il transfère la charge de la preuve. Si l'échantillon montre une surreprésentation des clients sollicités parmi les partants, la confiance porterait aussi sur le sens du solde."
+      },
+      {
+        "id": "C2.4",
+        "refutation": "Ce coup reprend C1.2 avec un autre rapporteur et perd au passage la co-signature de la conformité, alors que le risque ACPR est l'enjeu le plus dur. Son chiffre de +22 382 k€ ne figure pas tel quel dans les faits calculés. Il mélange en outre volume prêté et marge, ce que la direction commerciale exploitera.",
+        "tient": false,
+        "risque": "Sans objet : le coup est abandonné et fusionné dans C1.2. Le contrôle de gestion y devient rapporteur, aux côtés de la direction financière et de la conformité.",
+        "conditionsDeSucces": [
+          "À reprendre dans C1.2 : le contrôle de gestion présente le compte, la conformité co-signe, la direction commerciale contribue."
+        ],
+        "test": "Aucun test distinct : celui de C1.2 suffit.",
+        "confiance": "faible",
+        "pourMonterLaConfiance": "Le coup n'a pas de valeur propre hors de C1.2. Il ne reviendrait que si la direction financière refusait de porter le dossier."
+      },
+      {
+        "id": "C1.4",
+        "refutation": "Un avant-après dans une seule région confond l'effet du challenge avec tout ce qui change en 2027 : stabilisation de l'outil, taux, saisonnalité, banques en ligne. Comparer la Métropole aux autres régions réintroduit le biais urbain que le coup prétend neutraliser. Retirer le dispositif sur six mois ne laisse pas le temps aux clôtures de refluer, et l'encadrement de la Métropole peut maintenir un classement informel.",
+        "tient": false,
+        "risque": "Sans objet : C3.3 domine ce coup. Un tirage au sort par secteurs, Métropole comprise, donne un témoin simultané dans le même environnement.",
+        "conditionsDeSucces": [
+          "À intégrer dans C3.3 : un tirage au sort à l'intérieur de la Métropole conserve l'idée d'un signal fort là où le challenge a le plus vendu."
+        ],
+        "test": "Aucun test distinct : celui de C3.3 suffit.",
+        "confiance": "faible",
+        "pourMonterLaConfiance": "Le coup ne reviendrait que si le tirage au sort par agence était jugé socialement impraticable. Il faudrait alors au minimum un témoin simultané apparié dans une autre zone urbaine."
+      }
+    ],
+    "formulation": {
+      "ouverture": "Tout le monde regarde la production : +12,2 % en montant, +18,2 % en nombre de ventes. Il faudrait regarder la base clients. Les clôtures passent de 45 841 à 65 727, l'attrition de 6,18 % à 8,99 %, et le nombre de clients recule de 1,5 %. Or plus de 60 % du PNB vient de la relation globale. Les données montrent une corrélation, pas encore une cause. La vraie question : le challenge crée-t-il de la valeur nette, ou achète-t-il du crédit au prix des clients ?",
+      "coups": [
+        {
+          "titre": "Faire voter un solde, pas un volume",
+          "coup": "Le comité n'examine la proposition qu'accompagnée d'un compte de résultat du challenge, cosigné par les finances et la conformité. Il met en regard la marge produite, le PNB perdu avec les clôtures, les primes et le remplacement des conseillers.",
+          "pourquoiPersonne": "Un challenge passe pour un sujet d'animation, pas pour un investissement : on ne lui demande pas de rendement. Et l'auteur de la note est aussi celui qui en dresse le bilan.",
+          "pourquoiIlGagne": "Sur le volume, la direction commerciale gagne. Sur le PNB, le dossier se retourne : les clôtures progressent de 43,4 % et la relation globale porte plus de 60 % du PNB. La Métropole mène à la fois les ventes (+26 %) et l'attrition (9,77 %). La charge de la preuve change de camp, sans rien interdire.",
+          "troisCoupsSuivants": [
+            "Le comité exige ce compte cosigné et suspend d'ici là le relèvement des objectifs de 20 %.",
+            "La direction commerciale conteste l'attribution des clôtures ; seule l'attrition supérieure à celle de la Flandre intérieure est imputée au challenge.",
+            "Le comité arbitre sur une fourchette de solde, scénario par scénario, et non sur la production brute."
+          ],
+          "risque": "La direction commerciale conteste l'attribution des clôtures et transforme le comité en bataille d'hypothèses. Un chiffre unique perdrait sa crédibilité : il faut présenter une fourchette.",
+          "test": "Sur quelques centaines de clôtures et de réclamations 2026, croiser trois éléments : souscription d'un crédit ou d'une réserve, PNB des douze mois précédents et motif codé. Comparer ensuite à la marge estimée.",
+          "confiance": "forte",
+          "pourMonterLaConfiance": "Si l'échantillon surreprésente les clients sollicités parmi les partants, la confiance portera aussi sur le signe du solde.",
+          "appuis": [
+            "F2",
+            "F4",
+            "F6",
+            "F23",
+            "F27",
+            "F39",
+            "F41",
+            "Note DC : « Le produit net bancaire dépend à plus de 60 % de la relation globale avec le client »",
+            "Note DC : « Le turnover des conseillers en agence est passé de 11 % à 16 % »",
+            "Note DC : « Doubler la prime trimestrielle pour les conseillers du top 10 »"
+          ]
+        },
+        {
+          "titre": "Noter la direction commerciale sur les clients nets",
+          "coup": "Le comité ne vote pas le challenge, il change l'objectif. Dès 2027, la direction commerciale est jugée sur le nombre de clients en fin d'année et sur le PNB relationnel.",
+          "pourquoiPersonne": "On juge le dispositif plutôt que l'objectif qui l'a produit. Par réflexe, l'attrition est attribuée à la relation clientèle ou à la concurrence, jamais à ceux qui vendent.",
+          "pourquoiIlGagne": "Les ventes montent de 18,2 % pendant que la base clients recule de 1,5 %. Ma lecture : l'objectif actuel récompense un résultat qui peut appauvrir la banque. Avec le bon objectif, la direction commerciale corrige elle-même ses excès. Le comité n'a ni à la désavouer ni à micro-gérer.",
+          "troisCoupsSuivants": [
+            "Le contrôle de gestion recalcule 2026 avec ce tableau de bord et le montre d'abord à la direction commerciale.",
+            "Elle objecte que l'outil et les banques en ligne pèsent aussi ; l'objectif devient partagé avec la relation clientèle.",
+            "Le comité garde la main : il refuse l'extension aux 18-25 ans et soumet tout renouvelable à la conformité."
+          ],
+          "risque": "Le PNB relationnel réagit avec retard : les dégâts de 2027 n'apparaîtraient qu'en 2028. Un objectif jugé injuste peut aussi être manipulé, par exemple en retardant des clôtures.",
+          "test": "Recalculer 2026 avec ce tableau de bord : base clients en recul de 1,5 %, attrition de 6,18 % à 8,99 %. Vérifier aussi que le PNB relationnel existe chaque mois par agence.",
+          "confiance": "moyenne",
+          "pourMonterLaConfiance": "Prouver que le PNB relationnel par agence existe dans les systèmes, et qu'un échantillon de clôtures montre des clients sollicités.",
+          "appuis": [
+            "F1",
+            "F3",
+            "F4",
+            "F6",
+            "F13",
+            "Note DC : clôtures attribuées à « la concurrence agressive des banques en ligne »",
+            "Note DC : « plus de 60 % de la relation globale avec le client »",
+            "Note DC : recommandation ACPR 2026 sur le crédit renouvelable et le devoir de conseil"
+          ]
+        },
+        {
+          "titre": "Faire de 2027 un test contrôlé",
+          "coup": "Le challenge 2026, tel quel, est appliqué dans la moitié des 142 agences, tirées au sort par secteurs. L'autre moitié sert de témoin. Décision en juin 2027.",
+          "pourquoiPersonne": "Une banque de réseau déploie tout, partout, en même temps. Accepter un groupe témoin, c'est admettre en comité qu'on ne connaît pas la réponse.",
+          "pourquoiIlGagne": "Le gradient régional ne prouve rien. La Métropole, en tête sur tout, peut refléter un effet urbain. La Flandre intérieure perd pourtant 1,99 point d'attrition avec une production quasi stable (+0,2 %). Seul le tirage au sort sépare l'effet du challenge de ceux de l'outil et des banques en ligne.",
+          "troisCoupsSuivants": [
+            "Audit éclair du reporting : pourquoi un taux de réclamation 2025 identique, 1,04 %, dans les cinq régions ?",
+            "La conformité valide le périmètre ; le groupe témoin reçoit une rémunération neutre pour éviter les départs.",
+            "En juin, des indicateurs fixés d'avance sur les clients sollicités (clôtures, réclamations) tranchent entre reconduction et arrêt."
+          ],
+          "risque": "En juin, le signal reste brouillé faute de recul sur les clôtures, et sert de prétexte pour généraliser par défaut. Le test expose aussi volontairement des clients à une pratique peut-être contraire à l'ACPR.",
+          "test": "En deux semaines : expliquer l'uniformité des taux 2025 et du recul de 1,5 % partout. Extraire 2026 par agence. Vérifier qu'un effet serait détectable avant juin.",
+          "confiance": "moyenne",
+          "pourMonterLaConfiance": "Données par agence jugées fiables, périmètre validé par la conformité, calcul de puissance concluant pour juin.",
+          "appuis": [
+            "F8",
+            "F9",
+            "F10",
+            "F11",
+            "F12",
+            "F27",
+            "F39",
+            "F41",
+            "F45",
+            "F46",
+            "F47",
+            "F48",
+            "F49",
+            "Document : « Banque de 5 directions régionales, 142 agences »",
+            "Note DC : « un nouvel outil de gestion des comptes »"
+          ]
+        }
+      ],
+      "coupEvident": "Reconduire le challenge en ajoutant un indicateur de satisfaction dans la prime. Ce serait valider le relèvement des objectifs, l'extension aux 18-25 ans et le doublement de prime sans savoir si le challenge détruit plus de PNB qu'il n'en crée.",
+      "siJeNeDevaisJouerQuUnCoup": "Exiger, avant tout vote, le compte de résultat du challenge cosigné par les finances et la conformité. Suspendre d'ici là le relèvement de 20 % et l'extension aux 18-25 ans."
+    }
+  },
+  "kpi": {
+    "diagnostic": "Données : ventes +18,2 %, production +12,2 %, mais clôtures +43,4 %, attrition de 6,18 % à 8,99 %, réclamations de 7 717 à 10 302 et base clients en recul de 1,5 %. La Métropole mène sur tous les plans : ventes, attrition (9,77 %), réclamations (1,56 %). Flandre intérieure, à production quasi stable, se dégrade moins, mais se dégrade aussi. Lecture : le challenge est la cause la plus probable de l'écart, sur fond de dégradation commune. Réserve : un taux de réclamation 2025 de 1,04 % et un recul de 1,5 %, identiques partout, imposent de vérifier le reporting avant tout chiffrage.",
+    "kpiQuiMentent": [
+      {
+        "kpi": "Production de crédit à la consommation et nombre de ventes",
+        "pathologie": "surrogation",
+        "explication": "Le but est le PNB, dont plus de 60 % tient à la relation. On paie la production : elle gagne 12,2 % pendant que les clôtures bondissent de 43,4 %. Les ventes (+18,2 %) progressent plus vite que les montants : les tickets rétrécissent.",
+        "faits": [
+          "F2",
+          "F3",
+          "F4",
+          "F1",
+          "F6"
+        ],
+        "consequence": "Relever les objectifs de 20 % paiera davantage de production avec des clients qui partent, et leur PNB."
+      },
+      {
+        "kpi": "Croissance commerciale par direction régionale (la Métropole érigée en modèle)",
+        "pathologie": "sans_contrepartie",
+        "explication": "La Métropole affiche la plus forte croissance (ventes +26 %, production +19,6 %), mais aussi la pire attrition, à 9,77 % (+3,42 points), et le pire taux de réclamation, à 1,56 %. Aucun indicateur de qualité n'équilibre le volume.",
+        "faits": [
+          "F23",
+          "F29",
+          "F41",
+          "F48",
+          "F44",
+          "F51"
+        ],
+        "consequence": "Doubler la prime du top 10 récompenserait les pratiques associées aux départs les plus nombreux."
+      },
+      {
+        "kpi": "Taux de clôture, imputé aux banques en ligne",
+        "pathologie": "retarde_sans_avance",
+        "explication": "Il constate la perte une fois le client parti. Les réclamations, qui précèdent souvent un départ, ont crû de 33,5 % avec le même gradient régional : +47,4 % en Métropole, +11 % en Flandre intérieure. Personne ne les lit comme une alerte.",
+        "faits": [
+          "F2",
+          "F5",
+          "F17",
+          "F15",
+          "F35",
+          "F33"
+        ],
+        "consequence": "L'attrition 2027 sera découverte au bilan annuel, quand le PNB sera déjà perdu."
+      }
+    ],
+    "indicateursManquants": [
+      {
+        "indicateur": "Solde de valeur du challenge",
+        "definition": "Marge nette après coût du risque de la production supplémentaire, moins le PNB annuel des clients clôturés ayant souscrit ou été sollicités dans l'année.",
+        "pourquoi": "Seul indicateur qui tranche la question : la production achetée vaut-elle la relation perdue, qui porte plus de 60 % du PNB ?",
+        "frequence": "Trimestrielle, par direction régionale et par agence"
+      },
+      {
+        "indicateur": "Qualité des réserves ouvertes par cohorte",
+        "definition": "Pour chaque cohorte mensuelle : part des réserves tirées à six mois, taux d'impayés à six et douze mois, part avec offre amortissable tracée.",
+        "pourquoi": "Il distingue un crédit utile d'un compteur gonflé et fournit la preuve du devoir de conseil attendue par l'ACPR.",
+        "frequence": "Mensuelle"
+      },
+      {
+        "indicateur": "Attrition des clients sollicités",
+        "definition": "Taux de clôture et de réclamation à six mois des clients ayant reçu une proposition de crédit, comparé à celui des clients non sollicités, par agence.",
+        "pourquoi": "Indicateur avancé : il relie la pratique commerciale aux départs et isole l'effet du challenge de ceux de la concurrence ou de l'outil.",
+        "frequence": "Mensuelle, avec motifs codés"
+      }
+    ],
+    "arbreKpi": [
+      {
+        "niveau": "objectif",
+        "indicateur": "PNB relationnel net par client",
+        "rattacheA": "Racine"
+      },
+      {
+        "niveau": "pilotage",
+        "indicateur": "Taux d'attrition clients",
+        "rattacheA": "PNB relationnel net par client"
+      },
+      {
+        "niveau": "pilotage",
+        "indicateur": "Marge nette après coût du risque de la production de crédit à la consommation",
+        "rattacheA": "PNB relationnel net par client"
+      },
+      {
+        "niveau": "pilotage",
+        "indicateur": "Taux de ventes conformes au devoir de conseil",
+        "rattacheA": "PNB relationnel net par client"
+      },
+      {
+        "niveau": "operationnel",
+        "indicateur": "Taux de réclamation par motif et par agence",
+        "rattacheA": "Taux d'attrition clients"
+      },
+      {
+        "niveau": "operationnel",
+        "indicateur": "Taux de clôture à six mois des clients sollicités",
+        "rattacheA": "Taux d'attrition clients"
+      },
+      {
+        "niveau": "operationnel",
+        "indicateur": "Taux d'utilisation à six mois des réserves ouvertes",
+        "rattacheA": "Marge nette après coût du risque de la production de crédit à la consommation"
+      },
+      {
+        "niveau": "operationnel",
+        "indicateur": "Taux d'impayés par cohorte de production",
+        "rattacheA": "Marge nette après coût du risque de la production de crédit à la consommation"
+      },
+      {
+        "niveau": "operationnel",
+        "indicateur": "Part des dossiers avec offre amortissable alternative tracée",
+        "rattacheA": "Taux de ventes conformes au devoir de conseil"
+      }
+    ],
+    "revue": [
+      {
+        "priorite": "Suspendre la décision de reconduction renforcée jusqu'au chiffrage du solde net production contre relation perdue",
+        "justification": "La production progresse de 12,2 % quand les clôtures passent de 45 841 à 65 727, sur une base clients en recul. Plus de 60 % du PNB vient de la relation. Aucun chiffre ne dit encore si l'opération est gagnante.",
+        "faits": [
+          "F4",
+          "F2",
+          "F1",
+          "F6"
+        ],
+        "actions": [
+          {
+            "action": "Rapprocher les clients clôturés en 2026 de leurs souscriptions de crédit ou de réserve dans l'année, avec le PNB annuel emporté.",
+            "responsable": "Direction financière (contrôle de gestion)",
+            "echeance": "Sous quatre semaines, avant toute décision sur 2027"
+          },
+          {
+            "action": "Comparer, agence par agence, l'intensité du challenge, l'attrition et les réclamations, en prenant la Flandre intérieure comme témoin.",
+            "responsable": "Contrôle de gestion",
+            "echeance": "Sous quatre semaines"
+          }
+        ]
+      },
+      {
+        "priorite": "Geler l'extension aux 18-25 ans et soumettre la campagne de réserve systématique à la conformité",
+        "justification": "La note cite la recommandation ACPR 2026, puis propose d'étendre la sollicitation systématique aux 18-25 ans. Les réclamations montent de 33,5 %, jusqu'à 1,56 % des clients en Métropole. Leur attribution à l'outil n'est pas démontrée.",
+        "faits": [
+          "F5",
+          "F7",
+          "F48",
+          "F51"
+        ],
+        "actions": [
+          {
+            "action": "Contrôler un échantillon de réserves ouvertes en 2026 : solvabilité vérifiée, besoin exprimé, offre amortissable proposée.",
+            "responsable": "Direction de la conformité",
+            "echeance": "Sous six semaines"
+          },
+          {
+            "action": "Coder les motifs des réclamations 2026 par région et par date de déploiement du nouvel outil.",
+            "responsable": "Service relations clientèle",
+            "echeance": "Sous quatre semaines"
+          }
+        ]
+      },
+      {
+        "priorite": "Refonder la part variable et fiabiliser le reporting avant de fixer les objectifs 2027",
+        "justification": "Le turnover des conseillers passe de 11 % à 16 %. La région la mieux classée cumule la pire attrition. Deux uniformités suspectes, réclamations 2025 à 1,04 % et base en recul de 1,5 % partout, fragilisent tout chiffrage.",
+        "faits": [
+          "F41",
+          "F23",
+          "F8",
+          "F9",
+          "F10",
+          "F11",
+          "F12",
+          "F45",
+          "F46",
+          "F47",
+          "F48",
+          "F49"
+        ],
+        "actions": [
+          {
+            "action": "Proposer une part variable 2027 fondée sur la marge nette après risque, conditionnée à l'attrition et à la conformité.",
+            "responsable": "Direction des ressources humaines, avec la direction commerciale",
+            "echeance": "Avant le lancement du dispositif 2027"
+          },
+          {
+            "action": "Auditer la construction du reporting commercial : sources, dates d'extraction, raison des taux identiques entre régions.",
+            "responsable": "Contrôle de gestion",
+            "echeance": "Sous deux semaines"
+          }
+        ]
+      }
+    ]
+  },
+  "conseil": {
+    "acteurs": [
+      {
+        "acteur": "Direction commerciale",
+        "reaction": "« Vous jugez un challenge d'un an sur des clôtures aux causes multiples : banques en ligne, nouvel outil. Vous mélangez tout. »",
+        "objection": "Causalité non démontrée : Flandre intérieure perd aussi 1,99 point d'attrition, avec une production quasi stable (+0,2 %).",
+        "interetCache": "Préserver ses objectifs et sa part variable 2027, et garder la main sur la définition du succès commercial.",
+        "contreCoup": "L'associer à la construction du solde, Flandre intérieure comme témoin. Reconnaître d'emblée la part d'attrition commune, avant qu'elle ne l'invoque.",
+        "signal": "Elle conteste la méthode plutôt que les chiffres, ou demande un report du comité pour « compléter les données ».",
+        "plausibilite": "forte"
+      },
+      {
+        "acteur": "Direction générale et comité de direction",
+        "reaction": "« Enfin un raisonnement en euros. Mais je ne veux pas casser la dynamique commerciale sans preuve solide. »",
+        "objection": "Le solde reposera sur des hypothèses de PNB par client et de causalité ; un compte fragile ne justifie pas un frein.",
+        "interetCache": "Un PNB durable sans grief ACPR, et pas de conflit ouvert avec la direction commerciale.",
+        "contreCoup": "Présenter une fourchette prudente et une décision réversible : reconduction conditionnelle, sans extension aux 18-25 ans, revue au premier trimestre.",
+        "signal": "Le comité demande le PNB moyen des clients partis plutôt que la progression de la production.",
+        "plausibilite": "moyenne"
+      },
+      {
+        "acteur": "Conformité, risques et direction financière",
+        "reaction": "« D'accord pour cosigner, si nous obtenons les données agence et les motifs de clôture. Sinon, nous signons à l'aveugle. »",
+        "objection": "Cosigner engage leur responsabilité ; sans taux d'utilisation des réserves ni impayés, ils refuseront d'apposer leur nom sur un chiffre.",
+        "interetCache": "Se couvrir face à l'ACPR et prouver qu'ils ont alerté, sans porter seuls l'image du frein commercial.",
+        "contreCoup": "Mandat écrit de la direction générale, accès aux données agence, solde présenté en fourchette avec hypothèses explicites.",
+        "signal": "La conformité rend un avis écrit sur la campagne au regard de la recommandation ACPR avant le comité.",
+        "plausibilite": "forte"
+      }
+    ],
+    "hypotheses": [
+      "Finances et conformité n'ont pas été consultées sur la note, mais détiennent les données d'impayés et d'utilisation des réserves.",
+      "La direction générale arbitre au PNB plutôt qu'au volume et redoute un grief ACPR.",
+      "La part variable de la direction commerciale dépend du volume produit en 2026 et 2027."
+    ],
+    "ordreDeJeu": "D'abord la direction générale, pour le mandat. Puis finances et conformité, pour bâtir le solde. Enfin la direction commerciale, associée avant le comité pour qu'elle ne découvre rien en séance."
+  },
+  "chiffresNonSources": [],
+  "markdown": "## L'essentiel\n\n**La vraie question :** Le challenge crée-t-il de la valeur nette, ou achète-t-il de la production de crédit au prix de la relation client (plus de 60 % du PNB), des conseillers et d'un risque de conformité ACPR ?\n\n1. **Faire voter un solde, pas un volume** — Le comité n'examine la proposition qu'accompagnée d'un compte de résultat du challenge, cosigné par les finances et la conformité. Il met en regard la marge produite, le PNB perdu avec les clôtures, les primes et le remplacement des conseillers.\n2. **Noter la direction commerciale sur les clients nets** — Le comité ne vote pas le challenge, il change l'objectif. Dès 2027, la direction commerciale est jugée sur le nombre de clients en fin d'année et sur le PNB relationnel.\n3. **Faire de 2027 un test contrôlé** — Le challenge 2026, tel quel, est appliqué dans la moitié des 142 agences, tirées au sort par secteurs. L'autre moitié sert de témoin. Décision en juin 2027.\n\n**Si je ne devais jouer qu'un coup :** Exiger, avant tout vote, le compte de résultat du challenge cosigné par les finances et la conformité. Suspendre d'ici là le relèvement de 20 % et l'extension aux 18-25 ans.\n\n## Lecture de la position\n\nTout le monde regarde la production : +12,2 % en montant, +18,2 % en nombre de ventes. Il faudrait regarder la base clients. Les clôtures passent de 45 841 à 65 727, l'attrition de 6,18 % à 8,99 %, et le nombre de clients recule de 1,5 %. Or plus de 60 % du PNB vient de la relation globale. Les données montrent une corrélation, pas encore une cause. La vraie question : le challenge crée-t-il de la valeur nette, ou achète-t-il du crédit au prix des clients ?\n\n**Le coup évident, et pourquoi je ne le jouerais pas :** Reconduire le challenge en ajoutant un indicateur de satisfaction dans la prime. Ce serait valider le relèvement des objectifs, l'extension aux 18-25 ans et le doublement de prime sans savoir si le challenge détruit plus de PNB qu'il n'en crée.\n\n## Les coups\n\n### 1. Faire voter un solde, pas un volume\n\n**Le comité n'examine la proposition qu'accompagnée d'un compte de résultat du challenge, cosigné par les finances et la conformité. Il met en regard la marge produite, le PNB perdu avec les clôtures, les primes et le remplacement des conseillers.**\n\n- **Pourquoi personne ne le joue :** Un challenge passe pour un sujet d'animation, pas pour un investissement : on ne lui demande pas de rendement. Et l'auteur de la note est aussi celui qui en dresse le bilan.\n- **Pourquoi il gagne :** Sur le volume, la direction commerciale gagne. Sur le PNB, le dossier se retourne : les clôtures progressent de 43,4 % et la relation globale porte plus de 60 % du PNB. La Métropole mène à la fois les ventes (+26 %) et l'attrition (9,77 %). La charge de la preuve change de camp, sans rien interdire.\n- **Le risque :** La direction commerciale conteste l'attribution des clôtures et transforme le comité en bataille d'hypothèses. Un chiffre unique perdrait sa crédibilité : il faut présenter une fourchette.\n- **Le test :** Sur quelques centaines de clôtures et de réclamations 2026, croiser trois éléments : souscription d'un crédit ou d'une réserve, PNB des douze mois précédents et motif codé. Comparer ensuite à la marge estimée.\n- **Confiance :** forte. Ce qui la ferait monter : Si l'échantillon surreprésente les clients sollicités parmi les partants, la confiance portera aussi sur le signe du solde.\n\n### 2. Noter la direction commerciale sur les clients nets\n\n**Le comité ne vote pas le challenge, il change l'objectif. Dès 2027, la direction commerciale est jugée sur le nombre de clients en fin d'année et sur le PNB relationnel.**\n\n- **Pourquoi personne ne le joue :** On juge le dispositif plutôt que l'objectif qui l'a produit. Par réflexe, l'attrition est attribuée à la relation clientèle ou à la concurrence, jamais à ceux qui vendent.\n- **Pourquoi il gagne :** Les ventes montent de 18,2 % pendant que la base clients recule de 1,5 %. Ma lecture : l'objectif actuel récompense un résultat qui peut appauvrir la banque. Avec le bon objectif, la direction commerciale corrige elle-même ses excès. Le comité n'a ni à la désavouer ni à micro-gérer.\n- **Le risque :** Le PNB relationnel réagit avec retard : les dégâts de 2027 n'apparaîtraient qu'en 2028. Un objectif jugé injuste peut aussi être manipulé, par exemple en retardant des clôtures.\n- **Le test :** Recalculer 2026 avec ce tableau de bord : base clients en recul de 1,5 %, attrition de 6,18 % à 8,99 %. Vérifier aussi que le PNB relationnel existe chaque mois par agence.\n- **Confiance :** moyenne. Ce qui la ferait monter : Prouver que le PNB relationnel par agence existe dans les systèmes, et qu'un échantillon de clôtures montre des clients sollicités.\n\n### 3. Faire de 2027 un test contrôlé\n\n**Le challenge 2026, tel quel, est appliqué dans la moitié des 142 agences, tirées au sort par secteurs. L'autre moitié sert de témoin. Décision en juin 2027.**\n\n- **Pourquoi personne ne le joue :** Une banque de réseau déploie tout, partout, en même temps. Accepter un groupe témoin, c'est admettre en comité qu'on ne connaît pas la réponse.\n- **Pourquoi il gagne :** Le gradient régional ne prouve rien. La Métropole, en tête sur tout, peut refléter un effet urbain. La Flandre intérieure perd pourtant 1,99 point d'attrition avec une production quasi stable (+0,2 %). Seul le tirage au sort sépare l'effet du challenge de ceux de l'outil et des banques en ligne.\n- **Le risque :** En juin, le signal reste brouillé faute de recul sur les clôtures, et sert de prétexte pour généraliser par défaut. Le test expose aussi volontairement des clients à une pratique peut-être contraire à l'ACPR.\n- **Le test :** En deux semaines : expliquer l'uniformité des taux 2025 et du recul de 1,5 % partout. Extraire 2026 par agence. Vérifier qu'un effet serait détectable avant juin.\n- **Confiance :** moyenne. Ce qui la ferait monter : Données par agence jugées fiables, périmètre validé par la conformité, calcul de puissance concluant pour juin.\n\n## Les KPI qui vous mentent\n\nDonnées : ventes +18,2 %, production +12,2 %, mais clôtures +43,4 %, attrition de 6,18 % à 8,99 %, réclamations de 7 717 à 10 302 et base clients en recul de 1,5 %. La Métropole mène sur tous les plans : ventes, attrition (9,77 %), réclamations (1,56 %). Flandre intérieure, à production quasi stable, se dégrade moins, mais se dégrade aussi. Lecture : le challenge est la cause la plus probable de l'écart, sur fond de dégradation commune. Réserve : un taux de réclamation 2025 de 1,04 % et un recul de 1,5 %, identiques partout, imposent de vérifier le reporting avant tout chiffrage.\n\n- **Production de crédit à la consommation et nombre de ventes** : Le but est le PNB, dont plus de 60 % tient à la relation. On paie la production : elle gagne 12,2 % pendant que les clôtures bondissent de 43,4 %. Les ventes (+18,2 %) progressent plus vite que les montants : les tickets rétrécissent. → Relever les objectifs de 20 % paiera davantage de production avec des clients qui partent, et leur PNB.\n- **Croissance commerciale par direction régionale (la Métropole érigée en modèle)** : La Métropole affiche la plus forte croissance (ventes +26 %, production +19,6 %), mais aussi la pire attrition, à 9,77 % (+3,42 points), et le pire taux de réclamation, à 1,56 %. Aucun indicateur de qualité n'équilibre le volume. → Doubler la prime du top 10 récompenserait les pratiques associées aux départs les plus nombreux.\n- **Taux de clôture, imputé aux banques en ligne** : Il constate la perte une fois le client parti. Les réclamations, qui précèdent souvent un départ, ont crû de 33,5 % avec le même gradient régional : +47,4 % en Métropole, +11 % en Flandre intérieure. Personne ne les lit comme une alerte. → L'attrition 2027 sera découverte au bilan annuel, quand le PNB sera déjà perdu.\n\n**Les trois indicateurs que vous ne suivez pas :**\n\n- **Solde de valeur du challenge** (Trimestrielle, par direction régionale et par agence) : Seul indicateur qui tranche la question : la production achetée vaut-elle la relation perdue, qui porte plus de 60 % du PNB ?\n- **Qualité des réserves ouvertes par cohorte** (Mensuelle) : Il distingue un crédit utile d'un compteur gonflé et fournit la preuve du devoir de conseil attendue par l'ACPR.\n- **Attrition des clients sollicités** (Mensuelle, avec motifs codés) : Indicateur avancé : il relie la pratique commerciale aux départs et isole l'effet du challenge de ceux de la concurrence ou de l'outil.\n\n## Revue en trois coups\n\n**1. Suspendre la décision de reconduction renforcée jusqu'au chiffrage du solde net production contre relation perdue** — La production progresse de 12,2 % quand les clôtures passent de 45 841 à 65 727, sur une base clients en recul. Plus de 60 % du PNB vient de la relation. Aucun chiffre ne dit encore si l'opération est gagnante.\n\n- Rapprocher les clients clôturés en 2026 de leurs souscriptions de crédit ou de réserve dans l'année, avec le PNB annuel emporté. — Direction financière (contrôle de gestion), Sous quatre semaines, avant toute décision sur 2027\n- Comparer, agence par agence, l'intensité du challenge, l'attrition et les réclamations, en prenant la Flandre intérieure comme témoin. — Contrôle de gestion, Sous quatre semaines\n\n**2. Geler l'extension aux 18-25 ans et soumettre la campagne de réserve systématique à la conformité** — La note cite la recommandation ACPR 2026, puis propose d'étendre la sollicitation systématique aux 18-25 ans. Les réclamations montent de 33,5 %, jusqu'à 1,56 % des clients en Métropole. Leur attribution à l'outil n'est pas démontrée.\n\n- Contrôler un échantillon de réserves ouvertes en 2026 : solvabilité vérifiée, besoin exprimé, offre amortissable proposée. — Direction de la conformité, Sous six semaines\n- Coder les motifs des réclamations 2026 par région et par date de déploiement du nouvel outil. — Service relations clientèle, Sous quatre semaines\n\n**3. Refonder la part variable et fiabiliser le reporting avant de fixer les objectifs 2027** — Le turnover des conseillers passe de 11 % à 16 %. La région la mieux classée cumule la pire attrition. Deux uniformités suspectes, réclamations 2025 à 1,04 % et base en recul de 1,5 % partout, fragilisent tout chiffrage.\n\n- Proposer une part variable 2027 fondée sur la marge nette après risque, conditionnée à l'attrition et à la conformité. — Direction des ressources humaines, avec la direction commerciale, Avant le lancement du dispositif 2027\n- Auditer la construction du reporting commercial : sources, dates d'extraction, raison des taux identiques entre régions. — Contrôle de gestion, Sous deux semaines\n\n## Le conseil de guerre\n\n_Scénario raisonné à partir des documents, pas une prédiction. Les hypothèses sont listées en fin de section._\n\n- **Direction commerciale** : « Vous jugez un challenge d'un an sur des clôtures aux causes multiples : banques en ligne, nouvel outil. Vous mélangez tout. » **Contre-coup :** L'associer à la construction du solde, Flandre intérieure comme témoin. Reconnaître d'emblée la part d'attrition commune, avant qu'elle ne l'invoque.\n- **Direction générale et comité de direction** : « Enfin un raisonnement en euros. Mais je ne veux pas casser la dynamique commerciale sans preuve solide. » **Contre-coup :** Présenter une fourchette prudente et une décision réversible : reconduction conditionnelle, sans extension aux 18-25 ans, revue au premier trimestre.\n- **Conformité, risques et direction financière** : « D'accord pour cosigner, si nous obtenons les données agence et les motifs de clôture. Sinon, nous signons à l'aveugle. » **Contre-coup :** Mandat écrit de la direction générale, accès aux données agence, solde présenté en fourchette avec hypothèses explicites.\n\n**Ordre de jeu :** D'abord la direction générale, pour le mandat. Puis finances et conformité, pour bâtir le solde. Enfin la direction commerciale, associée avant le comité pour qu'elle ne découvre rien en séance.\n\n## Questions à poser\n\n- Quelle part des clients ayant clôturé ou réclamé en 2026 avait souscrit un crédit conso ou une réserve dans l'année ?\n- Quels sont le taux d'utilisation des réserves ouvertes et le taux d'impayés de la production 2026 ?\n- Quel PNB annuel moyen portaient les clients partis, comparé à la marge de la production supplémentaire ?\n- L'outil de gestion des comptes a-t-il été déployé partout à la même date ? Pourquoi un taux de réclamation 2025 identique partout ?\n- La conformité a-t-elle validé la campagne au regard de la recommandation ACPR 2026, et quel est le turnover par rang au classement ?\n",
+  "markdownComplet": "## L'essentiel\n\n**La vraie question :** Le challenge crée-t-il de la valeur nette, ou achète-t-il de la production de crédit au prix de la relation client (plus de 60 % du PNB), des conseillers et d'un risque de conformité ACPR ?\n\n1. **Faire voter un solde, pas un volume** — Le comité n'examine la proposition qu'accompagnée d'un compte de résultat du challenge, cosigné par les finances et la conformité. Il met en regard la marge produite, le PNB perdu avec les clôtures, les primes et le remplacement des conseillers.\n2. **Noter la direction commerciale sur les clients nets** — Le comité ne vote pas le challenge, il change l'objectif. Dès 2027, la direction commerciale est jugée sur le nombre de clients en fin d'année et sur le PNB relationnel.\n3. **Faire de 2027 un test contrôlé** — Le challenge 2026, tel quel, est appliqué dans la moitié des 142 agences, tirées au sort par secteurs. L'autre moitié sert de témoin. Décision en juin 2027.\n\n**Si je ne devais jouer qu'un coup :** Exiger, avant tout vote, le compte de résultat du challenge cosigné par les finances et la conformité. Suspendre d'ici là le relèvement de 20 % et l'extension aux 18-25 ans.\n\n**Attention :** Production de crédit à la consommation et nombre de ventes — Relever les objectifs de 20 % paiera davantage de production avec des clients qui partent, et leur PNB.\n\n## Lecture de la position\n\nTout le monde regarde la production : +12,2 % en montant, +18,2 % en nombre de ventes. Il faudrait regarder la base clients. Les clôtures passent de 45 841 à 65 727, l'attrition de 6,18 % à 8,99 %, et le nombre de clients recule de 1,5 %. Or plus de 60 % du PNB vient de la relation globale. Les données montrent une corrélation, pas encore une cause. La vraie question : le challenge crée-t-il de la valeur nette, ou achète-t-il du crédit au prix des clients ?\n\n## Les coups\n\n### 1. Faire voter un solde, pas un volume\n\n**Le comité n'examine la proposition qu'accompagnée d'un compte de résultat du challenge, cosigné par les finances et la conformité. Il met en regard la marge produite, le PNB perdu avec les clôtures, les primes et le remplacement des conseillers.**\n\n- **Pourquoi personne ne le joue :** Un challenge passe pour un sujet d'animation, pas pour un investissement : on ne lui demande pas de rendement. Et l'auteur de la note est aussi celui qui en dresse le bilan.\n- **Pourquoi il gagne :** Sur le volume, la direction commerciale gagne. Sur le PNB, le dossier se retourne : les clôtures progressent de 43,4 % et la relation globale porte plus de 60 % du PNB. La Métropole mène à la fois les ventes (+26 %) et l'attrition (9,77 %). La charge de la preuve change de camp, sans rien interdire.\n- **Les trois coups suivants :**\n  1. Le comité exige ce compte cosigné et suspend d'ici là le relèvement des objectifs de 20 %.\n  2. La direction commerciale conteste l'attribution des clôtures ; seule l'attrition supérieure à celle de la Flandre intérieure est imputée au challenge.\n  3. Le comité arbitre sur une fourchette de solde, scénario par scénario, et non sur la production brute.\n- **Le risque :** La direction commerciale conteste l'attribution des clôtures et transforme le comité en bataille d'hypothèses. Un chiffre unique perdrait sa crédibilité : il faut présenter une fourchette.\n- **Le test :** Sur quelques centaines de clôtures et de réclamations 2026, croiser trois éléments : souscription d'un crédit ou d'une réserve, PNB des douze mois précédents et motif codé. Comparer ensuite à la marge estimée.\n- **Confiance :** forte. Ce qui la ferait monter : Si l'échantillon surreprésente les clients sollicités parmi les partants, la confiance portera aussi sur le signe du solde.\n- **Appuis :** F2 ; F4 ; F6 ; F23 ; F27 ; F39 ; F41 ; Note DC : « Le produit net bancaire dépend à plus de 60 % de la relation globale avec le client » ; Note DC : « Le turnover des conseillers en agence est passé de 11 % à 16 % » ; Note DC : « Doubler la prime trimestrielle pour les conseillers du top 10 »\n\n### 2. Noter la direction commerciale sur les clients nets\n\n**Le comité ne vote pas le challenge, il change l'objectif. Dès 2027, la direction commerciale est jugée sur le nombre de clients en fin d'année et sur le PNB relationnel.**\n\n- **Pourquoi personne ne le joue :** On juge le dispositif plutôt que l'objectif qui l'a produit. Par réflexe, l'attrition est attribuée à la relation clientèle ou à la concurrence, jamais à ceux qui vendent.\n- **Pourquoi il gagne :** Les ventes montent de 18,2 % pendant que la base clients recule de 1,5 %. Ma lecture : l'objectif actuel récompense un résultat qui peut appauvrir la banque. Avec le bon objectif, la direction commerciale corrige elle-même ses excès. Le comité n'a ni à la désavouer ni à micro-gérer.\n- **Les trois coups suivants :**\n  1. Le contrôle de gestion recalcule 2026 avec ce tableau de bord et le montre d'abord à la direction commerciale.\n  2. Elle objecte que l'outil et les banques en ligne pèsent aussi ; l'objectif devient partagé avec la relation clientèle.\n  3. Le comité garde la main : il refuse l'extension aux 18-25 ans et soumet tout renouvelable à la conformité.\n- **Le risque :** Le PNB relationnel réagit avec retard : les dégâts de 2027 n'apparaîtraient qu'en 2028. Un objectif jugé injuste peut aussi être manipulé, par exemple en retardant des clôtures.\n- **Le test :** Recalculer 2026 avec ce tableau de bord : base clients en recul de 1,5 %, attrition de 6,18 % à 8,99 %. Vérifier aussi que le PNB relationnel existe chaque mois par agence.\n- **Confiance :** moyenne. Ce qui la ferait monter : Prouver que le PNB relationnel par agence existe dans les systèmes, et qu'un échantillon de clôtures montre des clients sollicités.\n- **Appuis :** F1 ; F3 ; F4 ; F6 ; F13 ; Note DC : clôtures attribuées à « la concurrence agressive des banques en ligne » ; Note DC : « plus de 60 % de la relation globale avec le client » ; Note DC : recommandation ACPR 2026 sur le crédit renouvelable et le devoir de conseil\n\n### 3. Faire de 2027 un test contrôlé\n\n**Le challenge 2026, tel quel, est appliqué dans la moitié des 142 agences, tirées au sort par secteurs. L'autre moitié sert de témoin. Décision en juin 2027.**\n\n- **Pourquoi personne ne le joue :** Une banque de réseau déploie tout, partout, en même temps. Accepter un groupe témoin, c'est admettre en comité qu'on ne connaît pas la réponse.\n- **Pourquoi il gagne :** Le gradient régional ne prouve rien. La Métropole, en tête sur tout, peut refléter un effet urbain. La Flandre intérieure perd pourtant 1,99 point d'attrition avec une production quasi stable (+0,2 %). Seul le tirage au sort sépare l'effet du challenge de ceux de l'outil et des banques en ligne.\n- **Les trois coups suivants :**\n  1. Audit éclair du reporting : pourquoi un taux de réclamation 2025 identique, 1,04 %, dans les cinq régions ?\n  2. La conformité valide le périmètre ; le groupe témoin reçoit une rémunération neutre pour éviter les départs.\n  3. En juin, des indicateurs fixés d'avance sur les clients sollicités (clôtures, réclamations) tranchent entre reconduction et arrêt.\n- **Le risque :** En juin, le signal reste brouillé faute de recul sur les clôtures, et sert de prétexte pour généraliser par défaut. Le test expose aussi volontairement des clients à une pratique peut-être contraire à l'ACPR.\n- **Le test :** En deux semaines : expliquer l'uniformité des taux 2025 et du recul de 1,5 % partout. Extraire 2026 par agence. Vérifier qu'un effet serait détectable avant juin.\n- **Confiance :** moyenne. Ce qui la ferait monter : Données par agence jugées fiables, périmètre validé par la conformité, calcul de puissance concluant pour juin.\n- **Appuis :** F8 ; F9 ; F10 ; F11 ; F12 ; F27 ; F39 ; F41 ; F45 ; F46 ; F47 ; F48 ; F49 ; Document : « Banque de 5 directions régionales, 142 agences » ; Note DC : « un nouvel outil de gestion des comptes »\n\n**Le coup évident, et pourquoi je ne le jouerais pas :** Reconduire le challenge en ajoutant un indicateur de satisfaction dans la prime. Ce serait valider le relèvement des objectifs, l'extension aux 18-25 ans et le doublement de prime sans savoir si le challenge détruit plus de PNB qu'il n'en crée.\n\n## Les KPI qui vous mentent\n\n**Ce que disent vraiment les chiffres :** Données : ventes +18,2 %, production +12,2 %, mais clôtures +43,4 %, attrition de 6,18 % à 8,99 %, réclamations de 7 717 à 10 302 et base clients en recul de 1,5 %. La Métropole mène sur tous les plans : ventes, attrition (9,77 %), réclamations (1,56 %). Flandre intérieure, à production quasi stable, se dégrade moins, mais se dégrade aussi. Lecture : le challenge est la cause la plus probable de l'écart, sur fond de dégradation commune. Réserve : un taux de réclamation 2025 de 1,04 % et un recul de 1,5 %, identiques partout, imposent de vérifier le reporting avant tout chiffrage.\n\n### Indicateurs trompeurs\n\n- **Production de crédit à la consommation et nombre de ventes** — surrogation _(F2, F3, F4, F1, F6)_ : Le but est le PNB, dont plus de 60 % tient à la relation. On paie la production : elle gagne 12,2 % pendant que les clôtures bondissent de 43,4 %. Les ventes (+18,2 %) progressent plus vite que les montants : les tickets rétrécissent. → Relever les objectifs de 20 % paiera davantage de production avec des clients qui partent, et leur PNB.\n- **Croissance commerciale par direction régionale (la Métropole érigée en modèle)** — sans contrepartie _(F23, F29, F41, F48, F44, F51)_ : La Métropole affiche la plus forte croissance (ventes +26 %, production +19,6 %), mais aussi la pire attrition, à 9,77 % (+3,42 points), et le pire taux de réclamation, à 1,56 %. Aucun indicateur de qualité n'équilibre le volume. → Doubler la prime du top 10 récompenserait les pratiques associées aux départs les plus nombreux.\n- **Taux de clôture, imputé aux banques en ligne** — retarde sans avance _(F2, F5, F17, F15, F35, F33)_ : Il constate la perte une fois le client parti. Les réclamations, qui précèdent souvent un départ, ont crû de 33,5 % avec le même gradient régional : +47,4 % en Métropole, +11 % en Flandre intérieure. Personne ne les lit comme une alerte. → L'attrition 2027 sera découverte au bilan annuel, quand le PNB sera déjà perdu.\n\n### Les trois indicateurs que vous ne suivez pas\n\n- **Solde de valeur du challenge** (Trimestrielle, par direction régionale et par agence) : Marge nette après coût du risque de la production supplémentaire, moins le PNB annuel des clients clôturés ayant souscrit ou été sollicités dans l'année.. Seul indicateur qui tranche la question : la production achetée vaut-elle la relation perdue, qui porte plus de 60 % du PNB ?\n- **Qualité des réserves ouvertes par cohorte** (Mensuelle) : Pour chaque cohorte mensuelle : part des réserves tirées à six mois, taux d'impayés à six et douze mois, part avec offre amortissable tracée.. Il distingue un crédit utile d'un compteur gonflé et fournit la preuve du devoir de conseil attendue par l'ACPR.\n- **Attrition des clients sollicités** (Mensuelle, avec motifs codés) : Taux de clôture et de réclamation à six mois des clients ayant reçu une proposition de crédit, comparé à celui des clients non sollicités, par agence.. Indicateur avancé : il relie la pratique commerciale aux départs et isole l'effet du challenge de ceux de la concurrence ou de l'outil.\n\n### Arbre d'indicateurs proposé\n\n- PNB relationnel net par client\n  - Taux d'attrition clients ← PNB relationnel net par client\n  - Marge nette après coût du risque de la production de crédit à la consommation ← PNB relationnel net par client\n  - Taux de ventes conformes au devoir de conseil ← PNB relationnel net par client\n    - Taux de réclamation par motif et par agence ← Taux d'attrition clients\n    - Taux de clôture à six mois des clients sollicités ← Taux d'attrition clients\n    - Taux d'utilisation à six mois des réserves ouvertes ← Marge nette après coût du risque de la production de crédit à la consommation\n    - Taux d'impayés par cohorte de production ← Marge nette après coût du risque de la production de crédit à la consommation\n    - Part des dossiers avec offre amortissable alternative tracée ← Taux de ventes conformes au devoir de conseil\n\n### Revue en trois coups\n\n**1. Suspendre la décision de reconduction renforcée jusqu'au chiffrage du solde net production contre relation perdue** _(F4, F2, F1, F6)_ — La production progresse de 12,2 % quand les clôtures passent de 45 841 à 65 727, sur une base clients en recul. Plus de 60 % du PNB vient de la relation. Aucun chiffre ne dit encore si l'opération est gagnante.\n\n- Rapprocher les clients clôturés en 2026 de leurs souscriptions de crédit ou de réserve dans l'année, avec le PNB annuel emporté. — Direction financière (contrôle de gestion), Sous quatre semaines, avant toute décision sur 2027\n- Comparer, agence par agence, l'intensité du challenge, l'attrition et les réclamations, en prenant la Flandre intérieure comme témoin. — Contrôle de gestion, Sous quatre semaines\n\n**2. Geler l'extension aux 18-25 ans et soumettre la campagne de réserve systématique à la conformité** _(F5, F7, F48, F51)_ — La note cite la recommandation ACPR 2026, puis propose d'étendre la sollicitation systématique aux 18-25 ans. Les réclamations montent de 33,5 %, jusqu'à 1,56 % des clients en Métropole. Leur attribution à l'outil n'est pas démontrée.\n\n- Contrôler un échantillon de réserves ouvertes en 2026 : solvabilité vérifiée, besoin exprimé, offre amortissable proposée. — Direction de la conformité, Sous six semaines\n- Coder les motifs des réclamations 2026 par région et par date de déploiement du nouvel outil. — Service relations clientèle, Sous quatre semaines\n\n**3. Refonder la part variable et fiabiliser le reporting avant de fixer les objectifs 2027** _(F41, F23, F8, F9, F10, F11, F12, F45, F46, F47, F48, F49)_ — Le turnover des conseillers passe de 11 % à 16 %. La région la mieux classée cumule la pire attrition. Deux uniformités suspectes, réclamations 2025 à 1,04 % et base en recul de 1,5 % partout, fragilisent tout chiffrage.\n\n- Proposer une part variable 2027 fondée sur la marge nette après risque, conditionnée à l'attrition et à la conformité. — Direction des ressources humaines, avec la direction commerciale, Avant le lancement du dispositif 2027\n- Auditer la construction du reporting commercial : sources, dates d'extraction, raison des taux identiques entre régions. — Contrôle de gestion, Sous deux semaines\n\n## Le conseil de guerre\n\n_Scénario raisonné à partir des documents, pas une prédiction. Les hypothèses sont listées en fin de section._\n\n### Direction commerciale\n\n- **Réaction probable :** « Vous jugez un challenge d'un an sur des clôtures aux causes multiples : banques en ligne, nouvel outil. Vous mélangez tout. »\n- **Objection :** Causalité non démontrée : Flandre intérieure perd aussi 1,99 point d'attrition, avec une production quasi stable (+0,2 %).\n- **Intérêt caché :** Préserver ses objectifs et sa part variable 2027, et garder la main sur la définition du succès commercial.\n- **Contre-coup :** L'associer à la construction du solde, Flandre intérieure comme témoin. Reconnaître d'emblée la part d'attrition commune, avant qu'elle ne l'invoque.\n- **Signal à observer :** Elle conteste la méthode plutôt que les chiffres, ou demande un report du comité pour « compléter les données ».\n- **Plausibilité :** forte\n\n### Direction générale et comité de direction\n\n- **Réaction probable :** « Enfin un raisonnement en euros. Mais je ne veux pas casser la dynamique commerciale sans preuve solide. »\n- **Objection :** Le solde reposera sur des hypothèses de PNB par client et de causalité ; un compte fragile ne justifie pas un frein.\n- **Intérêt caché :** Un PNB durable sans grief ACPR, et pas de conflit ouvert avec la direction commerciale.\n- **Contre-coup :** Présenter une fourchette prudente et une décision réversible : reconduction conditionnelle, sans extension aux 18-25 ans, revue au premier trimestre.\n- **Signal à observer :** Le comité demande le PNB moyen des clients partis plutôt que la progression de la production.\n- **Plausibilité :** moyenne\n\n### Conformité, risques et direction financière\n\n- **Réaction probable :** « D'accord pour cosigner, si nous obtenons les données agence et les motifs de clôture. Sinon, nous signons à l'aveugle. »\n- **Objection :** Cosigner engage leur responsabilité ; sans taux d'utilisation des réserves ni impayés, ils refuseront d'apposer leur nom sur un chiffre.\n- **Intérêt caché :** Se couvrir face à l'ACPR et prouver qu'ils ont alerté, sans porter seuls l'image du frein commercial.\n- **Contre-coup :** Mandat écrit de la direction générale, accès aux données agence, solde présenté en fourchette avec hypothèses explicites.\n- **Signal à observer :** La conformité rend un avis écrit sur la campagne au regard de la recommandation ACPR avant le comité.\n- **Plausibilité :** forte\n\n**Ordre de jeu :** D'abord la direction générale, pour le mandat. Puis finances et conformité, pour bâtir le solde. Enfin la direction commerciale, associée avant le comité pour qu'elle ne découvre rien en séance.\n\n**Hypothèses de la simulation :**\n\n- Finances et conformité n'ont pas été consultées sur la note, mais détiennent les données d'impayés et d'utilisation des réserves.\n- La direction générale arbitre au PNB plutôt qu'au volume et redoute un grief ACPR.\n- La part variable de la direction commerciale dépend du volume produit en 2026 et 2027.\n\n## Questions à poser\n\n- Quelle part des clients ayant clôturé ou réclamé en 2026 avait souscrit un crédit conso ou une réserve dans l'année ?\n- Quels sont le taux d'utilisation des réserves ouvertes et le taux d'impayés de la production 2026 ?\n- Quel PNB annuel moyen portaient les clients partis, comparé à la marge de la production supplémentaire ?\n- L'outil de gestion des comptes a-t-il été déployé partout à la même date ? Pourquoi un taux de réclamation 2025 identique partout ?\n- La conformité a-t-elle validé la campagne au regard de la recommandation ACPR 2026, et quel est le turnover par rang au classement ?\n\n## Sources des chiffres\n\n- **F1** : Reporting commercial — total — clients_debut : 742 000 → 730 870 (−1,5 %) (2025 → 2026)\n- **F2** : Reporting commercial — total — clotures : 45 841 → 65 727 (+43,4 %) (2025 → 2026)\n- **F3** : Reporting commercial — total — ventes_credit_conso : 15 582 → 18 415 (+18,2 %) (2025 → 2026)\n- **F4** : Reporting commercial — total — production_credit_keur : 183 868 k€ → 206 250 k€ (+12,2 %) (2025 → 2026)\n- **F5** : Reporting commercial — total — reclamations : 7 717 → 10 302 (+33,5 %) (2025 → 2026)\n- **F6** : Reporting commercial — total — taux d'attrition : 6,18 % → 8,99 % (+2,81 pt) (2025 → 2026)\n- **F7** : Reporting commercial — total — taux de réclamation : 1,04 % → 1,41 % (+0,37 pt) (2025 → 2026)\n- **F8** : Reporting commercial — direction_regionale « Artois » — clients_debut : 121 000 → 119 185 (−1,5 %)\n- **F9** : Reporting commercial — direction_regionale « Flandre intérieure » — clients_debut : 87 000 → 85 695 (−1,5 %)\n- **F10** : Reporting commercial — direction_regionale « Hainaut » — clients_debut : 98 000 → 96 530 (−1,5 %)\n- **F11** : Reporting commercial — direction_regionale « Métropole » — clients_debut : 254 000 → 250 190 (−1,5 %)\n- **F12** : Reporting commercial — direction_regionale « Nord-Littoral » — clients_debut : 182 000 → 179 270 (−1,5 %)\n- **F13** : Reporting commercial — clients_debut — principales contributions à la variation (par direction_regionale) : « Métropole » −3 810 (34,2 % de la variation totale) ; « Nord-Littoral » −2 730 (24,5 % de la variation totale) ; « Artois » −1 815 (16,3 % de la variation totale)\n- **F15** : Reporting commercial — direction_regionale « Flandre intérieure » — clotures : 5 334 → 6 959 (+30,5 %)\n- **F17** : Reporting commercial — direction_regionale « Métropole » — clotures : 16 150 → 24 455 (+51,4 %)\n- **F23** : Reporting commercial — direction_regionale « Métropole » — ventes_credit_conso : 5 334 → 6 720 (+26 %)\n- **F27** : Reporting commercial — direction_regionale « Flandre intérieure » — production_credit_keur : 21 559 k€ → 21 607 k€ (+0,2 %)\n- **F29** : Reporting commercial — direction_regionale « Métropole » — production_credit_keur : 62 941 k€ → 75 262 k€ (+19,6 %)\n- **F33** : Reporting commercial — direction_regionale « Flandre intérieure » — reclamations : 905 → 1 005 (+11 %)\n- **F35** : Reporting commercial — direction_regionale « Métropole » — reclamations : 2 642 → 3 893 (+47,4 %)\n- **F39** : Reporting commercial — direction_regionale « Flandre intérieure » — taux d'attrition : 6,13 % → 8,12 % (+1,99 pt)\n- **F41** : Reporting commercial — direction_regionale « Métropole » — taux d'attrition : 6,36 % → 9,77 % (+3,42 pt)\n- **F44** : Reporting commercial — taux d'attrition (2026) — dispersion par direction_regionale : minimum « Flandre intérieure » 8,12 %, maximum « Métropole » 9,77 %, écart 1,65 pt\n- **F45** : Reporting commercial — direction_regionale « Artois » — taux de réclamation : 1,04 % → 1,34 % (+0,3 pt)\n- **F46** : Reporting commercial — direction_regionale « Flandre intérieure » — taux de réclamation : 1,04 % → 1,17 % (+0,13 pt)\n- **F47** : Reporting commercial — direction_regionale « Hainaut » — taux de réclamation : 1,04 % → 1,24 % (+0,2 pt)\n- **F48** : Reporting commercial — direction_regionale « Métropole » — taux de réclamation : 1,04 % → 1,56 % (+0,52 pt)\n- **F49** : Reporting commercial — direction_regionale « Nord-Littoral » — taux de réclamation : 1,04 % → 1,46 % (+0,42 pt)\n- **F51** : Reporting commercial — taux de réclamation (2026) — dispersion par direction_regionale : minimum « Flandre intérieure » 1,17 %, maximum « Métropole » 1,56 %, écart 0,38 pt\n"
+}

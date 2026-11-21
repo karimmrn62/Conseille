@@ -1,0 +1,47 @@
+{
+  "scoreBishop": -2,
+  "passes": [
+    {
+      "ordre": "bishop-en-A",
+      "jugement": {
+        "A": {
+          "originalite": 7,
+          "pertinence": 8,
+          "rigueur": 7,
+          "actionnabilite": 8,
+          "credibilite": 7
+        },
+        "B": {
+          "originalite": 8,
+          "pertinence": 9,
+          "rigueur": 9,
+          "actionnabilite": 9,
+          "credibilite": 9
+        },
+        "preference": "B",
+        "justification": "Les chiffres de A et de B sont exacts, et A repère finement des uniformités suspectes du reporting. En revanche, A reste au stade du « il faut chiffrer le solde », avec quelques formulations confuses (rubrique « Confiance ») et un test contrôlé qui expose sciemment des clients à une pratique possiblement non conforme. B va plus loin : il quantifie prudemment l'effet différentiel (environ 5 900 clôtures en excès, calibrées sur la Flandre intérieure), pose un seuil de rentabilité vérifiable (115 € de PNB par client et par an), qualifie le risque réglementaire (ACPR, directive 2023/2225) et propose une refonte concrète du dispositif, ce qui en fait un dossier présentable tel quel en comité de direction."
+      }
+    },
+    {
+      "ordre": "bishop-en-B",
+      "jugement": {
+        "A": {
+          "originalite": 8,
+          "pertinence": 9,
+          "rigueur": 8,
+          "actionnabilite": 9,
+          "credibilite": 8
+        },
+        "B": {
+          "originalite": 7,
+          "pertinence": 8,
+          "rigueur": 8,
+          "actionnabilite": 8,
+          "credibilite": 7
+        },
+        "preference": "A",
+        "justification": "A donne une réponse nette (« non en l'état »), des chiffres exacts et vérifiés (gradient régional, base projetée à −4,2 %, seuil de rentabilité honnêtement présenté comme hypothèse), et une refonte concrète du dispositif (prime différée avec reprise, déclencheurs de besoin, offre 18-25 ans sans renouvelable), assortie de tests de falsification. B a le mérite rare de repérer les uniformités suspectes du reporting (−1,5 % et 1,04 % partout), alors que A lit la baisse uniforme du ticket comme un signal métier sans s'en étonner. Mais B reste plus procédural, et son test consistant à appliquer le challenge tel quel dans la moitié des agences est difficilement défendable face à l'ACPR."
+      }
+    }
+  ]
+}

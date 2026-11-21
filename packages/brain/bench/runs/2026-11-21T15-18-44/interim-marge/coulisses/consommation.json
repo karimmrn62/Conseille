@@ -1,0 +1,68 @@
+[
+  {
+    "etape": "lecture",
+    "modele": "claude-opus-5-5",
+    "sortie": 3653,
+    "dollars": 0.125217
+  },
+  {
+    "etape": "divergence-1",
+    "modele": "claude-opus-5-5",
+    "sortie": 2812,
+    "dollars": 0.116074
+  },
+  {
+    "etape": "divergence-3",
+    "modele": "claude-opus-5-5",
+    "sortie": 3273,
+    "dollars": 0.125378
+  },
+  {
+    "etape": "divergence-2",
+    "modele": "claude-opus-5-5",
+    "sortie": 3402,
+    "dollars": 0.12791
+  },
+  {
+    "etape": "notation-3",
+    "modele": "claude-sonnet-5-5",
+    "sortie": 1296,
+    "dollars": 0.052062
+  },
+  {
+    "etape": "notation-1",
+    "modele": "claude-sonnet-5-5",
+    "sortie": 1332,
+    "dollars": 0.052422
+  },
+  {
+    "etape": "notation-2",
+    "modele": "claude-sonnet-5-5",
+    "sortie": 1348,
+    "dollars": 0.052582
+  },
+  {
+    "etape": "kpi",
+    "modele": "claude-opus-5-5",
+    "sortie": 8634,
+    "dollars": 0.237899
+  },
+  {
+    "etape": "verification",
+    "modele": "claude-opus-5-5",
+    "sortie": 4874,
+    "dollars": 0.1644
+  },
+  {
+    "etape": "formulation",
+    "modele": "claude-opus-5-5",
+    "sortie": 7607,
+    "dollars": 0.226327
+  },
+  {
+    "etape": "conseil",
+    "modele": "claude-opus-5-5",
+    "sortie": 3275,
+    "dollars": 0.12603
+  }
+]
