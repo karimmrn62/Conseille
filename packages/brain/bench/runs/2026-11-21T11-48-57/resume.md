@@ -4,4 +4,4 @@
 
 | Cas | Coût Bishop | Durée cumulée des appels Bishop | Coût témoin | Chiffres non sourcés (Bishop) | Juge automatique |
 |---|---|---|---|---|---|
-| interim-marge | 2.73 $ (11 appels) | 847 s | 0.29 $ | 40, 62, 67, 19, 34, 10, 36, 49, 50, 44, 68, 20, 23, 57, 43, 59, 22, 54, 31, 61, 28, 46 | préférence contraire (voir clé) |
+| interim-marge | 2.73 $ (11 appels) | 847 s | 0.29 $ | aucun (22 fausses alertes corrigées après coup : identifiants de faits et dates) | préférence contraire (voir clé) |

@@ -13,17 +13,22 @@ export function chiffresNonSources(texte: string, faits: Fait[], documents: stri
   for (const doc of documents) for (const n of extraireNombres(doc)) ajouterVariantes(autorises, n.valeur);
 
   const suspects: string[] = [];
-  for (const { brut, valeur } of extraireNombres(texte)) {
-    if (estIgnore(valeur, brut)) continue;
+  for (const { brut, valeur, suite } of extraireNombres(texte)) {
+    if (estIgnore(valeur, brut) || MOIS.test(suite)) continue;
     if (!correspond(valeur, autorises)) suspects.push(brut.trim());
   }
   return [...new Set(suspects)];
 }
 
-export function extraireNombres(texte: string): { brut: string; valeur: number }[] {
-  const resultat: { brut: string; valeur: number }[] = [];
+/** Un jour du mois (« 31 janvier ») n'est pas un chiffre à sourcer. */
+const MOIS =
+  /^\s+(janvier|février|fevrier|mars|avril|mai|juin|juillet|août|aout|septembre|octobre|novembre|décembre|decembre|january|february|march|april|may|june|july|august|september|october|november|december)\b/i;
+
+export function extraireNombres(texte: string): { brut: string; valeur: number; suite: string }[] {
+  const resultat: { brut: string; valeur: number; suite: string }[] = [];
   // Nombres avec séparateurs de milliers (espace) et décimales (virgule ou point).
-  const motif = /[−-]?\d{1,3}(?:[   ]\d{3})+(?:[.,]\d+)?|[−-]?\d+(?:[.,]\d+)?/g;
+  // On ignore les identifiants (F40, C1.2, F2.3…) : un nombre collé à une lettre n'est pas un chiffre à sourcer.
+  const motif = /(?<![\p{L}\d.,])(?:[−-]?\d{1,3}(?:[ \u00a0\u202f]\d{3})+(?:[.,]\d+)?|[−-]?\d+(?:[.,]\d+)?)(?![\p{L}\d])/gu;
   for (const m of texte.matchAll(motif)) {
     const brut = m[0];
     const valeur = Number(
@@ -32,7 +37,8 @@ export function extraireNombres(texte: string): { brut: string; valeur: number }
         .replace("−", "-")
         .replace(",", "."),
     );
-    if (Number.isFinite(valeur)) resultat.push({ brut, valeur });
+    const fin = (m.index ?? 0) + brut.length;
+    if (Number.isFinite(valeur)) resultat.push({ brut, valeur, suite: texte.slice(fin, fin + 12) });
   }
   return resultat;
 }

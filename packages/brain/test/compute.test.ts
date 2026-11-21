@@ -98,3 +98,19 @@ describe("client de l'API", async () => {
     expect(() => creerClient({})).toThrow(/BISHOP_ANTHROPIC_API_KEY/);
   });
 });
+
+describe("contrôle des chiffres et identifiants", () => {
+  it("ignore les identifiants de faits et de candidats", () => {
+    expect(chiffresNonSources("Voir F40, F66 et F2.3 ; candidat C1.2.", [], [])).toEqual([]);
+  });
+
+  it("repère toujours un chiffre inventé à côté d'un identifiant", () => {
+    expect(chiffresNonSources("Marge de 47,3 % (F5).", [], [])).toEqual(["47,3"]);
+  });
+});
+
+describe("contrôle des chiffres et dates", () => {
+  it("ignore les jours du mois", () => {
+    expect(chiffresNonSources("Échéance : 31 janvier 2027, puis 28 février.", [], [])).toEqual([]);
+  });
+});

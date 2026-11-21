@@ -195,5 +195,3 @@ _Scénario raisonné à partir des documents, pas une prédiction. Les hypothès
 - Quels sont les délais de paiement, impayés et coûts accidents du travail du BTP comparés aux autres secteurs ?
 - La structure de la rémunération variable des chargés d'affaires est-elle contractuelle ? Quel calendrier de consultation du CSE est réaliste avant tout changement ?
 - Qu'attend précisément le conseil de surveillance en février : un bilan, une trajectoire 2028, une décision sur les effectifs ?
-
-> ⚠ Contrôle automatique : ces chiffres n'ont été retrouvés ni dans les documents ni dans les faits calculés. À vérifier avant toute utilisation : 40, 62, 67, 19, 34, 10, 36, 49, 50, 44, 68, 20, 23, 57, 43, 59, 22, 54, 31, 61, 28, 46.
