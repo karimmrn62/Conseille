@@ -1,0 +1,1543 @@
+{
+  "position": {
+    "id": "interim-marge",
+    "titre": "Réseau d'agences d'intérim : un taux de marge qui progresse",
+    "type": "pilotage",
+    "question": "Le comité de direction se félicite de la hausse du taux de marge et propose d'étendre à tout le réseau le plan de primes de la région la plus performante. Que faut-il en penser, et quelles priorités fixer pour la revue de performance de janvier ?"
+  },
+  "faits": [
+    {
+      "id": "F1",
+      "texte": "⚠ Reporting régional — QUALITÉ DES DONNÉES : la colonne « missions » est proportionnelle à « ca_keur » à l'intérieur de chaque secteur (rapport constant par secteur). Elle semble recalculée : n'en tirer aucune conclusion indépendante sans vérifier la source.",
+      "valeurs": []
+    },
+    {
+      "id": "F2",
+      "texte": "⚠ Reporting régional — QUALITÉ DES DONNÉES : la colonne « heures_milliers » est proportionnelle à « ca_keur » sur toutes les lignes (rapport constant). Elle semble recalculée et n'apporte aucune information indépendante : n'en tirer aucune conclusion (productivité, prix unitaire…) sans vérifier la source.",
+      "valeurs": []
+    },
+    {
+      "id": "F3",
+      "texte": "⚠ Reporting régional — QUALITÉ DES DONNÉES : la colonne « heures_milliers » est proportionnelle à « missions » à l'intérieur de chaque secteur (rapport constant par secteur). Elle semble recalculée : n'en tirer aucune conclusion indépendante sans vérifier la source.",
+      "valeurs": []
+    },
+    {
+      "id": "F4",
+      "texte": "Reporting régional — total — ca_keur : 64 050 k€ → 65 536 k€ (+2,3 %) (2025 → 2026)",
+      "valeurs": [
+        64050,
+        65536,
+        1486,
+        2.3
+      ]
+    },
+    {
+      "id": "F5",
+      "texte": "Reporting régional — total — marge_keur : 11 947 k€ → 12 896 k€ (+7,9 %) (2025 → 2026)",
+      "valeurs": [
+        11947,
+        12896,
+        949,
+        7.9
+      ]
+    },
+    {
+      "id": "F6",
+      "texte": "Reporting régional — total — missions : 37 719 → 37 370 (−0,9 %) (2025 → 2026)",
+      "valeurs": [
+        37719,
+        37370,
+        -349,
+        -0.9
+      ]
+    },
+    {
+      "id": "F7",
+      "texte": "Reporting régional — total — heures_milliers : 1 779,3 milliers d'heures → 1 820,4 milliers d'heures (+2,3 %) (2025 → 2026)",
+      "valeurs": [
+        1779.3,
+        1820.4,
+        41.1,
+        2.3
+      ]
+    },
+    {
+      "id": "F8",
+      "texte": "Reporting régional — total — taux de marge brute : 18,65 % → 19,68 % (+1,03 pt) (2025 → 2026)",
+      "valeurs": [
+        18.65,
+        19.68,
+        1.03
+      ]
+    },
+    {
+      "id": "F9",
+      "texte": "Reporting régional — region « Bourgogne-Franche-Comté » — ca_keur : 7 321 k€ → 7 082 k€ (−3,3 %)",
+      "valeurs": [
+        7321,
+        7082,
+        -239,
+        -3.3
+      ]
+    },
+    {
+      "id": "F10",
+      "texte": "Reporting régional — region « Centre-Val de Loire » — ca_keur : 6 373 k€ → 6 315 k€ (−0,9 %)",
+      "valeurs": [
+        6373,
+        6315,
+        -58,
+        -0.9
+      ]
+    },
+    {
+      "id": "F11",
+      "texte": "Reporting régional — region « Grand Est » — ca_keur : 12 001 k€ → 11 240 k€ (−6,3 %)",
+      "valeurs": [
+        12001,
+        11240,
+        -761,
+        -6.3
+      ]
+    },
+    {
+      "id": "F12",
+      "texte": "Reporting régional — region « Hauts-de-France » — ca_keur : 13 688 k€ → 13 403 k€ (−2,1 %)",
+      "valeurs": [
+        13688,
+        13403,
+        -285,
+        -2.1
+      ]
+    },
+    {
+      "id": "F13",
+      "texte": "Reporting régional — region « Normandie » — ca_keur : 8 143 k€ → 10 839 k€ (+33,1 %)",
+      "valeurs": [
+        8143,
+        10839,
+        2696,
+        33.1
+      ]
+    },
+    {
+      "id": "F14",
+      "texte": "Reporting régional — region « Île-de-France » — ca_keur : 16 524 k€ → 16 657 k€ (+0,8 %)",
+      "valeurs": [
+        16524,
+        16657,
+        133,
+        0.8
+      ]
+    },
+    {
+      "id": "F15",
+      "texte": "Reporting régional — ca_keur — principales contributions à la variation (par region) : « Normandie » +2 696 ; « Grand Est » −761 ; « Hauts-de-France » −285",
+      "valeurs": [
+        2696,
+        -761,
+        -285
+      ]
+    },
+    {
+      "id": "F16",
+      "texte": "Reporting régional — region « Bourgogne-Franche-Comté » — marge_keur : 1 369 k€ → 1 384 k€ (+1,1 %)",
+      "valeurs": [
+        1369,
+        1384,
+        15,
+        1.1
+      ]
+    },
+    {
+      "id": "F17",
+      "texte": "Reporting régional — region « Centre-Val de Loire » — marge_keur : 1 194 k€ → 1 229 k€ (+2,9 %)",
+      "valeurs": [
+        1194,
+        1229,
+        35,
+        2.9
+      ]
+    },
+    {
+      "id": "F18",
+      "texte": "Reporting régional — region « Grand Est » — marge_keur : 2 242 k€ → 2 203 k€ (−1,7 %)",
+      "valeurs": [
+        2242,
+        2203,
+        -39,
+        -1.7
+      ]
+    },
+    {
+      "id": "F19",
+      "texte": "Reporting régional — region « Hauts-de-France » — marge_keur : 2 530 k€ → 2 626 k€ (+3,8 %)",
+      "valeurs": [
+        2530,
+        2626,
+        96,
+        3.8
+      ]
+    },
+    {
+      "id": "F20",
+      "texte": "Reporting régional — region « Normandie » — marge_keur : 1 519 k€ → 2 248 k€ (+48 %)",
+      "valeurs": [
+        1519,
+        2248,
+        729,
+        48
+      ]
+    },
+    {
+      "id": "F21",
+      "texte": "Reporting régional — region « Île-de-France » — marge_keur : 3 093 k€ → 3 206 k€ (+3,7 %)",
+      "valeurs": [
+        3093,
+        3206,
+        113,
+        3.7
+      ]
+    },
+    {
+      "id": "F22",
+      "texte": "Reporting régional — marge_keur — principales contributions à la variation (par region) : « Normandie » +729 (76,8 % de la variation totale) ; « Île-de-France » +113 (11,9 % de la variation totale) ; « Hauts-de-France » +96 (10,1 % de la variation totale)",
+      "valeurs": [
+        729,
+        76.8,
+        113,
+        11.9,
+        96,
+        10.1
+      ]
+    },
+    {
+      "id": "F23",
+      "texte": "Reporting régional — region « Bourgogne-Franche-Comté » — missions : 4 304 → 4 053 (−5,8 %)",
+      "valeurs": [
+        4304,
+        4053,
+        -251,
+        -5.8
+      ]
+    },
+    {
+      "id": "F24",
+      "texte": "Reporting régional — region « Centre-Val de Loire » — missions : 3 752 → 3 630 (−3,3 %)",
+      "valeurs": [
+        3752,
+        3630,
+        -122,
+        -3.3
+      ]
+    },
+    {
+      "id": "F25",
+      "texte": "Reporting régional — region « Grand Est » — missions : 7 069 → 6 415 (−9,3 %)",
+      "valeurs": [
+        7069,
+        6415,
+        -654,
+        -9.3
+      ]
+    },
+    {
+      "id": "F26",
+      "texte": "Reporting régional — region « Hauts-de-France » — missions : 8 062 → 7 670 (−4,9 %)",
+      "valeurs": [
+        8062,
+        7670,
+        -392,
+        -4.9
+      ]
+    },
+    {
+      "id": "F27",
+      "texte": "Reporting régional — region « Normandie » — missions : 4 797 → 5 999 (+25,1 %)",
+      "valeurs": [
+        4797,
+        5999,
+        1202,
+        25.1
+      ]
+    },
+    {
+      "id": "F28",
+      "texte": "Reporting régional — region « Île-de-France » — missions : 9 735 → 9 603 (−1,4 %)",
+      "valeurs": [
+        9735,
+        9603,
+        -132,
+        -1.4
+      ]
+    },
+    {
+      "id": "F29",
+      "texte": "Reporting régional — missions — principales contributions à la variation (par region) : « Normandie » +1 202 ; « Grand Est » −654 ; « Hauts-de-France » −392",
+      "valeurs": [
+        1202,
+        -654,
+        -392
+      ]
+    },
+    {
+      "id": "F30",
+      "texte": "Reporting régional — region « Bourgogne-Franche-Comté » — heures_milliers : 203,3 milliers d'heures → 196,7 milliers d'heures (−3,2 %)",
+      "valeurs": [
+        203.3,
+        196.7,
+        -6.6,
+        -3.2
+      ]
+    },
+    {
+      "id": "F31",
+      "texte": "Reporting régional — region « Centre-Val de Loire » — heures_milliers : 177 milliers d'heures → 175,4 milliers d'heures (−0,9 %)",
+      "valeurs": [
+        177,
+        175.4,
+        -1.6,
+        -0.9
+      ]
+    },
+    {
+      "id": "F32",
+      "texte": "Reporting régional — region « Grand Est » — heures_milliers : 333,5 milliers d'heures → 312,2 milliers d'heures (−6,4 %)",
+      "valeurs": [
+        333.5,
+        312.2,
+        -21.3,
+        -6.4
+      ]
+    },
+    {
+      "id": "F33",
+      "texte": "Reporting régional — region « Hauts-de-France » — heures_milliers : 380,2 milliers d'heures → 372,3 milliers d'heures (−2,1 %)",
+      "valeurs": [
+        380.2,
+        372.3,
+        -7.9,
+        -2.1
+      ]
+    },
+    {
+      "id": "F34",
+      "texte": "Reporting régional — region « Normandie » — heures_milliers : 226,3 milliers d'heures → 301,1 milliers d'heures (+33,1 %)",
+      "valeurs": [
+        226.3,
+        301.1,
+        74.8,
+        33.1
+      ]
+    },
+    {
+      "id": "F35",
+      "texte": "Reporting régional — region « Île-de-France » — heures_milliers : 459 milliers d'heures → 462,7 milliers d'heures (+0,8 %)",
+      "valeurs": [
+        459,
+        462.7,
+        3.7,
+        0.8
+      ]
+    },
+    {
+      "id": "F36",
+      "texte": "Reporting régional — heures_milliers — principales contributions à la variation (par region) : « Normandie » +74,8 ; « Grand Est » −21,3 ; « Hauts-de-France » −7,9",
+      "valeurs": [
+        74.8,
+        -21.3,
+        -7.9
+      ]
+    },
+    {
+      "id": "F37",
+      "texte": "Reporting régional — region « Bourgogne-Franche-Comté » — taux de marge brute : 18,7 % → 19,54 % (+0,84 pt)",
+      "valeurs": [
+        18.7,
+        19.54,
+        0.84
+      ]
+    },
+    {
+      "id": "F38",
+      "texte": "Reporting régional — region « Centre-Val de Loire » — taux de marge brute : 18,74 % → 19,46 % (+0,73 pt)",
+      "valeurs": [
+        18.74,
+        19.46,
+        0.73
+      ]
+    },
+    {
+      "id": "F39",
+      "texte": "Reporting régional — region « Grand Est » — taux de marge brute : 18,68 % → 19,6 % (+0,92 pt)",
+      "valeurs": [
+        18.68,
+        19.6,
+        0.92
+      ]
+    },
+    {
+      "id": "F40",
+      "texte": "Reporting régional — region « Hauts-de-France » — taux de marge brute : 18,48 % → 19,59 % (+1,11 pt)",
+      "valeurs": [
+        18.48,
+        19.59,
+        1.11
+      ]
+    },
+    {
+      "id": "F41",
+      "texte": "Reporting régional — region « Normandie » — taux de marge brute : 18,65 % → 20,74 % (+2,09 pt)",
+      "valeurs": [
+        18.65,
+        20.74,
+        2.09
+      ]
+    },
+    {
+      "id": "F42",
+      "texte": "Reporting régional — region « Île-de-France » — taux de marge brute : 18,72 % → 19,25 % (+0,53 pt)",
+      "valeurs": [
+        18.72,
+        19.25,
+        0.53
+      ]
+    },
+    {
+      "id": "F43",
+      "texte": "Reporting régional — taux de marge brute — décomposition par region : variation globale +1,03 pt = effet taux +1,02 pt + effet de mix 0 pt",
+      "valeurs": [
+        1.03,
+        1.02,
+        0
+      ]
+    },
+    {
+      "id": "F44",
+      "texte": "Reporting régional — taux de marge brute (2026) — dispersion par region : minimum « Île-de-France » 19,25 %, maximum « Normandie » 20,74 %, écart 1,49 pt",
+      "valeurs": [
+        19.25,
+        20.74,
+        1.49
+      ]
+    },
+    {
+      "id": "F45",
+      "texte": "Reporting régional — secteur « BTP » — ca_keur : 15 541 k€ → 24 120 k€ (+55,2 %)",
+      "valeurs": [
+        15541,
+        24120,
+        8579,
+        55.2
+      ]
+    },
+    {
+      "id": "F46",
+      "texte": "Reporting régional — secteur « Industrie » — ca_keur : 17 680 k€ → 16 643 k€ (−5,9 %)",
+      "valeurs": [
+        17680,
+        16643,
+        -1037,
+        -5.9
+      ]
+    },
+    {
+      "id": "F47",
+      "texte": "Reporting régional — secteur « Logistique » — ca_keur : 20 536 k€ → 14 363 k€ (−30,1 %)",
+      "valeurs": [
+        20536,
+        14363,
+        -6173,
+        -30.1
+      ]
+    },
+    {
+      "id": "F48",
+      "texte": "Reporting régional — secteur « Tertiaire » — ca_keur : 10 293 k€ → 10 410 k€ (+1,1 %)",
+      "valeurs": [
+        10293,
+        10410,
+        117,
+        1.1
+      ]
+    },
+    {
+      "id": "F49",
+      "texte": "Reporting régional — ca_keur — principales contributions à la variation (par secteur) : « BTP » +8 579 ; « Logistique » −6 173 ; « Industrie » −1 037",
+      "valeurs": [
+        8579,
+        -6173,
+        -1037
+      ]
+    },
+    {
+      "id": "F50",
+      "texte": "Reporting régional — secteur « BTP » — marge_keur : 4 057 k€ → 6 192 k€ (+52,6 %)",
+      "valeurs": [
+        4057,
+        6192,
+        2135,
+        52.6
+      ]
+    },
+    {
+      "id": "F51",
+      "texte": "Reporting régional — secteur « Industrie » — marge_keur : 3 106 k€ → 2 829 k€ (−8,9 %)",
+      "valeurs": [
+        3106,
+        2829,
+        -277,
+        -8.9
+      ]
+    },
+    {
+      "id": "F52",
+      "texte": "Reporting régional — secteur « Logistique » — marge_keur : 2 678 k€ → 1 811 k€ (−32,4 %)",
+      "valeurs": [
+        2678,
+        1811,
+        -867,
+        -32.4
+      ]
+    },
+    {
+      "id": "F53",
+      "texte": "Reporting régional — secteur « Tertiaire » — marge_keur : 2 106 k€ → 2 064 k€ (−2 %)",
+      "valeurs": [
+        2106,
+        2064,
+        -42,
+        -2
+      ]
+    },
+    {
+      "id": "F54",
+      "texte": "Reporting régional — marge_keur — principales contributions à la variation (par secteur) : « BTP » +2 135 ; « Logistique » −867 ; « Industrie » −277",
+      "valeurs": [
+        2135,
+        -867,
+        -277
+      ]
+    },
+    {
+      "id": "F55",
+      "texte": "Reporting régional — secteur « BTP » — missions : 7 401 → 11 486 (+55,2 %)",
+      "valeurs": [
+        7401,
+        11486,
+        4085,
+        55.2
+      ]
+    },
+    {
+      "id": "F56",
+      "texte": "Reporting régional — secteur « Industrie » — missions : 11 050 → 10 402 (−5,9 %)",
+      "valeurs": [
+        11050,
+        10402,
+        -648,
+        -5.9
+      ]
+    },
+    {
+      "id": "F57",
+      "texte": "Reporting régional — secteur « Logistique » — missions : 12 835 → 8 975 (−30,1 %)",
+      "valeurs": [
+        12835,
+        8975,
+        -3860,
+        -30.1
+      ]
+    },
+    {
+      "id": "F58",
+      "texte": "Reporting régional — secteur « Tertiaire » — missions : 6 433 → 6 507 (+1,2 %)",
+      "valeurs": [
+        6433,
+        6507,
+        74,
+        1.2
+      ]
+    },
+    {
+      "id": "F59",
+      "texte": "Reporting régional — missions — principales contributions à la variation (par secteur) : « BTP » +4 085 ; « Logistique » −3 860 ; « Industrie » −648",
+      "valeurs": [
+        4085,
+        -3860,
+        -648
+      ]
+    },
+    {
+      "id": "F60",
+      "texte": "Reporting régional — secteur « BTP » — heures_milliers : 431,7 milliers d'heures → 669,9 milliers d'heures (+55,2 %)",
+      "valeurs": [
+        431.7,
+        669.9,
+        238.2,
+        55.2
+      ]
+    },
+    {
+      "id": "F61",
+      "texte": "Reporting régional — secteur « Industrie » — heures_milliers : 491,2 milliers d'heures → 462,4 milliers d'heures (−5,9 %)",
+      "valeurs": [
+        491.2,
+        462.4,
+        -28.8,
+        -5.9
+      ]
+    },
+    {
+      "id": "F62",
+      "texte": "Reporting régional — secteur « Logistique » — heures_milliers : 570,5 milliers d'heures → 398,9 milliers d'heures (−30,1 %)",
+      "valeurs": [
+        570.5,
+        398.9,
+        -171.6,
+        -30.1
+      ]
+    },
+    {
+      "id": "F63",
+      "texte": "Reporting régional — secteur « Tertiaire » — heures_milliers : 285,9 milliers d'heures → 289,2 milliers d'heures (+1,2 %)",
+      "valeurs": [
+        285.9,
+        289.2,
+        3.3,
+        1.2
+      ]
+    },
+    {
+      "id": "F64",
+      "texte": "Reporting régional — heures_milliers — principales contributions à la variation (par secteur) : « BTP » +238,2 ; « Logistique » −171,6 ; « Industrie » −28,8",
+      "valeurs": [
+        238.2,
+        -171.6,
+        -28.8
+      ]
+    },
+    {
+      "id": "F65",
+      "texte": "Reporting régional — secteur « BTP » — taux de marge brute : 26,11 % → 25,67 % (−0,43 pt)",
+      "valeurs": [
+        26.11,
+        25.67,
+        -0.43
+      ]
+    },
+    {
+      "id": "F66",
+      "texte": "Reporting régional — secteur « Industrie » — taux de marge brute : 17,57 % → 17,0 % (−0,57 pt)",
+      "valeurs": [
+        17.57,
+        17,
+        -0.57
+      ]
+    },
+    {
+      "id": "F67",
+      "texte": "Reporting régional — secteur « Logistique » — taux de marge brute : 13,04 % → 12,61 % (−0,43 pt)",
+      "valeurs": [
+        13.04,
+        12.61,
+        -0.43
+      ]
+    },
+    {
+      "id": "F68",
+      "texte": "Reporting régional — secteur « Tertiaire » — taux de marge brute : 20,46 % → 19,83 % (−0,63 pt)",
+      "valeurs": [
+        20.46,
+        19.83,
+        -0.63
+      ]
+    },
+    {
+      "id": "F69",
+      "texte": "Reporting régional — taux de marge brute — décomposition par secteur : variation globale +1,03 pt = effet taux −0,5 pt + effet de mix +1,52 pt",
+      "valeurs": [
+        1.03,
+        -0.5,
+        1.52
+      ]
+    },
+    {
+      "id": "F70",
+      "texte": "⚠ Reporting régional — taux de marge brute — PARADOXE DE SIMPSON (effet de mix) : le total monte alors que 4 secteur(s) sur 4 baissent",
+      "valeurs": [
+        4,
+        4
+      ]
+    },
+    {
+      "id": "F71",
+      "texte": "Reporting régional — taux de marge brute (2026) — dispersion par secteur : minimum « Logistique » 12,61 %, maximum « BTP » 25,67 %, écart 13,06 pt",
+      "valeurs": [
+        12.61,
+        25.67,
+        13.06
+      ]
+    }
+  ],
+  "lecture": {
+    "vraieQuestion": "La hausse du taux de marge vient-elle d'une meilleure performance commerciale ou d'un simple effet de mix lié au BTP et donc temporaire ? Et quel système de pilotage et de primes adopter avant que les chantiers de l'Ouest ne s'arrêtent fin 2027–2028 ?",
+    "enjeux": [
+      "La crédibilité de la direction devant le conseil de surveillance de février : présenter un effet de mix (+1,52 point) comme une réussite tarifaire, alors que l'effet taux est négatif (−0,5 point, F69), expose à un démenti en 2028.",
+      "La marge en euros, qui paie les salaires et les frais : une prime 100 % taux de marge pousse à abandonner du volume rentable en euros mais à faible taux, comme la logistique qui rapporte encore 1 811 k€ (F52).",
+      "La capacité à encaisser l'après-chantiers : le BTP porte à lui seul +2 135 k€ de marge (F54) sur un horizon connu et limité.",
+      "Le portefeuille industriel, deuxième source de marge avec 2 829 k€ (F51) : il s'érode (−5,9 % de chiffre d'affaires, F46) et ses clients contestent les coefficients.",
+      "Le vivier d'intérimaires BTP qualifiés, convoité par deux concurrents nationaux qui offrent des primes de fidélité."
+    ],
+    "acteurs": [
+      {
+        "nom": "Direction générale déléguée",
+        "role": "Auteur de la note et porteur de la « discipline tarifaire »",
+        "interets": "Valider sa politique et afficher un redressement devant le conseil",
+        "pouvoir": "fort",
+        "positionProbable": "Favorable à la généralisation et à une présentation triomphale en février"
+      },
+      {
+        "nom": "Directeur régional Normandie",
+        "role": "Concepteur du plan de primes présenté comme modèle",
+        "interets": "Faire reconnaître sa performance et diffuser son modèle",
+        "pouvoir": "moyen",
+        "positionProbable": "Défendra son plan ; peu enclin à attribuer sa hausse aux chantiers d'infrastructures"
+      },
+      {
+        "nom": "Autres directeurs régionaux (Grand Est, Hauts-de-France notamment)",
+        "role": "Exécutants des objectifs 2027",
+        "interets": "Éviter un objectif de +1,5 point qu'ils ne pourront tenir sans chantiers BTP comparables",
+        "pouvoir": "moyen",
+        "positionProbable": "Réticents en privé, peu audibles face à la région « modèle » ; le Grand Est perd 6,3 % de chiffre d'affaires (F11)"
+      },
+      {
+        "nom": "Chargés d'affaires",
+        "role": "Bénéficiaires directs du plan de primes",
+        "interets": "Maximiser leur variable avec le moins de risque possible",
+        "pouvoir": "moyen",
+        "positionProbable": "Avec une prime au taux, ils trieront leurs portefeuilles et délaisseront les comptes logistique et industrie à faible taux"
+      },
+      {
+        "nom": "Conseil de surveillance",
+        "role": "Contrôle de la stratégie",
+        "interets": "Visibilité et pérennité des résultats",
+        "pouvoir": "fort",
+        "positionProbable": "Convaincu par le taux global s'il ne voit pas la décomposition par secteur ; sévère s'il la découvre en 2028"
+      },
+      {
+        "nom": "Clients industriels et logistiques",
+        "role": "Donneurs d'ordre",
+        "interets": "Prix et réactivité de pourvoi",
+        "pouvoir": "moyen",
+        "positionProbable": "Contestent déjà les coefficients ; risque de départ vers la concurrence ou d'internalisation"
+      },
+      {
+        "nom": "Concurrents nationaux",
+        "role": "Rivaux sur le vivier BTP et sur les comptes délaissés",
+        "interets": "Capter les intérimaires qualifiés et les clients refusés par Alterna",
+        "pouvoir": "moyen",
+        "positionProbable": "Profiteront de chaque mission refusée et de chaque intérimaire non fidélisé"
+      }
+    ],
+    "contraintesDures": [
+      "Les quatre secteurs voient leur taux de marge baisser, de −0,43 à −0,63 point (F65 à F68) : la discipline tarifaire n'apparaît dans aucun taux sectoriel.",
+      "Les grands chantiers d'infrastructures de l'Ouest s'achèvent entre fin 2027 et 2028 (note, §4).",
+      "Le marché national de l'intérim recule, en particulier la logistique (internalisation, automatisation).",
+      "Les colonnes « missions » et « heures » du reporting semblent recalculées à partir du chiffre d'affaires (F1 à F3) : aucune conclusion sur la productivité, le prix unitaire ou le volume réel n'est possible.",
+      "Le réseau compte 6 régions, 74 agences et environ 410 permanents ; le plan de primes concerne donc des centaines de personnes et se renégocie mal en cours d'année."
+    ],
+    "contraintesSupposees": [
+      "La logistique serait « structurellement peu rentable » : son taux est bas (12,61 %, F67), mais elle produit encore 1 811 k€ de marge (F52) et sa chute est subie plus que choisie.",
+      "Le plan de primes devrait être indexé à 100 % sur un seul indicateur et appliqué dès le 1er janvier 2027.",
+      "Le taux de marge serait le bon indicateur de pilotage, plutôt que la marge en euros ou la marge par permanent.",
+      "Le plancher de marge serait le même pour tous les secteurs et toutes les situations client.",
+      "Les résultats devraient être présentés au conseil de février sous l'angle « la discipline tarifaire fonctionne »."
+    ],
+    "hypothesesImplicites": [
+      {
+        "hypothese": "La hausse du taux global vient de la discipline tarifaire.",
+        "fragilite": "forte",
+        "pourquoi": "Par secteur, l'effet taux est négatif (−0,5 point) et l'effet de mix explique +1,52 point (F69, F70) : c'est un paradoxe de Simpson."
+      },
+      {
+        "hypothese": "La performance de la Normandie tient à son plan de primes.",
+        "fragilite": "forte",
+        "pourquoi": "Son chiffre d'affaires bondit de 33,1 % (F13), au moment même des chantiers BTP de l'Ouest ; la ventilation de la région par secteur n'est pas fournie, mais un effet de mix est l'explication la plus probable."
+      },
+      {
+        "hypothese": "La décomposition par région prouve un effet taux réel (+1,02 point, effet de mix nul, F43).",
+        "fragilite": "forte",
+        "pourquoi": "Chaque région a pu basculer vers le BTP : un effet de mix sectoriel interne apparaît alors comme un « effet taux » régional."
+      },
+      {
+        "hypothese": "Ce qui marche en Normandie marchera ailleurs.",
+        "fragilite": "forte",
+        "pourquoi": "Les autres régions n'ont pas de chantiers comparables ; quatre sur six perdent du chiffre d'affaires (F9 à F12)."
+      },
+      {
+        "hypothese": "La hausse de la marge en euros (+7,9 %, F5) est durable.",
+        "fragilite": "moyenne",
+        "pourquoi": "Elle repose sur le BTP (+2 135 k€, F54), dont la fin est datée, et sur un vivier d'intérimaires que les concurrents courtisent."
+      }
+    ],
+    "anglesMorts": [
+      "Aucune ventilation par région et par secteur : impossible de séparer l'effet chantiers de l'effet primes en Normandie.",
+      "La marge en euros par chargé d'affaires et par permanent, seul indicateur qui mesure la création de valeur réelle.",
+      "Le coût du plan de primes normand lui-même et son effet sur la marge nette.",
+      "Le délai de pourvoi et le taux de service, signalés comme en dégradation mais non mesurés.",
+      "Le scénario 2028, quand la marge BTP retombera, et la base clients qui restera alors."
+    ],
+    "contradictions": [
+      "La note attribue la hausse à la discipline tarifaire, alors que le taux de marge baisse dans les quatre secteurs (F65 à F68).",
+      "La note parle de « refuser les missions sous le plancher », alors que les taux sectoriels baissent : soit la consigne n'est pas appliquée, soit le plancher ne joue pas sur le taux moyen.",
+      "Le +1,03 point « sur l'ensemble du réseau » est présenté comme une performance diffuse, alors que la Normandie apporte 76,8 % de la hausse de la marge en euros (F22).",
+      "Couper 15 % des commerciaux logistiques est présenté comme un choix de rentabilité, mais retire une marge positive et accélère une chute déjà subie (−30,1 % de chiffre d'affaires, F47).",
+      "La note se félicite d'une « année de redressement » tout en signalant un service qui se dégrade, des intérimaires clés qui partent et des clients industriels mécontents."
+    ],
+    "nonDits": [
+      "Le plan normand a pu déjà produire de la sélection de clientèle plutôt que de la négociation ; on ne le saura qu'avec des données par compte.",
+      "La direction a besoin d'un récit pour le conseil de février ; le taux de marge flatteur arrive à point.",
+      "L'objectif de +1,5 point est intenable sans nouveau mix favorable : il poussera à abandonner les comptes à faible taux.",
+      "Le réseau dépend fortement du BTP de l'Ouest et sait que cette dépendance a une date de fin.",
+      "La fiabilité du reporting est faible (colonnes recalculées), ce qui interroge le pilotage actuel au-delà de ce dossier."
+    ],
+    "actifsSousEstimes": [
+      "Un portefeuille BTP à fort taux de marge (25,67 %, F65), dont le savoir-faire et les intérimaires qualifiés peuvent être redéployés après les chantiers de l'Ouest.",
+      "La base logistique : encore 14 363 k€ de chiffre d'affaires (F47), qui apporte volume et visibilité sur le vivier, même à taux bas.",
+      "L'Île-de-France, première région du réseau (16 657 k€, F14), stable en chiffre d'affaires et en hausse de 3,7 % en marge (F21).",
+      "Les retours terrain des agences (délais, fidélisation, plaintes clients) : des signaux avancés disponibles mais non instrumentés.",
+      "La décomposition mix/taux déjà calculable, qui permet de dire la vérité au conseil avant qu'il ne la découvre."
+    ],
+    "coupsEvidents": [
+      "Généraliser tel quel le plan de primes normand, indexé à 100 % sur le taux de marge.",
+      "Couper la logistique et se « recentrer » sur le BTP, le secteur au meilleur taux.",
+      "Passer la prime à 100 % sur la marge en euros, sans traiter le risque de concentration sur le BTP.",
+      "Lancer une plateforme numérique de recrutement d'intérimaires pour réduire les délais.",
+      "Monter un tableau de bord avec davantage d'indicateurs, sans corriger d'abord la qualité des données."
+    ],
+    "questionsAPoser": [
+      "Quelle est la ventilation 2025–2026 du chiffre d'affaires et de la marge par région et par secteur, en particulier pour la Normandie hors BTP ?",
+      "Quelle est la source réelle des colonnes « missions » et « heures », et peut-on obtenir des données natives (heures facturées, nombre de contrats) ?",
+      "Combien a coûté le plan de primes normand, et comment ont évolué la marge en euros et le nombre de comptes actifs par chargé d'affaires ?",
+      "Combien de missions ont été refusées sous le plancher en 2026, avec quelle marge en euros perdue, et chez quels clients ?",
+      "Quel carnet de chantiers BTP reste-t-il après 2028, et quels clients pourraient prendre le relais à l'échelle du réseau ?"
+    ]
+  },
+  "methode": {
+    "candidats": [
+      {
+        "titre": "Annoncer au conseil la baisse des taux plutôt que la hausse",
+        "coup": "En février, présenter d'abord au conseil de surveillance le recul des taux dans les quatre secteurs : effet taux de −0,5 point, effet de mix de +1,52 point. Demander ensuite un mandat explicite pour préparer l'après-chantiers de l'Ouest. Le récit change : non plus « la discipline tarifaire fonctionne », mais « nous avons identifié une dépendance datée et nous la traitons ».",
+        "technique": "inversion",
+        "mecanisme": "Le conseil découvrira la décomposition tôt ou tard, au plus tard en 2028, quand la marge BTP retombera. La révéler soi-même transforme un démenti futur en preuve de lucidité. La direction gagne aussi un mandat pour freiner la généralisation sans se désavouer.",
+        "pourquoiInvisible": "Une direction qui sort de deux années difficiles cherche spontanément une victoire à afficher. Le taux global de +1,03 point arrive à point nommé, et personne n'a envie de déconstruire sa propre bonne nouvelle.",
+        "id": "C1.1"
+      },
+      {
+        "titre": "Se battre pour le vivier BTP, pas pour les coefficients",
+        "coup": "Déplacer la compétition du prix vers la ressource rare : les intérimaires BTP qualifiés. Il s'agit de lancer en 2027 un dispositif de fidélisation ciblé et de préparer leur redéploiement, à la fin des chantiers de l'Ouest, vers les clients industriels et BTP des autres régions.",
+        "technique": "changement d'échiquier",
+        "mecanisme": "Sur les coefficients, Alterna perd : les clients industriels protestent et le marché recule. Sur le vivier, l'entreprise dispose d'un avantage temporaire, un portefeuille BTP à 25,67 % de taux et des équipes rodées sur de grands chantiers. Si ce vivier est retenu, il devient l'argument qui justifie les coefficients auprès de l'industrie, au lieu de partir chez les deux concurrents qui offrent déjà des primes de fidélité.",
+        "pourquoiInvisible": "La note traite les intérimaires comme un « point d'attention » en bas de page, et non comme l'actif stratégique. Le réflexe de pilotage regarde les clients et les prix, rarement l'offre de main-d'œuvre, qui est pourtant le vrai goulot dans l'intérim qualifié.",
+        "id": "C1.2"
+      },
+      {
+        "titre": "Primer le taux à mix constant, secteur par secteur",
+        "coup": "Supprimer l'idée d'un indicateur unique et d'un plancher unique. Le variable 2027 récompenserait l'évolution du taux de marge de chaque chargé d'affaires à l'intérieur de chaque secteur, avec un plancher différencié par secteur, jamais le taux global de son portefeuille. Le plan normand serait suspendu au 1er janvier, le temps d'obtenir la ventilation région × secteur.",
+        "technique": "suppression d'une contrainte supposée intouchable",
+        "mecanisme": "La décomposition qui révèle l'effet taux de −0,5 point devient la base de la prime. Un chargé d'affaires ne peut plus gonfler son taux en abandonnant la logistique (12,61 %) ou en surfant sur un chantier BTP : seule une vraie négociation est payée. Cela neutralise aussi l'objectif de +1,5 point, intenable sans nouveau mix favorable.",
+        "pourquoiInvisible": "Le comité raisonne en taux global parce que c'est ainsi que le reporting est construit, et la note présente le « 100 % taux » comme un modèle éprouvé. L'idée qu'un même indicateur puisse être juste au niveau d'un secteur et trompeur au niveau d'un portefeuille n'est pas intuitive.",
+        "id": "C1.3"
+      },
+      {
+        "titre": "Céder du taux à l'industrie contre une base pluriannuelle",
+        "coup": "Proposer dès le premier semestre 2027 aux principaux clients industriels, ceux qui contestent les coefficients, un geste tarifaire ciblé en échange d'engagements de volume sur 2028–2029. Les chantiers de l'Ouest auront alors pris fin.",
+        "technique": "sacrifice calculé",
+        "mecanisme": "L'industrie reste la deuxième source de marge avec 2 829 k€, mais elle s'érode (−5,9 % de chiffre d'affaires). Sacrifier un peu de taux aujourd'hui sécurise de la marge en euros pour l'année où le BTP ne la portera plus. Ce coup est prophylactique : il agit avant que ces clients ne partent chez un concurrent ou n'internalisent, comme l'ont fait les donneurs d'ordre logistiques.",
+        "pourquoiInvisible": "Il va frontalement contre la consigne de discipline tarifaire et contre l'objectif de +1,5 point : personne ne propose de baisser un taux qu'on vient de célébrer. Le coût est visible tout de suite, le bénéfice n'apparaît qu'en 2028, hors de l'horizon du plan de primes annuel.",
+        "id": "C1.4"
+      },
+      {
+        "titre": "Payer l'alpha, pas le secteur porteur",
+        "coup": "Remplacer la prime au taux global par une prime à double étage. D'un côté, l'écart de taux de chaque chargé d'affaires par rapport au taux de référence de son secteur, à mix constant. De l'autre, la marge en euros de son portefeuille, avec un plafond de contribution par secteur. Test en janvier sur deux régions avant toute généralisation.",
+        "technique": "analogie lointaine : l'attribution de performance des gérants d'actifs (méthode Brinson), qui sépare le rendement dû au marché du talent de sélection du gérant.",
+        "mecanisme": "Un gérant n'est pas payé parce que la Bourse monte ; un chargé d'affaires ne devrait pas l'être parce que les chantiers de l'Ouest tombent dans sa zone. La prime ne rémunère que ce qu'il contrôle : la négociation et la tenue des prix dans son secteur. Elle cesse donc d'inciter à trier les comptes logistique et industrie.",
+        "pourquoiInvisible": "Le taux de marge global paraît neutre et objectif, alors que son mouvement vient du mix : plus 1,52 point d'effet de mix contre moins 0,5 point d'effet taux. Dans l'intérim, personne ne regarde un portefeuille commercial comme un portefeuille financier.",
+        "id": "C2.1"
+      },
+      {
+        "titre": "Transformer le vivier BTP en actif mobile du réseau",
+        "coup": "Avant l'été 2027, identifier les intérimaires BTP qualifiés mobilisés sur les chantiers de l'Ouest et proposer aux meilleurs un CDI intérimaire. Ce contrat s'accompagne d'un engagement de mobilité interrégionale. L'objectif est de les redéployer vers les régions qui perdent du chiffre d'affaires, Grand Est en tête, quand les chantiers s'arrêteront.",
+        "technique": "le pion oublié : les intérimaires BTP expérimentés, traités comme un problème de fidélisation alors qu'ils sont la seule ressource rare du réseau.",
+        "mecanisme": "Le BTP tient au taux le plus élevé du réseau, 25,67 %, mais cette marge dépend de compétences que deux concurrents nationaux courtisent déjà. Un vivier fidélisé et mobile permet de prospecter les chantiers d'autres régions en promettant des équipes disponibles. La fin des chantiers normands devient alors un transfert d'actif plutôt qu'une perte sèche.",
+        "pourquoiInvisible": "La note range les intérimaires dans les « points d'attention » et les clients dans la stratégie. Le réflexe est de penser le BTP comme une demande à suivre, pas comme une offre de compétences à posséder. Le coût du contrat, visible tout de suite, masque la valeur de l'option, qui n'apparaît qu'en 2028.",
+        "id": "C2.2"
+      },
+      {
+        "titre": "Acheter la base clients de 2028 avec la marge BTP de 2027",
+        "coup": "Assouplir le plancher de taux pour les comptes industriels et logistiques prêts à signer des accords pluriannuels avant fin 2027, avec un plancher exprimé en euros par mission. La baisse de taux est assumée et financée par la marge BTP de 2027. Cela remplace la réduction de 15 % des commerciaux logistiques.",
+        "technique": "sacrifice calculé : renoncer à une partie du taux de marge en 2027 pour verrouiller la base récurrente qui restera après les chantiers.",
+        "mecanisme": "L'industrie produit encore 2 829 k€ de marge et la logistique 1 811 k€, mais leurs clients contestent les coefficients et le marché se contracte. Négocier maintenant, en position de force financière, coûte moins cher que reconquérir en 2028, en position de faiblesse. La remise est ciblée et contractualisée, pas diffuse.",
+        "pourquoiInvisible": "La discipline tarifaire est devenue l'identité du redressement : baisser un prix ressemble à un reniement. Le biais du moment fait lire l'année 2026 comme une nouvelle normalité, alors qu'elle est une fenêtre datée.",
+        "id": "C2.3"
+      },
+      {
+        "titre": "Dire au conseil le paradoxe avant qu'il ne le découvre",
+        "coup": "En février, présenter au conseil de surveillance la décomposition complète. Les quatre secteurs voient leur taux baisser, de 0,43 à 0,63 point, et la hausse globale vient du mix BTP. En face, un plan 2027 explicitement conçu pour l'après-chantiers. Le plan normand devient un pilote à évaluer, pas un modèle.",
+        "technique": "sacrifice calculé : renoncer au récit flatteur « la discipline tarifaire fonctionne » pour acheter de la crédibilité et du temps.",
+        "mecanisme": "Le conseil finira par voir la marge BTP retomber. S'il apprend en 2028 que la hausse était un effet de mix, c'est la direction qui perd sa confiance, pas seulement le chiffre. Révélée en février, la même information prouve la lucidité de la direction et légitime les trois coups précédents.",
+        "pourquoiInvisible": "La direction a besoin d'un récit de redressement, et le taux global le fournit au bon moment. La Normandie apporte 76,8 % de la hausse de la marge en euros : personne n'a intérêt à démonter le succès qui le met en valeur.",
+        "id": "C2.4"
+      },
+      {
+        "titre": "Dire la vérité au conseil avant qu'il ne la découvre",
+        "coup": "En février, présenter au conseil de surveillance la décomposition sectorielle : +1,03 point de taux global, dont +1,52 point d'effet de mix et −0,5 point d'effet taux. Requalifier la marge BTP de l'Ouest en « marge de chantier » non récurrente, et proposer comme indicateur officiel 2027 le taux de marge à mix constant. Reporter toute généralisation du plan normand tant que la ventilation région × secteur n'est pas produite.",
+        "technique": "sacrifice calculé (renoncer au récit triomphal)",
+        "mecanisme": "La direction perd un succès d'affichage mais gagne une crédibilité qui la protège en 2028, quand la marge BTP retombera. Un conseil prévenu juge le pilotage. Un conseil surpris juge la direction. L'indicateur à mix constant empêche aussi qu'une région soit récompensée pour un effet de mix.",
+        "pourquoiInvisible": "La note a besoin d'un récit de redressement. Le taux global, en hausse dans les six régions, semble le confirmer. Personne ne pense à ventiler par secteur quand le total est bon, et la décomposition par région affiche un effet de mix nul qui rassure à tort.",
+        "id": "C3.1"
+      },
+      {
+        "titre": "Une prime qui paie le progrès dans chaque secteur, pas le tri des clients",
+        "coup": "Remplacer la proposition normande par une prime calculée sur l'écart de taux de chaque chargé d'affaires par rapport au taux de référence de son secteur, pondéré par la marge en euros conservée. Un compte logistique qui passe de 12,61 % à un taux supérieur rapporte alors autant qu'un compte BTP. Geler dans le même temps la coupe de 15 % des commerciaux logistiques.",
+        "technique": "effets de second ordre",
+        "mecanisme": "Une prime à 100 % sur le taux pousse d'abord à abandonner les comptes logistique et industrie (premier ordre). Les concurrents captent ensuite ces comptes et leurs intérimaires (second ordre). En 2028, le réseau se retrouve sans base quand le BTP s'arrête (troisième ordre). La logistique rapporte encore 1 811 k€ de marge et l'industrie 2 829 k€ : ce sont ces euros qu'une prime au taux brut ferait fuir.",
+        "pourquoiInvisible": "Le taux de marge passe pour un indicateur « vertueux », opposé au chiffre d'affaires. On oublie qu'un ratio s'améliore aussi en retirant le dénominateur, c'est-à-dire en perdant des clients rentables en euros. Le débat oppose le taux au volume et néglige la troisième voie : mesurer le progrès à l'intérieur de chaque secteur.",
+        "id": "C3.2"
+      },
+      {
+        "titre": "Pre-mortem 2028 : convertir la manne BTP en contrats industriels pluriannuels",
+        "coup": "Postulat : en 2028, les chantiers sont finis, la marge s'effondre et les clients industriels sont partis. Pour l'éviter, consacrer dès 2027 une partie de la marge BTP à une baisse ciblée des coefficients chez les clients industriels les plus importants. En échange, obtenir des contrats-cadres qui courent au-delà de 2028. Le montant et la liste des clients sont à fixer après analyse par compte.",
+        "technique": "pre-mortem",
+        "mecanisme": "La cause probable de l'échec est déjà visible : l'industrie perd 5,9 % de chiffre d'affaires et ses clients contestent les coefficients, pendant que le BTP porte +2 135 k€ de marge sur un horizon daté. On accepte un taux plus bas aujourd'hui pour transformer une marge temporaire en volume récurrent, signé avant que la falaise de 2028 ne soit visible des clients.",
+        "pourquoiInvisible": "La « discipline tarifaire » interdit culturellement de baisser un coefficient, surtout au moment où le taux global progresse. L'horizon budgétaire annuel masque aussi une échéance pourtant écrite dans la note : la fin des chantiers entre fin 2027 et 2028.",
+        "id": "C3.3"
+      },
+      {
+        "titre": "Verrouiller le vivier BTP par la mission suivante garantie, pas par une prime",
+        "coup": "Avant que les deux concurrents nationaux ne récupèrent les intérimaires BTP expérimentés à la fin des chantiers de l'Ouest, leur proposer une passerelle. Elle garantit une mission suivante dans un autre secteur (maintenance industrielle, travaux) ou dans une autre région du réseau, avec une qualification financée si nécessaire. Le premier test se fait en Normandie dès le premier trimestre 2027.",
+        "technique": "prophylaxie",
+        "mecanisme": "Les concurrents jouent la prime de fidélité. Alterna joue ce qu'ils ne peuvent pas offrir aussi facilement : la continuité d'emploi après la fin des chantiers, grâce à un réseau de 74 agences et à des clients industriels qui manquent de profils. Le coup répond en même temps aux délais de pourvoi qui s'allongent chez les industriels et à la perte annoncée du vivier BTP.",
+        "pourquoiInvisible": "La fidélisation est pensée comme une surenchère de rémunération face aux concurrents, donc comme un coût. Elle est aussi gérée par secteur, alors que l'actif est le même intérimaire qui peut passer d'un secteur à l'autre. Le cloisonnement BTP / industrie dans le reporting rend cette passerelle invisible.",
+        "id": "C3.4"
+      }
+    ],
+    "notes": [
+      {
+        "id": "C1.1",
+        "banalite": 5,
+        "pertinence": 8,
+        "coherence": 9,
+        "faisabilite": 8,
+        "score": 4.82,
+        "passes": 3,
+        "commentaires": [
+          "Même socle que la transparence au conseil, avec un cadrage malin et un mandat demandé, mais il ne traite pas le plan de primes.",
+          "Inverser le récit devant le conseil est habile, mais c'est une variante de la transparence, sans traiter la prime.",
+          "Inverser le récit devant le conseil est sain et faisable, mais proche de C2.4 et C3.1, sans plan d'action propre."
+        ],
+        "ecarte": null
+      },
+      {
+        "id": "C1.2",
+        "banalite": 4,
+        "pertinence": 6,
+        "coherence": 5,
+        "faisabilite": 5,
+        "score": 1.36,
+        "passes": 3,
+        "commentaires": [
+          "Se battre sur le vivier plutôt que sur les prix est séduisant, mais le lien avec les coefficients industriels est une conjecture et la réponse sur les primes est absente.",
+          "Le vivier comme argument pour justifier les coefficients est séduisant mais le lien causal reste affirmé sans preuve, et le dispositif est flou.",
+          "Déplacer la bataille vers le vivier est juste, mais le dispositif reste vague et l'argument de justification des coefficients est fragile."
+        ],
+        "ecarte": null
+      },
+      {
+        "id": "C1.3",
+        "banalite": 3,
+        "pertinence": 9,
+        "coherence": 8,
+        "faisabilite": 7,
+        "score": 7.45,
+        "passes": 3,
+        "commentaires": [
+          "Prime à mix constant avec plancher différencié et suspension du plan normand : répond au cœur de la question et reste applicable, à condition d'avoir des données sectorielles fiables.",
+          "Prime à mix constant par secteur, avec suspension du plan normand : attaque la racine du problème, la complexité de mise en œuvre est maîtrisable.",
+          "Prime à mix constant par secteur : traite l'incitation perverse et la généralisation, mais suppose une ventilation fiable que le reporting actuel n'offre pas."
+        ],
+        "ecarte": null
+      },
+      {
+        "id": "C1.4",
+        "banalite": 3,
+        "pertinence": 8,
+        "coherence": 7,
+        "faisabilite": 6,
+        "score": 5.55,
+        "passes": 3,
+        "commentaires": [
+          "Geste tarifaire ciblé contre engagements de volume, concret et daté, mais il se limite à l'industrie et ne dit rien des primes.",
+          "Sacrifice de taux contre volume pluriannuel : bien ciblé sur le risque 2028, il manque seulement le chiffrage par compte.",
+          "Geste tarifaire contre volume pluriannuel : sacrifice pertinent, mais se superpose à C2.3 et C3.3 et reste imprécis sur les clients."
+        ],
+        "ecarte": null
+      },
+      {
+        "id": "C2.1",
+        "banalite": 2,
+        "pertinence": 9,
+        "coherence": 8,
+        "faisabilite": 6,
+        "score": 8.27,
+        "passes": 3,
+        "commentaires": [
+          "L'attribution de performance à la Brinson répond directement au plan de primes, mais la double formule est complexe et suppose des données fiables, ce qui n'est pas le cas.",
+          "L'analogie de l'attribution de performance est la plus neuve et la plus juste, mais le double étage est plus lourd à construire et à expliquer.",
+          "Attribution à la Brinson pour séparer mix et talent : analogie réellement originale, avec un test sur deux régions prudent, mais deux étages complexes à communiquer."
+        ],
+        "ecarte": null
+      },
+      {
+        "id": "C2.2",
+        "banalite": 3,
+        "pertinence": 6,
+        "coherence": 5,
+        "faisabilite": 4,
+        "score": 3.23,
+        "passes": 3,
+        "commentaires": [
+          "Le CDI intérimaire mobile est original, mais coûteux, risqué si les chantiers s'arrêtent, et la mobilité vers le Grand Est est supposée sans preuve.",
+          "Idée originale (vivier mobile), mais le CDI intérimaire avec mobilité interrégionale est lourd et sans aucune donnée sur la volonté des intérimaires de bouger.",
+          "Vivier BTP mobile : intuition intéressante, mais CDI intérimaire coûteux et mobilité interrégionale peu crédible pour des intérimaires, avec un risque de sureffectif après 2028."
+        ],
+        "ecarte": null
+      },
+      {
+        "id": "C2.3",
+        "banalite": 3,
+        "pertinence": 8,
+        "coherence": 7,
+        "faisabilite": 6,
+        "score": 5.5,
+        "passes": 3,
+        "commentaires": [
+          "Sacrifice calculé crédible, plancher en euros par mission, mais il se heurte à la culture tarifaire et au risque de brader sans données par compte.",
+          "Plancher en euros et accords pluriannuels, bon pour la base 2028 ; proche de C1.4 et du pre-mortem, avec le risque de baisser les prix sans contrepartie solide.",
+          "Sacrifice de taux ciblé pour verrouiller la base 2028, bien relié à la fenêtre BTP, mais proche de C1.4 et C3.3, avec un plancher en euros encore flou."
+        ],
+        "ecarte": null
+      },
+      {
+        "id": "C2.4",
+        "banalite": 5,
+        "pertinence": 8,
+        "coherence": 9,
+        "faisabilite": 8,
+        "score": 4.27,
+        "passes": 3,
+        "commentaires": [
+          "Bonne version de la transparence au conseil, avec le plan normand rétrogradé en pilote, mais l'idée double C3.1 et C1.1.",
+          "Même cœur que la transparence au conseil, solide mais plus convenu et moins opérationnel, et il renvoie à des « trois coups précédents » inexistants.",
+          "Transparence face au conseil, solide et réaliste mais doublon de C3.1 et C1.1, et plus communication qu'action."
+        ],
+        "ecarte": null
+      },
+      {
+        "id": "C3.1",
+        "banalite": 5,
+        "pertinence": 9,
+        "coherence": 9,
+        "faisabilite": 8,
+        "score": 6.18,
+        "passes": 3,
+        "commentaires": [
+          "Transparence au conseil et indicateur à mix constant : solide, très pertinent et réalisable, même si l'idée de dire la vérité est assez attendue.",
+          "Répond directement à la vraie question (mix vs performance) avec les bons chiffres, et le taux à mix constant est un indicateur concret et faisable.",
+          "Le plus complet : vérité au conseil, marge de chantier non récurrente, taux à mix constant et gel de la généralisation ; répond directement à la vraie question."
+        ],
+        "ecarte": null
+      },
+      {
+        "id": "C3.2",
+        "banalite": 4,
+        "pertinence": 8,
+        "coherence": 8,
+        "faisabilite": 6,
+        "score": 4.68,
+        "passes": 3,
+        "commentaires": [
+          "Prime au progrès dans chaque secteur, avec une très bonne démonstration sur les effets de second ordre, mais proche de C2.1 et C1.3.",
+          "Corrige le biais du ratio et protège la marge en euros ; la formule de prime reste à simplifier, mais le gel de la coupe logistique est cohérent.",
+          "Les effets de second ordre sont bien démontrés, mais la formule de prime est lourde et proche de C1.3 et C2.1."
+        ],
+        "ecarte": null
+      },
+      {
+        "id": "C3.3",
+        "banalite": 3,
+        "pertinence": 8,
+        "coherence": 7,
+        "faisabilite": 5,
+        "score": 4.91,
+        "passes": 3,
+        "commentaires": [
+          "Le pre-mortem est bien posé, mais le coup recoupe C1.4 et C2.3 et laisse le montant à définir.",
+          "Le pre-mortem donne le bon cadrage, mais la proposition est redondante avec C1.4 et reste sans montant ni liste de clients.",
+          "Pre-mortem utile et lucide, mais le coup final est le même que C1.4 et C2.3, avec montant et clients non définis."
+        ],
+        "ecarte": null
+      },
+      {
+        "id": "C3.4",
+        "banalite": 3,
+        "pertinence": 7,
+        "coherence": 7,
+        "faisabilite": 6,
+        "score": 4.41,
+        "passes": 3,
+        "commentaires": [
+          "Idée originale de passerelle sectorielle et interrégionale, mais elle traite le vivier plus que le pilotage et les primes, et la mobilité réelle des intérimaires reste à prouver.",
+          "La mission suivante garantie plutôt qu'une prime répond à la fois à la fidélisation et aux délais de pourvoi, avec un test normand réaliste.",
+          "Passerelle d'emploi contre la prime de fidélité : angle malin, mais la demande industrielle en profils BTP reste à prouver."
+        ],
+        "ecarte": null
+      }
+    ],
+    "verifications": [
+      {
+        "id": "C2.1",
+        "refutation": "Le mécanisme suppose des données fiables par chargé d'affaires, par compte et par secteur, alors que le reporting actuel contient déjà des colonnes recalculées et qu'aucune ventilation région × secteur n'existe. Une prime relative à un taux de référence sectoriel paie aussi des chargés d'affaires « meilleurs que la moyenne » dans un réseau où les quatre secteurs perdent entre 0,43 et 0,63 point. Elle est en outre complexe à expliquer à des centaines de personnes et peut exiger des avenants aux contrats de travail.",
+        "tient": true,
+        "risque": "Un dispositif trop complexe ou mal calibré perd la confiance des équipes dès le premier trimestre, et le réseau revient par défaut au « 100 % taux » normand. Le taux de référence devient lui-même un objet de négociation politique entre régions.",
+        "conditionsDeSucces": [
+          "Disposer de la marge et du chiffre d'affaires natifs par compte et par secteur, et non recalculés.",
+          "Fixer le taux de référence sectoriel sur une base absolue (le taux 2026 du secteur), pas sur la moyenne mobile du réseau.",
+          "Donner un poids significatif à l'étage marge en euros pour que l'abandon d'un compte rentable coûte au chargé d'affaires.",
+          "Limiter le pilote à deux régions contrastées, dont une sans chantiers BTP, avec une clause de revue à six mois validée par les représentants du personnel."
+        ],
+        "test": "Sur une région, rejouer 2026 compte par compte : calculer ce qu'aurait payé le double étage et ce qu'a payé ou paierait le plan normand, puis comparer les classements des chargés d'affaires. Si les données par compte n'existent pas, le test révèle d'emblée que le coup n'est pas exécutable en janvier.",
+        "confiance": "moyenne",
+        "pourMonterLaConfiance": "Confirmation par la direction financière que la marge par compte et par secteur est disponible à la source. Une simulation montrant que le classement change nettement par rapport au taux global, preuve que l'effet de mix pèse sur les primes individuelles."
+      },
+      {
+        "id": "C1.3",
+        "refutation": "Primer le seul taux à l'intérieur de chaque secteur n'empêche pas le tri : un chargé d'affaires relève son taux logistique en abandonnant les comptes logistiques les moins margés, et la marge en euros recule quand même. Suspendre au 1er janvier le plan déjà appliqué en Normandie depuis février désavoue publiquement la région présentée comme modèle, sans dispositif de remplacement prêt.",
+        "tient": false,
+        "risque": "Sans étage en euros, le coup reproduit à l'échelle du secteur le défaut qu'il dénonce à l'échelle du portefeuille. La suspension sèche crée un conflit social et politique avant même d'avoir les données.",
+        "conditionsDeSucces": [
+          "Ne retenir que deux éléments, à intégrer dans C2.1 : le plancher différencié par secteur et la référence à mix constant.",
+          "Remplacer la suspension par un gel de la généralisation : la Normandie conserve son plan en 2027, les autres régions ne l'adoptent pas."
+        ],
+        "test": "Vérifier sur les comptes logistiques d'une région si le taux sectoriel aurait monté en 2026 par simple retrait des comptes les moins margés. Si c'est le cas, l'abandon du coup en solo est confirmé.",
+        "confiance": "faible",
+        "pourMonterLaConfiance": "Seule une preuve que les chargés d'affaires ne choisissent pas leurs comptes au sein d'un secteur, par exemple une affectation imposée, rendrait le coup viable seul."
+      },
+      {
+        "id": "C3.1",
+        "refutation": "L'auteur de la note est précisément la direction qui doit renoncer au récit, et rien ne l'y oblige à court terme. Qualifier toute la marge BTP de l'Ouest de non récurrente est excessif : le BTP pesait déjà 15 541 k€ de chiffre d'affaires en 2025, et seule une partie de la hausse, impossible à chiffrer sans ventilation, tient aux chantiers.",
+        "tient": true,
+        "risque": "La direction générale déléguée refuse et présente seule la version triomphale. Une présentation trop alarmiste affole le conseil et déclenche des coupes précipitées, celles-là mêmes qu'on veut éviter.",
+        "conditionsDeSucces": [
+          "Présenter la décomposition comme un outil de pilotage porté par la direction, pas comme un aveu d'échec.",
+          "Requalifier en « marge de chantier » seulement l'incrément 2026 imputable aux chantiers de l'Ouest, une fois la ventilation obtenue, et non toute la marge BTP.",
+          "Rappeler que la marge en euros progresse réellement de 7,9 % : le message est « bonne année, mal expliquée », pas « fausse réussite »."
+        ],
+        "test": "Faire refaire par la direction financière, à partir des données sources, la décomposition par secteur (plus 1,52 point d'effet de mix, moins 0,5 point d'effet taux) et obtenir la part du BTP réalisée sur les chantiers de l'Ouest. Puis soumettre une page de synthèse à la direction générale déléguée avant le 31 janvier pour mesurer sa réaction.",
+        "confiance": "forte",
+        "pourMonterLaConfiance": "L'accord explicite de la direction générale déléguée sur le cadrage « bonne année, mal expliquée ». La ventilation BTP par région, qui chiffrerait précisément la marge de chantier."
+      },
+      {
+        "id": "C1.4",
+        "refutation": "Dans l'intérim, les engagements de volume sont rarement contraignants : le client empoche la remise, qui devient le nouveau prix de référence, puis réduit ses commandes ou internalise. Rien ne prouve que les clients industriels partent pour le prix : un délai de pourvoi qui s'allonge peut être la vraie cause, et une remise ne le corrige pas.",
+        "tient": true,
+        "risque": "Le geste tarifaire se diffuse à tous les clients industriels et fait baisser le taux sans contrepartie réelle. La marge industrielle, déjà en recul de 8,9 %, s'érode plus vite.",
+        "conditionsDeSucces": [
+          "Établir, compte par compte, que le prix est bien le motif de mécontentement, et non le délai ou la qualité des profils.",
+          "Exiger des contreparties exécutoires : référencement prioritaire ou part minimale des besoins, avec clause de révision si le volume n'est pas tenu.",
+          "Limiter le geste à un petit nombre de comptes nommés, validés par la direction, hors du calcul de prime des chargés d'affaires."
+        ],
+        "test": "En deux semaines, faire appeler par les directeurs régionaux les principaux clients industriels qui contestent les coefficients, avec deux questions : quel est le premier motif d'insatisfaction, et quel engagement accepteriez-vous contre un geste tarifaire ? Si le délai domine ou si personne ne s'engage, abandonner le coup.",
+        "confiance": "faible",
+        "pourMonterLaConfiance": "Le constat que le prix est le premier motif chez la majorité des comptes interrogés. Au moins un client prêt à signer une clause de part minimale."
+      },
+      {
+        "id": "C2.3",
+        "refutation": "La logistique ne recule pas d'abord pour une question de prix mais parce que les donneurs d'ordre internalisent et automatisent : une remise n'arrête pas un entrepôt robotisé. Le plancher en euros par mission ne peut pas être calibré aujourd'hui, la colonne « missions » étant recalculée à partir du chiffre d'affaires, et l'idée que la marge BTP « finance » la remise est un jeu d'écriture.",
+        "tient": false,
+        "risque": "Concéder du taux à des clients logistiques dont la demande disparaît de toute façon détruit de la marge sans rien sécuriser. Le coup ne réussit que si tout va bien : fiabilité des données, motif prix, engagement des clients.",
+        "conditionsDeSucces": [
+          "Conserver uniquement l'idée de remplacer la coupe automatique de 15 % des commerciaux logistiques par une revue compte par compte de la marge en euros.",
+          "Reporter le plancher en euros par mission jusqu'à l'obtention de données natives sur le nombre de contrats."
+        ],
+        "test": "Classer les comptes logistiques selon leur risque d'internalisation ou d'automatisation, à partir des retours des agences. Si la majorité du chiffre d'affaires est exposée, l'abandon du volet tarifaire est confirmé.",
+        "confiance": "faible",
+        "pourMonterLaConfiance": "Des données natives de missions, et la preuve que plusieurs grands comptes logistiques restent dépendants de l'intérim humain pour plusieurs années."
+      }
+    ],
+    "formulation": {
+      "ouverture": "Le comité regarde le taux de marge global, en hausse de 1,03 point, et la Normandie, en hausse de 2,09 points. Il faudrait regarder le taux par secteur : il baisse dans les quatre, de 0,43 à 0,63 point. Les données sont nettes : la hausse globale vient d'un effet de mix de plus 1,52 point, qui masque un effet taux négatif de moins 0,5 point. Le BTP, secteur au taux le plus élevé, gagne 55,2 % de chiffre d'affaires pendant que la logistique en perd 30,1 %. Ma lecture : la discipline tarifaire n'apparaît dans aucun secteur, et le « modèle normand » ressemble d'abord aux chantiers d'infrastructures de l'Ouest, qui s'achèvent entre fin 2027 et 2028. La vraie question n'est donc pas « comment étendre ce qui marche », mais « quel pilotage et quelles primes installer avant que le mix ne se retourne » ; je précise que les colonnes missions et heures du reporting semblent recalculées, et que je n'en tire rien.",
+      "coups": [
+        {
+          "titre": "Dire la vérité au conseil avant qu'il ne la découvre",
+          "coup": "En février, présenter au conseil de surveillance la décomposition sectorielle du taux : plus 1,52 point d'effet de mix, moins 0,5 point d'effet taux. Faire du taux de marge à mix constant l'indicateur officiel 2027, et suspendre la généralisation du plan normand jusqu'à l'obtention de la ventilation par région et par secteur.",
+          "pourquoiPersonne": "La note a besoin d'un récit de redressement, et le taux monte dans les six régions. La décomposition par région affiche même un effet de mix nul, ce qui rassure à tort : chaque région a pu basculer vers le BTP sans que cela apparaisse à ce niveau.",
+          "pourquoiIlGagne": "Les données ne laissent pas de doute : le total monte alors que les quatre secteurs baissent. Un conseil prévenu juge le pilotage ; un conseil qui découvre en 2028 la fin de la marge de chantier juge la direction. Le message reste positif, puisque la marge en euros progresse réellement de 7,9 % : « une bonne année, mal expliquée », et non une fausse réussite.",
+          "troisCoupsSuivants": [
+            "Avant le 31 janvier, la direction financière refait la décomposition à partir des données sources et produit la ventilation par région et par secteur.",
+            "La direction générale déléguée résistera ; on lui propose de porter elle-même l'indicateur à mix constant, présenté comme un outil de pilotage et non comme un aveu.",
+            "En février, le conseil adopte le taux à mix constant comme référence 2027, et l'objectif de plus 1,5 point est reformulé sur cette base."
+          ],
+          "risque": "La direction générale déléguée peut refuser et présenter seule la version triomphale ; à l'inverse, un ton alarmiste peut déclencher des coupes précipitées, à commencer par la logistique. Il faut aussi éviter de qualifier toute la marge BTP de non récurrente : le BTP pesait déjà 15 541 k€ de chiffre d'affaires en 2025, et seule une partie de la hausse tient aux chantiers.",
+          "test": "Faire valider la décomposition par la direction financière sur données sources et chiffrer la part du BTP réalisée sur les chantiers de l'Ouest. Puis soumettre une page de synthèse à la direction générale déléguée avant le 31 janvier et observer sa réaction.",
+          "confiance": "forte",
+          "pourMonterLaConfiance": "Obtenir l'accord explicite de la direction générale déléguée sur le cadrage « bonne année, mal expliquée ». Obtenir aussi la ventilation du BTP par région, qui chiffrerait précisément la marge de chantier.",
+          "appuis": [
+            "F69",
+            "F70",
+            "F65",
+            "F66",
+            "F67",
+            "F68",
+            "F5",
+            "F8",
+            "F43",
+            "F45",
+            "F47",
+            "F37 à F42",
+            "note-direction §1 : « résultat de la politique de discipline tarifaire »",
+            "note-direction §3.4 : présenter ces résultats au conseil de février",
+            "note-direction §4 : chantiers d'infrastructures de l'Ouest s'achevant entre fin 2027 et 2028"
+          ]
+        },
+        {
+          "titre": "Payer le talent, pas le secteur porteur",
+          "coup": "Remplacer la prime au taux global par une prime à deux étages. Le premier rémunère l'écart entre le taux du chargé d'affaires et le taux de référence de son secteur ; le second rémunère la marge en euros de son portefeuille, plafonnée par secteur. Le dispositif serait piloté sur deux régions contrastées, dont une sans grands chantiers, avant toute généralisation.",
+          "pourquoiPersonne": "Le taux global paraît neutre et objectif. Dans l'intérim, personne ne lit un portefeuille commercial comme un gérant d'actifs lit le sien, en séparant ce que donne le marché de ce qu'apporte le talent.",
+          "pourquoiIlGagne": "Un chargé d'affaires ne devrait pas être payé parce que des chantiers tombent dans sa zone. Le premier étage rémunère ce qu'il contrôle, la tenue des prix dans son secteur. Le second rend coûteux l'abandon d'un compte rentable en euros, comme la logistique, qui rapporte encore 1 811 k€ de marge ; que le plan normand pousse à trier les portefeuilles est mon pari, pas une donnée.",
+          "troisCoupsSuivants": [
+            "En janvier, rejouer 2026 compte par compte sur une région pour comparer ce qu'auraient payé le double étage et le plan normand.",
+            "Le directeur régional de Normandie défendra son plan ; l'écart de classement entre chargés d'affaires sera l'argument factuel, sans mise en cause individuelle.",
+            "Lancer le pilote sur deux régions avec une revue à six mois validée par les représentants du personnel, puis décider de la généralisation pour 2028."
+          ],
+          "risque": "Un dispositif trop complexe perd la confiance des équipes dès le premier trimestre, et le réseau retombe par défaut sur le « 100 % taux ». Le taux de référence doit être fixé sur le taux sectoriel 2026, et non sur une moyenne mobile : sinon on récompenserait le fait d'être « moins mauvais » dans un réseau où tous les secteurs baissent.",
+          "test": "Sur une région, simuler 2026 compte par compte avec les deux formules et comparer les classements. Si les données de marge par compte et par secteur n'existent pas à la source, le test montre d'emblée que le coup n'est pas exécutable en janvier.",
+          "confiance": "moyenne",
+          "pourMonterLaConfiance": "Il faudrait que la direction financière confirme que la marge par compte et par secteur est disponible à la source, et non recalculée. Il faudrait aussi une simulation montrant que le classement change nettement par rapport au taux global.",
+          "appuis": [
+            "F69",
+            "F65",
+            "F66",
+            "F67",
+            "F68",
+            "F52",
+            "F47",
+            "F13",
+            "F41",
+            "F20",
+            "F1",
+            "F2",
+            "F3",
+            "note-direction §2 : prime « à 100 % sur le taux de marge » en Normandie",
+            "note-direction §3.1 : généralisation au 1er janvier 2027",
+            "note-direction §3.3 : réduction de 15 % des commerciaux logistiques"
+          ]
+        },
+        {
+          "titre": "Céder du taux à l'industrie contre une base pluriannuelle",
+          "coup": "Proposer au premier semestre 2027, aux principaux clients industriels qui contestent les coefficients, un geste tarifaire ciblé. En échange, obtenir des engagements de volume sur 2028–2029, quand les chantiers de l'Ouest auront pris fin.",
+          "pourquoiPersonne": "Ce coup contredit la discipline tarifaire et l'objectif de plus 1,5 point. Son coût est immédiat, alors que son bénéfice n'arrive qu'en 2028, hors de l'horizon d'un plan de primes annuel.",
+          "pourquoiIlGagne": "L'industrie reste la deuxième source de marge du réseau, avec 2 829 k€, mais elle recule de 5,9 % en chiffre d'affaires et de 8,9 % en marge. Céder un peu de taux maintenant sécurise de la marge en euros pour l'année où le BTP ne la portera plus. C'est agir avant que ces clients ne fassent ce qu'ont fait les donneurs d'ordre logistiques.",
+          "troisCoupsSuivants": [
+            "En deux semaines, les directeurs régionaux interrogent les clients industriels mécontents sur leur premier motif d'insatisfaction.",
+            "Les clients chercheront à obtenir la remise sans contrepartie ; on exige une part minimale des besoins ou un référencement prioritaire, avec une clause de révision.",
+            "On limite le geste à quelques comptes nommés, hors calcul des primes, et on mesure en fin d'année la marge en euros conservée."
+          ],
+          "risque": "Dans l'intérim, les engagements de volume sont rarement contraignants : la remise devient le nouveau prix et le volume ne suit pas. Si les clients partent à cause du délai de pourvoi plutôt que du prix, la remise ne corrige rien et accélère l'érosion de la marge.",
+          "test": "Appeler les principaux clients industriels qui contestent les coefficients avec deux questions : quel est votre premier motif d'insatisfaction, et quel engagement accepteriez-vous contre un geste tarifaire ? Si le délai domine ou si personne ne s'engage, on abandonne le coup.",
+          "confiance": "faible",
+          "pourMonterLaConfiance": "Il faudrait constater que le prix est le premier motif d'insatisfaction chez la majorité des comptes interrogés. Il faudrait aussi qu'au moins un client soit prêt à signer une clause de part minimale.",
+          "appuis": [
+            "F51",
+            "F46",
+            "F66",
+            "F54",
+            "note-direction §4 : « les clients industriels se plaignent de la hausse de nos coefficients »",
+            "note-direction §4 : délai moyen de pourvoi qui s'allonge",
+            "note-direction §1 : donneurs d'ordre logistiques qui internalisent ou automatisent"
+          ]
+        }
+      ],
+      "coupEvident": "Le coup évident consiste à généraliser au 1er janvier le plan normand à 100 % sur le taux et à couper 15 % des commerciaux logistiques. Dans cette position, cela revient à payer un effet de mix temporaire et à pousser chaque chargé d'affaires à abandonner des comptes à faible taux mais rentables en euros, juste avant que la fin des chantiers de l'Ouest ne retire le BTP qui porte la hausse.",
+      "siJeNeDevaisJouerQuUnCoup": "Faire présenter au conseil de février le taux de marge à mix constant et suspendre la généralisation du plan normand jusqu'à l'obtention de la ventilation par région et par secteur : tout le reste en dépend."
+    }
+  },
+  "kpi": {
+    "diagnostic": "Ce que disent les données : le taux de marge global passe de 18,65 % à 19,68 %, mais il baisse dans les quatre secteurs, de 0,43 à 0,63 point. La hausse se décompose en un effet taux de −0,5 point et un effet de mix de +1,52 point. Ce mix est porté par le BTP, dont le chiffre d'affaires passe de 15 541 k€ à 24 120 k€, tandis que la logistique recule de 30,1 %. La Normandie apporte à elle seule 76,8 % de la hausse de la marge en euros, avec un chiffre d'affaires en hausse de 33,1 %. Ma lecture : la « discipline tarifaire » n'apparaît dans aucun taux sectoriel, et le « modèle normand » ressemble davantage à l'effet des chantiers de l'Ouest qu'à celui du plan de primes ; seule une ventilation région × secteur, absente du reporting, permettra de trancher. Mon pari : une prime au taux et un objectif de +1,5 point pousseront à lâcher des comptes à faible taux mais à marge positive, juste avant le reflux du BTP, et le réseau aborderait 2028 sans ses chantiers ni sa base logistique. Les colonnes « missions » et « heures », apparemment recalculées, ne permettent aucune conclusion sur les volumes.",
+    "kpiQuiMentent": [
+      {
+        "kpi": "Taux de marge brute du réseau (+1,03 point, présenté comme le fruit de la discipline tarifaire)",
+        "pathologie": "effet_de_mix",
+        "explication": "L'agrégat monte parce que le poids du BTP, secteur au taux le plus élevé (25,67 %), augmente et que celui de la logistique (12,61 %) baisse. À composition constante, le taux recule de 0,5 point : c'est un paradoxe de Simpson. La performance tarifaire intrinsèque se dégrade donc dans chaque secteur, à l'inverse du récit de la note.",
+        "faits": [
+          "F8",
+          "F65",
+          "F66",
+          "F67",
+          "F68",
+          "F69",
+          "F70",
+          "F71",
+          "F45",
+          "F47"
+        ],
+        "consequence": "Le comité présenterait au conseil de février une réussite qui s'effacera mécaniquement quand les chantiers BTP de l'Ouest s'achèveront, entre fin 2027 et 2028. Le démenti viendrait des chiffres eux-mêmes, au plus mauvais moment pour la crédibilité de la direction."
+      },
+      {
+        "kpi": "Taux de marge du portefeuille, base unique (100 %) de la prime des chargés d'affaires dans le plan normand",
+        "pathologie": "surrogation",
+        "explication": "L'objectif réel est la marge en euros, qui paie les permanents et les frais. Un ratio s'améliore aussi bien en gagnant des comptes rentables qu'en abandonnant des comptes à faible taux mais à marge positive. Un chargé d'affaires rationnel choisira la voie la plus facile : trier son portefeuille. La logistique, malgré un taux bas, rapporte encore 1 811 k€ de marge.",
+        "faits": [
+          "F52",
+          "F47",
+          "F67",
+          "F51",
+          "F46"
+        ],
+        "consequence": "Couplé à l'objectif de +1,5 point et à la coupe de 15 % des commerciaux logistiques, ce mécanisme accélère la perte de comptes logistiques et industriels au profit des concurrents. La marge en euros peut baisser pendant que le taux monte, et les primes versées progresser en même temps."
+      },
+      {
+        "kpi": "Progression du taux de marge par région (Normandie +2,09 points, « région modèle »)",
+        "pathologie": "autre",
+        "explication": "Il s'agit d'une erreur d'attribution. La décomposition par région affiche un effet de mix nul et un effet taux de +1,02 point, ce qui semble prouver une performance diffuse. Or ce mix est probablement sectoriel et logé à l'intérieur de chaque région. En Normandie, la hausse coïncide avec les grands chantiers d'infrastructures de l'Ouest. Sans ventilation région × secteur, rien ne permet d'imputer la hausse au plan de primes plutôt qu'à la conjoncture locale.",
+        "faits": [
+          "F43",
+          "F41",
+          "F13",
+          "F20",
+          "F22",
+          "F44"
+        ],
+        "consequence": "Le réseau généraliserait un plan de primes dont l'efficacité n'est pas démontrée. Il imposerait aussi à des régions sans chantiers comparables un objectif intenable : quatre régions sur six perdent déjà du chiffre d'affaires, le Grand Est 6,3 %."
+      }
+    ],
+    "indicateursManquants": [
+      {
+        "indicateur": "Marge brute en euros par chargé d'affaires, ventilée par secteur et par compte",
+        "definition": "Chiffre d'affaires facturé moins le coût complet de délégation des intérimaires, en euros, rattaché au portefeuille de chaque chargé d'affaires. Il est ventilé par secteur et par compte, avec le nombre de comptes actifs et la marge en euros des missions refusées sous le plancher.",
+        "pourquoi": "C'est la mesure directe de la valeur créée. Il révèle si la hausse du taux vient de comptes gagnés ou de comptes abandonnés. C'est aussi la seule base saine pour un plan de primes.",
+        "frequence": "Mensuelle, avec une revue trimestrielle par région"
+      },
+      {
+        "indicateur": "Effet taux à mix constant, par secteur et par région",
+        "definition": "Variation du taux de marge de chaque région, recalculée avec la structure sectorielle de l'année précédente. L'écart avec le taux affiché mesure l'effet de mix.",
+        "pourquoi": "C'est le seul moyen de distinguer une vraie performance tarifaire d'un changement de composition. Il permet de trancher le cas normand et d'éviter de fixer des objectifs régionaux qui récompensent la conjoncture.",
+        "frequence": "Trimestrielle, et systématiquement dans tout document destiné au conseil de surveillance"
+      },
+      {
+        "indicateur": "Taux de service client",
+        "definition": "Part des demandes de mission pourvues dans le délai demandé par le client, avec le délai médian de pourvoi, par agence et par secteur, calculé à partir des données natives de demandes et de contrats.",
+        "pourquoi": "C'est l'indicateur avancé de la perte de comptes. Les agences signalent un allongement des délais, mais aucun chiffre consolidé n'existe. Il fait contrepoids à toute prime fondée sur la marge.",
+        "frequence": "Hebdomadaire en agence, mensuelle en comité de direction"
+      }
+    ],
+    "arbreKpi": [
+      {
+        "niveau": "objectif",
+        "indicateur": "Marge brute en euros du réseau, soutenable au-delà de 2028",
+        "rattacheA": "—"
+      },
+      {
+        "niveau": "pilotage",
+        "indicateur": "Marge brute en euros par chargé d'affaires, par secteur",
+        "rattacheA": "Marge brute en euros du réseau, soutenable au-delà de 2028"
+      },
+      {
+        "niveau": "pilotage",
+        "indicateur": "Effet taux à mix constant, par secteur et par région",
+        "rattacheA": "Marge brute en euros du réseau, soutenable au-delà de 2028"
+      },
+      {
+        "niveau": "pilotage",
+        "indicateur": "Part de la marge issue de chantiers dont la fin est datée avant fin 2028",
+        "rattacheA": "Marge brute en euros du réseau, soutenable au-delà de 2028"
+      },
+      {
+        "niveau": "operationnel",
+        "indicateur": "Taux de service client et délai médian de pourvoi",
+        "rattacheA": "Marge brute en euros par chargé d'affaires, par secteur"
+      },
+      {
+        "niveau": "operationnel",
+        "indicateur": "Missions refusées sous le plancher et marge en euros correspondante",
+        "rattacheA": "Marge brute en euros par chargé d'affaires, par secteur"
+      },
+      {
+        "niveau": "operationnel",
+        "indicateur": "Évolution des coefficients et taux de perte des comptes industriels",
+        "rattacheA": "Effet taux à mix constant, par secteur et par région"
+      },
+      {
+        "niveau": "operationnel",
+        "indicateur": "Taux de rétention des intérimaires qualifiés BTP",
+        "rattacheA": "Part de la marge issue de chantiers dont la fin est datée avant fin 2028"
+      },
+      {
+        "niveau": "operationnel",
+        "indicateur": "Marge en euros des nouveaux comptes signés hors chantiers de l'Ouest",
+        "rattacheA": "Part de la marge issue de chantiers dont la fin est datée avant fin 2028"
+      }
+    ],
+    "revue": [
+      {
+        "priorite": "1. Dire la vérité des chiffres au conseil de février, avant qu'il ne la découvre",
+        "justification": "La hausse de 1,03 point vient d'un effet de mix de +1,52 point, et le taux baisse dans les quatre secteurs. Présenter ce résultat comme la preuve que la discipline tarifaire fonctionne expose la direction à un démenti quand le BTP refluera. Ce sacrifice d'image est calculé : un chiffre moins flatteur aujourd'hui achète la crédibilité nécessaire pour traverser 2028. Le reporting lui-même est fragile, puisque deux colonnes semblent recalculées.",
+        "faits": [
+          "F8",
+          "F69",
+          "F70",
+          "F65",
+          "F66",
+          "F67",
+          "F68",
+          "F1",
+          "F2",
+          "F3"
+        ],
+        "actions": [
+          {
+            "action": "Produire la ventilation 2025–2026 du chiffre d'affaires et de la marge par région × secteur, avec la décomposition effet taux / effet de mix pour chaque région",
+            "responsable": "Direction du contrôle de gestion",
+            "echeance": "Avant la revue de performance de janvier 2027"
+          },
+          {
+            "action": "Réécrire la présentation au conseil : décomposition par secteur, part du BTP dans la hausse, scénario de marge après les chantiers de l'Ouest",
+            "responsable": "Direction générale déléguée, avec la direction financière",
+            "echeance": "Deux semaines avant le conseil de surveillance de février 2027"
+          },
+          {
+            "action": "Identifier la source des colonnes « missions » et « heures » et rétablir des données natives (heures facturées, contrats signés)",
+            "responsable": "Direction des systèmes d'information, avec le contrôle de gestion",
+            "echeance": "Fin mars 2027"
+          }
+        ]
+      },
+      {
+        "priorite": "2. Ne pas généraliser le plan normand ni l'objectif de +1,5 point avant d'en avoir mesuré l'effet réel",
+        "justification": "La Normandie apporte 76,8 % de la hausse de la marge en euros, mais son chiffre d'affaires bondit de 33,1 % au moment des chantiers de l'Ouest ; l'effet propre du plan de primes n'est pas isolé. Une prime à 100 % sur le taux récompense l'abandon de comptes à faible taux qui restent rentables en euros, comme la logistique avec ses 1 811 k€ de marge. Sans chantiers comparables, les autres régions ne pourront atteindre +1,5 point qu'en triant leurs clients.",
+        "faits": [
+          "F22",
+          "F13",
+          "F41",
+          "F43",
+          "F52",
+          "F11",
+          "F9",
+          "F10",
+          "F12"
+        ],
+        "actions": [
+          {
+            "action": "Suspendre la généralisation au 1er janvier et l'objectif uniforme de +1,5 point ; maintenir les plans existants pendant la période d'analyse",
+            "responsable": "Comité de direction",
+            "echeance": "Revue de performance de janvier 2027"
+          },
+          {
+            "action": "Auditer le plan normand : coût des primes versées, évolution de la marge en euros et du nombre de comptes actifs par chargé d'affaires, comptes perdus ou refusés en 2026",
+            "responsable": "Direction du contrôle de gestion, avec la direction des ressources humaines",
+            "echeance": "Fin février 2027"
+          },
+          {
+            "action": "Concevoir un plan de primes fondé principalement sur la marge en euros, avec un garde-fou sur le taux de service et des planchers de marge différenciés par secteur",
+            "responsable": "Direction des ressources humaines, avec la direction commerciale",
+            "echeance": "Proposition au comité de direction fin mars 2027"
+          }
+        ]
+      },
+      {
+        "priorite": "3. Préparer l'après-chantiers plutôt que de couper la logistique",
+        "justification": "Le BTP porte 2 135 k€ de hausse de marge sur un horizon qui se ferme entre fin 2027 et 2028, et son vivier d'intérimaires qualifiés est courtisé par deux concurrents. Couper 15 % des commerciaux logistiques retirerait une marge positive et accélérerait une chute déjà subie de 30,1 % du chiffre d'affaires. Le réseau se retrouverait sans ses chantiers ni sa base de volume au moment où il en aurait besoin. L'industrie, deuxième source de marge avec 2 829 k€, s'érode et ses clients contestent les coefficients.",
+        "faits": [
+          "F54",
+          "F50",
+          "F45",
+          "F47",
+          "F52",
+          "F51",
+          "F46",
+          "F66"
+        ],
+        "actions": [
+          {
+            "action": "Suspendre la réduction de 15 % des effectifs commerciaux logistiques jusqu'à l'analyse de la marge en euros par compte logistique",
+            "responsable": "Comité de direction",
+            "echeance": "Revue de performance de janvier 2027"
+          },
+          {
+            "action": "Cartographier le carnet BTP : marge rattachée aux chantiers qui s'achèvent avant fin 2028, chantiers identifiés au-delà, régions capables de reprendre le savoir-faire",
+            "responsable": "Direction commerciale, avec les directions régionales de l'Ouest",
+            "echeance": "Fin mars 2027"
+          },
+          {
+            "action": "Chiffrer un dispositif de fidélisation des intérimaires qualifiés BTP et instaurer un suivi mensuel de leur taux de rétention",
+            "responsable": "Direction des opérations, avec la direction des ressources humaines",
+            "echeance": "Fin avril 2027"
+          }
+        ]
+      }
+    ]
+  },
+  "conseil": {
+    "acteurs": [
+      {
+        "acteur": "Direction générale déléguée",
+        "reaction": "« Vous allez saborder le seul bon message de l'année devant le conseil. »",
+        "objection": "Afficher un effet taux de −0,5 point revient à dire au conseil que la discipline tarifaire n'a rien produit, alors que les agences ont réellement refusé des missions.",
+        "interetCache": "Rester l'auteure reconnue du redressement et ne pas être désavouée sur sa politique phare.",
+        "contreCoup": "Lui faire porter elle-même la décomposition comme preuve de la qualité de son pilotage (« c'est la direction qui a repéré l'effet de mix »), avec en titre la marge en euros, en hausse de 7,9 %. Préparer ce support avec elle en tête-à-tête, avant le comité.",
+        "signal": "La décomposition figure dans le corps du support de février, ou bien elle est reléguée en annexe ou « reportée au prochain conseil ».",
+        "plausibilite": "forte"
+      },
+      {
+        "acteur": "Directeur régional Normandie",
+        "reaction": "« Mon plan a fait plus de deux points ; ne le réduisez pas à des chantiers. »",
+        "objection": "Suspendre la généralisation sans ventilation par région et par secteur, c'est le juger sur une présomption. Rien ne prouve que ses chargés d'affaires n'ont pas aussi mieux négocié.",
+        "interetCache": "Être reconnu et promu, et ne pas voir sa région requalifiée en « région chanceuse ».",
+        "contreCoup": "Maintenir son plan en Normandie et ne suspendre que son extension. Lui confier l'instruction de son propre dossier avant fin janvier : ventilation de sa région par secteur, missions refusées, comptes actifs par chargé d'affaires, coût des primes.",
+        "signal": "Il livre rapidement des données complètes par secteur et par compte, ou il tarde et ne présente que son taux global.",
+        "plausibilite": "forte"
+      },
+      {
+        "acteur": "Conseil de surveillance",
+        "reaction": "« Merci pour la franchise. Mais alors, quel est votre plan pour l'après-chantiers ? »",
+        "objection": "La décomposition ouvre une question sans réponse : que reste-t-il quand le BTP, qui porte 2 135 k€ de hausse de marge, retombera entre fin 2027 et 2028 ?",
+        "interetCache": "Ne pas être surpris, et juger la fiabilité du pilotage autant que le résultat.",
+        "contreCoup": "Venir avec la question et un début de réponse : un scénario 2028 sans marge de chantier, la liste datée des données manquantes, et l'aveu encadré que le reporting contient des colonnes recalculées, avec un plan de correction.",
+        "signal": "Le conseil demande un suivi régulier du taux à mix constant et un scénario 2028 (adhésion), ou il réclame un récit plus simple et met en cause la direction (rejet).",
+        "plausibilite": "moyenne"
+      },
+      {
+        "acteur": "Directeurs régionaux Grand Est et Hauts-de-France",
+        "reaction": "« Enfin un objectif qui tient compte de notre réalité. »",
+        "objection": "Le taux à mix constant les mesure sur un taux qui baisse dans les quatre secteurs. Ils craignent de porter un indicateur négatif sans levier, le Grand Est perdant déjà 6,3 % de chiffre d'affaires.",
+        "interetCache": "Échapper à l'objectif de +1,5 point et à la coupe de 15 % des commerciaux logistiques, qu'ils devraient exécuter.",
+        "contreCoup": "Les associer en janvier à la définition de l'indicateur et de planchers de marge différenciés par secteur. En faire les témoins, en comité, que +1,5 point est intenable sans nouveau mix.",
+        "signal": "Ils soutiennent explicitement la suspension en comité de direction, ou ils se taisent face à la région modèle.",
+        "plausibilite": "moyenne"
+      }
+    ],
+    "hypotheses": [
+      "La direction générale déléguée tient davantage à sa paternité du redressement qu'au récit « discipline tarifaire » en lui-même ; elle peut donc changer de récit si elle en reste l'auteure.",
+      "Le directeur Normandie ne dispose pas encore d'une ventilation de sa région par secteur, et ne sait pas lui-même quelle part revient aux chantiers.",
+      "Le conseil de surveillance n'a pas encore vu la décomposition par secteur et valorise davantage la visibilité que le chiffre facial.",
+      "Les autres régions n'ont pas de chantiers comparables et redoutent l'objectif de +1,5 point sans pouvoir le dire.",
+      "La ventilation par région et par secteur peut être produite avant le conseil de février."
+    ],
+    "ordreDeJeu": "D'abord la direction générale déléguée en tête-à-tête, car sans elle le coup meurt avant le comité ; puis le directeur Normandie, à qui l'on confie l'instruction de son dossier. Ensuite, les autres directeurs régionaux en comité de janvier, et enfin le conseil en février, avec un message porté par la direction elle-même."
+  },
+  "chiffresNonSources": [
+    "3.4"
+  ],
+  "markdown": "## L'essentiel\n\n**La vraie question :** La hausse du taux de marge vient-elle d'une meilleure performance commerciale ou d'un simple effet de mix lié au BTP et donc temporaire ? Et quel système de pilotage et de primes adopter avant que les chantiers de l'Ouest ne s'arrêtent fin 2027–2028 ?\n\n1. **Dire la vérité au conseil avant qu'il ne la découvre** — En février, présenter au conseil de surveillance la décomposition sectorielle du taux : plus 1,52 point d'effet de mix, moins 0,5 point d'effet taux. Faire du taux de marge à mix constant l'indicateur officiel 2027, et suspendre la généralisation du plan normand jusqu'à l'obtention de la ventilation par région et par secteur.\n2. **Payer le talent, pas le secteur porteur** — Remplacer la prime au taux global par une prime à deux étages. Le premier rémunère l'écart entre le taux du chargé d'affaires et le taux de référence de son secteur ; le second rémunère la marge en euros de son portefeuille, plafonnée par secteur. Le dispositif serait piloté sur deux régions contrastées, dont une sans grands chantiers, avant toute généralisation.\n3. **Céder du taux à l'industrie contre une base pluriannuelle** — Proposer au premier semestre 2027, aux principaux clients industriels qui contestent les coefficients, un geste tarifaire ciblé. En échange, obtenir des engagements de volume sur 2028–2029, quand les chantiers de l'Ouest auront pris fin.\n\n**Si je ne devais jouer qu'un coup :** Faire présenter au conseil de février le taux de marge à mix constant et suspendre la généralisation du plan normand jusqu'à l'obtention de la ventilation par région et par secteur : tout le reste en dépend.\n\n**Attention :** Taux de marge brute du réseau (+1,03 point, présenté comme le fruit de la discipline tarifaire) — Le comité présenterait au conseil de février une réussite qui s'effacera mécaniquement quand les chantiers BTP de l'Ouest s'achèveront, entre fin 2027 et 2028. Le démenti viendrait des chiffres eux-mêmes, au plus mauvais moment pour la crédibilité de la direction.\n\n## Lecture de la position\n\nLe comité regarde le taux de marge global, en hausse de 1,03 point, et la Normandie, en hausse de 2,09 points. Il faudrait regarder le taux par secteur : il baisse dans les quatre, de 0,43 à 0,63 point. Les données sont nettes : la hausse globale vient d'un effet de mix de plus 1,52 point, qui masque un effet taux négatif de moins 0,5 point. Le BTP, secteur au taux le plus élevé, gagne 55,2 % de chiffre d'affaires pendant que la logistique en perd 30,1 %. Ma lecture : la discipline tarifaire n'apparaît dans aucun secteur, et le « modèle normand » ressemble d'abord aux chantiers d'infrastructures de l'Ouest, qui s'achèvent entre fin 2027 et 2028. La vraie question n'est donc pas « comment étendre ce qui marche », mais « quel pilotage et quelles primes installer avant que le mix ne se retourne » ; je précise que les colonnes missions et heures du reporting semblent recalculées, et que je n'en tire rien.\n\n## Les coups\n\n### 1. Dire la vérité au conseil avant qu'il ne la découvre\n\n**En février, présenter au conseil de surveillance la décomposition sectorielle du taux : plus 1,52 point d'effet de mix, moins 0,5 point d'effet taux. Faire du taux de marge à mix constant l'indicateur officiel 2027, et suspendre la généralisation du plan normand jusqu'à l'obtention de la ventilation par région et par secteur.**\n\n- **Pourquoi personne ne le joue :** La note a besoin d'un récit de redressement, et le taux monte dans les six régions. La décomposition par région affiche même un effet de mix nul, ce qui rassure à tort : chaque région a pu basculer vers le BTP sans que cela apparaisse à ce niveau.\n- **Pourquoi il gagne :** Les données ne laissent pas de doute : le total monte alors que les quatre secteurs baissent. Un conseil prévenu juge le pilotage ; un conseil qui découvre en 2028 la fin de la marge de chantier juge la direction. Le message reste positif, puisque la marge en euros progresse réellement de 7,9 % : « une bonne année, mal expliquée », et non une fausse réussite.\n- **Les trois coups suivants :**\n  1. Avant le 31 janvier, la direction financière refait la décomposition à partir des données sources et produit la ventilation par région et par secteur.\n  2. La direction générale déléguée résistera ; on lui propose de porter elle-même l'indicateur à mix constant, présenté comme un outil de pilotage et non comme un aveu.\n  3. En février, le conseil adopte le taux à mix constant comme référence 2027, et l'objectif de plus 1,5 point est reformulé sur cette base.\n- **Le risque :** La direction générale déléguée peut refuser et présenter seule la version triomphale ; à l'inverse, un ton alarmiste peut déclencher des coupes précipitées, à commencer par la logistique. Il faut aussi éviter de qualifier toute la marge BTP de non récurrente : le BTP pesait déjà 15 541 k€ de chiffre d'affaires en 2025, et seule une partie de la hausse tient aux chantiers.\n- **Le test :** Faire valider la décomposition par la direction financière sur données sources et chiffrer la part du BTP réalisée sur les chantiers de l'Ouest. Puis soumettre une page de synthèse à la direction générale déléguée avant le 31 janvier et observer sa réaction.\n- **Confiance :** forte. Ce qui la ferait monter : Obtenir l'accord explicite de la direction générale déléguée sur le cadrage « bonne année, mal expliquée ». Obtenir aussi la ventilation du BTP par région, qui chiffrerait précisément la marge de chantier.\n- **Appuis :** F69 ; F70 ; F65 ; F66 ; F67 ; F68 ; F5 ; F8 ; F43 ; F45 ; F47 ; F37 à F42 ; note-direction §1 : « résultat de la politique de discipline tarifaire » ; note-direction §3.4 : présenter ces résultats au conseil de février ; note-direction §4 : chantiers d'infrastructures de l'Ouest s'achevant entre fin 2027 et 2028\n\n### 2. Payer le talent, pas le secteur porteur\n\n**Remplacer la prime au taux global par une prime à deux étages. Le premier rémunère l'écart entre le taux du chargé d'affaires et le taux de référence de son secteur ; le second rémunère la marge en euros de son portefeuille, plafonnée par secteur. Le dispositif serait piloté sur deux régions contrastées, dont une sans grands chantiers, avant toute généralisation.**\n\n- **Pourquoi personne ne le joue :** Le taux global paraît neutre et objectif. Dans l'intérim, personne ne lit un portefeuille commercial comme un gérant d'actifs lit le sien, en séparant ce que donne le marché de ce qu'apporte le talent.\n- **Pourquoi il gagne :** Un chargé d'affaires ne devrait pas être payé parce que des chantiers tombent dans sa zone. Le premier étage rémunère ce qu'il contrôle, la tenue des prix dans son secteur. Le second rend coûteux l'abandon d'un compte rentable en euros, comme la logistique, qui rapporte encore 1 811 k€ de marge ; que le plan normand pousse à trier les portefeuilles est mon pari, pas une donnée.\n- **Les trois coups suivants :**\n  1. En janvier, rejouer 2026 compte par compte sur une région pour comparer ce qu'auraient payé le double étage et le plan normand.\n  2. Le directeur régional de Normandie défendra son plan ; l'écart de classement entre chargés d'affaires sera l'argument factuel, sans mise en cause individuelle.\n  3. Lancer le pilote sur deux régions avec une revue à six mois validée par les représentants du personnel, puis décider de la généralisation pour 2028.\n- **Le risque :** Un dispositif trop complexe perd la confiance des équipes dès le premier trimestre, et le réseau retombe par défaut sur le « 100 % taux ». Le taux de référence doit être fixé sur le taux sectoriel 2026, et non sur une moyenne mobile : sinon on récompenserait le fait d'être « moins mauvais » dans un réseau où tous les secteurs baissent.\n- **Le test :** Sur une région, simuler 2026 compte par compte avec les deux formules et comparer les classements. Si les données de marge par compte et par secteur n'existent pas à la source, le test montre d'emblée que le coup n'est pas exécutable en janvier.\n- **Confiance :** moyenne. Ce qui la ferait monter : Il faudrait que la direction financière confirme que la marge par compte et par secteur est disponible à la source, et non recalculée. Il faudrait aussi une simulation montrant que le classement change nettement par rapport au taux global.\n- **Appuis :** F69 ; F65 ; F66 ; F67 ; F68 ; F52 ; F47 ; F13 ; F41 ; F20 ; F1 ; F2 ; F3 ; note-direction §2 : prime « à 100 % sur le taux de marge » en Normandie ; note-direction §3.1 : généralisation au 1er janvier 2027 ; note-direction §3.3 : réduction de 15 % des commerciaux logistiques\n\n### 3. Céder du taux à l'industrie contre une base pluriannuelle\n\n**Proposer au premier semestre 2027, aux principaux clients industriels qui contestent les coefficients, un geste tarifaire ciblé. En échange, obtenir des engagements de volume sur 2028–2029, quand les chantiers de l'Ouest auront pris fin.**\n\n- **Pourquoi personne ne le joue :** Ce coup contredit la discipline tarifaire et l'objectif de plus 1,5 point. Son coût est immédiat, alors que son bénéfice n'arrive qu'en 2028, hors de l'horizon d'un plan de primes annuel.\n- **Pourquoi il gagne :** L'industrie reste la deuxième source de marge du réseau, avec 2 829 k€, mais elle recule de 5,9 % en chiffre d'affaires et de 8,9 % en marge. Céder un peu de taux maintenant sécurise de la marge en euros pour l'année où le BTP ne la portera plus. C'est agir avant que ces clients ne fassent ce qu'ont fait les donneurs d'ordre logistiques.\n- **Les trois coups suivants :**\n  1. En deux semaines, les directeurs régionaux interrogent les clients industriels mécontents sur leur premier motif d'insatisfaction.\n  2. Les clients chercheront à obtenir la remise sans contrepartie ; on exige une part minimale des besoins ou un référencement prioritaire, avec une clause de révision.\n  3. On limite le geste à quelques comptes nommés, hors calcul des primes, et on mesure en fin d'année la marge en euros conservée.\n- **Le risque :** Dans l'intérim, les engagements de volume sont rarement contraignants : la remise devient le nouveau prix et le volume ne suit pas. Si les clients partent à cause du délai de pourvoi plutôt que du prix, la remise ne corrige rien et accélère l'érosion de la marge.\n- **Le test :** Appeler les principaux clients industriels qui contestent les coefficients avec deux questions : quel est votre premier motif d'insatisfaction, et quel engagement accepteriez-vous contre un geste tarifaire ? Si le délai domine ou si personne ne s'engage, on abandonne le coup.\n- **Confiance :** faible. Ce qui la ferait monter : Il faudrait constater que le prix est le premier motif d'insatisfaction chez la majorité des comptes interrogés. Il faudrait aussi qu'au moins un client soit prêt à signer une clause de part minimale.\n- **Appuis :** F51 ; F46 ; F66 ; F54 ; note-direction §4 : « les clients industriels se plaignent de la hausse de nos coefficients » ; note-direction §4 : délai moyen de pourvoi qui s'allonge ; note-direction §1 : donneurs d'ordre logistiques qui internalisent ou automatisent\n\n**Le coup évident, et pourquoi je ne le jouerais pas :** Le coup évident consiste à généraliser au 1er janvier le plan normand à 100 % sur le taux et à couper 15 % des commerciaux logistiques. Dans cette position, cela revient à payer un effet de mix temporaire et à pousser chaque chargé d'affaires à abandonner des comptes à faible taux mais rentables en euros, juste avant que la fin des chantiers de l'Ouest ne retire le BTP qui porte la hausse.\n\n## Les KPI qui vous mentent\n\n**Ce que disent vraiment les chiffres :** Ce que disent les données : le taux de marge global passe de 18,65 % à 19,68 %, mais il baisse dans les quatre secteurs, de 0,43 à 0,63 point. La hausse se décompose en un effet taux de −0,5 point et un effet de mix de +1,52 point. Ce mix est porté par le BTP, dont le chiffre d'affaires passe de 15 541 k€ à 24 120 k€, tandis que la logistique recule de 30,1 %. La Normandie apporte à elle seule 76,8 % de la hausse de la marge en euros, avec un chiffre d'affaires en hausse de 33,1 %. Ma lecture : la « discipline tarifaire » n'apparaît dans aucun taux sectoriel, et le « modèle normand » ressemble davantage à l'effet des chantiers de l'Ouest qu'à celui du plan de primes ; seule une ventilation région × secteur, absente du reporting, permettra de trancher. Mon pari : une prime au taux et un objectif de +1,5 point pousseront à lâcher des comptes à faible taux mais à marge positive, juste avant le reflux du BTP, et le réseau aborderait 2028 sans ses chantiers ni sa base logistique. Les colonnes « missions » et « heures », apparemment recalculées, ne permettent aucune conclusion sur les volumes.\n\n### Indicateurs trompeurs\n\n- **Taux de marge brute du réseau (+1,03 point, présenté comme le fruit de la discipline tarifaire)** — effet de mix _(F8, F65, F66, F67, F68, F69, F70, F71, F45, F47)_ : L'agrégat monte parce que le poids du BTP, secteur au taux le plus élevé (25,67 %), augmente et que celui de la logistique (12,61 %) baisse. À composition constante, le taux recule de 0,5 point : c'est un paradoxe de Simpson. La performance tarifaire intrinsèque se dégrade donc dans chaque secteur, à l'inverse du récit de la note. → Le comité présenterait au conseil de février une réussite qui s'effacera mécaniquement quand les chantiers BTP de l'Ouest s'achèveront, entre fin 2027 et 2028. Le démenti viendrait des chiffres eux-mêmes, au plus mauvais moment pour la crédibilité de la direction.\n- **Taux de marge du portefeuille, base unique (100 %) de la prime des chargés d'affaires dans le plan normand** — surrogation _(F52, F47, F67, F51, F46)_ : L'objectif réel est la marge en euros, qui paie les permanents et les frais. Un ratio s'améliore aussi bien en gagnant des comptes rentables qu'en abandonnant des comptes à faible taux mais à marge positive. Un chargé d'affaires rationnel choisira la voie la plus facile : trier son portefeuille. La logistique, malgré un taux bas, rapporte encore 1 811 k€ de marge. → Couplé à l'objectif de +1,5 point et à la coupe de 15 % des commerciaux logistiques, ce mécanisme accélère la perte de comptes logistiques et industriels au profit des concurrents. La marge en euros peut baisser pendant que le taux monte, et les primes versées progresser en même temps.\n- **Progression du taux de marge par région (Normandie +2,09 points, « région modèle »)** — autre _(F43, F41, F13, F20, F22, F44)_ : Il s'agit d'une erreur d'attribution. La décomposition par région affiche un effet de mix nul et un effet taux de +1,02 point, ce qui semble prouver une performance diffuse. Or ce mix est probablement sectoriel et logé à l'intérieur de chaque région. En Normandie, la hausse coïncide avec les grands chantiers d'infrastructures de l'Ouest. Sans ventilation région × secteur, rien ne permet d'imputer la hausse au plan de primes plutôt qu'à la conjoncture locale. → Le réseau généraliserait un plan de primes dont l'efficacité n'est pas démontrée. Il imposerait aussi à des régions sans chantiers comparables un objectif intenable : quatre régions sur six perdent déjà du chiffre d'affaires, le Grand Est 6,3 %.\n\n### Les trois indicateurs que vous ne suivez pas\n\n- **Marge brute en euros par chargé d'affaires, ventilée par secteur et par compte** (Mensuelle, avec une revue trimestrielle par région) : Chiffre d'affaires facturé moins le coût complet de délégation des intérimaires, en euros, rattaché au portefeuille de chaque chargé d'affaires. Il est ventilé par secteur et par compte, avec le nombre de comptes actifs et la marge en euros des missions refusées sous le plancher.. C'est la mesure directe de la valeur créée. Il révèle si la hausse du taux vient de comptes gagnés ou de comptes abandonnés. C'est aussi la seule base saine pour un plan de primes.\n- **Effet taux à mix constant, par secteur et par région** (Trimestrielle, et systématiquement dans tout document destiné au conseil de surveillance) : Variation du taux de marge de chaque région, recalculée avec la structure sectorielle de l'année précédente. L'écart avec le taux affiché mesure l'effet de mix.. C'est le seul moyen de distinguer une vraie performance tarifaire d'un changement de composition. Il permet de trancher le cas normand et d'éviter de fixer des objectifs régionaux qui récompensent la conjoncture.\n- **Taux de service client** (Hebdomadaire en agence, mensuelle en comité de direction) : Part des demandes de mission pourvues dans le délai demandé par le client, avec le délai médian de pourvoi, par agence et par secteur, calculé à partir des données natives de demandes et de contrats.. C'est l'indicateur avancé de la perte de comptes. Les agences signalent un allongement des délais, mais aucun chiffre consolidé n'existe. Il fait contrepoids à toute prime fondée sur la marge.\n\n### Arbre d'indicateurs proposé\n\n- Marge brute en euros du réseau, soutenable au-delà de 2028\n  - Marge brute en euros par chargé d'affaires, par secteur ← Marge brute en euros du réseau, soutenable au-delà de 2028\n  - Effet taux à mix constant, par secteur et par région ← Marge brute en euros du réseau, soutenable au-delà de 2028\n  - Part de la marge issue de chantiers dont la fin est datée avant fin 2028 ← Marge brute en euros du réseau, soutenable au-delà de 2028\n    - Taux de service client et délai médian de pourvoi ← Marge brute en euros par chargé d'affaires, par secteur\n    - Missions refusées sous le plancher et marge en euros correspondante ← Marge brute en euros par chargé d'affaires, par secteur\n    - Évolution des coefficients et taux de perte des comptes industriels ← Effet taux à mix constant, par secteur et par région\n    - Taux de rétention des intérimaires qualifiés BTP ← Part de la marge issue de chantiers dont la fin est datée avant fin 2028\n    - Marge en euros des nouveaux comptes signés hors chantiers de l'Ouest ← Part de la marge issue de chantiers dont la fin est datée avant fin 2028\n\n### Revue en trois coups\n\n**1. 1. Dire la vérité des chiffres au conseil de février, avant qu'il ne la découvre** _(F8, F69, F70, F65, F66, F67, F68, F1, F2, F3)_ — La hausse de 1,03 point vient d'un effet de mix de +1,52 point, et le taux baisse dans les quatre secteurs. Présenter ce résultat comme la preuve que la discipline tarifaire fonctionne expose la direction à un démenti quand le BTP refluera. Ce sacrifice d'image est calculé : un chiffre moins flatteur aujourd'hui achète la crédibilité nécessaire pour traverser 2028. Le reporting lui-même est fragile, puisque deux colonnes semblent recalculées.\n\n- Produire la ventilation 2025–2026 du chiffre d'affaires et de la marge par région × secteur, avec la décomposition effet taux / effet de mix pour chaque région — Direction du contrôle de gestion, Avant la revue de performance de janvier 2027\n- Réécrire la présentation au conseil : décomposition par secteur, part du BTP dans la hausse, scénario de marge après les chantiers de l'Ouest — Direction générale déléguée, avec la direction financière, Deux semaines avant le conseil de surveillance de février 2027\n- Identifier la source des colonnes « missions » et « heures » et rétablir des données natives (heures facturées, contrats signés) — Direction des systèmes d'information, avec le contrôle de gestion, Fin mars 2027\n\n**2. 2. Ne pas généraliser le plan normand ni l'objectif de +1,5 point avant d'en avoir mesuré l'effet réel** _(F22, F13, F41, F43, F52, F11, F9, F10, F12)_ — La Normandie apporte 76,8 % de la hausse de la marge en euros, mais son chiffre d'affaires bondit de 33,1 % au moment des chantiers de l'Ouest ; l'effet propre du plan de primes n'est pas isolé. Une prime à 100 % sur le taux récompense l'abandon de comptes à faible taux qui restent rentables en euros, comme la logistique avec ses 1 811 k€ de marge. Sans chantiers comparables, les autres régions ne pourront atteindre +1,5 point qu'en triant leurs clients.\n\n- Suspendre la généralisation au 1er janvier et l'objectif uniforme de +1,5 point ; maintenir les plans existants pendant la période d'analyse — Comité de direction, Revue de performance de janvier 2027\n- Auditer le plan normand : coût des primes versées, évolution de la marge en euros et du nombre de comptes actifs par chargé d'affaires, comptes perdus ou refusés en 2026 — Direction du contrôle de gestion, avec la direction des ressources humaines, Fin février 2027\n- Concevoir un plan de primes fondé principalement sur la marge en euros, avec un garde-fou sur le taux de service et des planchers de marge différenciés par secteur — Direction des ressources humaines, avec la direction commerciale, Proposition au comité de direction fin mars 2027\n\n**3. 3. Préparer l'après-chantiers plutôt que de couper la logistique** _(F54, F50, F45, F47, F52, F51, F46, F66)_ — Le BTP porte 2 135 k€ de hausse de marge sur un horizon qui se ferme entre fin 2027 et 2028, et son vivier d'intérimaires qualifiés est courtisé par deux concurrents. Couper 15 % des commerciaux logistiques retirerait une marge positive et accélérerait une chute déjà subie de 30,1 % du chiffre d'affaires. Le réseau se retrouverait sans ses chantiers ni sa base de volume au moment où il en aurait besoin. L'industrie, deuxième source de marge avec 2 829 k€, s'érode et ses clients contestent les coefficients.\n\n- Suspendre la réduction de 15 % des effectifs commerciaux logistiques jusqu'à l'analyse de la marge en euros par compte logistique — Comité de direction, Revue de performance de janvier 2027\n- Cartographier le carnet BTP : marge rattachée aux chantiers qui s'achèvent avant fin 2028, chantiers identifiés au-delà, régions capables de reprendre le savoir-faire — Direction commerciale, avec les directions régionales de l'Ouest, Fin mars 2027\n- Chiffrer un dispositif de fidélisation des intérimaires qualifiés BTP et instaurer un suivi mensuel de leur taux de rétention — Direction des opérations, avec la direction des ressources humaines, Fin avril 2027\n\n## Le conseil de guerre\n\n_Scénario raisonné à partir des documents, pas une prédiction. Les hypothèses sont listées en fin de section._\n\n### Direction générale déléguée\n\n- **Réaction probable :** « Vous allez saborder le seul bon message de l'année devant le conseil. »\n- **Objection :** Afficher un effet taux de −0,5 point revient à dire au conseil que la discipline tarifaire n'a rien produit, alors que les agences ont réellement refusé des missions.\n- **Intérêt caché :** Rester l'auteure reconnue du redressement et ne pas être désavouée sur sa politique phare.\n- **Contre-coup :** Lui faire porter elle-même la décomposition comme preuve de la qualité de son pilotage (« c'est la direction qui a repéré l'effet de mix »), avec en titre la marge en euros, en hausse de 7,9 %. Préparer ce support avec elle en tête-à-tête, avant le comité.\n- **Signal à observer :** La décomposition figure dans le corps du support de février, ou bien elle est reléguée en annexe ou « reportée au prochain conseil ».\n- **Plausibilité :** forte\n\n### Directeur régional Normandie\n\n- **Réaction probable :** « Mon plan a fait plus de deux points ; ne le réduisez pas à des chantiers. »\n- **Objection :** Suspendre la généralisation sans ventilation par région et par secteur, c'est le juger sur une présomption. Rien ne prouve que ses chargés d'affaires n'ont pas aussi mieux négocié.\n- **Intérêt caché :** Être reconnu et promu, et ne pas voir sa région requalifiée en « région chanceuse ».\n- **Contre-coup :** Maintenir son plan en Normandie et ne suspendre que son extension. Lui confier l'instruction de son propre dossier avant fin janvier : ventilation de sa région par secteur, missions refusées, comptes actifs par chargé d'affaires, coût des primes.\n- **Signal à observer :** Il livre rapidement des données complètes par secteur et par compte, ou il tarde et ne présente que son taux global.\n- **Plausibilité :** forte\n\n### Conseil de surveillance\n\n- **Réaction probable :** « Merci pour la franchise. Mais alors, quel est votre plan pour l'après-chantiers ? »\n- **Objection :** La décomposition ouvre une question sans réponse : que reste-t-il quand le BTP, qui porte 2 135 k€ de hausse de marge, retombera entre fin 2027 et 2028 ?\n- **Intérêt caché :** Ne pas être surpris, et juger la fiabilité du pilotage autant que le résultat.\n- **Contre-coup :** Venir avec la question et un début de réponse : un scénario 2028 sans marge de chantier, la liste datée des données manquantes, et l'aveu encadré que le reporting contient des colonnes recalculées, avec un plan de correction.\n- **Signal à observer :** Le conseil demande un suivi régulier du taux à mix constant et un scénario 2028 (adhésion), ou il réclame un récit plus simple et met en cause la direction (rejet).\n- **Plausibilité :** moyenne\n\n### Directeurs régionaux Grand Est et Hauts-de-France\n\n- **Réaction probable :** « Enfin un objectif qui tient compte de notre réalité. »\n- **Objection :** Le taux à mix constant les mesure sur un taux qui baisse dans les quatre secteurs. Ils craignent de porter un indicateur négatif sans levier, le Grand Est perdant déjà 6,3 % de chiffre d'affaires.\n- **Intérêt caché :** Échapper à l'objectif de +1,5 point et à la coupe de 15 % des commerciaux logistiques, qu'ils devraient exécuter.\n- **Contre-coup :** Les associer en janvier à la définition de l'indicateur et de planchers de marge différenciés par secteur. En faire les témoins, en comité, que +1,5 point est intenable sans nouveau mix.\n- **Signal à observer :** Ils soutiennent explicitement la suspension en comité de direction, ou ils se taisent face à la région modèle.\n- **Plausibilité :** moyenne\n\n**Ordre de jeu :** D'abord la direction générale déléguée en tête-à-tête, car sans elle le coup meurt avant le comité ; puis le directeur Normandie, à qui l'on confie l'instruction de son dossier. Ensuite, les autres directeurs régionaux en comité de janvier, et enfin le conseil en février, avec un message porté par la direction elle-même.\n\n**Hypothèses de la simulation :**\n\n- La direction générale déléguée tient davantage à sa paternité du redressement qu'au récit « discipline tarifaire » en lui-même ; elle peut donc changer de récit si elle en reste l'auteure.\n- Le directeur Normandie ne dispose pas encore d'une ventilation de sa région par secteur, et ne sait pas lui-même quelle part revient aux chantiers.\n- Le conseil de surveillance n'a pas encore vu la décomposition par secteur et valorise davantage la visibilité que le chiffre facial.\n- Les autres régions n'ont pas de chantiers comparables et redoutent l'objectif de +1,5 point sans pouvoir le dire.\n- La ventilation par région et par secteur peut être produite avant le conseil de février.\n\n## Questions à poser\n\n- Quelle est la ventilation 2025–2026 du chiffre d'affaires et de la marge par région et par secteur, en particulier pour la Normandie hors BTP ?\n- Quelle est la source réelle des colonnes « missions » et « heures », et peut-on obtenir des données natives (heures facturées, nombre de contrats) ?\n- Combien a coûté le plan de primes normand, et comment ont évolué la marge en euros et le nombre de comptes actifs par chargé d'affaires ?\n- Combien de missions ont été refusées sous le plancher en 2026, avec quelle marge en euros perdue, et chez quels clients ?\n- Quel carnet de chantiers BTP reste-t-il après 2028, et quels clients pourraient prendre le relais à l'échelle du réseau ?\n\n## Sources des chiffres\n\n- **F1** : ⚠ Reporting régional — QUALITÉ DES DONNÉES : la colonne « missions » est proportionnelle à « ca_keur » à l'intérieur de chaque secteur (rapport constant par secteur). Elle semble recalculée : n'en tirer aucune conclusion indépendante sans vérifier la source.\n- **F2** : ⚠ Reporting régional — QUALITÉ DES DONNÉES : la colonne « heures_milliers » est proportionnelle à « ca_keur » sur toutes les lignes (rapport constant). Elle semble recalculée et n'apporte aucune information indépendante : n'en tirer aucune conclusion (productivité, prix unitaire…) sans vérifier la source.\n- **F3** : ⚠ Reporting régional — QUALITÉ DES DONNÉES : la colonne « heures_milliers » est proportionnelle à « missions » à l'intérieur de chaque secteur (rapport constant par secteur). Elle semble recalculée : n'en tirer aucune conclusion indépendante sans vérifier la source.\n- **F5** : Reporting régional — total — marge_keur : 11 947 k€ → 12 896 k€ (+7,9 %) (2025 → 2026)\n- **F8** : Reporting régional — total — taux de marge brute : 18,65 % → 19,68 % (+1,03 pt) (2025 → 2026)\n- **F9** : Reporting régional — region « Bourgogne-Franche-Comté » — ca_keur : 7 321 k€ → 7 082 k€ (−3,3 %)\n- **F10** : Reporting régional — region « Centre-Val de Loire » — ca_keur : 6 373 k€ → 6 315 k€ (−0,9 %)\n- **F11** : Reporting régional — region « Grand Est » — ca_keur : 12 001 k€ → 11 240 k€ (−6,3 %)\n- **F12** : Reporting régional — region « Hauts-de-France » — ca_keur : 13 688 k€ → 13 403 k€ (−2,1 %)\n- **F13** : Reporting régional — region « Normandie » — ca_keur : 8 143 k€ → 10 839 k€ (+33,1 %)\n- **F20** : Reporting régional — region « Normandie » — marge_keur : 1 519 k€ → 2 248 k€ (+48 %)\n- **F22** : Reporting régional — marge_keur — principales contributions à la variation (par region) : « Normandie » +729 (76,8 % de la variation totale) ; « Île-de-France » +113 (11,9 % de la variation totale) ; « Hauts-de-France » +96 (10,1 % de la variation totale)\n- **F37** : Reporting régional — region « Bourgogne-Franche-Comté » — taux de marge brute : 18,7 % → 19,54 % (+0,84 pt)\n- **F41** : Reporting régional — region « Normandie » — taux de marge brute : 18,65 % → 20,74 % (+2,09 pt)\n- **F42** : Reporting régional — region « Île-de-France » — taux de marge brute : 18,72 % → 19,25 % (+0,53 pt)\n- **F43** : Reporting régional — taux de marge brute — décomposition par region : variation globale +1,03 pt = effet taux +1,02 pt + effet de mix 0 pt\n- **F44** : Reporting régional — taux de marge brute (2026) — dispersion par region : minimum « Île-de-France » 19,25 %, maximum « Normandie » 20,74 %, écart 1,49 pt\n- **F45** : Reporting régional — secteur « BTP » — ca_keur : 15 541 k€ → 24 120 k€ (+55,2 %)\n- **F46** : Reporting régional — secteur « Industrie » — ca_keur : 17 680 k€ → 16 643 k€ (−5,9 %)\n- **F47** : Reporting régional — secteur « Logistique » — ca_keur : 20 536 k€ → 14 363 k€ (−30,1 %)\n- **F50** : Reporting régional — secteur « BTP » — marge_keur : 4 057 k€ → 6 192 k€ (+52,6 %)\n- **F51** : Reporting régional — secteur « Industrie » — marge_keur : 3 106 k€ → 2 829 k€ (−8,9 %)\n- **F52** : Reporting régional — secteur « Logistique » — marge_keur : 2 678 k€ → 1 811 k€ (−32,4 %)\n- **F54** : Reporting régional — marge_keur — principales contributions à la variation (par secteur) : « BTP » +2 135 ; « Logistique » −867 ; « Industrie » −277\n- **F65** : Reporting régional — secteur « BTP » — taux de marge brute : 26,11 % → 25,67 % (−0,43 pt)\n- **F66** : Reporting régional — secteur « Industrie » — taux de marge brute : 17,57 % → 17,0 % (−0,57 pt)\n- **F67** : Reporting régional — secteur « Logistique » — taux de marge brute : 13,04 % → 12,61 % (−0,43 pt)\n- **F68** : Reporting régional — secteur « Tertiaire » — taux de marge brute : 20,46 % → 19,83 % (−0,63 pt)\n- **F69** : Reporting régional — taux de marge brute — décomposition par secteur : variation globale +1,03 pt = effet taux −0,5 pt + effet de mix +1,52 pt\n- **F70** : ⚠ Reporting régional — taux de marge brute — PARADOXE DE SIMPSON (effet de mix) : le total monte alors que 4 secteur(s) sur 4 baissent\n- **F71** : Reporting régional — taux de marge brute (2026) — dispersion par secteur : minimum « Logistique » 12,61 %, maximum « BTP » 25,67 %, écart 13,06 pt\n\n> ⚠ Contrôle automatique : ces chiffres n'ont été retrouvés ni dans les documents ni dans les faits calculés. À vérifier avant toute utilisation : 3.4.\n"
+}

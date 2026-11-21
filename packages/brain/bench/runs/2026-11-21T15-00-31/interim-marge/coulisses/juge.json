@@ -1,0 +1,47 @@
+{
+  "scoreBishop": -2,
+  "passes": [
+    {
+      "ordre": "bishop-en-A",
+      "jugement": {
+        "A": {
+          "originalite": 6,
+          "pertinence": 7,
+          "rigueur": 5,
+          "actionnabilite": 7,
+          "credibilite": 5
+        },
+        "B": {
+          "originalite": 8,
+          "pertinence": 9,
+          "rigueur": 7,
+          "actionnabilite": 8,
+          "credibilite": 8
+        },
+        "preference": "B",
+        "justification": "A et B identifient correctement l'effet de mix (+1,52 pt contre −0,5 pt d'effet taux), mais A affirme que la ventilation région × secteur est absente du reporting alors qu'elle y figure, et fonde sa recommandation centrale sur l'attente d'une donnée déjà disponible. B exploite justement cette ventilation : la baisse du taux dans les 24 couples, l'érosion normande identique au réseau, la pire baisse en Industrie et le cas Grand Est (taux en hausse, marge en euros en baisse) sont des constats vérifiés et décisifs, avec un chiffrage juste de la « falaise BTP ». B a pour faiblesse de tirer des conclusions sur la marge par heure et les missions à partir de colonnes recalculées, malgré une réserve, mais ses propositions (CDII, contrainte CSE, offre de maintenance d'entrepôt, décomposition par agence) sont plus concrètes et plus présentables en comité qu'un livrable de A encombré de références techniques."
+      }
+    },
+    {
+      "ordre": "bishop-en-B",
+      "jugement": {
+        "A": {
+          "originalite": 8,
+          "pertinence": 9,
+          "rigueur": 8,
+          "actionnabilite": 9,
+          "credibilite": 8
+        },
+        "B": {
+          "originalite": 7,
+          "pertinence": 8,
+          "rigueur": 5,
+          "actionnabilite": 7,
+          "credibilite": 5
+        },
+        "preference": "A",
+        "justification": "A exploite la ventilation région × secteur, pourtant présente dans le reporting : elle démontre que le taux baisse dans les 24 couples, que la Normandie a la même érosion à secteur constant que le reste du réseau, et elle chiffre la « falaise BTP » (−17 % de marge réseau, −37 % en Normandie). B affirme à tort que cette ventilation est absente et en fait un préalable à toute décision, ce qui affaiblit sa recommandation centrale ; son texte est en outre encombré d'artefacts (références F, avertissement automatique) impossibles à présenter tels quels. A s'appuie certes sur des colonnes heures et missions probablement recalculées, mais en le signalant, et il reste nettement plus solide et directement exploitable pour la revue de janvier."
+      }
+    }
+  ]
+}
