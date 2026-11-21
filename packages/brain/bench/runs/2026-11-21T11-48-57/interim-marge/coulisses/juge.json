@@ -1,0 +1,47 @@
+{
+  "scoreBishop": -2,
+  "passes": [
+    {
+      "ordre": "bishop-en-A",
+      "jugement": {
+        "A": {
+          "originalite": 7,
+          "pertinence": 8,
+          "rigueur": 6,
+          "actionnabilite": 8,
+          "credibilite": 5
+        },
+        "B": {
+          "originalite": 8,
+          "pertinence": 9,
+          "rigueur": 8,
+          "actionnabilite": 8,
+          "credibilite": 8
+        },
+        "preference": "B",
+        "justification": "Les deux réponses posent le bon diagnostic : un effet de mix BTP masque une érosion du taux dans chaque secteur, et le modèle normand ne doit pas être généralisé. B l'établit avec des chiffres vérifiables et exacts : décomposition mix/prix par région, marge hors BTP en recul de 15 %, scénario 2028 à environ 10,7 M€. Elle repère aussi que les heures sont dérivées du CA (36 €/h partout), ce qui invalide l'inférence de A sur un prix horaire stable, malgré un raccourci erroné (« le taux baisse dans les six régions ») et une extrapolation abusive de −0,5 pt « par an ». A est solide sur le plan d'action et le jeu des acteurs, mais ses renvois opaques (F40, F66…), sa redondance et son propre avertissement sur des chiffres non vérifiés la rendent impropre en l'état pour un comité de direction."
+      }
+    },
+    {
+      "ordre": "bishop-en-B",
+      "jugement": {
+        "A": {
+          "originalite": 8,
+          "pertinence": 9,
+          "rigueur": 9,
+          "actionnabilite": 8,
+          "credibilite": 9
+        },
+        "B": {
+          "originalite": 7,
+          "pertinence": 9,
+          "rigueur": 7,
+          "actionnabilite": 8,
+          "credibilite": 6
+        },
+        "preference": "A",
+        "justification": "Les deux réponses identifient correctement l'effet de mix (+1,5 pt de mix contre −0,5 pt de taux dans les quatre secteurs) et la dépendance aux chantiers BTP. A va plus loin dans l'analyse, avec ses chiffres vérifiés par région : décomposition mix/prix, Normandie seulement troisième sur l'effet prix, résistance hors BTP et scénario 2028. A signale aussi avec justesse que les colonnes heures et missions sont dérivées du CA, là où B en tire à tort une conclusion sur le prix horaire. B offre un plan d'acteurs et des échéances très détaillés, mais ses renvois opaques (F40, F66…), sa redondance et l'alerte de contrôle automatique le rendent difficilement présentable tel quel en comité de direction."
+      }
+    }
+  ]
+}
