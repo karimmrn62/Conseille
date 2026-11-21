@@ -84,3 +84,17 @@ describe("contrôle des chiffres", () => {
     expect(chiffresNonSources("3 priorités d'ici 2027, test de 2 semaines.", faits, [])).toEqual([]);
   });
 });
+
+describe("client de l'API", async () => {
+  const { creerClient } = await import("../src/llm/anthropic.js");
+
+  it("lit la clé dans BISHOP_ANTHROPIC_API_KEY et fixe l'adresse de l'API", () => {
+    const client = creerClient({ BISHOP_ANTHROPIC_API_KEY: "sk-test", ANTHROPIC_BASE_URL: "https://relais.example" });
+    expect(client.apiKey).toBe("sk-test");
+    expect(client.baseURL).toBe("https://api.anthropic.com");
+  });
+
+  it("explique quoi faire quand la clé manque", () => {
+    expect(() => creerClient({})).toThrow(/BISHOP_ANTHROPIC_API_KEY/);
+  });
+});

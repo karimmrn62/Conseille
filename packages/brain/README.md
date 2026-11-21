@@ -32,6 +32,10 @@ Le banc d'essai écrit ses résultats dans `bench/runs/<horodatage>/` :
 - `resume.md` : coûts, durées, contrôle des chiffres ;
 - `cle.md` et `<cas>/coulisses/` : la clé et les détails, **à n'ouvrir qu'après l'évaluation**.
 
+## Clé d'API
+
+Le banc d'essai lit la clé dans la variable **`BISHOP_ANTHROPIC_API_KEY`** (et non `ANTHROPIC_API_KEY`, réservée à Claude Code dans les sessions en ligne et non transmise aux commandes). Ajoutez-la dans les variables de l'environnement cloud, puis ouvrez une nouvelle session.
+
 ## Réglages (variables d'environnement)
 
 | Variable | Défaut | Rôle |

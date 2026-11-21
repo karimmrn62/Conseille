@@ -6,6 +6,27 @@ import type { Consommation, ModeleIA, RequeteJson, RequeteTexte } from "./types.
 
 const BETA_FALLBACK = "server-side-fallback-2026-07-01";
 
+/**
+ * Crée le client de l'API Claude.
+ *
+ * La clé est lue dans `BISHOP_ANTHROPIC_API_KEY` : dans les sessions Claude Code en ligne,
+ * la variable standard `ANTHROPIC_API_KEY` est réservée à Claude Code lui-même et n'est pas
+ * transmise aux commandes, et `ANTHROPIC_BASE_URL` peut pointer vers son propre relais.
+ * On fixe donc explicitement la clé et l'adresse de l'API.
+ */
+export function creerClient(env: NodeJS.ProcessEnv = process.env): Anthropic {
+  const apiKey = env.BISHOP_ANTHROPIC_API_KEY ?? env.ANTHROPIC_API_KEY;
+  if (!apiKey) {
+    throw new Error(
+      "Aucune clé d'API trouvée : ajoutez la variable BISHOP_ANTHROPIC_API_KEY à l'environnement, puis ouvrez une nouvelle session.",
+    );
+  }
+  return new Anthropic({
+    apiKey,
+    baseURL: env.BISHOP_ANTHROPIC_BASE_URL ?? "https://api.anthropic.com",
+  });
+}
+
 export class ErreurModele extends Error {
   constructor(
     message: string,
@@ -32,7 +53,7 @@ export class ModeleAnthropic implements ModeleIA {
     private readonly config: ConfigCerveau,
     client?: Anthropic,
   ) {
-    this.client = client ?? new Anthropic();
+    this.client = client ?? creerClient();
   }
 
   consommation(): Consommation[] {
